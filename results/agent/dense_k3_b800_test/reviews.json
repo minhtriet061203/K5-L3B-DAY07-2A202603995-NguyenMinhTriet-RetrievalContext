@@ -1,0 +1,63 @@
+[
+  {
+    "query_id": "q16",
+    "citation_support": [],
+    "reason": "Abstain (3 search). Context chỉ có p063:c01 (unlearning); p056:c03, p057:c04 bị cắt do budget 800 → không có evidence 'refusal suppression' (p57).",
+    "answer_grade": 0,
+    "context_grade": 0,
+    "citations": [],
+    "_label_status": "AI soạn nháp 2026-11-16; người dùng đã đọc và xác nhận không sửa 2026-11-16"
+  },
+  {
+    "query_id": "q17",
+    "citation_support": [],
+    "reason": "Abstain. Context chỉ có p066:c04; gold p063:c04 không được trả về, p065:c00/p064:c02 bị cắt do budget.",
+    "answer_grade": 0,
+    "context_grade": 0,
+    "citations": [],
+    "_label_status": "AI soạn nháp 2026-11-16; người dùng đã đọc và xác nhận không sửa 2026-11-16"
+  },
+  {
+    "query_id": "q18",
+    "citation_support": [],
+    "reason": "Abstain. Context chỉ có p028:c03; gold p072:c02 được retrieval trả về ở cả 3 lượt nhưng bị cắt do budget (dropped_budget).",
+    "answer_grade": 0,
+    "context_grade": 0,
+    "citations": [],
+    "_label_status": "AI soạn nháp 2026-11-16; người dùng đã đọc và xác nhận không sửa 2026-11-16"
+  },
+  {
+    "query_id": "q19",
+    "citation_support": [],
+    "reason": "Abstain. Context có p059:c01 (training data extraction) nhưng không có câu 'rates exceeding 8%' (p059:c02 bị cắt do budget).",
+    "answer_grade": 0,
+    "context_grade": 0,
+    "citations": [],
+    "_label_status": "AI soạn nháp 2026-11-16; người dùng đã đọc và xác nhận không sửa 2026-11-16"
+  },
+  {
+    "query_id": "q20",
+    "citation_support": [],
+    "reason": "Abstain. Context có p039:c03 nhưng không có gold p039:c00 ('Compromised clients can send malicious updates…'), bị cắt do budget ở cả 3 lượt.",
+    "answer_grade": 0,
+    "context_grade": 0,
+    "citations": [],
+    "_label_status": "AI soạn nháp 2026-11-16; người dùng đã đọc và xác nhận không sửa 2026-11-16"
+  },
+  {
+    "query_id": "u03",
+    "citation_support": [],
+    "reason": "Abstain đúng, không khẳng định model Llama nào. LƯU Ý: agent abstain với 0 search (vi phạm rule 'always search' trong prompt) → tool use không tính câu này.",
+    "abstention_correct": true,
+    "citations": [],
+    "_label_status": "AI soạn nháp 2026-11-16; người dùng đã đọc và xác nhận không sửa 2026-11-16"
+  },
+  {
+    "query_id": "u04",
+    "citation_support": [],
+    "reason": "Abstain đúng sau 3 search; nêu report không có điều khoản EU AI Act, không bịa số điều.",
+    "abstention_correct": true,
+    "citations": [],
+    "_label_status": "AI soạn nháp 2026-11-16; người dùng đã đọc và xác nhận không sửa 2026-11-16"
+  }
+]

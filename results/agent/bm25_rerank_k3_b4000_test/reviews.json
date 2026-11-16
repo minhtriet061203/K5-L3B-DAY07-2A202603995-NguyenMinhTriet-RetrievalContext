@@ -1,0 +1,81 @@
+[
+  {
+    "query_id": "q16",
+    "citation_support": [
+      false
+    ],
+    "reason": "SAI: trả lời 'direct prompting attack … jailbreak'; đáp án đúng 'refusal suppression' (p57, không vào context). p056:c03 chỉ định nghĩa jailbreak chung ('circumventing refusal behavior'), không nói kỹ thuật bảo model không bao giờ từ chối → citation không hỗ trợ câu trả lời.",
+    "answer_grade": 0,
+    "context_grade": 0,
+    "citations": [
+      "B:nist-ai-100-2e2025:p056:c03"
+    ],
+    "_label_status": "AI soạn nháp 2026-11-16; người dùng đã đọc và xác nhận không sửa 2026-11-16"
+  },
+  {
+    "query_id": "q17",
+    "citation_support": [
+      true
+    ],
+    "reason": "p063:c04: 'INDIRECT PROMPT INJECTION attacks are enabled by RESOURCE CONTROL that allows an attacker to indirectly (or remotely) inject system prompts without directly interacting with the application' — khớp đáp án; phần 'affect system operations by manipulating resources' cũng có trong chunk.",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citations": [
+      "B:nist-ai-100-2e2025:p063:c04"
+    ],
+    "_label_status": "AI soạn nháp 2026-11-16; người dùng đã đọc và xác nhận không sửa 2026-11-16"
+  },
+  {
+    "query_id": "q18",
+    "citation_support": [],
+    "reason": "Từ chối nhầm: context có gold p072:c02 ('quantized models inherit the vulnerabilities of the original models and introduce additional weaknesses') và p072:c01 (8-bit/4-bit); model_reason thậm chí nêu đúng đáp án nhưng vẫn gọi abstain (có lẽ vì câu hỏi yes/no). Abstain trên câu có đáp án → 0.",
+    "answer_grade": 0,
+    "context_grade": 2,
+    "citations": [],
+    "_label_status": "AI soạn nháp 2026-11-16; người dùng đã đọc và xác nhận không sửa 2026-11-16"
+  },
+  {
+    "query_id": "q19",
+    "citation_support": [
+      true
+    ],
+    "reason": "p059:c02: 'information like email addresses can be revealed at rates exceeding 8% for certain models'. Ý 'autoregressive' cũng có trong chunk; 'trained on sensitive information' là diễn giải nhẹ.",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citations": [
+      "B:nist-ai-100-2e2025:p059:c02"
+    ],
+    "_label_status": "AI soạn nháp 2026-11-16; người dùng đã đọc và xác nhận không sửa 2026-11-16"
+  },
+  {
+    "query_id": "q20",
+    "citation_support": [
+      true,
+      true
+    ],
+    "reason": "p039:c00: 'Compromised clients can send malicious updates to poison the global model' (clients gửi update cho server tổng hợp); p039:c01 hỗ trợ phần availability/targeted/backdoor.",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citations": [
+      "B:nist-ai-100-2e2025:p039:c00",
+      "B:nist-ai-100-2e2025:p039:c01"
+    ],
+    "_label_status": "AI soạn nháp 2026-11-16; người dùng đã đọc và xác nhận không sửa 2026-11-16"
+  },
+  {
+    "query_id": "u03",
+    "citation_support": [],
+    "reason": "Abstain đúng sau 1 search (context có p058:c00 nhắc DAN chỉ như ví dụ role-play); không nêu phiên bản Llama.",
+    "abstention_correct": true,
+    "citations": [],
+    "_label_status": "AI soạn nháp 2026-11-16; người dùng đã đọc và xác nhận không sửa 2026-11-16"
+  },
+  {
+    "query_id": "u04",
+    "citation_support": [],
+    "reason": "Abstain đúng sau 3 search; không bịa điều khoản EU AI Act.",
+    "abstention_correct": true,
+    "citations": [],
+    "_label_status": "AI soạn nháp 2026-11-16; người dùng đã đọc và xác nhận không sửa 2026-11-16"
+  }
+]

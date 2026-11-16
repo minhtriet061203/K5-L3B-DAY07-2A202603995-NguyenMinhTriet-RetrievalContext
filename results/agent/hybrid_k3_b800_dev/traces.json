@@ -1,0 +1,2032 @@
+[
+  {
+    "query_id": "q01",
+    "split": "dev",
+    "question": "What does the field of adversarial machine learning (AML) study?",
+    "config": {
+      "method": "hybrid_rrf",
+      "top_k": 3,
+      "budget": 800,
+      "max_searches": 3,
+      "filter_mode": "given"
+    },
+    "filter": null,
+    "status": "answered",
+    "answer": "The field of adversarial machine learning (AML) studies attacks against machine learning (ML) systems that exploit their statistical and data-based nature. It encompasses the vulnerabilities of AI technologies, which can lead to significant failures, particularly in high-stakes environments where adversarial interactions are likely. [B:nist-ai-100-2e2025:p014:c01]",
+    "citations": [
+      "B:nist-ai-100-2e2025:p014:c01"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "hybrid_rrf",
+        "query": "adversarial machine learning study",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p014:c01",
+            "page": 14,
+            "score": 0.031099
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p029:c03",
+            "page": 29,
+            "score": 0.030769
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p018:c00",
+            "page": 18,
+            "score": 0.028259
+          }
+        ],
+        "shown": [
+          "B:nist-ai-100-2e2025:p014:c01"
+        ],
+        "duplicate": [],
+        "dropped_budget": [
+          "B:nist-ai-100-2e2025:p029:c03",
+          "B:nist-ai-100-2e2025:p018:c00"
+        ],
+        "ms": 83.4
+      },
+      {
+        "event": "citations_appended",
+        "ids": [
+          "B:nist-ai-100-2e2025:p014:c01"
+        ]
+      },
+      {
+        "event": "answer",
+        "via": "tool"
+      }
+    ],
+    "searches": 1,
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p014:c01"
+    ],
+    "context_chars": 799,
+    "context": "[B:nist-ai-100-2e2025:p014:c01] (page 14, 1. Introduction)\nThese operational attributes are\ncritical elements of trustworthy AI in the NIST AI Risk Management Framework [274] and\nthe NCSC Machine Learning Principles [266].\nThe field of ADVERSARIAL MACHINE LEARNING (AML) studies attacks against ML systems that\nexploit the statistical, data-based nature of ML systems. Despite the significant progress of\nAI and machine learning (ML) in different application domains, these technologies remain\nvulnerable to attacks that can cause spectacular failures. The chances of these kinds of\nfailure increase as ML systems are used in contexts where they may be subject to novel or\nadversarial interactions, and the consequences grow more dire as these systems are used\nin increasingly high-stakes domains.",
+    "usage": {
+      "prompt_tokens": 998,
+      "completion_tokens": 105,
+      "llm_calls": 2
+    },
+    "latency_s": 3.59,
+    "config_name": "hybrid_k3_b800",
+    "model": "gpt-4o-mini-2024-07-18",
+    "context_evidence": true
+  },
+  {
+    "query_id": "q02",
+    "split": "dev",
+    "question": "What are the three attacker objectives used to classify attacks on predictive AI systems?",
+    "config": {
+      "method": "hybrid_rrf",
+      "top_k": 3,
+      "budget": 800,
+      "max_searches": 3,
+      "filter_mode": "given"
+    },
+    "filter": null,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "model_reason": "The passages do not specify the three attacker objectives used to classify attacks on predictive AI systems.",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "hybrid_rrf",
+        "query": "attacker objectives classify attacks predictive AI systems",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p017:c00",
+            "page": 17,
+            "score": 0.032787
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p016:c01",
+            "page": 16,
+            "score": 0.032002
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p018:c03",
+            "page": 18,
+            "score": 0.030303
+          }
+        ],
+        "shown": [],
+        "duplicate": [],
+        "dropped_budget": [
+          "B:nist-ai-100-2e2025:p017:c00",
+          "B:nist-ai-100-2e2025:p016:c01",
+          "B:nist-ai-100-2e2025:p018:c03"
+        ],
+        "ms": 84.8
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "hybrid_rrf",
+        "query": "attacker objectives taxonomy attacks predictive AI systems",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p017:c00",
+            "page": 17,
+            "score": 0.032787
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p016:c01",
+            "page": 16,
+            "score": 0.032258
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p047:c02",
+            "page": 47,
+            "score": 0.031498
+          }
+        ],
+        "shown": [
+          "B:nist-ai-100-2e2025:p047:c02"
+        ],
+        "duplicate": [],
+        "dropped_budget": [
+          "B:nist-ai-100-2e2025:p017:c00",
+          "B:nist-ai-100-2e2025:p016:c01"
+        ],
+        "ms": 73.1
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "hybrid_rrf",
+        "query": "taxonomies adversarial machine learning attacks objectives",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p018:c00",
+            "page": 18,
+            "score": 0.030118
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p014:c01",
+            "page": 14,
+            "score": 0.030092
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p016:c01",
+            "page": 16,
+            "score": 0.027526
+          }
+        ],
+        "shown": [],
+        "duplicate": [],
+        "dropped_budget": [
+          "B:nist-ai-100-2e2025:p018:c00",
+          "B:nist-ai-100-2e2025:p014:c01",
+          "B:nist-ai-100-2e2025:p016:c01"
+        ],
+        "ms": 63.4
+      },
+      {
+        "event": "search_limit",
+        "query": "classification of attacks predictive AI systems"
+      },
+      {
+        "event": "abstain",
+        "reason": "The passages do not specify the three attacker objectives used to classify attacks on predictive AI systems."
+      }
+    ],
+    "searches": 3,
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p047:c02"
+    ],
+    "context_chars": 793,
+    "context": "[B:nist-ai-100-2e2025:p047:c02] (page 47, 3.1. Attack Classification)\nFigure 2 shows a taxonomy of attacks in AML for GenAI systems. Similar to the PredAI\ntaxonomy in Fig. 1, this taxonomy is first categorized by the system properties that attackers\nseek to compromise in each case, including availability breakdowns, integrity violations,\nand privacy compromises, as well as the additional category of AML attack relevant to\nGenAI of misuse enablement, in which attackers seek to circumvent restrictions placed\non the outputs of GenAI systems (see Sec. 2.1.2). The capabilities that an adversary must\nleverage to achieve their objectives are shown in the outer layer of the objective circles.\nAttack classes are shown as callouts connected to the capabilities required to mount each\nattack.",
+    "usage": {
+      "prompt_tokens": 2906,
+      "completion_tokens": 110,
+      "llm_calls": 5
+    },
+    "latency_s": 4.94,
+    "config_name": "hybrid_k3_b800",
+    "model": "gpt-4o-mini-2024-07-18",
+    "context_evidence": false
+  },
+  {
+    "query_id": "q03",
+    "split": "dev",
+    "question": "Which kind of attack is the only one that needs the attacker to control both the data used for training and the data seen at test time?",
+    "config": {
+      "method": "hybrid_rrf",
+      "top_k": 3,
+      "budget": 800,
+      "max_searches": 3,
+      "filter_mode": "given"
+    },
+    "filter": null,
+    "status": "answered",
+    "answer": "The only attack that requires the attacker to control both the training data and the data seen at test time is the backdoor attack. This type of attack adds specific trigger components to poisoned samples that lead to misclassification during testing. [B:nist-ai-100-2e2025:p020:c00]",
+    "citations": [
+      "B:nist-ai-100-2e2025:p020:c00"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "hybrid_rrf",
+        "query": "only attack needs attacker control both training data test data",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p020:c00",
+            "page": 20,
+            "score": 0.032266
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p015:c01",
+            "page": 15,
+            "score": 0.031498
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p021:c02",
+            "page": 21,
+            "score": 0.031319
+          }
+        ],
+        "shown": [
+          "B:nist-ai-100-2e2025:p020:c00"
+        ],
+        "duplicate": [],
+        "dropped_budget": [
+          "B:nist-ai-100-2e2025:p015:c01",
+          "B:nist-ai-100-2e2025:p021:c02"
+        ],
+        "ms": 81.6
+      },
+      {
+        "event": "citations_appended",
+        "ids": [
+          "B:nist-ai-100-2e2025:p020:c00"
+        ]
+      },
+      {
+        "event": "answer",
+        "via": "tool"
+      }
+    ],
+    "searches": 1,
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p020:c00"
+    ],
+    "context_chars": 790,
+    "context": "[B:nist-ai-100-2e2025:p020:c00] (page 20, 2.1.2. A ttacker Goals and Objectives)\nwhich is added to both the poisoned samples and the testing samples to cause misclassi-\nfication. Backdoor attacks are the only attacks in the literature that require both training\nand testing data control. Model poisoning attacks could result in either targeted or back-\ndoor attacks, and the attacker modifies model parameters to cause an integrity violation.\nThey have been designed for centralized learning [222] and federated learning [22, 36].\nPrivacy compromise [NISTAML.03] [Back to Index]. A PRIVACY COMPROMISE attack causes\nthe unintended leakage of restricted or proprietary information from a PredAI system, in-\ncluding details about a model’s training data, weights, or architecture [100, 309].",
+    "usage": {
+      "prompt_tokens": 1038,
+      "completion_tokens": 98,
+      "llm_calls": 2
+    },
+    "latency_s": 2.42,
+    "config_name": "hybrid_k3_b800",
+    "model": "gpt-4o-mini-2024-07-18",
+    "context_evidence": true
+  },
+  {
+    "query_id": "q04",
+    "split": "dev",
+    "question": "What do black-box attacks assume about the attacker's knowledge of the ML system?",
+    "config": {
+      "method": "hybrid_rrf",
+      "top_k": 3,
+      "budget": 800,
+      "max_searches": 3,
+      "filter_mode": "given"
+    },
+    "filter": null,
+    "status": "answered",
+    "answer": "Black-box attacks assume that the attacker has no prior knowledge of the model architecture or training data. Instead, they can interact with the system by querying it with different data samples to obtain predictions. [B:nist-ai-100-2e2025:p028:c00]",
+    "citations": [
+      "B:nist-ai-100-2e2025:p028:c00"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "hybrid_rrf",
+        "query": "black-box attacks knowledge ML system",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p022:c01",
+            "page": 22,
+            "score": 0.032787
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p028:c00",
+            "page": 28,
+            "score": 0.032002
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p042:c04",
+            "page": 42,
+            "score": 0.03125
+          }
+        ],
+        "shown": [
+          "B:nist-ai-100-2e2025:p028:c00"
+        ],
+        "duplicate": [],
+        "dropped_budget": [
+          "B:nist-ai-100-2e2025:p022:c01",
+          "B:nist-ai-100-2e2025:p042:c04"
+        ],
+        "ms": 72.7
+      },
+      {
+        "event": "citations_appended",
+        "ids": [
+          "B:nist-ai-100-2e2025:p028:c00"
+        ]
+      },
+      {
+        "event": "answer",
+        "via": "tool"
+      }
+    ],
+    "searches": 1,
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p028:c00"
+    ],
+    "context_chars": 710,
+    "context": "[B:nist-ai-100-2e2025:p028:c00] (page 28, 2.2.2. Black-Box Evasion Attacks)\n2.2.2. Black-Box Evasion Attacks\n[NISTAML.025] [Back to Index]\nBlack-box evasion attacks are designed under a realistic adversarial model in which the\nattacker has no prior knowledge of the model architecture or training data. Instead, the\nadversary can interact with a trained ML model by querying it on various data samples and\nobtaining the model’s predictions. Similar APIs are provided by MLaaS offered by public\ncloud providers, in which users can obtain the model’s predictions on selected queries\nwithout information about how the model was trained. There are two main classes of\nblack-box evasion attacks in the literature:",
+    "usage": {
+      "prompt_tokens": 1005,
+      "completion_tokens": 87,
+      "llm_calls": 2
+    },
+    "latency_s": 2.73,
+    "config_name": "hybrid_k3_b800",
+    "model": "gpt-4o-mini-2024-07-18",
+    "context_evidence": false
+  },
+  {
+    "query_id": "q05",
+    "split": "dev",
+    "question": "How many iterations of gradient descent does the Fast Gradient Sign Method (FGSM) perform?",
+    "config": {
+      "method": "hybrid_rrf",
+      "top_k": 3,
+      "budget": 800,
+      "max_searches": 3,
+      "filter_mode": "given"
+    },
+    "filter": null,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "model_reason": "The passages indicate that FGSM performs a single iteration of gradient descent, but do not specify the number of iterations for the iterative FGSM attack.",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "hybrid_rrf",
+        "query": "Fast Gradient Sign Method FGSM iterations gradient descent",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p025:c04",
+            "page": 25,
+            "score": 0.032787
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p026:c01",
+            "page": 26,
+            "score": 0.032258
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p028:c02",
+            "page": 28,
+            "score": 0.031025
+          }
+        ],
+        "shown": [
+          "B:nist-ai-100-2e2025:p025:c04"
+        ],
+        "duplicate": [],
+        "dropped_budget": [
+          "B:nist-ai-100-2e2025:p026:c01",
+          "B:nist-ai-100-2e2025:p028:c02"
+        ],
+        "ms": 87.3
+      },
+      {
+        "event": "abstain",
+        "reason": "The passages indicate that FGSM performs a single iteration of gradient descent, but do not specify the number of iterations for the iterative FGSM attack."
+      }
+    ],
+    "searches": 1,
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p025:c04"
+    ],
+    "context_chars": 800,
+    "context": "[B:nist-ai-100-2e2025:p025:c04] (page 25, 2.2.1. White-Box Evasion Attacks)\nWhile Biggio et al. [38] applied their method to linear classifiers, kernel SVM, and multi-\nlayer perceptrons, Szedegy et al. [362] showed the existence of adversarial examples on\ndeep learning models used for image classification. Goodfellow et al. [144] introduced an\nefficient method for generating adversarial examples for deep learning: the Fast Gradient\nSign Method (FGSM), which performs a single iteration of gradient descent for solving the\noptimization. This method has been extended to an iterative FGSM attack by Kurakin et\nal. [200].\nSubsequent works have proposed new objectives and methods for optimizing the genera-\ntion of adversarial examples with the goals of minimizing the perturbations and supporting",
+    "usage": {
+      "prompt_tokens": 1026,
+      "completion_tokens": 64,
+      "llm_calls": 2
+    },
+    "latency_s": 2.11,
+    "config_name": "hybrid_k3_b800",
+    "model": "gpt-4o-mini-2024-07-18",
+    "context_evidence": true
+  },
+  {
+    "query_id": "q06",
+    "split": "dev",
+    "question": "How did researchers fool a traffic sign recognition model in the physical world?",
+    "config": {
+      "method": "hybrid_rrf",
+      "top_k": 3,
+      "budget": 800,
+      "max_searches": 3,
+      "filter_mode": "given"
+    },
+    "filter": null,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "model_reason": "The searched passages did not provide specific details on how researchers fooled a traffic sign recognition model in the physical world.",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "hybrid_rrf",
+        "query": "traffic sign recognition model attack physical world",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p026:c02",
+            "page": 26,
+            "score": 0.032787
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p029:c01",
+            "page": 29,
+            "score": 0.031754
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p029:c03",
+            "page": 29,
+            "score": 0.029762
+          }
+        ],
+        "shown": [
+          "B:nist-ai-100-2e2025:p029:c01"
+        ],
+        "duplicate": [],
+        "dropped_budget": [
+          "B:nist-ai-100-2e2025:p026:c02",
+          "B:nist-ai-100-2e2025:p029:c03"
+        ],
+        "ms": 74.3
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "hybrid_rrf",
+        "query": "traffic sign recognition attack evasion real world",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p029:c01",
+            "page": 29,
+            "score": 0.032787
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p026:c02",
+            "page": 26,
+            "score": 0.032258
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p029:c03",
+            "page": 29,
+            "score": 0.031258
+          }
+        ],
+        "shown": [],
+        "duplicate": [
+          "B:nist-ai-100-2e2025:p029:c01"
+        ],
+        "dropped_budget": [
+          "B:nist-ai-100-2e2025:p026:c02",
+          "B:nist-ai-100-2e2025:p029:c03"
+        ],
+        "ms": 85.9
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "hybrid_rrf",
+        "query": "physical world traffic sign recognition model fooling",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p026:c02",
+            "page": 26,
+            "score": 0.032787
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p029:c02",
+            "page": 29,
+            "score": 0.029469
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p029:c03",
+            "page": 29,
+            "score": 0.029462
+          }
+        ],
+        "shown": [],
+        "duplicate": [],
+        "dropped_budget": [
+          "B:nist-ai-100-2e2025:p026:c02",
+          "B:nist-ai-100-2e2025:p029:c02",
+          "B:nist-ai-100-2e2025:p029:c03"
+        ],
+        "ms": 70.8
+      },
+      {
+        "event": "abstain",
+        "reason": "The searched passages did not provide specific details on how researchers fooled a traffic sign recognition model in the physical world."
+      }
+    ],
+    "searches": 3,
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p029:c01"
+    ],
+    "context_chars": 411,
+    "context": "[B:nist-ai-100-2e2025:p029:c01] (page 29, 2.2.4. Evasion attacks in the real world)\n2.2.4. Evasion attacks in the real world\nWhile\nmany of the attacks discussed in this section were demonstrated only in research\nsettings, several evasion attacks have been demonstrated in the real world, and we dis-\ncuss prominent instances in face recognition systems, phishing webpage detection, and\nmalware classification.",
+    "usage": {
+      "prompt_tokens": 2161,
+      "completion_tokens": 95,
+      "llm_calls": 4
+    },
+    "latency_s": 4.11,
+    "config_name": "hybrid_k3_b800",
+    "model": "gpt-4o-mini-2024-07-18",
+    "context_evidence": false
+  },
+  {
+    "query_id": "q07",
+    "split": "dev",
+    "question": "In score-based black-box evasion attacks, which popular method estimates the model's gradients without computing derivatives?",
+    "config": {
+      "method": "hybrid_rrf",
+      "top_k": 3,
+      "budget": 800,
+      "max_searches": 3,
+      "filter_mode": "given"
+    },
+    "filter": null,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "model_reason": "The passages do not contain specific information about popular methods for estimating model gradients in score-based black-box evasion attacks.",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "hybrid_rrf",
+        "query": "score-based black-box evasion attacks estimate model's gradients without computing derivatives",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p028:c00",
+            "page": 28,
+            "score": 0.032522
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p028:c01",
+            "page": 28,
+            "score": 0.032522
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p030:c01",
+            "page": 30,
+            "score": 0.02971
+          }
+        ],
+        "shown": [
+          "B:nist-ai-100-2e2025:p028:c00"
+        ],
+        "duplicate": [],
+        "dropped_budget": [
+          "B:nist-ai-100-2e2025:p028:c01",
+          "B:nist-ai-100-2e2025:p030:c01"
+        ],
+        "ms": 84.0
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "hybrid_rrf",
+        "query": "estimate model's gradients black-box evasion attacks",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p028:c00",
+            "page": 28,
+            "score": 0.032787
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p022:c01",
+            "page": 22,
+            "score": 0.030769
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p024:c02",
+            "page": 24,
+            "score": 0.030622
+          }
+        ],
+        "shown": [],
+        "duplicate": [
+          "B:nist-ai-100-2e2025:p028:c00"
+        ],
+        "dropped_budget": [
+          "B:nist-ai-100-2e2025:p022:c01",
+          "B:nist-ai-100-2e2025:p024:c02"
+        ],
+        "ms": 80.1
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "hybrid_rrf",
+        "query": "score-based methods black-box evasion attacks",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p028:c00",
+            "page": 28,
+            "score": 0.032787
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p033:c01",
+            "page": 33,
+            "score": 0.031746
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p028:c01",
+            "page": 28,
+            "score": 0.030622
+          }
+        ],
+        "shown": [],
+        "duplicate": [
+          "B:nist-ai-100-2e2025:p028:c00"
+        ],
+        "dropped_budget": [
+          "B:nist-ai-100-2e2025:p033:c01",
+          "B:nist-ai-100-2e2025:p028:c01"
+        ],
+        "ms": 81.5
+      },
+      {
+        "event": "abstain",
+        "reason": "The passages do not contain specific information about popular methods for estimating model gradients in score-based black-box evasion attacks."
+      }
+    ],
+    "searches": 3,
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p028:c00"
+    ],
+    "context_chars": 710,
+    "context": "[B:nist-ai-100-2e2025:p028:c00] (page 28, 2.2.2. Black-Box Evasion Attacks)\n2.2.2. Black-Box Evasion Attacks\n[NISTAML.025] [Back to Index]\nBlack-box evasion attacks are designed under a realistic adversarial model in which the\nattacker has no prior knowledge of the model architecture or training data. Instead, the\nadversary can interact with a trained ML model by querying it on various data samples and\nobtaining the model’s predictions. Similar APIs are provided by MLaaS offered by public\ncloud providers, in which users can obtain the model’s predictions on selected queries\nwithout information about how the model was trained. There are two main classes of\nblack-box evasion attacks in the literature:",
+    "usage": {
+      "prompt_tokens": 2452,
+      "completion_tokens": 104,
+      "llm_calls": 4
+    },
+    "latency_s": 4.16,
+    "config_name": "hybrid_k3_b800",
+    "model": "gpt-4o-mini-2024-07-18",
+    "context_evidence": false
+  },
+  {
+    "query_id": "q08",
+    "split": "dev",
+    "question": "Under what condition does the RONI (Region of Non-Interest) method exclude a sample from training?",
+    "config": {
+      "method": "hybrid_rrf",
+      "top_k": 3,
+      "budget": 800,
+      "max_searches": 3,
+      "filter_mode": "given"
+    },
+    "filter": null,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "model_reason": "The passages retrieved do not provide specific information regarding the conditions under which the RONI method excludes a sample from training.",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "hybrid_rrf",
+        "query": "RONI Region of Non-Interest exclude sample from training",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p034:c00",
+            "page": 34,
+            "score": 0.032787
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p059:c00",
+            "page": 59,
+            "score": 0.031054
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p044:c01",
+            "page": 44,
+            "score": 0.016129
+          }
+        ],
+        "shown": [
+          "B:nist-ai-100-2e2025:p044:c01"
+        ],
+        "duplicate": [],
+        "dropped_budget": [
+          "B:nist-ai-100-2e2025:p034:c00",
+          "B:nist-ai-100-2e2025:p059:c00"
+        ],
+        "ms": 68.0
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "hybrid_rrf",
+        "query": "RONI method conditions exclude sample from training",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p034:c00",
+            "page": 34,
+            "score": 0.032787
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p020:c02",
+            "page": 20,
+            "score": 0.027746
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p025:c00",
+            "page": 25,
+            "score": 0.026585
+          }
+        ],
+        "shown": [],
+        "duplicate": [],
+        "dropped_budget": [
+          "B:nist-ai-100-2e2025:p034:c00",
+          "B:nist-ai-100-2e2025:p020:c02",
+          "B:nist-ai-100-2e2025:p025:c00"
+        ],
+        "ms": 82.4
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "hybrid_rrf",
+        "query": "Region of Non-Interest RONI exclusion criteria",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p034:c00",
+            "page": 34,
+            "score": 0.032787
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p059:c00",
+            "page": 59,
+            "score": 0.030777
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p053:c02",
+            "page": 53,
+            "score": 0.016129
+          }
+        ],
+        "shown": [],
+        "duplicate": [],
+        "dropped_budget": [
+          "B:nist-ai-100-2e2025:p034:c00",
+          "B:nist-ai-100-2e2025:p059:c00",
+          "B:nist-ai-100-2e2025:p053:c02"
+        ],
+        "ms": 77.1
+      },
+      {
+        "event": "abstain",
+        "reason": "The passages retrieved do not provide specific information regarding the conditions under which the RONI method excludes a sample from training."
+      }
+    ],
+    "searches": 3,
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p044:c01"
+    ],
+    "context_chars": 355,
+    "context": "[B:nist-ai-100-2e2025:p044:c01] (page 44, 2.4.3. Prop erty Inference)\n[74] showed that poisoning the property of\ninterest can help design a more effective distinguishing test for property inference. More-\nover, Chaudhauri et al. [74] designed an efficient property size estimation attack that re-\ncovers the exact fraction of the population of interest.",
+    "usage": {
+      "prompt_tokens": 2129,
+      "completion_tokens": 103,
+      "llm_calls": 4
+    },
+    "latency_s": 4.34,
+    "config_name": "hybrid_k3_b800",
+    "model": "gpt-4o-mini-2024-07-18",
+    "context_evidence": false
+  },
+  {
+    "query_id": "q09",
+    "split": "dev",
+    "question": "What was the first backdoor poisoning attack, and who proposed it?",
+    "config": {
+      "method": "hybrid_rrf",
+      "top_k": 3,
+      "budget": 800,
+      "max_searches": 3,
+      "filter_mode": "given"
+    },
+    "filter": null,
+    "status": "answered",
+    "answer": "The first backdoor poisoning attack, named BadNets, was proposed by Gu et al. in 2017. This attack involves adding a small patch trigger to a subset of training images and modifying their labels to a target class, causing the model to misclassify inputs containing the trigger. [B:nist-ai-100-2e2025:p035:c04]",
+    "citations": [
+      "B:nist-ai-100-2e2025:p035:c04"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "hybrid_rrf",
+        "query": "first backdoor poisoning attack proposed by",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p035:c04",
+            "page": 35,
+            "score": 0.032787
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p038:c03",
+            "page": 38,
+            "score": 0.032002
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p055:c02",
+            "page": 55,
+            "score": 0.030777
+          }
+        ],
+        "shown": [
+          "B:nist-ai-100-2e2025:p035:c04"
+        ],
+        "duplicate": [],
+        "dropped_budget": [
+          "B:nist-ai-100-2e2025:p038:c03",
+          "B:nist-ai-100-2e2025:p055:c02"
+        ],
+        "ms": 80.7
+      },
+      {
+        "event": "citations_appended",
+        "ids": [
+          "B:nist-ai-100-2e2025:p035:c04"
+        ]
+      },
+      {
+        "event": "answer",
+        "via": "tool"
+      }
+    ],
+    "searches": 1,
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p035:c04"
+    ],
+    "context_chars": 706,
+    "context": "[B:nist-ai-100-2e2025:p035:c04] (page 35, 2.3.3. Backdo or Poisoning)\nSee Section 4.1.1 for further discussion on the trade-offs between the attributes of\nTrustworthy AI systems.\n2.3.3. Backdo or Poisoning\n[NIS\nTAML.021, NISTAML.023] [Back to Index]\nBackdoor poisoning attacks are poisoning attacks that cause the targeted model to misclas-\nsify samples containing a particular BACKDOOR PATTERN or trigger . In 2017, Gu et al. [148]\nproposed BadNets, the first backdoor poisoning attack. They observed that image clas-\nsifiers can be poisoned by adding a small patch trigger in a subset of images at training\ntime and changing their label to a target class. The classifier learns to associate the trigger",
+    "usage": {
+      "prompt_tokens": 1015,
+      "completion_tokens": 109,
+      "llm_calls": 2
+    },
+    "latency_s": 2.66,
+    "config_name": "hybrid_k3_b800",
+    "model": "gpt-4o-mini-2024-07-18",
+    "context_evidence": true
+  },
+  {
+    "query_id": "q10",
+    "split": "dev",
+    "question": "Which Microsoft chatbot is the earliest documented case of an attack that corrupted a model through its training data in the real world?",
+    "config": {
+      "method": "hybrid_rrf",
+      "top_k": 3,
+      "budget": 800,
+      "max_searches": 3,
+      "filter_mode": "given"
+    },
+    "filter": null,
+    "status": "answered",
+    "answer": "The earliest documented case of an attack that corrupted a model through its training data in the real world is the Microsoft Tay.AI chatbot. This model was updated in real-time based on user interactions, which made it vulnerable to poisoning attacks. [B:nist-ai-100-2e2025:p040:c03]",
+    "citations": [
+      "B:nist-ai-100-2e2025:p040:c03"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "hybrid_rrf",
+        "query": "Microsoft chatbot earliest documented case attack corrupted model training data",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p040:c02",
+            "page": 40,
+            "score": 0.032787
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p027:c01",
+            "page": 27,
+            "score": 0.031025
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p040:c03",
+            "page": 40,
+            "score": 0.030214
+          }
+        ],
+        "shown": [
+          "B:nist-ai-100-2e2025:p040:c03"
+        ],
+        "duplicate": [],
+        "dropped_budget": [
+          "B:nist-ai-100-2e2025:p040:c02",
+          "B:nist-ai-100-2e2025:p027:c01"
+        ],
+        "ms": 67.7
+      },
+      {
+        "event": "citations_appended",
+        "ids": [
+          "B:nist-ai-100-2e2025:p040:c03"
+        ]
+      },
+      {
+        "event": "answer",
+        "via": "tool"
+      }
+    ],
+    "searches": 1,
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p040:c03"
+    ],
+    "context_chars": 517,
+    "context": "[B:nist-ai-100-2e2025:p040:c03] (page 40, 2.3.5. Poisoning Attacks in the Real World)\nThese incidents highlight the risks associated with online learning, as the Tay.AI chatbot\nwas updated in real-time based on user interactions, and the Gmail spam filter and the\nVirusTotal malware classification system were continuously updated based on newly re-\nceived samples. In all these incidents, attackers crafted poisoned samples after an initial\nmodel release, counting on the fact that models are continuously updated.",
+    "usage": {
+      "prompt_tokens": 964,
+      "completion_tokens": 100,
+      "llm_calls": 2
+    },
+    "latency_s": 2.63,
+    "config_name": "hybrid_k3_b800",
+    "model": "gpt-4o-mini-2024-07-18",
+    "context_evidence": false
+  },
+  {
+    "query_id": "q11",
+    "split": "dev",
+    "question": "In the loss-based membership inference attack, when is a target sample judged to be part of the training set?",
+    "config": {
+      "method": "hybrid_rrf",
+      "top_k": 3,
+      "budget": 800,
+      "max_searches": 3,
+      "filter_mode": "given"
+    },
+    "filter": null,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "model_reason": "The passages do not contain specific information about when a target sample is judged to be part of the training set in the context of loss-based membership inference attacks.",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "hybrid_rrf",
+        "query": "loss-based membership inference attack target sample training set",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p043:c00",
+            "page": 43,
+            "score": 0.032787
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p043:c02",
+            "page": 43,
+            "score": 0.031746
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p044:c02",
+            "page": 44,
+            "score": 0.031054
+          }
+        ],
+        "shown": [
+          "B:nist-ai-100-2e2025:p044:c02"
+        ],
+        "duplicate": [],
+        "dropped_budget": [
+          "B:nist-ai-100-2e2025:p043:c00",
+          "B:nist-ai-100-2e2025:p043:c02"
+        ],
+        "ms": 73.4
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "hybrid_rrf",
+        "query": "membership inference attack criteria",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p043:c02",
+            "page": 43,
+            "score": 0.032018
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p043:c00",
+            "page": 43,
+            "score": 0.031754
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p042:c03",
+            "page": 42,
+            "score": 0.030886
+          }
+        ],
+        "shown": [],
+        "duplicate": [],
+        "dropped_budget": [
+          "B:nist-ai-100-2e2025:p043:c02",
+          "B:nist-ai-100-2e2025:p043:c00",
+          "B:nist-ai-100-2e2025:p042:c03"
+        ],
+        "ms": 82.8
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "hybrid_rrf",
+        "query": "membership inference attack loss-based",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p043:c00",
+            "page": 43,
+            "score": 0.032787
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p043:c02",
+            "page": 43,
+            "score": 0.031754
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p042:c02",
+            "page": 42,
+            "score": 0.030835
+          }
+        ],
+        "shown": [],
+        "duplicate": [],
+        "dropped_budget": [
+          "B:nist-ai-100-2e2025:p043:c00",
+          "B:nist-ai-100-2e2025:p043:c02",
+          "B:nist-ai-100-2e2025:p042:c02"
+        ],
+        "ms": 75.1
+      },
+      {
+        "event": "abstain",
+        "reason": "The passages do not contain specific information about when a target sample is judged to be part of the training set in the context of loss-based membership inference attacks."
+      }
+    ],
+    "searches": 3,
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p044:c02"
+    ],
+    "context_chars": 292,
+    "context": "[B:nist-ai-100-2e2025:p044:c02] (page 44, 2.4.3. Prop erty Inference)\nThe relationship between different training set inference attacks, such as membership\ninference, attribute inference, and property inference, has been explored by Salem et\nal.[321] under a unified definitional framework.",
+    "usage": {
+      "prompt_tokens": 2065,
+      "completion_tokens": 99,
+      "llm_calls": 4
+    },
+    "latency_s": 4.38,
+    "config_name": "hybrid_k3_b800",
+    "model": "gpt-4o-mini-2024-07-18",
+    "context_evidence": false
+  },
+  {
+    "query_id": "q12",
+    "split": "dev",
+    "question": "Does differential privacy protect against model extraction attacks? Why or why not?",
+    "config": {
+      "method": "hybrid_rrf",
+      "top_k": 3,
+      "budget": 800,
+      "max_searches": 3,
+      "filter_mode": "given"
+    },
+    "filter": null,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "model_reason": "The passages do not specifically address whether differential privacy protects against model extraction attacks.",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "hybrid_rrf",
+        "query": "differential privacy model extraction attacks",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p046:c02",
+            "page": 46,
+            "score": 0.032266
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p020:c03",
+            "page": 20,
+            "score": 0.031778
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p041:c01",
+            "page": 41,
+            "score": 0.031754
+          }
+        ],
+        "shown": [
+          "B:nist-ai-100-2e2025:p046:c02"
+        ],
+        "duplicate": [],
+        "dropped_budget": [
+          "B:nist-ai-100-2e2025:p020:c03",
+          "B:nist-ai-100-2e2025:p041:c01"
+        ],
+        "ms": 64.4
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "hybrid_rrf",
+        "query": "model extraction attacks differential privacy",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p046:c02",
+            "page": 46,
+            "score": 0.032018
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p020:c03",
+            "page": 20,
+            "score": 0.031778
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p041:c01",
+            "page": 41,
+            "score": 0.031754
+          }
+        ],
+        "shown": [],
+        "duplicate": [
+          "B:nist-ai-100-2e2025:p046:c02"
+        ],
+        "dropped_budget": [
+          "B:nist-ai-100-2e2025:p020:c03",
+          "B:nist-ai-100-2e2025:p041:c01"
+        ],
+        "ms": 74.4
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "hybrid_rrf",
+        "query": "model extraction attacks mitigation",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p046:c03",
+            "page": 46,
+            "score": 0.032522
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p045:c00",
+            "page": 45,
+            "score": 0.031514
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p044:c04",
+            "page": 44,
+            "score": 0.031498
+          }
+        ],
+        "shown": [],
+        "duplicate": [],
+        "dropped_budget": [
+          "B:nist-ai-100-2e2025:p046:c03",
+          "B:nist-ai-100-2e2025:p045:c00",
+          "B:nist-ai-100-2e2025:p044:c04"
+        ],
+        "ms": 85.1
+      },
+      {
+        "event": "abstain",
+        "reason": "The passages do not specifically address whether differential privacy protects against model extraction attacks."
+      }
+    ],
+    "searches": 3,
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p046:c02"
+    ],
+    "context_chars": 369,
+    "context": "[B:nist-ai-100-2e2025:p046:c02] (page 46, 2.4.5. Mitigations)\nDifferential privacy provides a rigorous notion of privacy and protects against\nmembership inference and data reconstruction attacks. To achieve the best bal-\nance\nbetween privacy and utility, empirical privacy auditing is recommended to\ncomplement the theoretical analysis of private training algorithms.",
+    "usage": {
+      "prompt_tokens": 2091,
+      "completion_tokens": 81,
+      "llm_calls": 4
+    },
+    "latency_s": 4.24,
+    "config_name": "hybrid_k3_b800",
+    "model": "gpt-4o-mini-2024-07-18",
+    "context_evidence": false
+  },
+  {
+    "query_id": "q13",
+    "split": "dev",
+    "question": "In generative AI systems, how can an attacker poison a training dataset that is published as a list of URLs?",
+    "config": {
+      "method": "hybrid_rrf",
+      "top_k": 3,
+      "budget": 800,
+      "max_searches": 3,
+      "filter_mode": "given"
+    },
+    "filter": {
+      "taxonomy": "generative_ai"
+    },
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "model_reason": "The passages do not contain specific information on how an attacker can poison a training dataset published as a list of URLs.",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "hybrid_rrf",
+        "query": "poison training dataset generative AI systems URLs",
+        "filter": {
+          "taxonomy": "generative_ai"
+        },
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p055:c00",
+            "page": 55,
+            "score": 0.032787
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p050:c02",
+            "page": 50,
+            "score": 0.031514
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p059:c01",
+            "page": 59,
+            "score": 0.029418
+          }
+        ],
+        "shown": [
+          "B:nist-ai-100-2e2025:p059:c01"
+        ],
+        "duplicate": [],
+        "dropped_budget": [
+          "B:nist-ai-100-2e2025:p055:c00",
+          "B:nist-ai-100-2e2025:p050:c02"
+        ],
+        "ms": 68.9
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "hybrid_rrf",
+        "query": "data poisoning training dataset generative AI URLs",
+        "filter": {
+          "taxonomy": "generative_ai"
+        },
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p055:c00",
+            "page": 55,
+            "score": 0.032787
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p055:c02",
+            "page": 55,
+            "score": 0.031514
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p050:c02",
+            "page": 50,
+            "score": 0.03125
+          }
+        ],
+        "shown": [],
+        "duplicate": [],
+        "dropped_budget": [
+          "B:nist-ai-100-2e2025:p055:c00",
+          "B:nist-ai-100-2e2025:p055:c02",
+          "B:nist-ai-100-2e2025:p050:c02"
+        ],
+        "ms": 75.1
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "hybrid_rrf",
+        "query": "poisoning dataset generative AI attacks",
+        "filter": {
+          "taxonomy": "generative_ai"
+        },
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p055:c00",
+            "page": 55,
+            "score": 0.032522
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p055:c02",
+            "page": 55,
+            "score": 0.032002
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p050:c02",
+            "page": 50,
+            "score": 0.03101
+          }
+        ],
+        "shown": [],
+        "duplicate": [],
+        "dropped_budget": [
+          "B:nist-ai-100-2e2025:p055:c00",
+          "B:nist-ai-100-2e2025:p055:c02",
+          "B:nist-ai-100-2e2025:p050:c02"
+        ],
+        "ms": 85.7
+      },
+      {
+        "event": "abstain",
+        "reason": "The passages do not contain specific information on how an attacker can poison a training dataset published as a list of URLs."
+      }
+    ],
+    "searches": 3,
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p059:c01"
+    ],
+    "context_chars": 725,
+    "context": "[B:nist-ai-100-2e2025:p059:c01] (page 59, 3.3.2. Information Extraction)\nLeaking sensitive training data. Carlini et al. [59] were the first to practically demonstrate\nTRAINING DATA EXTRACTION attacks in generative language models. By inserting canaries–\nsynthetic, easy-to-recognize out-of-distribution examples–in the training data, they devel-\noped a methodology for extracting the canaries and introduced a metric called exposure\nto measure memorization. Subsequent work demonstrated the risk of data extraction in\nLLMs based on transformers (e.g., GPT-2 [63]) by prompting the model with different pre-\nfixes and mounting a membership inference attack to determine which generated content\nwas part of the training set.",
+    "usage": {
+      "prompt_tokens": 2356,
+      "completion_tokens": 98,
+      "llm_calls": 4
+    },
+    "latency_s": 4.27,
+    "config_name": "hybrid_k3_b800",
+    "model": "gpt-4o-mini-2024-07-18",
+    "context_evidence": false
+  },
+  {
+    "query_id": "q14",
+    "split": "dev",
+    "question": "For predictive AI models offered through MLaaS, what is the goal of a model extraction attack?",
+    "config": {
+      "method": "hybrid_rrf",
+      "top_k": 3,
+      "budget": 800,
+      "max_searches": 3,
+      "filter_mode": "given"
+    },
+    "filter": {
+      "taxonomy": "predictive_ai"
+    },
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "model_reason": "The passages do not contain specific information about the goal of model extraction attacks for predictive AI models offered through MLaaS.",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "hybrid_rrf",
+        "query": "model extraction attack for predictive AI models offered through MLaaS",
+        "filter": {
+          "taxonomy": "predictive_ai"
+        },
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p044:c03",
+            "page": 44,
+            "score": 0.032787
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p041:c01",
+            "page": 41,
+            "score": 0.031754
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p028:c00",
+            "page": 28,
+            "score": 0.031054
+          }
+        ],
+        "shown": [
+          "B:nist-ai-100-2e2025:p028:c00"
+        ],
+        "duplicate": [],
+        "dropped_budget": [
+          "B:nist-ai-100-2e2025:p044:c03",
+          "B:nist-ai-100-2e2025:p041:c01"
+        ],
+        "ms": 59.5
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "hybrid_rrf",
+        "query": "goal of model extraction attack MLaaS",
+        "filter": {
+          "taxonomy": "predictive_ai"
+        },
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p044:c03",
+            "page": 44,
+            "score": 0.032787
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p041:c01",
+            "page": 41,
+            "score": 0.032002
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p045:c00",
+            "page": 45,
+            "score": 0.032002
+          }
+        ],
+        "shown": [],
+        "duplicate": [],
+        "dropped_budget": [
+          "B:nist-ai-100-2e2025:p044:c03",
+          "B:nist-ai-100-2e2025:p041:c01",
+          "B:nist-ai-100-2e2025:p045:c00"
+        ],
+        "ms": 57.5
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "hybrid_rrf",
+        "query": "model extraction attack definition",
+        "filter": {
+          "taxonomy": "predictive_ai"
+        },
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p044:c03",
+            "page": 44,
+            "score": 0.031545
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p020:c03",
+            "page": 20,
+            "score": 0.031514
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p044:c04",
+            "page": 44,
+            "score": 0.031498
+          }
+        ],
+        "shown": [],
+        "duplicate": [],
+        "dropped_budget": [
+          "B:nist-ai-100-2e2025:p044:c03",
+          "B:nist-ai-100-2e2025:p020:c03",
+          "B:nist-ai-100-2e2025:p044:c04"
+        ],
+        "ms": 63.2
+      },
+      {
+        "event": "abstain",
+        "reason": "The passages do not contain specific information about the goal of model extraction attacks for predictive AI models offered through MLaaS."
+      }
+    ],
+    "searches": 3,
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p028:c00"
+    ],
+    "context_chars": 710,
+    "context": "[B:nist-ai-100-2e2025:p028:c00] (page 28, 2.2.2. Black-Box Evasion Attacks)\n2.2.2. Black-Box Evasion Attacks\n[NISTAML.025] [Back to Index]\nBlack-box evasion attacks are designed under a realistic adversarial model in which the\nattacker has no prior knowledge of the model architecture or training data. Instead, the\nadversary can interact with a trained ML model by querying it on various data samples and\nobtaining the model’s predictions. Similar APIs are provided by MLaaS offered by public\ncloud providers, in which users can obtain the model’s predictions on selected queries\nwithout information about how the model was trained. There are two main classes of\nblack-box evasion attacks in the literature:",
+    "usage": {
+      "prompt_tokens": 2373,
+      "completion_tokens": 98,
+      "llm_calls": 4
+    },
+    "latency_s": 4.41,
+    "config_name": "hybrid_k3_b800",
+    "model": "gpt-4o-mini-2024-07-18",
+    "context_evidence": false
+  },
+  {
+    "query_id": "q15",
+    "split": "dev",
+    "question": "For generative AI models trained on web-scale data, how can downloaded training data be checked for integrity?",
+    "config": {
+      "method": "hybrid_rrf",
+      "top_k": 3,
+      "budget": 800,
+      "max_searches": 3,
+      "filter_mode": "given"
+    },
+    "filter": {
+      "taxonomy": "generative_ai"
+    },
+    "status": "answered",
+    "answer": "Downloaded training data for generative AI models can be checked for integrity by verifying cryptographic hashes published by the provider. This method helps ensure that domain hijacking has not introduced malicious data into the training dataset. Additionally, data filtering can be employed to attempt to remove poisoned samples, although this can be challenging within large datasets. [B:nist-ai-100-2e2025:p056:c00]",
+    "citations": [
+      "B:nist-ai-100-2e2025:p056:c00"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "hybrid_rrf",
+        "query": "integrity check downloaded training data generative AI models",
+        "filter": {
+          "taxonomy": "generative_ai"
+        },
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p056:c00",
+            "page": 56,
+            "score": 0.032787
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p050:c02",
+            "page": 50,
+            "score": 0.032002
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p059:c01",
+            "page": 59,
+            "score": 0.031498
+          }
+        ],
+        "shown": [
+          "B:nist-ai-100-2e2025:p056:c00"
+        ],
+        "duplicate": [],
+        "dropped_budget": [
+          "B:nist-ai-100-2e2025:p050:c02",
+          "B:nist-ai-100-2e2025:p059:c01"
+        ],
+        "ms": 70.2
+      },
+      {
+        "event": "citations_appended",
+        "ids": [
+          "B:nist-ai-100-2e2025:p056:c00"
+        ]
+      },
+      {
+        "event": "answer",
+        "via": "tool"
+      }
+    ],
+    "searches": 1,
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p056:c00"
+    ],
+    "context_chars": 458,
+    "context": "[B:nist-ai-100-2e2025:p056:c00] (page 56, 3.2.3. Mitigations)\nifying web downloads as a basic integrity check to ensure that domain hijacking has not\ninjected new sources of data into the training dataset [57]. That is, the provider publishes\ncryptographic hashes, and the downloader verifies the training data. Data filtering can\nalso attempt to remove poisoned samples, though detecting poisoned data within a large\ntraining corpus may be very difficult.",
+    "usage": {
+      "prompt_tokens": 951,
+      "completion_tokens": 117,
+      "llm_calls": 2
+    },
+    "latency_s": 4.0,
+    "config_name": "hybrid_k3_b800",
+    "model": "gpt-4o-mini-2024-07-18",
+    "context_evidence": true
+  },
+  {
+    "query_id": "u01",
+    "split": "dev",
+    "question": "What learning rate and number of training epochs does the report recommend when using adversarial training against evasion attacks?",
+    "config": {
+      "method": "hybrid_rrf",
+      "top_k": 3,
+      "budget": 800,
+      "max_searches": 3,
+      "filter_mode": "given"
+    },
+    "filter": null,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "model_reason": "The passages do not contain specific recommendations for the learning rate and number of training epochs for adversarial training against evasion attacks.",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "hybrid_rrf",
+        "query": "learning rate number of training epochs adversarial training evasion attacks",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p024:c04",
+            "page": 24,
+            "score": 0.030777
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p028:c03",
+            "page": 28,
+            "score": 0.029572
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p030:c03",
+            "page": 30,
+            "score": 0.029551
+          }
+        ],
+        "shown": [
+          "B:nist-ai-100-2e2025:p024:c04",
+          "B:nist-ai-100-2e2025:p028:c03"
+        ],
+        "duplicate": [],
+        "dropped_budget": [
+          "B:nist-ai-100-2e2025:p030:c03"
+        ],
+        "ms": 74.6
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "hybrid_rrf",
+        "query": "adversarial training parameters learning rate epochs recommendation",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p030:c03",
+            "page": 30,
+            "score": 0.02938
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p025:c04",
+            "page": 25,
+            "score": 0.028259
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p018:c00",
+            "page": 18,
+            "score": 0.027778
+          }
+        ],
+        "shown": [],
+        "duplicate": [],
+        "dropped_budget": [
+          "B:nist-ai-100-2e2025:p030:c03",
+          "B:nist-ai-100-2e2025:p025:c04",
+          "B:nist-ai-100-2e2025:p018:c00"
+        ],
+        "ms": 74.7
+      },
+      {
+        "event": "abstain",
+        "reason": "The passages do not contain specific recommendations for the learning rate and number of training epochs for adversarial training against evasion attacks."
+      }
+    ],
+    "searches": 2,
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p024:c04",
+      "B:nist-ai-100-2e2025:p028:c03"
+    ],
+    "context_chars": 682,
+    "context": "[B:nist-ai-100-2e2025:p024:c04] (page 24, 2.2. Evasion Attacks and Mitigations)\nThe most promising directions for mitigating the critical threat of\nevasion attacks are adversarial training [144, 232] (iteratively generating and inserting ad-\nversarial examples with their correct labels at training time); certified techniques, such as\n\n[B:nist-ai-100-2e2025:p028:c03] (page 28, 2.2.2. Black-Box Evasion Attacks)\nThe primary challenge in creating adversarial examples in black-box settings is re-\nducing the number of queries to the ML models. Recent techniques can success-\nfully evade the ML classifiers with a relatively small number of queries, typically\nless than 1000 [344].",
+    "usage": {
+      "prompt_tokens": 1683,
+      "completion_tokens": 84,
+      "llm_calls": 3
+    },
+    "latency_s": 3.27,
+    "config_name": "hybrid_k3_b800",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  {
+    "query_id": "u02",
+    "split": "dev",
+    "question": "How much money did Microsoft lose because of the Tay.AI chatbot poisoning incident?",
+    "config": {
+      "method": "hybrid_rrf",
+      "top_k": 3,
+      "budget": 800,
+      "max_searches": 3,
+      "filter_mode": "given"
+    },
+    "filter": null,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "model_reason": "The report does not provide any information regarding the financial loss Microsoft incurred due to the Tay.AI chatbot incident.",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "hybrid_rrf",
+        "query": "Microsoft loss Tay.AI chatbot poisoning incident",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p040:c02",
+            "page": 40,
+            "score": 0.032787
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p040:c03",
+            "page": 40,
+            "score": 0.032258
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p040:c01",
+            "page": 40,
+            "score": 0.031025
+          }
+        ],
+        "shown": [
+          "B:nist-ai-100-2e2025:p040:c03"
+        ],
+        "duplicate": [],
+        "dropped_budget": [
+          "B:nist-ai-100-2e2025:p040:c02",
+          "B:nist-ai-100-2e2025:p040:c01"
+        ],
+        "ms": 67.7
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "hybrid_rrf",
+        "query": "Tay.AI incident financial impact",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p040:c03",
+            "page": 40,
+            "score": 0.032522
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p040:c02",
+            "page": 40,
+            "score": 0.032266
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p071:c03",
+            "page": 71,
+            "score": 0.02904
+          }
+        ],
+        "shown": [],
+        "duplicate": [
+          "B:nist-ai-100-2e2025:p040:c03"
+        ],
+        "dropped_budget": [
+          "B:nist-ai-100-2e2025:p040:c02",
+          "B:nist-ai-100-2e2025:p071:c03"
+        ],
+        "ms": 72.8
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "hybrid_rrf",
+        "query": "Microsoft Tay.AI chatbot incident loss details",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p040:c02",
+            "page": 40,
+            "score": 0.032522
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p040:c03",
+            "page": 40,
+            "score": 0.032522
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p027:c01",
+            "page": 27,
+            "score": 0.031498
+          }
+        ],
+        "shown": [],
+        "duplicate": [
+          "B:nist-ai-100-2e2025:p040:c03"
+        ],
+        "dropped_budget": [
+          "B:nist-ai-100-2e2025:p040:c02",
+          "B:nist-ai-100-2e2025:p027:c01"
+        ],
+        "ms": 78.7
+      },
+      {
+        "event": "abstain",
+        "reason": "The report does not provide any information regarding the financial loss Microsoft incurred due to the Tay.AI chatbot incident."
+      }
+    ],
+    "searches": 3,
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p040:c03"
+    ],
+    "context_chars": 517,
+    "context": "[B:nist-ai-100-2e2025:p040:c03] (page 40, 2.3.5. Poisoning Attacks in the Real World)\nThese incidents highlight the risks associated with online learning, as the Tay.AI chatbot\nwas updated in real-time based on user interactions, and the Gmail spam filter and the\nVirusTotal malware classification system were continuously updated based on newly re-\nceived samples. In all these incidents, attackers crafted poisoned samples after an initial\nmodel release, counting on the fact that models are continuously updated.",
+    "usage": {
+      "prompt_tokens": 2227,
+      "completion_tokens": 95,
+      "llm_calls": 4
+    },
+    "latency_s": 4.13,
+    "config_name": "hybrid_k3_b800",
+    "model": "gpt-4o-mini-2024-07-18"
+  }
+]

@@ -1,0 +1,437 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "type": "direct",
+    "question": "What does the field of adversarial machine learning (AML) study?",
+    "expected_answer": "Attacks against ML systems that exploit the statistical, data-based nature of ML systems.",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "nist-ai-100-2e2025",
+        "page": 14,
+        "evidence": "The field of ADVERSARIAL MACHINE LEARNING (AML) studies attacks against ML systems that\nexploit the statistical, data-based nature of ML systems."
+      }
+    ],
+    "origin": "day6"
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "type": "direct",
+    "question": "What are the three attacker objectives used to classify attacks on predictive AI systems?",
+    "expected_answer": "Availability breakdown, integrity violation, and privacy compromise.",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "nist-ai-100-2e2025",
+        "page": 19,
+        "evidence": "types of security violations considered when analyzing the security of a system: availability\nbreakdown, integrity violation, and privacy compromise."
+      }
+    ],
+    "origin": "day6"
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "type": "paraphrase",
+    "question": "Which kind of attack is the only one that needs the attacker to control both the data used for training and the data seen at test time?",
+    "expected_answer": "Backdoor (poisoning) attacks.",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "nist-ai-100-2e2025",
+        "page": 20,
+        "evidence": "Backdoor attacks are the only attacks in the literature that require both training\nand testing data control."
+      }
+    ],
+    "origin": "day6"
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "type": "direct",
+    "question": "What do black-box attacks assume about the attacker's knowledge of the ML system?",
+    "expected_answer": "The attacker has minimal, and sometimes no, knowledge about the ML system.",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "nist-ai-100-2e2025",
+        "page": 22,
+        "evidence": "These attacks assume that the attacker operates with minimal, and\nsometimes no knowledge at all about the ML system."
+      }
+    ],
+    "origin": "day6"
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "type": "direct",
+    "question": "How many iterations of gradient descent does the Fast Gradient Sign Method (FGSM) perform?",
+    "expected_answer": "A single iteration of gradient descent.",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "nist-ai-100-2e2025",
+        "page": 25,
+        "evidence": "the Fast Gradient\nSign Method (FGSM), which performs a single iteration of gradient descent for solving the\noptimization."
+      }
+    ],
+    "origin": "day6"
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "type": "paraphrase",
+    "question": "How did researchers fool a traffic sign recognition model in the physical world?",
+    "expected_answer": "By physically applying black and white stickers to the road signs.",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "nist-ai-100-2e2025",
+        "page": 26,
+        "evidence": "The attack is applied\nto evade a road sign detection classifier by physically applying black and white stickers to\nthe road signs."
+      }
+    ],
+    "origin": "day6"
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "type": "direct",
+    "question": "In score-based black-box evasion attacks, which popular method estimates the model's gradients without computing derivatives?",
+    "expected_answer": "Zeroth-order optimization.",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "nist-ai-100-2e2025",
+        "page": 28,
+        "evidence": "A popular method is zeroth-order optimization, which estimates the model’s\ngradients without explicitly computing derivatives"
+      }
+    ],
+    "origin": "day6"
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "type": "condition",
+    "question": "Under what condition does the RONI (Region of Non-Interest) method exclude a sample from training?",
+    "expected_answer": "When the model's accuracy decreases when the sample is added.",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "nist-ai-100-2e2025",
+        "page": 34,
+        "evidence": "the Region of Non-Interest (RONI) method, which examines each sample\nand excludes it from training if the accuracy of the model decreases"
+      }
+    ],
+    "origin": "day6"
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "type": "direct",
+    "question": "What was the first backdoor poisoning attack, and who proposed it?",
+    "expected_answer": "BadNets, proposed by Gu et al. in 2017.",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "nist-ai-100-2e2025",
+        "page": 35,
+        "evidence": "In 2017, Gu et al. [148]\nproposed BadNets, the first backdoor poisoning attack."
+      }
+    ],
+    "origin": "day6"
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "type": "paraphrase",
+    "question": "Which Microsoft chatbot is the earliest documented case of an attack that corrupted a model through its training data in the real world?",
+    "expected_answer": "The Tay.AI chatbot, released on Twitter in 2016.",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "nist-ai-100-2e2025",
+        "page": 40,
+        "evidence": "The first example of a real-world poisoning attack is the Tay.AI chatbot, a chatbot released\nby Microsoft on Twitter in 2016"
+      }
+    ],
+    "origin": "day6"
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "type": "condition",
+    "question": "In the loss-based membership inference attack, when is a target sample judged to be part of the training set?",
+    "expected_answer": "When its loss is lower than a fixed threshold (the average loss of training examples).",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "nist-ai-100-2e2025",
+        "page": 43,
+        "evidence": "the attack\ndetermines that a target sample is part of training if its loss is lower than a fixed threshold"
+      }
+    ],
+    "origin": "day6"
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "type": "condition",
+    "question": "Does differential privacy protect against model extraction attacks? Why or why not?",
+    "expected_answer": "No; DP is designed to protect the training data, not the model.",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "nist-ai-100-2e2025",
+        "page": 45,
+        "evidence": "DP\ndoes not provide guarantees against model extraction attacks, as this method is designed\nto protect the training data, not the model."
+      }
+    ],
+    "origin": "day6"
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "type": "filter",
+    "question": "In generative AI systems, how can an attacker poison a training dataset that is published as a list of URLs?",
+    "expected_answer": "By purchasing domains that serve those URLs and replacing the site content with malicious content.",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "nist-ai-100-2e2025",
+        "page": 55,
+        "evidence": "attackers\nmay be able to purchase some of the domains that serve those URLs and replace the site\ncontent with their own malicious content"
+      }
+    ],
+    "filter": {
+      "taxonomy": "generative_ai"
+    },
+    "origin": "day6"
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "type": "filter",
+    "question": "For predictive AI models offered through MLaaS, what is the goal of a model extraction attack?",
+    "expected_answer": "To extract information about the model architecture and parameters by submitting queries.",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "nist-ai-100-2e2025",
+        "page": 44,
+        "evidence": "The goal of an\nattacker performing a MODEL EXTRACTION attack is to extract information about the model\narchitecture and parameters by submitting queries to the ML model trained by an MLaaS"
+      }
+    ],
+    "filter": {
+      "taxonomy": "predictive_ai"
+    },
+    "origin": "day6"
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "type": "filter",
+    "question": "For generative AI models trained on web-scale data, how can downloaded training data be checked for integrity?",
+    "expected_answer": "The provider publishes cryptographic hashes and the downloader verifies the training data.",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "nist-ai-100-2e2025",
+        "page": 56,
+        "evidence": "That is, the provider publishes\ncryptographic hashes, and the downloader verifies the training data."
+      }
+    ],
+    "filter": {
+      "taxonomy": "generative_ai"
+    },
+    "origin": "day6"
+  },
+  {
+    "id": "q16",
+    "split": "test",
+    "type": "paraphrase",
+    "question": "Which jailbreak technique simply tells the model never to say no or decline?",
+    "expected_answer": "Refusal suppression.",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "nist-ai-100-2e2025",
+        "page": 57,
+        "evidence": "Adversaries may explicitly instruct the model to avoid\ngenerating refusals or denials in its output."
+      }
+    ],
+    "origin": "day6"
+  },
+  {
+    "id": "q17",
+    "split": "test",
+    "type": "direct",
+    "question": "What attacker capability enables indirect prompt injection attacks?",
+    "expected_answer": "Resource control, which lets the attacker inject prompts without directly interacting with the application.",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "nist-ai-100-2e2025",
+        "page": 63,
+        "evidence": "INDIRECT PROMPT INJECTION\nattacks are enabled by RESOURCE CONTROL that allows an attacker to indirectly (or remotely)\ninject system prompts without directly interacting with the application"
+      }
+    ],
+    "origin": "day6"
+  },
+  {
+    "id": "q18",
+    "split": "test",
+    "type": "paraphrase",
+    "question": "Does compressing a model to 8-bit or 4-bit weights make it safer against adversarial attacks?",
+    "expected_answer": "No; quantized models inherit the original model's vulnerabilities and add new weaknesses.",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "nist-ai-100-2e2025",
+        "page": 72,
+        "evidence": "quantized models inherit the vulnerabilities of the original models and introduce\nadditional weaknesses that make them vulnerable to adversarial attacks."
+      }
+    ],
+    "origin": "day6"
+  },
+  {
+    "id": "q19",
+    "split": "test",
+    "type": "filter",
+    "question": "In generative AI language models, at what rate can information like email addresses be revealed?",
+    "expected_answer": "At rates exceeding 8% for certain models.",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "nist-ai-100-2e2025",
+        "page": 59,
+        "evidence": "information like email addresses can be revealed at rates exceeding 8% for certain"
+      }
+    ],
+    "filter": {
+      "taxonomy": "generative_ai"
+    },
+    "origin": "day6"
+  },
+  {
+    "id": "q20",
+    "split": "test",
+    "type": "filter",
+    "question": "For predictive AI models trained with federated learning, how can compromised clients poison the global model?",
+    "expected_answer": "By sending malicious model updates to the aggregating server.",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "nist-ai-100-2e2025",
+        "page": 39,
+        "evidence": "Compromised clients can send malicious updates to poison the\nglobal model."
+      }
+    ],
+    "filter": {
+      "taxonomy": "predictive_ai"
+    },
+    "origin": "day6"
+  },
+  {
+    "id": "u01",
+    "split": "dev",
+    "type": "unanswerable",
+    "question": "What learning rate and number of training epochs does the report recommend when using adversarial training against evasion attacks?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Adversarial training is described only as a method (p24: iteratively generating and inserting adversarial examples with their correct labels at training time); the report gives no training hyperparameters.",
+    "absence_check": {
+      "terms_absent": [
+        "learning rate",
+        "epoch",
+        "batch size"
+      ],
+      "related_pages": [
+        24
+      ]
+    },
+    "origin": "day7"
+  },
+  {
+    "id": "u02",
+    "split": "dev",
+    "type": "unanswerable",
+    "question": "How much money did Microsoft lose because of the Tay.AI chatbot poisoning incident?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "p40 describes the Tay.AI incident (released by Microsoft on Twitter in 2016, poisoned in under 24 hours and taken down) but reports no financial loss.",
+    "absence_check": {
+      "terms_absent": [
+        "Tay.AI cost",
+        "Microsoft lost",
+        "million dollars"
+      ],
+      "related_pages": [
+        40
+      ]
+    },
+    "origin": "day7"
+  },
+  {
+    "id": "u03",
+    "split": "test",
+    "type": "unanswerable",
+    "question": "Which version of Meta's Llama model was jailbroken with the \"Do Anything Now\" (DAN) role-play prompt?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "p58 lists DAN only as an example of a role-play jailbreak strategy; no Llama model (or any specific model version) is named in the indexed pages.",
+    "absence_check": {
+      "terms_absent": [
+        "Llama",
+        "LLaMA"
+      ],
+      "related_pages": [
+        58
+      ]
+    },
+    "origin": "day7"
+  },
+  {
+    "id": "u04",
+    "split": "test",
+    "type": "unanswerable",
+    "question": "Which article of the EU AI Act requires providers of high-risk AI systems to protect against data poisoning?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "The indexed pages never mention the EU AI Act or any EU legislation; the only reference to regulation is generic (p69: formal methods are mandated by regulations in fields such as avionics).",
+    "absence_check": {
+      "terms_absent": [
+        "EU AI Act",
+        "AI Act",
+        "European",
+        "Article"
+      ],
+      "related_pages": [
+        69
+      ]
+    },
+    "origin": "day7"
+  }
+]

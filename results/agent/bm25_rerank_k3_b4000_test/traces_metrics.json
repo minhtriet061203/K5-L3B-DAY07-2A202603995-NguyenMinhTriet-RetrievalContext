@@ -1,0 +1,535 @@
+[
+  {
+    "query_id": "q16",
+    "status": "answered",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "bm25_rerank",
+        "query": "jailbreak technique tells the model never to say no or decline",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p056:c03",
+            "page": 56,
+            "score": 0.312
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p063:c01",
+            "page": 63,
+            "score": -1.2699
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p058:c02",
+            "page": 58,
+            "score": -1.4701
+          }
+        ],
+        "shown": [
+          "B:nist-ai-100-2e2025:p056:c03",
+          "B:nist-ai-100-2e2025:p063:c01",
+          "B:nist-ai-100-2e2025:p058:c02"
+        ],
+        "duplicate": [],
+        "dropped_budget": [],
+        "ms": 14316.3
+      },
+      {
+        "event": "citations_appended",
+        "ids": [
+          "B:nist-ai-100-2e2025:p056:c03"
+        ]
+      },
+      {
+        "event": "answer",
+        "via": "tool"
+      }
+    ],
+    "citations": [
+      "B:nist-ai-100-2e2025:p056:c03"
+    ],
+    "searches": 1,
+    "config_name": "bm25_rerank_k3_b4000",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  {
+    "query_id": "q17",
+    "status": "answered",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "bm25_rerank",
+        "query": "indirect prompt injection attacks attacker capability",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p064:c02",
+            "page": 64,
+            "score": 8.3078
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p063:c04",
+            "page": 63,
+            "score": 7.283
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p065:c00",
+            "page": 65,
+            "score": 7.2464
+          }
+        ],
+        "shown": [
+          "B:nist-ai-100-2e2025:p064:c02",
+          "B:nist-ai-100-2e2025:p063:c04",
+          "B:nist-ai-100-2e2025:p065:c00"
+        ],
+        "duplicate": [],
+        "dropped_budget": [],
+        "ms": 841.4
+      },
+      {
+        "event": "citations_appended",
+        "ids": [
+          "B:nist-ai-100-2e2025:p063:c04"
+        ]
+      },
+      {
+        "event": "answer",
+        "via": "tool"
+      }
+    ],
+    "citations": [
+      "B:nist-ai-100-2e2025:p063:c04"
+    ],
+    "searches": 1,
+    "config_name": "bm25_rerank_k3_b4000",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  {
+    "query_id": "q18",
+    "status": "abstain",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "bm25_rerank",
+        "query": "compressing model 8-bit 4-bit weights safer adversarial attacks",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p072:c01",
+            "page": 72,
+            "score": -0.2282
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p025:c01",
+            "page": 25,
+            "score": -1.6376
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p064:c03",
+            "page": 64,
+            "score": -2.4348
+          }
+        ],
+        "shown": [
+          "B:nist-ai-100-2e2025:p072:c01",
+          "B:nist-ai-100-2e2025:p025:c01",
+          "B:nist-ai-100-2e2025:p064:c03"
+        ],
+        "duplicate": [],
+        "dropped_budget": [],
+        "ms": 946.5
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "bm25_rerank",
+        "query": "quantization safety adversarial attacks",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p072:c02",
+            "page": 72,
+            "score": 4.6443
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p027:c03",
+            "page": 27,
+            "score": -0.7023
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p024:c04",
+            "page": 24,
+            "score": -0.7701
+          }
+        ],
+        "shown": [
+          "B:nist-ai-100-2e2025:p072:c02",
+          "B:nist-ai-100-2e2025:p027:c03",
+          "B:nist-ai-100-2e2025:p024:c04"
+        ],
+        "duplicate": [],
+        "dropped_budget": [],
+        "ms": 1196.5
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "bm25_rerank",
+        "query": "quantization adversarial robustness weaknesses",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p072:c02",
+            "page": 72,
+            "score": 6.1916
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p031:c02",
+            "page": 31,
+            "score": 1.3104
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p072:c00",
+            "page": 72,
+            "score": 1.2933
+          }
+        ],
+        "shown": [],
+        "duplicate": [
+          "B:nist-ai-100-2e2025:p072:c02"
+        ],
+        "dropped_budget": [
+          "B:nist-ai-100-2e2025:p031:c02",
+          "B:nist-ai-100-2e2025:p072:c00"
+        ],
+        "ms": 845.9
+      },
+      {
+        "event": "abstain",
+        "reason": "The passages indicate that quantized models, including those with 8-bit or 4-bit weights, inherit vulnerabilities from original models and may introduce additional weaknesses, making them potentially more vulnerable to adversarial attacks rather than safer."
+      }
+    ],
+    "citations": [],
+    "searches": 3,
+    "config_name": "bm25_rerank_k3_b4000",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  {
+    "query_id": "q19",
+    "status": "answered",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "bm25_rerank",
+        "query": "generative AI language models email addresses rate of information reveal",
+        "filter": {
+          "taxonomy": "generative_ai"
+        },
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p059:c02",
+            "page": 59,
+            "score": 3.4047
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p047:c00",
+            "page": 47,
+            "score": -0.287
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p059:c01",
+            "page": 59,
+            "score": -3.6452
+          }
+        ],
+        "shown": [
+          "B:nist-ai-100-2e2025:p059:c02",
+          "B:nist-ai-100-2e2025:p047:c00",
+          "B:nist-ai-100-2e2025:p059:c01"
+        ],
+        "duplicate": [],
+        "dropped_budget": [],
+        "ms": 870.1
+      },
+      {
+        "event": "citations_appended",
+        "ids": [
+          "B:nist-ai-100-2e2025:p059:c02"
+        ]
+      },
+      {
+        "event": "answer",
+        "via": "tool"
+      }
+    ],
+    "citations": [
+      "B:nist-ai-100-2e2025:p059:c02"
+    ],
+    "searches": 1,
+    "config_name": "bm25_rerank_k3_b4000",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  {
+    "query_id": "q20",
+    "status": "answered",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "bm25_rerank",
+        "query": "federated learning compromised clients poison global model",
+        "filter": {
+          "taxonomy": "predictive_ai"
+        },
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p039:c00",
+            "page": 39,
+            "score": 6.916
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p033:c04",
+            "page": 33,
+            "score": 4.8453
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p039:c01",
+            "page": 39,
+            "score": 3.8313
+          }
+        ],
+        "shown": [
+          "B:nist-ai-100-2e2025:p039:c00",
+          "B:nist-ai-100-2e2025:p033:c04",
+          "B:nist-ai-100-2e2025:p039:c01"
+        ],
+        "duplicate": [],
+        "dropped_budget": [],
+        "ms": 1038.6
+      },
+      {
+        "event": "answer",
+        "via": "tool"
+      }
+    ],
+    "citations": [
+      "B:nist-ai-100-2e2025:p039:c00",
+      "B:nist-ai-100-2e2025:p039:c01"
+    ],
+    "searches": 1,
+    "config_name": "bm25_rerank_k3_b4000",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  {
+    "query_id": "u03",
+    "status": "abstain",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "bm25_rerank",
+        "query": "Meta Llama model Do Anything Now DAN jailbroken version",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p058:c00",
+            "page": 58,
+            "score": -3.2636
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p058:c02",
+            "page": 58,
+            "score": -4.3025
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p035:c00",
+            "page": 35,
+            "score": -9.9152
+          }
+        ],
+        "shown": [
+          "B:nist-ai-100-2e2025:p058:c00",
+          "B:nist-ai-100-2e2025:p058:c02",
+          "B:nist-ai-100-2e2025:p035:c00"
+        ],
+        "duplicate": [],
+        "dropped_budget": [],
+        "ms": 1087.1
+      },
+      {
+        "event": "abstain",
+        "reason": "The passages did not specify which version of Meta's Llama model was jailbroken with the DAN prompt."
+      }
+    ],
+    "citations": [],
+    "searches": 1,
+    "config_name": "bm25_rerank_k3_b4000",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  {
+    "query_id": "u04",
+    "status": "abstain",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "bm25_rerank",
+        "query": "EU AI Act data poisoning high-risk AI systems article",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p017:c00",
+            "page": 17,
+            "score": -3.3994
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p014:c01",
+            "page": 14,
+            "score": -3.4421
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p054:c03",
+            "page": 54,
+            "score": -3.875
+          }
+        ],
+        "shown": [
+          "B:nist-ai-100-2e2025:p017:c00",
+          "B:nist-ai-100-2e2025:p014:c01",
+          "B:nist-ai-100-2e2025:p054:c03"
+        ],
+        "duplicate": [],
+        "dropped_budget": [],
+        "ms": 912.1
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "bm25_rerank",
+        "query": "EU AI Act article high-risk AI systems",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p014:c01",
+            "page": 14,
+            "score": -1.7358
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p073:c03",
+            "page": 73,
+            "score": -2.5437
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p072:c03",
+            "page": 72,
+            "score": -3.0655
+          }
+        ],
+        "shown": [
+          "B:nist-ai-100-2e2025:p073:c03"
+        ],
+        "duplicate": [
+          "B:nist-ai-100-2e2025:p014:c01"
+        ],
+        "dropped_budget": [
+          "B:nist-ai-100-2e2025:p072:c03"
+        ],
+        "ms": 795.4
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "bm25_rerank",
+        "query": "EU AI Act protect against data poisoning",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p071:c00",
+            "page": 71,
+            "score": 2.0435
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p038:c00",
+            "page": 38,
+            "score": 0.7822
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p036:c05",
+            "page": 36,
+            "score": -2.5893
+          }
+        ],
+        "shown": [
+          "B:nist-ai-100-2e2025:p036:c05"
+        ],
+        "duplicate": [],
+        "dropped_budget": [
+          "B:nist-ai-100-2e2025:p071:c00",
+          "B:nist-ai-100-2e2025:p038:c00"
+        ],
+        "ms": 835.3
+      },
+      {
+        "event": "search_limit",
+        "query": "EU AI Act"
+      },
+      {
+        "event": "abstain",
+        "reason": "The passages do not provide specific information about which article of the EU AI Act addresses data poisoning protections for high-risk AI systems."
+      }
+    ],
+    "citations": [],
+    "searches": 3,
+    "config_name": "bm25_rerank_k3_b4000",
+    "model": "gpt-4o-mini-2024-07-18"
+  }
+]

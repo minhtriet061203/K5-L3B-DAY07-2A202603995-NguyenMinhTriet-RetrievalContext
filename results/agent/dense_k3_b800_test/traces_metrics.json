@@ -1,0 +1,776 @@
+[
+  {
+    "query_id": "q16",
+    "status": "abstain",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "dense",
+        "query": "jailbreak technique never say no decline",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p056:c03",
+            "page": 56,
+            "score": 0.716852
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p063:c01",
+            "page": 63,
+            "score": 0.633533
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p057:c04",
+            "page": 57,
+            "score": 0.623818
+          }
+        ],
+        "shown": [
+          "B:nist-ai-100-2e2025:p063:c01"
+        ],
+        "duplicate": [],
+        "dropped_budget": [
+          "B:nist-ai-100-2e2025:p056:c03",
+          "B:nist-ai-100-2e2025:p057:c04"
+        ],
+        "ms": 113.4
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "dense",
+        "query": "jailbreak technique refusal decline",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p056:c03",
+            "page": 56,
+            "score": 0.711171
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p057:c04",
+            "page": 57,
+            "score": 0.630234
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p063:c01",
+            "page": 63,
+            "score": 0.624304
+          }
+        ],
+        "shown": [],
+        "duplicate": [
+          "B:nist-ai-100-2e2025:p063:c01"
+        ],
+        "dropped_budget": [
+          "B:nist-ai-100-2e2025:p056:c03",
+          "B:nist-ai-100-2e2025:p057:c04"
+        ],
+        "ms": 85.8
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "dense",
+        "query": "jailbreak model compliance refusal",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p056:c03",
+            "page": 56,
+            "score": 0.746625
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p062:c03",
+            "page": 62,
+            "score": 0.652853
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p057:c03",
+            "page": 57,
+            "score": 0.643516
+          }
+        ],
+        "shown": [],
+        "duplicate": [],
+        "dropped_budget": [
+          "B:nist-ai-100-2e2025:p056:c03",
+          "B:nist-ai-100-2e2025:p062:c03",
+          "B:nist-ai-100-2e2025:p057:c03"
+        ],
+        "ms": 65.1
+      },
+      {
+        "event": "abstain",
+        "reason": "The passages do not provide information about a jailbreak technique that directly tells the model to never say no or decline."
+      }
+    ],
+    "citations": [],
+    "searches": 3,
+    "config_name": "dense_k3_b800",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  {
+    "query_id": "q17",
+    "status": "abstain",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "dense",
+        "query": "indirect prompt injection attacks attacker capability",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p065:c00",
+            "page": 65,
+            "score": 0.843947
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p066:c04",
+            "page": 66,
+            "score": 0.84297
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p064:c02",
+            "page": 64,
+            "score": 0.831366
+          }
+        ],
+        "shown": [
+          "B:nist-ai-100-2e2025:p066:c04"
+        ],
+        "duplicate": [],
+        "dropped_budget": [
+          "B:nist-ai-100-2e2025:p065:c00",
+          "B:nist-ai-100-2e2025:p064:c02"
+        ],
+        "ms": 76.0
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "dense",
+        "query": "attacker capability indirect prompt injection",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p066:c04",
+            "page": 66,
+            "score": 0.840962
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p065:c00",
+            "page": 65,
+            "score": 0.839165
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p064:c02",
+            "page": 64,
+            "score": 0.831616
+          }
+        ],
+        "shown": [],
+        "duplicate": [
+          "B:nist-ai-100-2e2025:p066:c04"
+        ],
+        "dropped_budget": [
+          "B:nist-ai-100-2e2025:p065:c00",
+          "B:nist-ai-100-2e2025:p064:c02"
+        ],
+        "ms": 70.5
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "dense",
+        "query": "indirect prompt injection",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p066:c04",
+            "page": 66,
+            "score": 0.804631
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p064:c02",
+            "page": 64,
+            "score": 0.785059
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p065:c00",
+            "page": 65,
+            "score": 0.769712
+          }
+        ],
+        "shown": [],
+        "duplicate": [
+          "B:nist-ai-100-2e2025:p066:c04"
+        ],
+        "dropped_budget": [
+          "B:nist-ai-100-2e2025:p064:c02",
+          "B:nist-ai-100-2e2025:p065:c00"
+        ],
+        "ms": 77.9
+      },
+      {
+        "event": "abstain",
+        "reason": "The passages do not provide specific information about the attacker capability that enables indirect prompt injection attacks."
+      }
+    ],
+    "citations": [],
+    "searches": 3,
+    "config_name": "dense_k3_b800",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  {
+    "query_id": "q18",
+    "status": "abstain",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "dense",
+        "query": "8-bit 4-bit compression adversarial attacks safety",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p030:c01",
+            "page": 30,
+            "score": 0.772994
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p028:c03",
+            "page": 28,
+            "score": 0.770756
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p072:c02",
+            "page": 72,
+            "score": 0.765043
+          }
+        ],
+        "shown": [
+          "B:nist-ai-100-2e2025:p028:c03"
+        ],
+        "duplicate": [],
+        "dropped_budget": [
+          "B:nist-ai-100-2e2025:p030:c01",
+          "B:nist-ai-100-2e2025:p072:c02"
+        ],
+        "ms": 84.3
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "dense",
+        "query": "model compression impact on adversarial attacks",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p028:c03",
+            "page": 28,
+            "score": 0.796044
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p072:c02",
+            "page": 72,
+            "score": 0.794959
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p024:c03",
+            "page": 24,
+            "score": 0.794736
+          }
+        ],
+        "shown": [],
+        "duplicate": [
+          "B:nist-ai-100-2e2025:p028:c03"
+        ],
+        "dropped_budget": [
+          "B:nist-ai-100-2e2025:p072:c02",
+          "B:nist-ai-100-2e2025:p024:c03"
+        ],
+        "ms": 63.5
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "dense",
+        "query": "compressing model weights 8-bit 4-bit adversarial robustness",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p028:c03",
+            "page": 28,
+            "score": 0.778601
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p072:c02",
+            "page": 72,
+            "score": 0.763267
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p025:c03",
+            "page": 25,
+            "score": 0.760013
+          }
+        ],
+        "shown": [],
+        "duplicate": [
+          "B:nist-ai-100-2e2025:p028:c03"
+        ],
+        "dropped_budget": [
+          "B:nist-ai-100-2e2025:p072:c02",
+          "B:nist-ai-100-2e2025:p025:c03"
+        ],
+        "ms": 85.4
+      },
+      {
+        "event": "abstain",
+        "reason": "The report does not provide information on whether compressing model weights to 8-bit or 4-bit affects safety against adversarial attacks."
+      }
+    ],
+    "citations": [],
+    "searches": 3,
+    "config_name": "dense_k3_b800",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  {
+    "query_id": "q19",
+    "status": "abstain",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "dense",
+        "query": "generative AI language models email addresses information reveal rate",
+        "filter": {
+          "taxonomy": "generative_ai"
+        },
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p059:c02",
+            "page": 59,
+            "score": 0.814969
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p059:c01",
+            "page": 59,
+            "score": 0.715712
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p047:c00",
+            "page": 47,
+            "score": 0.712353
+          }
+        ],
+        "shown": [
+          "B:nist-ai-100-2e2025:p059:c01"
+        ],
+        "duplicate": [],
+        "dropped_budget": [
+          "B:nist-ai-100-2e2025:p059:c02",
+          "B:nist-ai-100-2e2025:p047:c00"
+        ],
+        "ms": 81.3
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "dense",
+        "query": "training data extraction attacks generative language models email addresses",
+        "filter": {
+          "taxonomy": "generative_ai"
+        },
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p059:c01",
+            "page": 59,
+            "score": 0.837297
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p059:c00",
+            "page": 59,
+            "score": 0.813353
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p059:c02",
+            "page": 59,
+            "score": 0.803359
+          }
+        ],
+        "shown": [],
+        "duplicate": [
+          "B:nist-ai-100-2e2025:p059:c01"
+        ],
+        "dropped_budget": [
+          "B:nist-ai-100-2e2025:p059:c00",
+          "B:nist-ai-100-2e2025:p059:c02"
+        ],
+        "ms": 85.6
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "dense",
+        "query": "extraction rate sensitive training data generative language models",
+        "filter": {
+          "taxonomy": "generative_ai"
+        },
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p059:c01",
+            "page": 59,
+            "score": 0.785559
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p059:c02",
+            "page": 59,
+            "score": 0.772933
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p059:c00",
+            "page": 59,
+            "score": 0.712907
+          }
+        ],
+        "shown": [],
+        "duplicate": [
+          "B:nist-ai-100-2e2025:p059:c01"
+        ],
+        "dropped_budget": [
+          "B:nist-ai-100-2e2025:p059:c02",
+          "B:nist-ai-100-2e2025:p059:c00"
+        ],
+        "ms": 59.2
+      },
+      {
+        "event": "abstain",
+        "reason": "The passages do not specify a rate at which information like email addresses can be revealed in generative AI language models."
+      }
+    ],
+    "citations": [],
+    "searches": 3,
+    "config_name": "dense_k3_b800",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  {
+    "query_id": "q20",
+    "status": "abstain",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "dense",
+        "query": "federated learning compromised clients poison global model",
+        "filter": {
+          "taxonomy": "predictive_ai"
+        },
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p039:c03",
+            "page": 39,
+            "score": 0.823435
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p033:c04",
+            "page": 33,
+            "score": 0.812291
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p039:c00",
+            "page": 39,
+            "score": 0.800411
+          }
+        ],
+        "shown": [
+          "B:nist-ai-100-2e2025:p039:c03"
+        ],
+        "duplicate": [],
+        "dropped_budget": [
+          "B:nist-ai-100-2e2025:p033:c04",
+          "B:nist-ai-100-2e2025:p039:c00"
+        ],
+        "ms": 72.8
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "dense",
+        "query": "model poisoning attacks federated learning",
+        "filter": {
+          "taxonomy": "predictive_ai"
+        },
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p033:c04",
+            "page": 33,
+            "score": 0.898137
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p039:c03",
+            "page": 39,
+            "score": 0.876034
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p039:c00",
+            "page": 39,
+            "score": 0.868329
+          }
+        ],
+        "shown": [],
+        "duplicate": [
+          "B:nist-ai-100-2e2025:p039:c03"
+        ],
+        "dropped_budget": [
+          "B:nist-ai-100-2e2025:p033:c04",
+          "B:nist-ai-100-2e2025:p039:c00"
+        ],
+        "ms": 79.5
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "dense",
+        "query": "adversarial attacks federated learning model poisoning",
+        "filter": {
+          "taxonomy": "predictive_ai"
+        },
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p033:c04",
+            "page": 33,
+            "score": 0.866281
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p039:c03",
+            "page": 39,
+            "score": 0.859242
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p039:c00",
+            "page": 39,
+            "score": 0.844536
+          }
+        ],
+        "shown": [],
+        "duplicate": [
+          "B:nist-ai-100-2e2025:p039:c03"
+        ],
+        "dropped_budget": [
+          "B:nist-ai-100-2e2025:p033:c04",
+          "B:nist-ai-100-2e2025:p039:c00"
+        ],
+        "ms": 84.5
+      },
+      {
+        "event": "abstain",
+        "reason": "The passages do not provide specific details on how compromised clients poison the global model in federated learning."
+      }
+    ],
+    "citations": [],
+    "searches": 3,
+    "config_name": "dense_k3_b800",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  {
+    "query_id": "u03",
+    "status": "abstain",
+    "events": [
+      {
+        "event": "abstain",
+        "reason": "The requested information regarding which version of Meta's Llama model was jailbroken with the 'Do Anything Now' (DAN) role-play prompt is not present in the NIST report."
+      }
+    ],
+    "citations": [],
+    "searches": 0,
+    "config_name": "dense_k3_b800",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  {
+    "query_id": "u04",
+    "status": "abstain",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "dense",
+        "query": "EU AI Act data poisoning high-risk AI systems",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p039:c00",
+            "page": 39,
+            "score": 0.763554
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p040:c03",
+            "page": 40,
+            "score": 0.751075
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p055:c02",
+            "page": 55,
+            "score": 0.74969
+          }
+        ],
+        "shown": [
+          "B:nist-ai-100-2e2025:p039:c00"
+        ],
+        "duplicate": [],
+        "dropped_budget": [
+          "B:nist-ai-100-2e2025:p040:c03",
+          "B:nist-ai-100-2e2025:p055:c02"
+        ],
+        "ms": 68.0
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "dense",
+        "query": "EU AI Act high-risk AI systems providers data poisoning",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p039:c00",
+            "page": 39,
+            "score": 0.740864
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p055:c02",
+            "page": 55,
+            "score": 0.728897
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p032:c01",
+            "page": 32,
+            "score": 0.726395
+          }
+        ],
+        "shown": [],
+        "duplicate": [
+          "B:nist-ai-100-2e2025:p039:c00"
+        ],
+        "dropped_budget": [
+          "B:nist-ai-100-2e2025:p055:c02",
+          "B:nist-ai-100-2e2025:p032:c01"
+        ],
+        "ms": 63.5
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "dense",
+        "query": "EU AI Act",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p073:c04",
+            "page": 73,
+            "score": 0.616188
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p073:c03",
+            "page": 73,
+            "score": 0.611953
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p061:c03",
+            "page": 61,
+            "score": 0.608915
+          }
+        ],
+        "shown": [],
+        "duplicate": [],
+        "dropped_budget": [
+          "B:nist-ai-100-2e2025:p073:c04",
+          "B:nist-ai-100-2e2025:p073:c03",
+          "B:nist-ai-100-2e2025:p061:c03"
+        ],
+        "ms": 73.8
+      },
+      {
+        "event": "abstain",
+        "reason": "The report does not contain information about specific articles of the EU AI Act."
+      }
+    ],
+    "citations": [],
+    "searches": 3,
+    "config_name": "dense_k3_b800",
+    "model": "gpt-4o-mini-2024-07-18"
+  }
+]

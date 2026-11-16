@@ -1,0 +1,70 @@
+{
+  "run_at": "2026-11-16T08:37:56+00:00",
+  "config_name": "bm25_k3_b800",
+  "config": {
+    "method": "bm25",
+    "top_k": 3,
+    "budget": 800,
+    "max_searches": 3,
+    "filter_mode": "given"
+  },
+  "split": "dev",
+  "llm": {
+    "base_url": "https://api.openai.com/v1",
+    "model": "gpt-4o-mini-2024-07-18",
+    "temperature": null,
+    "min_interval_s": 0.0
+  },
+  "ids": [
+    "q01",
+    "q02",
+    "q03",
+    "q04",
+    "q05",
+    "q06",
+    "q07",
+    "q08",
+    "q09",
+    "q10",
+    "q11",
+    "q12",
+    "q13",
+    "q14",
+    "q15",
+    "u01",
+    "u02"
+  ],
+  "summary": {
+    "runs": 17,
+    "errors": 0,
+    "status": {
+      "answered": 3,
+      "abstain": 14
+    },
+    "tool_use": "17/17",
+    "searches_distribution": {
+      "1": 3,
+      "2": 1,
+      "3": 13
+    },
+    "llm_calls_distribution": {
+      "2": 3,
+      "3": 1,
+      "4": 12,
+      "5": 1
+    },
+    "context_evidence_rate": "4/15",
+    "answered_answerable": "3/15",
+    "false_refusal": "12/15",
+    "abstention_unanswerable": "2/2",
+    "answers_with_citation": "3/3",
+    "citation_ids_in_context": "3/3",
+    "invalid_citation_events": 0,
+    "median_latency_s": 4.15,
+    "prompt_tokens": 34016,
+    "completion_tokens": 1611,
+    "avg_context_chars": 555,
+    "cost_usd": 0.00607,
+    "cost_note": "tokens x list price: in $0.15/1M, out $0.6/1M; retrieval/embedding run locally ($0)"
+  }
+}

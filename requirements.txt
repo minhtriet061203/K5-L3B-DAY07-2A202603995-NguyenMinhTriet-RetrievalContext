@@ -1,0 +1,8 @@
+# Same versions as Day 6 (results/requirements_lock.txt) so query vectors match the index.
+psycopg[binary]==3.3.8
+python-dotenv==1.2.4
+sentence-transformers==6.3.0
+torch==2.14.1
+transformers==5.20.2
+numpy==2.2.6
+openai>=1.50

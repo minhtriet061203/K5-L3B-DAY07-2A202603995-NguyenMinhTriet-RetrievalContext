@@ -1,0 +1,80 @@
+{
+  "run_at": "2026-11-16T07:24:52+00:00",
+  "split": "dev",
+  "filter_rule": "user-given question filter (Day 6 strategy C)",
+  "top_k_reported": 3,
+  "depth": 10,
+  "hybrid": {
+    "fusion": "RRF",
+    "k": 60,
+    "candidates_per_retriever": 20
+  },
+  "bm25": {
+    "k1": 1.5,
+    "b": 0.75,
+    "tokenizer": "NFC, de-hyphenate line breaks, lower, \\w+, stopwords"
+  },
+  "dense_store": {
+    "strategy": "B",
+    "rows": 265,
+    "column_type": "vector(384)",
+    "embedding_model": "BAAI/bge-small-en-v1.5",
+    "pgvector": "0.8.7"
+  },
+  "embedding": {
+    "provider": "sentence-transformers (local)",
+    "model": "BAAI/bge-small-en-v1.5",
+    "dimensions": 384,
+    "max_seq_length": 512,
+    "normalize_embeddings": true,
+    "query_prefix": "Represent this sentence for searching relevant passages: ",
+    "document_prefix": "",
+    "device": "cpu",
+    "sentence_transformers_version": "6.3.0",
+    "torch_version": "2.14.1+cpu"
+  },
+  "summary": [
+    {
+      "method": "dense",
+      "N_answerable": 15,
+      "hit1": "11/15",
+      "hit3": "12/15",
+      "hit10": "14/15",
+      "mrr10": 0.781,
+      "context_evidence": "4/15",
+      "budget_chars": 800,
+      "avg_context_chars": 499,
+      "median_latency_ms": 100.2,
+      "errors": 0,
+      "cost_usd": 0.0
+    },
+    {
+      "method": "bm25",
+      "N_answerable": 15,
+      "hit1": "13/15",
+      "hit3": "15/15",
+      "hit10": "15/15",
+      "mrr10": 0.922,
+      "context_evidence": "5/15",
+      "budget_chars": 800,
+      "avg_context_chars": 598,
+      "median_latency_ms": 1.2,
+      "errors": 0,
+      "cost_usd": 0.0
+    },
+    {
+      "method": "hybrid_rrf",
+      "N_answerable": 15,
+      "hit1": "11/15",
+      "hit3": "13/15",
+      "hit10": "15/15",
+      "mrr10": 0.827,
+      "context_evidence": "4/15",
+      "budget_chars": 800,
+      "avg_context_chars": 484,
+      "median_latency_ms": 94.3,
+      "errors": 0,
+      "cost_usd": 0.0
+    }
+  ]
+}

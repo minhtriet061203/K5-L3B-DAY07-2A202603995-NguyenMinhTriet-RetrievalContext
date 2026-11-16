@@ -1,0 +1,56 @@
+{
+  "run_at": "2026-11-16T08:58:21+00:00",
+  "config_name": "dense_k3_b800",
+  "config": {
+    "method": "dense",
+    "top_k": 3,
+    "budget": 800,
+    "max_searches": 3,
+    "filter_mode": "given"
+  },
+  "split": "test",
+  "llm": {
+    "base_url": "https://api.openai.com/v1",
+    "model": "gpt-4o-mini-2024-07-18",
+    "temperature": null,
+    "min_interval_s": 0.0
+  },
+  "ids": [
+    "q16",
+    "q17",
+    "q18",
+    "q19",
+    "q20",
+    "u03",
+    "u04"
+  ],
+  "summary": {
+    "runs": 7,
+    "errors": 0,
+    "status": {
+      "abstain": 7
+    },
+    "tool_use": "6/7",
+    "searches_distribution": {
+      "0": 1,
+      "3": 6
+    },
+    "llm_calls_distribution": {
+      "1": 1,
+      "4": 6
+    },
+    "context_evidence_rate": "0/5",
+    "answered_answerable": "0/5",
+    "false_refusal": "5/5",
+    "abstention_unanswerable": "2/2",
+    "answers_with_citation": "0/0",
+    "citation_ids_in_context": "0/0",
+    "invalid_citation_events": 0,
+    "median_latency_s": 4.37,
+    "prompt_tokens": 14380,
+    "completion_tokens": 620,
+    "avg_context_chars": 533,
+    "cost_usd": 0.00253,
+    "cost_note": "tokens x list price: in $0.15/1M, out $0.6/1M; retrieval/embedding run locally ($0)"
+  }
+}

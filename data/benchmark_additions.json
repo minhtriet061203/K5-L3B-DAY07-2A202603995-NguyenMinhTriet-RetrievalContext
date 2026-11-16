@@ -1,0 +1,42 @@
+[
+  {
+    "id": "u01",
+    "split": "dev",
+    "type": "unanswerable",
+    "question": "What learning rate and number of training epochs does the report recommend when using adversarial training against evasion attacks?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Adversarial training is described only as a method (p24: iteratively generating and inserting adversarial examples with their correct labels at training time); the report gives no training hyperparameters.",
+    "absence_check": {"terms_absent": ["learning rate", "epoch", "batch size"], "related_pages": [24]}
+  },
+  {
+    "id": "u02",
+    "split": "dev",
+    "type": "unanswerable",
+    "question": "How much money did Microsoft lose because of the Tay.AI chatbot poisoning incident?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "p40 describes the Tay.AI incident (released by Microsoft on Twitter in 2016, poisoned in under 24 hours and taken down) but reports no financial loss.",
+    "absence_check": {"terms_absent": ["Tay.AI cost", "Microsoft lost", "million dollars"], "related_pages": [40]}
+  },
+  {
+    "id": "u03",
+    "split": "test",
+    "type": "unanswerable",
+    "question": "Which version of Meta's Llama model was jailbroken with the \"Do Anything Now\" (DAN) role-play prompt?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "p58 lists DAN only as an example of a role-play jailbreak strategy; no Llama model (or any specific model version) is named in the indexed pages.",
+    "absence_check": {"terms_absent": ["Llama", "LLaMA"], "related_pages": [58]}
+  },
+  {
+    "id": "u04",
+    "split": "test",
+    "type": "unanswerable",
+    "question": "Which article of the EU AI Act requires providers of high-risk AI systems to protect against data poisoning?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "The indexed pages never mention the EU AI Act or any EU legislation; the only reference to regulation is generic (p69: formal methods are mandated by regulations in fields such as avionics).",
+    "absence_check": {"terms_absent": ["EU AI Act", "AI Act", "European", "Article"], "related_pages": [69]}
+  }
+]

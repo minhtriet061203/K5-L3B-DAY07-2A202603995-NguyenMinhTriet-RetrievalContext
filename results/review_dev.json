@@ -1,0 +1,430 @@
+{
+  "_note": "Nhãn do AI (Claude) soạn nháp ngày 2026-11-16; người dùng đã đọc và XÁC NHẬN không sửa ngày 2026-11-16.",
+  "_schema": "query_id, config, answer_grade 0/1/2 (câu có đáp án) hoặc abstention_correct (câu thiếu evidence), citation_support: một bool cho mỗi citation theo thứ tự trong trace, reason.",
+  "reviews": [
+    {
+      "query_id": "q01",
+      "config": "bm25_k3_b4000",
+      "answer_grade": 2,
+      "citations": [
+        "B:nist-ai-100-2e2025:p014:c01"
+      ],
+      "citation_support": [
+        true
+      ],
+      "reason": "p014:c01: 'AML studies attacks against ML systems that exploit the statistical, data-based nature of ML systems' — khớp đáp án; câu thêm về high-stakes cũng có trong chunk."
+    },
+    {
+      "query_id": "q02",
+      "config": "bm25_k3_b4000",
+      "answer_grade": 2,
+      "citations": [
+        "B:nist-ai-100-2e2025:p017:c00"
+      ],
+      "citation_support": [
+        true
+      ],
+      "reason": "p017:c00: 'The attacker's objectives ... availability breakdown, integrity violation, and privacy compromise' — evidence thay thế hợp lệ (gold khai báo p19)."
+    },
+    {
+      "query_id": "q03",
+      "config": "bm25_k3_b4000",
+      "answer_grade": 2,
+      "citations": [
+        "B:nist-ai-100-2e2025:p020:c00"
+      ],
+      "citation_support": [
+        true
+      ],
+      "reason": "p020:c00: 'Backdoor attacks are the only attacks in the literature that require both training and testing data control.'"
+    },
+    {
+      "query_id": "q04",
+      "config": "bm25_k3_b4000",
+      "answer_grade": 2,
+      "citations": [
+        "B:nist-ai-100-2e2025:p022:c01"
+      ],
+      "citation_support": [
+        true
+      ],
+      "reason": "p022:c01: 'operates with minimal, and sometimes no knowledge at all about the ML system'; ý query access cũng có trong chunk."
+    },
+    {
+      "query_id": "q05",
+      "config": "bm25_k3_b4000",
+      "answer_grade": 2,
+      "citations": [
+        "B:nist-ai-100-2e2025:p025:c04"
+      ],
+      "citation_support": [
+        true
+      ],
+      "reason": "p025:c04: 'FGSM, which performs a single iteration of gradient descent'; ý extension iterative FGSM cũng có."
+    },
+    {
+      "query_id": "q06",
+      "config": "bm25_k3_b4000",
+      "answer_grade": 2,
+      "citations": [
+        "B:nist-ai-100-2e2025:p026:c02"
+      ],
+      "citation_support": [
+        true
+      ],
+      "reason": "p026:c02: 'physically applying black and white stickers to the road signs'."
+    },
+    {
+      "query_id": "q07",
+      "config": "bm25_k3_b4000",
+      "answer_grade": 0,
+      "citations": [
+        "B:nist-ai-100-2e2025:p028:c02"
+      ],
+      "citation_support": [
+        false
+      ],
+      "reason": "SAI: trả lời 'Boundary Attack'. p028:c02 mô tả decision-based attacks, không phải score-based; đáp án đúng 'zeroth-order optimization' nằm ở p028:c01 (không có trong context). Citation không hỗ trợ."
+    },
+    {
+      "query_id": "q08",
+      "config": "bm25_k3_b4000",
+      "answer_grade": 2,
+      "citations": [
+        "B:nist-ai-100-2e2025:p034:c00"
+      ],
+      "citation_support": [
+        true
+      ],
+      "reason": "p034:c00: 'excludes it from training if the accuracy of the model decreases when the sample is added'."
+    },
+    {
+      "query_id": "q09",
+      "config": "bm25_k3_b4000",
+      "answer_grade": 2,
+      "citations": [
+        "B:nist-ai-100-2e2025:p035:c04"
+      ],
+      "citation_support": [
+        true
+      ],
+      "reason": "p035:c04: 'In 2017, Gu et al. proposed BadNets, the first backdoor poisoning attack.'"
+    },
+    {
+      "query_id": "q10",
+      "config": "bm25_k3_b4000",
+      "answer_grade": 2,
+      "citations": [
+        "B:nist-ai-100-2e2025:p040:c02"
+      ],
+      "citation_support": [
+        true
+      ],
+      "reason": "p040:c02: 'the Tay.AI chatbot, a chatbot released by Microsoft on Twitter in 2016'."
+    },
+    {
+      "query_id": "q11",
+      "config": "bm25_k3_b4000",
+      "answer_grade": 2,
+      "citations": [
+        "B:nist-ai-100-2e2025:p043:c00"
+      ],
+      "citation_support": [
+        true
+      ],
+      "reason": "p043:c00: 'part of training if its loss is lower than a fixed threshold (selected as the average loss of training examples)'."
+    },
+    {
+      "query_id": "q12",
+      "config": "bm25_k3_b4000",
+      "answer_grade": 1,
+      "citations": [
+        "B:nist-ai-100-2e2025:p045:c03",
+        "B:nist-ai-100-2e2025:p046:c02"
+      ],
+      "citation_support": [
+        true,
+        true
+      ],
+      "reason": "Ý chính đúng — p045:c03: 'DP does not provide guarantees against model extraction attacks, as this method is designed to protect the training data, not the model'. Nhưng thêm khẳng định không có trong nguồn: 'property inference attacks, which are directly related to model extraction' (p045:c03 chỉ nói property inference trích thuộc tính của training set). p046:c02 hỗ trợ ý 'protects against membership inference and data reconstruction'."
+    },
+    {
+      "query_id": "q13",
+      "config": "bm25_k3_b4000",
+      "answer_grade": 2,
+      "citations": [
+        "B:nist-ai-100-2e2025:p055:c00"
+      ],
+      "citation_support": [
+        true
+      ],
+      "reason": "p055:c00: 'purchase some of the domains that serve those URLs and replace the site content with their own malicious content'."
+    },
+    {
+      "query_id": "q14",
+      "config": "bm25_k3_b4000",
+      "answer_grade": 2,
+      "citations": [
+        "B:nist-ai-100-2e2025:p044:c03",
+        "B:nist-ai-100-2e2025:p041:c01"
+      ],
+      "citation_support": [
+        true,
+        true
+      ],
+      "reason": "p044:c03: 'extract information about the model architecture and parameters by submitting queries'; p041:c01 định nghĩa model extraction (architecture/parameters) — hỗ trợ."
+    },
+    {
+      "query_id": "q15",
+      "config": "bm25_k3_b4000",
+      "answer_grade": 2,
+      "citations": [
+        "B:nist-ai-100-2e2025:p056:c00"
+      ],
+      "citation_support": [
+        true
+      ],
+      "reason": "p056:c00: 'the provider publishes cryptographic hashes, and the downloader verifies the training data'."
+    },
+    {
+      "query_id": "u01",
+      "config": "bm25_k3_b4000",
+      "abstention_correct": true,
+      "citations": [],
+      "citation_support": [],
+      "reason": "Đã abstain; lý do nêu đúng là report không nêu learning rate/epochs. Không khẳng định vô căn cứ."
+    },
+    {
+      "query_id": "u02",
+      "config": "bm25_k3_b4000",
+      "abstention_correct": true,
+      "citations": [],
+      "citation_support": [],
+      "reason": "Đã abstain; p40 có Tay.AI nhưng không có thiệt hại tài chính. Không khẳng định vô căn cứ."
+    },
+    {
+      "query_id": "q01",
+      "config": "bm25_rerank_k3_b4000",
+      "answer_grade": 2,
+      "citations": [
+        "B:nist-ai-100-2e2025:p014:c01"
+      ],
+      "citation_support": [
+        true
+      ],
+      "reason": "p014:c01 khớp đáp án. Câu thứ hai ('emphasizing the importance of security in AI development') hơi diễn giải thêm, không sai nội dung chính — người chấm cân nhắc 2 hay 1."
+    },
+    {
+      "query_id": "q02",
+      "config": "bm25_rerank_k3_b4000",
+      "answer_grade": 2,
+      "citations": [
+        "B:nist-ai-100-2e2025:p017:c00",
+        "B:nist-ai-100-2e2025:p019:c01"
+      ],
+      "citation_support": [
+        true,
+        true
+      ],
+      "reason": "p019:c01 (gold): 'availability breakdown, integrity violation, and privacy compromise'; p017:c00 cũng nêu cùng 3 mục tiêu."
+    },
+    {
+      "query_id": "q03",
+      "config": "bm25_rerank_k3_b4000",
+      "answer_grade": 2,
+      "citations": [
+        "B:nist-ai-100-2e2025:p020:c00"
+      ],
+      "citation_support": [
+        true
+      ],
+      "reason": "p020:c00: 'Backdoor attacks are the only attacks ... that require both training and testing data control'; ý trigger thêm vào cả poisoned và testing samples cũng có trong chunk."
+    },
+    {
+      "query_id": "q04",
+      "config": "bm25_rerank_k3_b4000",
+      "answer_grade": 2,
+      "citations": [
+        "B:nist-ai-100-2e2025:p022:c01",
+        "B:nist-ai-100-2e2025:p028:c00"
+      ],
+      "citation_support": [
+        true,
+        true
+      ],
+      "reason": "p022:c01: 'minimal, and sometimes no knowledge at all'; p028:c00: 'no prior knowledge of the model architecture or training data' — hỗ trợ phần diễn giải."
+    },
+    {
+      "query_id": "q05",
+      "config": "bm25_rerank_k3_b4000",
+      "answer_grade": 2,
+      "citations": [
+        "B:nist-ai-100-2e2025:p025:c04"
+      ],
+      "citation_support": [
+        true
+      ],
+      "reason": "p025:c04: 'performs a single iteration of gradient descent'."
+    },
+    {
+      "query_id": "q06",
+      "config": "bm25_rerank_k3_b4000",
+      "answer_grade": 2,
+      "citations": [
+        "B:nist-ai-100-2e2025:p026:c02"
+      ],
+      "citation_support": [
+        true
+      ],
+      "reason": "p026:c02: 'physically applying black and white stickers to the road signs'."
+    },
+    {
+      "query_id": "q07",
+      "config": "bm25_rerank_k3_b4000",
+      "answer_grade": 2,
+      "citations": [
+        "B:nist-ai-100-2e2025:p028:c01"
+      ],
+      "citation_support": [
+        true
+      ],
+      "reason": "p028:c01: 'Score-based attacks ... A popular method is zeroth-order optimization, which estimates the model's gradients without explicitly computing derivatives'."
+    },
+    {
+      "query_id": "q08",
+      "config": "bm25_rerank_k3_b4000",
+      "answer_grade": 2,
+      "citations": [
+        "B:nist-ai-100-2e2025:p034:c00"
+      ],
+      "citation_support": [
+        true
+      ],
+      "reason": "p034:c00: 'excludes it from training if the accuracy of the model decreases when the sample is added'."
+    },
+    {
+      "query_id": "q09",
+      "config": "bm25_rerank_k3_b4000",
+      "answer_grade": 2,
+      "citations": [
+        "B:nist-ai-100-2e2025:p035:c04"
+      ],
+      "citation_support": [
+        true
+      ],
+      "reason": "p035:c04: 'In 2017, Gu et al. proposed BadNets, the first backdoor poisoning attack.'"
+    },
+    {
+      "query_id": "q10",
+      "config": "bm25_rerank_k3_b4000",
+      "answer_grade": 2,
+      "citations": [
+        "B:nist-ai-100-2e2025:p040:c02",
+        "B:nist-ai-100-2e2025:p040:c03"
+      ],
+      "citation_support": [
+        true,
+        true
+      ],
+      "reason": "p040:c02: Tay.AI, Microsoft, Twitter 2016, poisoned <24h; p040:c03: Tay.AI updated in real-time from user interactions — hỗ trợ phần 'adversarial interactions with users'."
+    },
+    {
+      "query_id": "q11",
+      "config": "bm25_rerank_k3_b4000",
+      "answer_grade": 2,
+      "citations": [
+        "B:nist-ai-100-2e2025:p043:c00"
+      ],
+      "citation_support": [
+        true
+      ],
+      "reason": "p043:c00: 'loss is lower than a fixed threshold (selected as the average loss of training examples)'."
+    },
+    {
+      "query_id": "q12",
+      "config": "bm25_rerank_k3_b4000",
+      "answer_grade": 2,
+      "citations": [
+        "B:nist-ai-100-2e2025:p045:c03",
+        "B:nist-ai-100-2e2025:p041:c01"
+      ],
+      "citation_support": [
+        true,
+        true
+      ],
+      "reason": "p045:c03: 'DP does not provide guarantees against model extraction attacks, as this method is designed to protect the training data, not the model'; p041:c01: model extraction lấy 'architecture or model parameters' — hỗ trợ."
+    },
+    {
+      "query_id": "q13",
+      "config": "bm25_rerank_k3_b4000",
+      "answer_grade": 2,
+      "citations": [
+        "B:nist-ai-100-2e2025:p055:c00"
+      ],
+      "citation_support": [
+        true
+      ],
+      "reason": "p055:c00: 'purchase some of the domains that serve those URLs and replace the site content'."
+    },
+    {
+      "query_id": "q14",
+      "config": "bm25_rerank_k3_b4000",
+      "answer_grade": 2,
+      "citations": [
+        "B:nist-ai-100-2e2025:p044:c03"
+      ],
+      "citation_support": [
+        true
+      ],
+      "reason": "p044:c03: 'extract information about the model architecture and parameters by submitting queries'; 'functionally equivalent model' cũng có trong chunk."
+    },
+    {
+      "query_id": "q15",
+      "config": "bm25_rerank_k3_b4000",
+      "answer_grade": 2,
+      "citations": [
+        "B:nist-ai-100-2e2025:p056:c00"
+      ],
+      "citation_support": [
+        true
+      ],
+      "reason": "p056:c00: 'the provider publishes cryptographic hashes, and the downloader verifies the training data'."
+    },
+    {
+      "query_id": "u01",
+      "config": "bm25_rerank_k3_b4000",
+      "abstention_correct": true,
+      "citations": [],
+      "citation_support": [],
+      "reason": "Đã abstain; không khẳng định learning rate/epochs."
+    },
+    {
+      "query_id": "u02",
+      "config": "bm25_rerank_k3_b4000",
+      "abstention_correct": true,
+      "citations": [],
+      "citation_support": [],
+      "reason": "Đã abstain; không bịa con số thiệt hại."
+    }
+  ],
+  "_draft_summary": {
+    "bm25_k3_b4000": {
+      "answer_grade_0/1/2": [
+        1,
+        1,
+        13
+      ],
+      "answer_grade_sum": 27,
+      "citation_support": "16/17"
+    },
+    "bm25_rerank_k3_b4000": {
+      "answer_grade_0/1/2": [
+        0,
+        0,
+        15
+      ],
+      "answer_grade_sum": 30,
+      "citation_support": "19/19"
+    }
+  }
+}

@@ -1,0 +1,3282 @@
+[
+  {
+    "method": "dense",
+    "query_id": "q16",
+    "split": "test",
+    "answerable": true,
+    "question": "Which jailbreak technique simply tells the model never to say no or decline?",
+    "filter": null,
+    "latency_ms": 80.9,
+    "error": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "B:nist-ai-100-2e2025:p056:c03",
+        "page": 56,
+        "taxonomy": "generative_ai",
+        "score": 0.745765,
+        "hit": false
+      },
+      {
+        "rank": 2,
+        "id": "B:nist-ai-100-2e2025:p057:c04",
+        "page": 57,
+        "taxonomy": "generative_ai",
+        "score": 0.693589,
+        "hit": true
+      },
+      {
+        "rank": 3,
+        "id": "B:nist-ai-100-2e2025:p058:c02",
+        "page": 58,
+        "taxonomy": "generative_ai",
+        "score": 0.655371,
+        "hit": false
+      },
+      {
+        "rank": 4,
+        "id": "B:nist-ai-100-2e2025:p058:c03",
+        "page": 58,
+        "taxonomy": "generative_ai",
+        "score": 0.647821,
+        "hit": false
+      },
+      {
+        "rank": 5,
+        "id": "B:nist-ai-100-2e2025:p046:c03",
+        "page": 46,
+        "taxonomy": "predictive_ai",
+        "score": 0.645492,
+        "hit": false
+      },
+      {
+        "rank": 6,
+        "id": "B:nist-ai-100-2e2025:p057:c03",
+        "page": 57,
+        "taxonomy": "generative_ai",
+        "score": 0.636545,
+        "hit": false
+      },
+      {
+        "rank": 7,
+        "id": "B:nist-ai-100-2e2025:p051:c02",
+        "page": 51,
+        "taxonomy": "generative_ai",
+        "score": 0.632596,
+        "hit": false
+      },
+      {
+        "rank": 8,
+        "id": "B:nist-ai-100-2e2025:p063:c01",
+        "page": 63,
+        "taxonomy": "generative_ai",
+        "score": 0.632561,
+        "hit": false
+      },
+      {
+        "rank": 9,
+        "id": "B:nist-ai-100-2e2025:p058:c00",
+        "page": 58,
+        "taxonomy": "generative_ai",
+        "score": 0.62413,
+        "hit": false
+      },
+      {
+        "rank": 10,
+        "id": "B:nist-ai-100-2e2025:p055:c02",
+        "page": 55,
+        "taxonomy": "generative_ai",
+        "score": 0.622689,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p057:c04"
+    ],
+    "context_chars": 622,
+    "hit1": false,
+    "hit3": true,
+    "hit10": true,
+    "rr10": 0.5,
+    "context_hit": true
+  },
+  {
+    "method": "dense",
+    "query_id": "q17",
+    "split": "test",
+    "answerable": true,
+    "question": "What attacker capability enables indirect prompt injection attacks?",
+    "filter": null,
+    "latency_ms": 69.5,
+    "error": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "B:nist-ai-100-2e2025:p065:c00",
+        "page": 65,
+        "taxonomy": "generative_ai",
+        "score": 0.820193,
+        "hit": false
+      },
+      {
+        "rank": 2,
+        "id": "B:nist-ai-100-2e2025:p063:c04",
+        "page": 63,
+        "taxonomy": "generative_ai",
+        "score": 0.807699,
+        "hit": true
+      },
+      {
+        "rank": 3,
+        "id": "B:nist-ai-100-2e2025:p066:c04",
+        "page": 66,
+        "taxonomy": "generative_ai",
+        "score": 0.807548,
+        "hit": false
+      },
+      {
+        "rank": 4,
+        "id": "B:nist-ai-100-2e2025:p064:c02",
+        "page": 64,
+        "taxonomy": "generative_ai",
+        "score": 0.805565,
+        "hit": false
+      },
+      {
+        "rank": 5,
+        "id": "B:nist-ai-100-2e2025:p064:c03",
+        "page": 64,
+        "taxonomy": "generative_ai",
+        "score": 0.805171,
+        "hit": false
+      },
+      {
+        "rank": 6,
+        "id": "B:nist-ai-100-2e2025:p056:c02",
+        "page": 56,
+        "taxonomy": "generative_ai",
+        "score": 0.790473,
+        "hit": false
+      },
+      {
+        "rank": 7,
+        "id": "B:nist-ai-100-2e2025:p067:c00",
+        "page": 67,
+        "taxonomy": "generative_ai",
+        "score": 0.785679,
+        "hit": false
+      },
+      {
+        "rank": 8,
+        "id": "B:nist-ai-100-2e2025:p066:c02",
+        "page": 66,
+        "taxonomy": "generative_ai",
+        "score": 0.774715,
+        "hit": false
+      },
+      {
+        "rank": 9,
+        "id": "B:nist-ai-100-2e2025:p065:c03",
+        "page": 65,
+        "taxonomy": "generative_ai",
+        "score": 0.773792,
+        "hit": false
+      },
+      {
+        "rank": 10,
+        "id": "B:nist-ai-100-2e2025:p066:c00",
+        "page": 66,
+        "taxonomy": "generative_ai",
+        "score": 0.770845,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p066:c04"
+    ],
+    "context_chars": 692,
+    "hit1": false,
+    "hit3": true,
+    "hit10": true,
+    "rr10": 0.5,
+    "context_hit": false
+  },
+  {
+    "method": "dense",
+    "query_id": "q18",
+    "split": "test",
+    "answerable": true,
+    "question": "Does compressing a model to 8-bit or 4-bit weights make it safer against adversarial attacks?",
+    "filter": null,
+    "latency_ms": 73.9,
+    "error": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "B:nist-ai-100-2e2025:p072:c02",
+        "page": 72,
+        "taxonomy": "general",
+        "score": 0.761014,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "B:nist-ai-100-2e2025:p028:c03",
+        "page": 28,
+        "taxonomy": "predictive_ai",
+        "score": 0.74911,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "B:nist-ai-100-2e2025:p024:c02",
+        "page": 24,
+        "taxonomy": "predictive_ai",
+        "score": 0.735693,
+        "hit": false
+      },
+      {
+        "rank": 4,
+        "id": "B:nist-ai-100-2e2025:p031:c03",
+        "page": 31,
+        "taxonomy": "predictive_ai",
+        "score": 0.734515,
+        "hit": false
+      },
+      {
+        "rank": 5,
+        "id": "B:nist-ai-100-2e2025:p025:c02",
+        "page": 25,
+        "taxonomy": "predictive_ai",
+        "score": 0.72778,
+        "hit": false
+      },
+      {
+        "rank": 6,
+        "id": "B:nist-ai-100-2e2025:p059:c03",
+        "page": 59,
+        "taxonomy": "generative_ai",
+        "score": 0.727716,
+        "hit": false
+      },
+      {
+        "rank": 7,
+        "id": "B:nist-ai-100-2e2025:p025:c03",
+        "page": 25,
+        "taxonomy": "predictive_ai",
+        "score": 0.725594,
+        "hit": false
+      },
+      {
+        "rank": 8,
+        "id": "B:nist-ai-100-2e2025:p044:c04",
+        "page": 44,
+        "taxonomy": "predictive_ai",
+        "score": 0.725535,
+        "hit": false
+      },
+      {
+        "rank": 9,
+        "id": "B:nist-ai-100-2e2025:p030:c03",
+        "page": 30,
+        "taxonomy": "predictive_ai",
+        "score": 0.721167,
+        "hit": false
+      },
+      {
+        "rank": 10,
+        "id": "B:nist-ai-100-2e2025:p021:c01",
+        "page": 21,
+        "taxonomy": "predictive_ai",
+        "score": 0.720167,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p028:c03"
+    ],
+    "context_chars": 343,
+    "hit1": true,
+    "hit3": true,
+    "hit10": true,
+    "rr10": 1.0,
+    "context_hit": false
+  },
+  {
+    "method": "dense",
+    "query_id": "q19",
+    "split": "test",
+    "answerable": true,
+    "question": "In generative AI language models, at what rate can information like email addresses be revealed?",
+    "filter": {
+      "taxonomy": "generative_ai"
+    },
+    "latency_ms": 69.0,
+    "error": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "B:nist-ai-100-2e2025:p059:c02",
+        "page": 59,
+        "taxonomy": "generative_ai",
+        "score": 0.78847,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "B:nist-ai-100-2e2025:p059:c00",
+        "page": 59,
+        "taxonomy": "generative_ai",
+        "score": 0.717312,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "B:nist-ai-100-2e2025:p059:c01",
+        "page": 59,
+        "taxonomy": "generative_ai",
+        "score": 0.705596,
+        "hit": false
+      },
+      {
+        "rank": 4,
+        "id": "B:nist-ai-100-2e2025:p051:c01",
+        "page": 51,
+        "taxonomy": "generative_ai",
+        "score": 0.699191,
+        "hit": false
+      },
+      {
+        "rank": 5,
+        "id": "B:nist-ai-100-2e2025:p047:c00",
+        "page": 47,
+        "taxonomy": "generative_ai",
+        "score": 0.693013,
+        "hit": false
+      },
+      {
+        "rank": 6,
+        "id": "B:nist-ai-100-2e2025:p051:c03",
+        "page": 51,
+        "taxonomy": "generative_ai",
+        "score": 0.682099,
+        "hit": false
+      },
+      {
+        "rank": 7,
+        "id": "B:nist-ai-100-2e2025:p059:c03",
+        "page": 59,
+        "taxonomy": "generative_ai",
+        "score": 0.67784,
+        "hit": false
+      },
+      {
+        "rank": 8,
+        "id": "B:nist-ai-100-2e2025:p055:c00",
+        "page": 55,
+        "taxonomy": "generative_ai",
+        "score": 0.677241,
+        "hit": false
+      },
+      {
+        "rank": 9,
+        "id": "B:nist-ai-100-2e2025:p050:c02",
+        "page": 50,
+        "taxonomy": "generative_ai",
+        "score": 0.673142,
+        "hit": false
+      },
+      {
+        "rank": 10,
+        "id": "B:nist-ai-100-2e2025:p054:c00",
+        "page": 54,
+        "taxonomy": "generative_ai",
+        "score": 0.672926,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p059:c01"
+    ],
+    "context_chars": 726,
+    "hit1": true,
+    "hit3": true,
+    "hit10": true,
+    "rr10": 1.0,
+    "context_hit": false
+  },
+  {
+    "method": "dense",
+    "query_id": "q20",
+    "split": "test",
+    "answerable": true,
+    "question": "For predictive AI models trained with federated learning, how can compromised clients poison the global model?",
+    "filter": {
+      "taxonomy": "predictive_ai"
+    },
+    "latency_ms": 90.5,
+    "error": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "B:nist-ai-100-2e2025:p039:c03",
+        "page": 39,
+        "taxonomy": "predictive_ai",
+        "score": 0.804899,
+        "hit": false
+      },
+      {
+        "rank": 2,
+        "id": "B:nist-ai-100-2e2025:p033:c04",
+        "page": 33,
+        "taxonomy": "predictive_ai",
+        "score": 0.799265,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "B:nist-ai-100-2e2025:p039:c00",
+        "page": 39,
+        "taxonomy": "predictive_ai",
+        "score": 0.792834,
+        "hit": true
+      },
+      {
+        "rank": 4,
+        "id": "B:nist-ai-100-2e2025:p018:c04",
+        "page": 18,
+        "taxonomy": "predictive_ai",
+        "score": 0.756126,
+        "hit": false
+      },
+      {
+        "rank": 5,
+        "id": "B:nist-ai-100-2e2025:p039:c01",
+        "page": 39,
+        "taxonomy": "predictive_ai",
+        "score": 0.754642,
+        "hit": false
+      },
+      {
+        "rank": 6,
+        "id": "B:nist-ai-100-2e2025:p020:c00",
+        "page": 20,
+        "taxonomy": "predictive_ai",
+        "score": 0.74629,
+        "hit": false
+      },
+      {
+        "rank": 7,
+        "id": "B:nist-ai-100-2e2025:p021:c00",
+        "page": 21,
+        "taxonomy": "predictive_ai",
+        "score": 0.745091,
+        "hit": false
+      },
+      {
+        "rank": 8,
+        "id": "B:nist-ai-100-2e2025:p018:c03",
+        "page": 18,
+        "taxonomy": "predictive_ai",
+        "score": 0.729842,
+        "hit": false
+      },
+      {
+        "rank": 9,
+        "id": "B:nist-ai-100-2e2025:p018:c02",
+        "page": 18,
+        "taxonomy": "predictive_ai",
+        "score": 0.729672,
+        "hit": false
+      },
+      {
+        "rank": 10,
+        "id": "B:nist-ai-100-2e2025:p040:c00",
+        "page": 40,
+        "taxonomy": "predictive_ai",
+        "score": 0.723737,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p039:c03"
+    ],
+    "context_chars": 730,
+    "hit1": false,
+    "hit3": true,
+    "hit10": true,
+    "rr10": 0.3333333333333333,
+    "context_hit": false
+  },
+  {
+    "method": "dense",
+    "query_id": "u03",
+    "split": "test",
+    "answerable": false,
+    "question": "Which version of Meta's Llama model was jailbroken with the \"Do Anything Now\" (DAN) role-play prompt?",
+    "filter": null,
+    "latency_ms": 85.3,
+    "error": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "B:nist-ai-100-2e2025:p058:c03",
+        "page": 58,
+        "taxonomy": "generative_ai",
+        "score": 0.590125
+      },
+      {
+        "rank": 2,
+        "id": "B:nist-ai-100-2e2025:p058:c02",
+        "page": 58,
+        "taxonomy": "generative_ai",
+        "score": 0.587628
+      },
+      {
+        "rank": 3,
+        "id": "B:nist-ai-100-2e2025:p051:c02",
+        "page": 51,
+        "taxonomy": "generative_ai",
+        "score": 0.587423
+      },
+      {
+        "rank": 4,
+        "id": "B:nist-ai-100-2e2025:p056:c03",
+        "page": 56,
+        "taxonomy": "generative_ai",
+        "score": 0.578662
+      },
+      {
+        "rank": 5,
+        "id": "B:nist-ai-100-2e2025:p051:c01",
+        "page": 51,
+        "taxonomy": "generative_ai",
+        "score": 0.5755
+      },
+      {
+        "rank": 6,
+        "id": "B:nist-ai-100-2e2025:p051:c00",
+        "page": 51,
+        "taxonomy": "generative_ai",
+        "score": 0.56953
+      },
+      {
+        "rank": 7,
+        "id": "B:nist-ai-100-2e2025:p058:c00",
+        "page": 58,
+        "taxonomy": "generative_ai",
+        "score": 0.567552
+      },
+      {
+        "rank": 8,
+        "id": "B:nist-ai-100-2e2025:p035:c00",
+        "page": 35,
+        "taxonomy": "predictive_ai",
+        "score": 0.567492
+      },
+      {
+        "rank": 9,
+        "id": "B:nist-ai-100-2e2025:p050:c00",
+        "page": 50,
+        "taxonomy": "generative_ai",
+        "score": 0.559964
+      },
+      {
+        "rank": 10,
+        "id": "B:nist-ai-100-2e2025:p067:c03",
+        "page": 67,
+        "taxonomy": "generative_ai",
+        "score": 0.553789
+      }
+    ],
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p058:c03"
+    ],
+    "context_chars": 448
+  },
+  {
+    "method": "dense",
+    "query_id": "u04",
+    "split": "test",
+    "answerable": false,
+    "question": "Which article of the EU AI Act requires providers of high-risk AI systems to protect against data poisoning?",
+    "filter": null,
+    "latency_ms": 76.2,
+    "error": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "B:nist-ai-100-2e2025:p073:c04",
+        "page": 73,
+        "taxonomy": "general",
+        "score": 0.676878
+      },
+      {
+        "rank": 2,
+        "id": "B:nist-ai-100-2e2025:p054:c03",
+        "page": 54,
+        "taxonomy": "generative_ai",
+        "score": 0.670559
+      },
+      {
+        "rank": 3,
+        "id": "B:nist-ai-100-2e2025:p071:c04",
+        "page": 71,
+        "taxonomy": "general",
+        "score": 0.664839
+      },
+      {
+        "rank": 4,
+        "id": "B:nist-ai-100-2e2025:p062:c04",
+        "page": 62,
+        "taxonomy": "generative_ai",
+        "score": 0.656913
+      },
+      {
+        "rank": 5,
+        "id": "B:nist-ai-100-2e2025:p070:c04",
+        "page": 70,
+        "taxonomy": "general",
+        "score": 0.656216
+      },
+      {
+        "rank": 6,
+        "id": "B:nist-ai-100-2e2025:p067:c02",
+        "page": 67,
+        "taxonomy": "generative_ai",
+        "score": 0.651136
+      },
+      {
+        "rank": 7,
+        "id": "B:nist-ai-100-2e2025:p014:c01",
+        "page": 14,
+        "taxonomy": "general",
+        "score": 0.650511
+      },
+      {
+        "rank": 8,
+        "id": "B:nist-ai-100-2e2025:p040:c01",
+        "page": 40,
+        "taxonomy": "predictive_ai",
+        "score": 0.647111
+      },
+      {
+        "rank": 9,
+        "id": "B:nist-ai-100-2e2025:p015:c03",
+        "page": 15,
+        "taxonomy": "general",
+        "score": 0.646466
+      },
+      {
+        "rank": 10,
+        "id": "B:nist-ai-100-2e2025:p056:c01",
+        "page": 56,
+        "taxonomy": "generative_ai",
+        "score": 0.646328
+      }
+    ],
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p073:c04"
+    ],
+    "context_chars": 534
+  },
+  {
+    "method": "bm25",
+    "query_id": "q16",
+    "split": "test",
+    "answerable": true,
+    "question": "Which jailbreak technique simply tells the model never to say no or decline?",
+    "filter": null,
+    "latency_ms": 1.3,
+    "error": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "B:nist-ai-100-2e2025:p047:c03",
+        "page": 47,
+        "taxonomy": "generative_ai",
+        "score": 7.504225,
+        "hit": false
+      },
+      {
+        "rank": 2,
+        "id": "B:nist-ai-100-2e2025:p070:c02",
+        "page": 70,
+        "taxonomy": "general",
+        "score": 5.498095,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "B:nist-ai-100-2e2025:p034:c03",
+        "page": 34,
+        "taxonomy": "predictive_ai",
+        "score": 4.961283,
+        "hit": false
+      },
+      {
+        "rank": 4,
+        "id": "B:nist-ai-100-2e2025:p058:c03",
+        "page": 58,
+        "taxonomy": "generative_ai",
+        "score": 4.713789,
+        "hit": false
+      },
+      {
+        "rank": 5,
+        "id": "B:nist-ai-100-2e2025:p058:c02",
+        "page": 58,
+        "taxonomy": "generative_ai",
+        "score": 4.488856,
+        "hit": false
+      },
+      {
+        "rank": 6,
+        "id": "B:nist-ai-100-2e2025:p060:c02",
+        "page": 60,
+        "taxonomy": "generative_ai",
+        "score": 4.391081,
+        "hit": false
+      },
+      {
+        "rank": 7,
+        "id": "B:nist-ai-100-2e2025:p059:c02",
+        "page": 59,
+        "taxonomy": "generative_ai",
+        "score": 4.255231,
+        "hit": false
+      },
+      {
+        "rank": 8,
+        "id": "B:nist-ai-100-2e2025:p044:c04",
+        "page": 44,
+        "taxonomy": "predictive_ai",
+        "score": 4.221239,
+        "hit": false
+      },
+      {
+        "rank": 9,
+        "id": "B:nist-ai-100-2e2025:p063:c01",
+        "page": 63,
+        "taxonomy": "generative_ai",
+        "score": 4.049583,
+        "hit": false
+      },
+      {
+        "rank": 10,
+        "id": "B:nist-ai-100-2e2025:p038:c03",
+        "page": 38,
+        "taxonomy": "predictive_ai",
+        "score": 3.855197,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p047:c03"
+    ],
+    "context_chars": 447,
+    "hit1": false,
+    "hit3": false,
+    "hit10": false,
+    "rr10": 0.0,
+    "context_hit": false
+  },
+  {
+    "method": "bm25",
+    "query_id": "q17",
+    "split": "test",
+    "answerable": true,
+    "question": "What attacker capability enables indirect prompt injection attacks?",
+    "filter": null,
+    "latency_ms": 0.9,
+    "error": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "B:nist-ai-100-2e2025:p054:c00",
+        "page": 54,
+        "taxonomy": "generative_ai",
+        "score": 14.851164,
+        "hit": false
+      },
+      {
+        "rank": 2,
+        "id": "B:nist-ai-100-2e2025:p063:c04",
+        "page": 63,
+        "taxonomy": "generative_ai",
+        "score": 12.868432,
+        "hit": true
+      },
+      {
+        "rank": 3,
+        "id": "B:nist-ai-100-2e2025:p065:c00",
+        "page": 65,
+        "taxonomy": "generative_ai",
+        "score": 12.365233,
+        "hit": false
+      },
+      {
+        "rank": 4,
+        "id": "B:nist-ai-100-2e2025:p066:c04",
+        "page": 66,
+        "taxonomy": "generative_ai",
+        "score": 11.319261,
+        "hit": false
+      },
+      {
+        "rank": 5,
+        "id": "B:nist-ai-100-2e2025:p065:c03",
+        "page": 65,
+        "taxonomy": "generative_ai",
+        "score": 10.852011,
+        "hit": false
+      },
+      {
+        "rank": 6,
+        "id": "B:nist-ai-100-2e2025:p066:c03",
+        "page": 66,
+        "taxonomy": "generative_ai",
+        "score": 10.600288,
+        "hit": false
+      },
+      {
+        "rank": 7,
+        "id": "B:nist-ai-100-2e2025:p048:c00",
+        "page": 48,
+        "taxonomy": "generative_ai",
+        "score": 10.570532,
+        "hit": false
+      },
+      {
+        "rank": 8,
+        "id": "B:nist-ai-100-2e2025:p066:c00",
+        "page": 66,
+        "taxonomy": "generative_ai",
+        "score": 10.48845,
+        "hit": false
+      },
+      {
+        "rank": 9,
+        "id": "B:nist-ai-100-2e2025:p067:c00",
+        "page": 67,
+        "taxonomy": "generative_ai",
+        "score": 9.416907,
+        "hit": false
+      },
+      {
+        "rank": 10,
+        "id": "B:nist-ai-100-2e2025:p066:c02",
+        "page": 66,
+        "taxonomy": "generative_ai",
+        "score": 8.934509,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p054:c00"
+    ],
+    "context_chars": 708,
+    "hit1": false,
+    "hit3": true,
+    "hit10": true,
+    "rr10": 0.5,
+    "context_hit": false
+  },
+  {
+    "method": "bm25",
+    "query_id": "q18",
+    "split": "test",
+    "answerable": true,
+    "question": "Does compressing a model to 8-bit or 4-bit weights make it safer against adversarial attacks?",
+    "filter": null,
+    "latency_ms": 1.5,
+    "error": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "B:nist-ai-100-2e2025:p072:c01",
+        "page": 72,
+        "taxonomy": "general",
+        "score": 26.576168,
+        "hit": false
+      },
+      {
+        "rank": 2,
+        "id": "B:nist-ai-100-2e2025:p071:c05",
+        "page": 71,
+        "taxonomy": "general",
+        "score": 8.964195,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "B:nist-ai-100-2e2025:p072:c03",
+        "page": 72,
+        "taxonomy": "general",
+        "score": 7.77632,
+        "hit": false
+      },
+      {
+        "rank": 4,
+        "id": "B:nist-ai-100-2e2025:p054:c01",
+        "page": 54,
+        "taxonomy": "generative_ai",
+        "score": 7.281854,
+        "hit": false
+      },
+      {
+        "rank": 5,
+        "id": "B:nist-ai-100-2e2025:p070:c02",
+        "page": 70,
+        "taxonomy": "general",
+        "score": 7.187895,
+        "hit": false
+      },
+      {
+        "rank": 6,
+        "id": "B:nist-ai-100-2e2025:p049:c03",
+        "page": 49,
+        "taxonomy": "generative_ai",
+        "score": 7.014835,
+        "hit": false
+      },
+      {
+        "rank": 7,
+        "id": "B:nist-ai-100-2e2025:p071:c02",
+        "page": 71,
+        "taxonomy": "general",
+        "score": 6.947177,
+        "hit": false
+      },
+      {
+        "rank": 8,
+        "id": "B:nist-ai-100-2e2025:p045:c00",
+        "page": 45,
+        "taxonomy": "predictive_ai",
+        "score": 6.534691,
+        "hit": false
+      },
+      {
+        "rank": 9,
+        "id": "B:nist-ai-100-2e2025:p068:c00",
+        "page": 68,
+        "taxonomy": "general",
+        "score": 5.980431,
+        "hit": false
+      },
+      {
+        "rank": 10,
+        "id": "B:nist-ai-100-2e2025:p029:c00",
+        "page": 29,
+        "taxonomy": "predictive_ai",
+        "score": 5.91177,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p072:c01"
+    ],
+    "context_chars": 775,
+    "hit1": false,
+    "hit3": false,
+    "hit10": false,
+    "rr10": 0.0,
+    "context_hit": false
+  },
+  {
+    "method": "bm25",
+    "query_id": "q19",
+    "split": "test",
+    "answerable": true,
+    "question": "In generative AI language models, at what rate can information like email addresses be revealed?",
+    "filter": {
+      "taxonomy": "generative_ai"
+    },
+    "latency_ms": 0.8,
+    "error": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "B:nist-ai-100-2e2025:p059:c02",
+        "page": 59,
+        "taxonomy": "generative_ai",
+        "score": 26.832519,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "B:nist-ai-100-2e2025:p047:c00",
+        "page": 47,
+        "taxonomy": "generative_ai",
+        "score": 9.067491,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "B:nist-ai-100-2e2025:p059:c00",
+        "page": 59,
+        "taxonomy": "generative_ai",
+        "score": 7.025449,
+        "hit": false
+      },
+      {
+        "rank": 4,
+        "id": "B:nist-ai-100-2e2025:p067:c03",
+        "page": 67,
+        "taxonomy": "generative_ai",
+        "score": 6.600154,
+        "hit": false
+      },
+      {
+        "rank": 5,
+        "id": "B:nist-ai-100-2e2025:p059:c01",
+        "page": 59,
+        "taxonomy": "generative_ai",
+        "score": 6.542755,
+        "hit": false
+      },
+      {
+        "rank": 6,
+        "id": "B:nist-ai-100-2e2025:p066:c02",
+        "page": 66,
+        "taxonomy": "generative_ai",
+        "score": 6.437952,
+        "hit": false
+      },
+      {
+        "rank": 7,
+        "id": "B:nist-ai-100-2e2025:p058:c01",
+        "page": 58,
+        "taxonomy": "generative_ai",
+        "score": 6.281165,
+        "hit": false
+      },
+      {
+        "rank": 8,
+        "id": "B:nist-ai-100-2e2025:p054:c02",
+        "page": 54,
+        "taxonomy": "generative_ai",
+        "score": 5.922546,
+        "hit": false
+      },
+      {
+        "rank": 9,
+        "id": "B:nist-ai-100-2e2025:p066:c01",
+        "page": 66,
+        "taxonomy": "generative_ai",
+        "score": 5.861885,
+        "hit": false
+      },
+      {
+        "rank": 10,
+        "id": "B:nist-ai-100-2e2025:p058:c02",
+        "page": 58,
+        "taxonomy": "generative_ai",
+        "score": 5.170929,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p047:c00"
+    ],
+    "context_chars": 675,
+    "hit1": true,
+    "hit3": true,
+    "hit10": true,
+    "rr10": 1.0,
+    "context_hit": false
+  },
+  {
+    "method": "bm25",
+    "query_id": "q20",
+    "split": "test",
+    "answerable": true,
+    "question": "For predictive AI models trained with federated learning, how can compromised clients poison the global model?",
+    "filter": {
+      "taxonomy": "predictive_ai"
+    },
+    "latency_ms": 1.1,
+    "error": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "B:nist-ai-100-2e2025:p039:c00",
+        "page": 39,
+        "taxonomy": "predictive_ai",
+        "score": 32.075016,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "B:nist-ai-100-2e2025:p018:c02",
+        "page": 18,
+        "taxonomy": "predictive_ai",
+        "score": 17.527276,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "B:nist-ai-100-2e2025:p039:c01",
+        "page": 39,
+        "taxonomy": "predictive_ai",
+        "score": 15.444022,
+        "hit": false
+      },
+      {
+        "rank": 4,
+        "id": "B:nist-ai-100-2e2025:p018:c04",
+        "page": 18,
+        "taxonomy": "predictive_ai",
+        "score": 11.314371,
+        "hit": false
+      },
+      {
+        "rank": 5,
+        "id": "B:nist-ai-100-2e2025:p033:c04",
+        "page": 33,
+        "taxonomy": "predictive_ai",
+        "score": 10.638504,
+        "hit": false
+      },
+      {
+        "rank": 6,
+        "id": "B:nist-ai-100-2e2025:p018:c03",
+        "page": 18,
+        "taxonomy": "predictive_ai",
+        "score": 8.679591,
+        "hit": false
+      },
+      {
+        "rank": 7,
+        "id": "B:nist-ai-100-2e2025:p021:c00",
+        "page": 21,
+        "taxonomy": "predictive_ai",
+        "score": 6.819377,
+        "hit": false
+      },
+      {
+        "rank": 8,
+        "id": "B:nist-ai-100-2e2025:p020:c00",
+        "page": 20,
+        "taxonomy": "predictive_ai",
+        "score": 6.729667,
+        "hit": false
+      },
+      {
+        "rank": 9,
+        "id": "B:nist-ai-100-2e2025:p046:c01",
+        "page": 46,
+        "taxonomy": "predictive_ai",
+        "score": 6.709055,
+        "hit": false
+      },
+      {
+        "rank": 10,
+        "id": "B:nist-ai-100-2e2025:p040:c03",
+        "page": 40,
+        "taxonomy": "predictive_ai",
+        "score": 6.219088,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p039:c00"
+    ],
+    "context_chars": 794,
+    "hit1": true,
+    "hit3": true,
+    "hit10": true,
+    "rr10": 1.0,
+    "context_hit": true
+  },
+  {
+    "method": "bm25",
+    "query_id": "u03",
+    "split": "test",
+    "answerable": false,
+    "question": "Which version of Meta's Llama model was jailbroken with the \"Do Anything Now\" (DAN) role-play prompt?",
+    "filter": null,
+    "latency_ms": 1.5,
+    "error": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "B:nist-ai-100-2e2025:p058:c00",
+        "page": 58,
+        "taxonomy": "generative_ai",
+        "score": 29.294852
+      },
+      {
+        "rank": 2,
+        "id": "B:nist-ai-100-2e2025:p073:c04",
+        "page": 73,
+        "taxonomy": "general",
+        "score": 10.404306
+      },
+      {
+        "rank": 3,
+        "id": "B:nist-ai-100-2e2025:p038:c01",
+        "page": 38,
+        "taxonomy": "predictive_ai",
+        "score": 6.131578
+      },
+      {
+        "rank": 4,
+        "id": "B:nist-ai-100-2e2025:p051:c02",
+        "page": 51,
+        "taxonomy": "generative_ai",
+        "score": 6.124412
+      },
+      {
+        "rank": 5,
+        "id": "B:nist-ai-100-2e2025:p037:c03",
+        "page": 37,
+        "taxonomy": "predictive_ai",
+        "score": 5.936731
+      },
+      {
+        "rank": 6,
+        "id": "B:nist-ai-100-2e2025:p065:c03",
+        "page": 65,
+        "taxonomy": "generative_ai",
+        "score": 5.513119
+      },
+      {
+        "rank": 7,
+        "id": "B:nist-ai-100-2e2025:p041:c01",
+        "page": 41,
+        "taxonomy": "predictive_ai",
+        "score": 5.459532
+      },
+      {
+        "rank": 8,
+        "id": "B:nist-ai-100-2e2025:p064:c03",
+        "page": 64,
+        "taxonomy": "generative_ai",
+        "score": 5.363432
+      },
+      {
+        "rank": 9,
+        "id": "B:nist-ai-100-2e2025:p065:c00",
+        "page": 65,
+        "taxonomy": "generative_ai",
+        "score": 5.066677
+      },
+      {
+        "rank": 10,
+        "id": "B:nist-ai-100-2e2025:p062:c04",
+        "page": 62,
+        "taxonomy": "generative_ai",
+        "score": 4.883567
+      }
+    ],
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p073:c04"
+    ],
+    "context_chars": 534
+  },
+  {
+    "method": "bm25",
+    "query_id": "u04",
+    "split": "test",
+    "answerable": false,
+    "question": "Which article of the EU AI Act requires providers of high-risk AI systems to protect against data poisoning?",
+    "filter": null,
+    "latency_ms": 1.7,
+    "error": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "B:nist-ai-100-2e2025:p014:c01",
+        "page": 14,
+        "taxonomy": "general",
+        "score": 16.236588
+      },
+      {
+        "rank": 2,
+        "id": "B:nist-ai-100-2e2025:p054:c02",
+        "page": 54,
+        "taxonomy": "generative_ai",
+        "score": 14.722583
+      },
+      {
+        "rank": 3,
+        "id": "B:nist-ai-100-2e2025:p071:c03",
+        "page": 71,
+        "taxonomy": "general",
+        "score": 12.914661
+      },
+      {
+        "rank": 4,
+        "id": "B:nist-ai-100-2e2025:p062:c04",
+        "page": 62,
+        "taxonomy": "generative_ai",
+        "score": 12.222834
+      },
+      {
+        "rank": 5,
+        "id": "B:nist-ai-100-2e2025:p073:c03",
+        "page": 73,
+        "taxonomy": "general",
+        "score": 11.157821
+      },
+      {
+        "rank": 6,
+        "id": "B:nist-ai-100-2e2025:p015:c00",
+        "page": 15,
+        "taxonomy": "general",
+        "score": 10.645119
+      },
+      {
+        "rank": 7,
+        "id": "B:nist-ai-100-2e2025:p014:c00",
+        "page": 14,
+        "taxonomy": "general",
+        "score": 10.312473
+      },
+      {
+        "rank": 8,
+        "id": "B:nist-ai-100-2e2025:p071:c04",
+        "page": 71,
+        "taxonomy": "general",
+        "score": 10.127376
+      },
+      {
+        "rank": 9,
+        "id": "B:nist-ai-100-2e2025:p070:c04",
+        "page": 70,
+        "taxonomy": "general",
+        "score": 10.047975
+      },
+      {
+        "rank": 10,
+        "id": "B:nist-ai-100-2e2025:p073:c00",
+        "page": 73,
+        "taxonomy": "general",
+        "score": 10.002057
+      }
+    ],
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p071:c03"
+    ],
+    "context_chars": 400
+  },
+  {
+    "method": "hybrid_rrf",
+    "query_id": "q16",
+    "split": "test",
+    "answerable": true,
+    "question": "Which jailbreak technique simply tells the model never to say no or decline?",
+    "filter": null,
+    "latency_ms": 67.7,
+    "error": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "B:nist-ai-100-2e2025:p058:c02",
+        "page": 58,
+        "taxonomy": "generative_ai",
+        "score": 0.031258,
+        "fusion": {
+          "dense_rank": 3,
+          "bm25_rank": 5
+        },
+        "hit": false
+      },
+      {
+        "rank": 2,
+        "id": "B:nist-ai-100-2e2025:p058:c03",
+        "page": 58,
+        "taxonomy": "generative_ai",
+        "score": 0.03125,
+        "fusion": {
+          "dense_rank": 4,
+          "bm25_rank": 4
+        },
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "B:nist-ai-100-2e2025:p056:c03",
+        "page": 56,
+        "taxonomy": "generative_ai",
+        "score": 0.030092,
+        "fusion": {
+          "dense_rank": 1,
+          "bm25_rank": 13
+        },
+        "hit": false
+      },
+      {
+        "rank": 4,
+        "id": "B:nist-ai-100-2e2025:p063:c01",
+        "page": 63,
+        "taxonomy": "generative_ai",
+        "score": 0.029199,
+        "fusion": {
+          "dense_rank": 8,
+          "bm25_rank": 9
+        },
+        "hit": false
+      },
+      {
+        "rank": 5,
+        "id": "B:nist-ai-100-2e2025:p046:c03",
+        "page": 46,
+        "taxonomy": "predictive_ai",
+        "score": 0.028898,
+        "fusion": {
+          "dense_rank": 5,
+          "bm25_rank": 14
+        },
+        "hit": false
+      },
+      {
+        "rank": 6,
+        "id": "B:nist-ai-100-2e2025:p051:c02",
+        "page": 51,
+        "taxonomy": "generative_ai",
+        "score": 0.028814,
+        "fusion": {
+          "dense_rank": 7,
+          "bm25_rank": 12
+        },
+        "hit": false
+      },
+      {
+        "rank": 7,
+        "id": "B:nist-ai-100-2e2025:p055:c02",
+        "page": 55,
+        "taxonomy": "generative_ai",
+        "score": 0.02837,
+        "fusion": {
+          "dense_rank": 10,
+          "bm25_rank": 11
+        },
+        "hit": false
+      },
+      {
+        "rank": 8,
+        "id": "B:nist-ai-100-2e2025:p061:c00",
+        "page": 61,
+        "taxonomy": "generative_ai",
+        "score": 0.027032,
+        "fusion": {
+          "dense_rank": 13,
+          "bm25_rank": 15
+        },
+        "hit": false
+      },
+      {
+        "rank": 9,
+        "id": "B:nist-ai-100-2e2025:p047:c03",
+        "page": 47,
+        "taxonomy": "generative_ai",
+        "score": 0.016393,
+        "fusion": {
+          "dense_rank": null,
+          "bm25_rank": 1
+        },
+        "hit": false
+      },
+      {
+        "rank": 10,
+        "id": "B:nist-ai-100-2e2025:p057:c04",
+        "page": 57,
+        "taxonomy": "generative_ai",
+        "score": 0.016129,
+        "fusion": {
+          "dense_rank": 2,
+          "bm25_rank": null
+        },
+        "hit": true
+      }
+    ],
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p058:c02"
+    ],
+    "context_chars": 633,
+    "hit1": false,
+    "hit3": false,
+    "hit10": true,
+    "rr10": 0.1,
+    "context_hit": false
+  },
+  {
+    "method": "hybrid_rrf",
+    "query_id": "q17",
+    "split": "test",
+    "answerable": true,
+    "question": "What attacker capability enables indirect prompt injection attacks?",
+    "filter": null,
+    "latency_ms": 89.8,
+    "error": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "B:nist-ai-100-2e2025:p065:c00",
+        "page": 65,
+        "taxonomy": "generative_ai",
+        "score": 0.032266,
+        "fusion": {
+          "dense_rank": 1,
+          "bm25_rank": 3
+        },
+        "hit": false
+      },
+      {
+        "rank": 2,
+        "id": "B:nist-ai-100-2e2025:p063:c04",
+        "page": 63,
+        "taxonomy": "generative_ai",
+        "score": 0.032258,
+        "fusion": {
+          "dense_rank": 2,
+          "bm25_rank": 2
+        },
+        "hit": true
+      },
+      {
+        "rank": 3,
+        "id": "B:nist-ai-100-2e2025:p066:c04",
+        "page": 66,
+        "taxonomy": "generative_ai",
+        "score": 0.031498,
+        "fusion": {
+          "dense_rank": 3,
+          "bm25_rank": 4
+        },
+        "hit": false
+      },
+      {
+        "rank": 4,
+        "id": "B:nist-ai-100-2e2025:p065:c03",
+        "page": 65,
+        "taxonomy": "generative_ai",
+        "score": 0.029877,
+        "fusion": {
+          "dense_rank": 9,
+          "bm25_rank": 5
+        },
+        "hit": false
+      },
+      {
+        "rank": 5,
+        "id": "B:nist-ai-100-2e2025:p067:c00",
+        "page": 67,
+        "taxonomy": "generative_ai",
+        "score": 0.029418,
+        "fusion": {
+          "dense_rank": 7,
+          "bm25_rank": 9
+        },
+        "hit": false
+      },
+      {
+        "rank": 6,
+        "id": "B:nist-ai-100-2e2025:p064:c02",
+        "page": 64,
+        "taxonomy": "generative_ai",
+        "score": 0.029324,
+        "fusion": {
+          "dense_rank": 4,
+          "bm25_rank": 13
+        },
+        "hit": false
+      },
+      {
+        "rank": 7,
+        "id": "B:nist-ai-100-2e2025:p066:c03",
+        "page": 66,
+        "taxonomy": "generative_ai",
+        "score": 0.029236,
+        "fusion": {
+          "dense_rank": 11,
+          "bm25_rank": 6
+        },
+        "hit": false
+      },
+      {
+        "rank": 8,
+        "id": "B:nist-ai-100-2e2025:p066:c00",
+        "page": 66,
+        "taxonomy": "generative_ai",
+        "score": 0.028992,
+        "fusion": {
+          "dense_rank": 10,
+          "bm25_rank": 8
+        },
+        "hit": false
+      },
+      {
+        "rank": 9,
+        "id": "B:nist-ai-100-2e2025:p066:c02",
+        "page": 66,
+        "taxonomy": "generative_ai",
+        "score": 0.028992,
+        "fusion": {
+          "dense_rank": 8,
+          "bm25_rank": 10
+        },
+        "hit": false
+      },
+      {
+        "rank": 10,
+        "id": "B:nist-ai-100-2e2025:p064:c03",
+        "page": 64,
+        "taxonomy": "generative_ai",
+        "score": 0.028718,
+        "fusion": {
+          "dense_rank": 5,
+          "bm25_rank": 15
+        },
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p066:c04"
+    ],
+    "context_chars": 692,
+    "hit1": false,
+    "hit3": true,
+    "hit10": true,
+    "rr10": 0.5,
+    "context_hit": false
+  },
+  {
+    "method": "hybrid_rrf",
+    "query_id": "q18",
+    "split": "test",
+    "answerable": true,
+    "question": "Does compressing a model to 8-bit or 4-bit weights make it safer against adversarial attacks?",
+    "filter": null,
+    "latency_ms": 73.5,
+    "error": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "B:nist-ai-100-2e2025:p071:c05",
+        "page": 71,
+        "taxonomy": "general",
+        "score": 0.030018,
+        "fusion": {
+          "dense_rank": 12,
+          "bm25_rank": 2
+        },
+        "hit": false
+      },
+      {
+        "rank": 2,
+        "id": "B:nist-ai-100-2e2025:p072:c02",
+        "page": 72,
+        "taxonomy": "general",
+        "score": 0.029907,
+        "fusion": {
+          "dense_rank": 1,
+          "bm25_rank": 14
+        },
+        "hit": true
+      },
+      {
+        "rank": 3,
+        "id": "B:nist-ai-100-2e2025:p044:c04",
+        "page": 44,
+        "taxonomy": "predictive_ai",
+        "score": 0.027364,
+        "fusion": {
+          "dense_rank": 8,
+          "bm25_rank": 19
+        },
+        "hit": false
+      },
+      {
+        "rank": 4,
+        "id": "B:nist-ai-100-2e2025:p025:c01",
+        "page": 25,
+        "taxonomy": "predictive_ai",
+        "score": 0.025,
+        "fusion": {
+          "dense_rank": 20,
+          "bm25_rank": 20
+        },
+        "hit": false
+      },
+      {
+        "rank": 5,
+        "id": "B:nist-ai-100-2e2025:p072:c01",
+        "page": 72,
+        "taxonomy": "general",
+        "score": 0.016393,
+        "fusion": {
+          "dense_rank": null,
+          "bm25_rank": 1
+        },
+        "hit": false
+      },
+      {
+        "rank": 6,
+        "id": "B:nist-ai-100-2e2025:p028:c03",
+        "page": 28,
+        "taxonomy": "predictive_ai",
+        "score": 0.016129,
+        "fusion": {
+          "dense_rank": 2,
+          "bm25_rank": null
+        },
+        "hit": false
+      },
+      {
+        "rank": 7,
+        "id": "B:nist-ai-100-2e2025:p024:c02",
+        "page": 24,
+        "taxonomy": "predictive_ai",
+        "score": 0.015873,
+        "fusion": {
+          "dense_rank": 3,
+          "bm25_rank": null
+        },
+        "hit": false
+      },
+      {
+        "rank": 8,
+        "id": "B:nist-ai-100-2e2025:p072:c03",
+        "page": 72,
+        "taxonomy": "general",
+        "score": 0.015873,
+        "fusion": {
+          "dense_rank": null,
+          "bm25_rank": 3
+        },
+        "hit": false
+      },
+      {
+        "rank": 9,
+        "id": "B:nist-ai-100-2e2025:p031:c03",
+        "page": 31,
+        "taxonomy": "predictive_ai",
+        "score": 0.015625,
+        "fusion": {
+          "dense_rank": 4,
+          "bm25_rank": null
+        },
+        "hit": false
+      },
+      {
+        "rank": 10,
+        "id": "B:nist-ai-100-2e2025:p054:c01",
+        "page": 54,
+        "taxonomy": "generative_ai",
+        "score": 0.015625,
+        "fusion": {
+          "dense_rank": null,
+          "bm25_rank": 4
+        },
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p071:c05"
+    ],
+    "context_chars": 532,
+    "hit1": false,
+    "hit3": true,
+    "hit10": true,
+    "rr10": 0.5,
+    "context_hit": false
+  },
+  {
+    "method": "hybrid_rrf",
+    "query_id": "q19",
+    "split": "test",
+    "answerable": true,
+    "question": "In generative AI language models, at what rate can information like email addresses be revealed?",
+    "filter": {
+      "taxonomy": "generative_ai"
+    },
+    "latency_ms": 67.7,
+    "error": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "B:nist-ai-100-2e2025:p059:c02",
+        "page": 59,
+        "taxonomy": "generative_ai",
+        "score": 0.032787,
+        "fusion": {
+          "dense_rank": 1,
+          "bm25_rank": 1
+        },
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "B:nist-ai-100-2e2025:p059:c00",
+        "page": 59,
+        "taxonomy": "generative_ai",
+        "score": 0.032002,
+        "fusion": {
+          "dense_rank": 2,
+          "bm25_rank": 3
+        },
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "B:nist-ai-100-2e2025:p047:c00",
+        "page": 47,
+        "taxonomy": "generative_ai",
+        "score": 0.031514,
+        "fusion": {
+          "dense_rank": 5,
+          "bm25_rank": 2
+        },
+        "hit": false
+      },
+      {
+        "rank": 4,
+        "id": "B:nist-ai-100-2e2025:p059:c01",
+        "page": 59,
+        "taxonomy": "generative_ai",
+        "score": 0.031258,
+        "fusion": {
+          "dense_rank": 3,
+          "bm25_rank": 5
+        },
+        "hit": false
+      },
+      {
+        "rank": 5,
+        "id": "B:nist-ai-100-2e2025:p066:c02",
+        "page": 66,
+        "taxonomy": "generative_ai",
+        "score": 0.029236,
+        "fusion": {
+          "dense_rank": 11,
+          "bm25_rank": 6
+        },
+        "hit": false
+      },
+      {
+        "rank": 6,
+        "id": "B:nist-ai-100-2e2025:p051:c01",
+        "page": 51,
+        "taxonomy": "generative_ai",
+        "score": 0.028612,
+        "fusion": {
+          "dense_rank": 4,
+          "bm25_rank": 17
+        },
+        "hit": false
+      },
+      {
+        "rank": 7,
+        "id": "B:nist-ai-100-2e2025:p066:c01",
+        "page": 66,
+        "taxonomy": "generative_ai",
+        "score": 0.028006,
+        "fusion": {
+          "dense_rank": 14,
+          "bm25_rank": 9
+        },
+        "hit": false
+      },
+      {
+        "rank": 8,
+        "id": "B:nist-ai-100-2e2025:p050:c02",
+        "page": 50,
+        "taxonomy": "generative_ai",
+        "score": 0.027651,
+        "fusion": {
+          "dense_rank": 9,
+          "bm25_rank": 16
+        },
+        "hit": false
+      },
+      {
+        "rank": 9,
+        "id": "B:nist-ai-100-2e2025:p059:c03",
+        "page": 59,
+        "taxonomy": "generative_ai",
+        "score": 0.027425,
+        "fusion": {
+          "dense_rank": 7,
+          "bm25_rank": 20
+        },
+        "hit": false
+      },
+      {
+        "rank": 10,
+        "id": "B:nist-ai-100-2e2025:p057:c02",
+        "page": 57,
+        "taxonomy": "generative_ai",
+        "score": 0.027072,
+        "fusion": {
+          "dense_rank": 17,
+          "bm25_rank": 11
+        },
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p047:c00"
+    ],
+    "context_chars": 675,
+    "hit1": true,
+    "hit3": true,
+    "hit10": true,
+    "rr10": 1.0,
+    "context_hit": false
+  },
+  {
+    "method": "hybrid_rrf",
+    "query_id": "q20",
+    "split": "test",
+    "answerable": true,
+    "question": "For predictive AI models trained with federated learning, how can compromised clients poison the global model?",
+    "filter": {
+      "taxonomy": "predictive_ai"
+    },
+    "latency_ms": 72.8,
+    "error": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "B:nist-ai-100-2e2025:p039:c00",
+        "page": 39,
+        "taxonomy": "predictive_ai",
+        "score": 0.032266,
+        "fusion": {
+          "dense_rank": 3,
+          "bm25_rank": 1
+        },
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "B:nist-ai-100-2e2025:p033:c04",
+        "page": 33,
+        "taxonomy": "predictive_ai",
+        "score": 0.031514,
+        "fusion": {
+          "dense_rank": 2,
+          "bm25_rank": 5
+        },
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "B:nist-ai-100-2e2025:p039:c01",
+        "page": 39,
+        "taxonomy": "predictive_ai",
+        "score": 0.031258,
+        "fusion": {
+          "dense_rank": 5,
+          "bm25_rank": 3
+        },
+        "hit": false
+      },
+      {
+        "rank": 4,
+        "id": "B:nist-ai-100-2e2025:p018:c04",
+        "page": 18,
+        "taxonomy": "predictive_ai",
+        "score": 0.03125,
+        "fusion": {
+          "dense_rank": 4,
+          "bm25_rank": 4
+        },
+        "hit": false
+      },
+      {
+        "rank": 5,
+        "id": "B:nist-ai-100-2e2025:p018:c02",
+        "page": 18,
+        "taxonomy": "predictive_ai",
+        "score": 0.030622,
+        "fusion": {
+          "dense_rank": 9,
+          "bm25_rank": 2
+        },
+        "hit": false
+      },
+      {
+        "rank": 6,
+        "id": "B:nist-ai-100-2e2025:p039:c03",
+        "page": 39,
+        "taxonomy": "predictive_ai",
+        "score": 0.029907,
+        "fusion": {
+          "dense_rank": 1,
+          "bm25_rank": 14
+        },
+        "hit": false
+      },
+      {
+        "rank": 7,
+        "id": "B:nist-ai-100-2e2025:p018:c03",
+        "page": 18,
+        "taxonomy": "predictive_ai",
+        "score": 0.029857,
+        "fusion": {
+          "dense_rank": 8,
+          "bm25_rank": 6
+        },
+        "hit": false
+      },
+      {
+        "rank": 8,
+        "id": "B:nist-ai-100-2e2025:p020:c00",
+        "page": 20,
+        "taxonomy": "predictive_ai",
+        "score": 0.029857,
+        "fusion": {
+          "dense_rank": 6,
+          "bm25_rank": 8
+        },
+        "hit": false
+      },
+      {
+        "rank": 9,
+        "id": "B:nist-ai-100-2e2025:p021:c00",
+        "page": 21,
+        "taxonomy": "predictive_ai",
+        "score": 0.029851,
+        "fusion": {
+          "dense_rank": 7,
+          "bm25_rank": 7
+        },
+        "hit": false
+      },
+      {
+        "rank": 10,
+        "id": "B:nist-ai-100-2e2025:p044:c00",
+        "page": 44,
+        "taxonomy": "predictive_ai",
+        "score": 0.027973,
+        "fusion": {
+          "dense_rank": 11,
+          "bm25_rank": 12
+        },
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p039:c00"
+    ],
+    "context_chars": 794,
+    "hit1": true,
+    "hit3": true,
+    "hit10": true,
+    "rr10": 1.0,
+    "context_hit": true
+  },
+  {
+    "method": "hybrid_rrf",
+    "query_id": "u03",
+    "split": "test",
+    "answerable": false,
+    "question": "Which version of Meta's Llama model was jailbroken with the \"Do Anything Now\" (DAN) role-play prompt?",
+    "filter": null,
+    "latency_ms": 72.6,
+    "error": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "B:nist-ai-100-2e2025:p051:c02",
+        "page": 51,
+        "taxonomy": "generative_ai",
+        "score": 0.031498,
+        "fusion": {
+          "dense_rank": 3,
+          "bm25_rank": 4
+        }
+      },
+      {
+        "rank": 2,
+        "id": "B:nist-ai-100-2e2025:p058:c00",
+        "page": 58,
+        "taxonomy": "generative_ai",
+        "score": 0.031319,
+        "fusion": {
+          "dense_rank": 7,
+          "bm25_rank": 1
+        }
+      },
+      {
+        "rank": 3,
+        "id": "B:nist-ai-100-2e2025:p037:c03",
+        "page": 37,
+        "taxonomy": "predictive_ai",
+        "score": 0.029274,
+        "fusion": {
+          "dense_rank": 12,
+          "bm25_rank": 5
+        }
+      },
+      {
+        "rank": 4,
+        "id": "B:nist-ai-100-2e2025:p056:c03",
+        "page": 56,
+        "taxonomy": "generative_ai",
+        "score": 0.028612,
+        "fusion": {
+          "dense_rank": 4,
+          "bm25_rank": 17
+        }
+      },
+      {
+        "rank": 5,
+        "id": "B:nist-ai-100-2e2025:p051:c01",
+        "page": 51,
+        "taxonomy": "generative_ai",
+        "score": 0.028205,
+        "fusion": {
+          "dense_rank": 5,
+          "bm25_rank": 18
+        }
+      },
+      {
+        "rank": 6,
+        "id": "B:nist-ai-100-2e2025:p052:c00",
+        "page": 52,
+        "taxonomy": "generative_ai",
+        "score": 0.026876,
+        "fusion": {
+          "dense_rank": 17,
+          "bm25_rank": 12
+        }
+      },
+      {
+        "rank": 7,
+        "id": "B:nist-ai-100-2e2025:p058:c03",
+        "page": 58,
+        "taxonomy": "generative_ai",
+        "score": 0.016393,
+        "fusion": {
+          "dense_rank": 1,
+          "bm25_rank": null
+        }
+      },
+      {
+        "rank": 8,
+        "id": "B:nist-ai-100-2e2025:p058:c02",
+        "page": 58,
+        "taxonomy": "generative_ai",
+        "score": 0.016129,
+        "fusion": {
+          "dense_rank": 2,
+          "bm25_rank": null
+        }
+      },
+      {
+        "rank": 9,
+        "id": "B:nist-ai-100-2e2025:p073:c04",
+        "page": 73,
+        "taxonomy": "general",
+        "score": 0.016129,
+        "fusion": {
+          "dense_rank": null,
+          "bm25_rank": 2
+        }
+      },
+      {
+        "rank": 10,
+        "id": "B:nist-ai-100-2e2025:p038:c01",
+        "page": 38,
+        "taxonomy": "predictive_ai",
+        "score": 0.015873,
+        "fusion": {
+          "dense_rank": null,
+          "bm25_rank": 3
+        }
+      }
+    ],
+    "context_ids": [],
+    "context_chars": 0
+  },
+  {
+    "method": "hybrid_rrf",
+    "query_id": "u04",
+    "split": "test",
+    "answerable": false,
+    "question": "Which article of the EU AI Act requires providers of high-risk AI systems to protect against data poisoning?",
+    "filter": null,
+    "latency_ms": 68.8,
+    "error": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "B:nist-ai-100-2e2025:p014:c01",
+        "page": 14,
+        "taxonomy": "general",
+        "score": 0.031319,
+        "fusion": {
+          "dense_rank": 7,
+          "bm25_rank": 1
+        }
+      },
+      {
+        "rank": 2,
+        "id": "B:nist-ai-100-2e2025:p062:c04",
+        "page": 62,
+        "taxonomy": "generative_ai",
+        "score": 0.03125,
+        "fusion": {
+          "dense_rank": 4,
+          "bm25_rank": 4
+        }
+      },
+      {
+        "rank": 3,
+        "id": "B:nist-ai-100-2e2025:p071:c04",
+        "page": 71,
+        "taxonomy": "general",
+        "score": 0.030579,
+        "fusion": {
+          "dense_rank": 3,
+          "bm25_rank": 8
+        }
+      },
+      {
+        "rank": 4,
+        "id": "B:nist-ai-100-2e2025:p073:c04",
+        "page": 73,
+        "taxonomy": "general",
+        "score": 0.030092,
+        "fusion": {
+          "dense_rank": 1,
+          "bm25_rank": 13
+        }
+      },
+      {
+        "rank": 5,
+        "id": "B:nist-ai-100-2e2025:p054:c03",
+        "page": 54,
+        "taxonomy": "generative_ai",
+        "score": 0.030018,
+        "fusion": {
+          "dense_rank": 2,
+          "bm25_rank": 12
+        }
+      },
+      {
+        "rank": 6,
+        "id": "B:nist-ai-100-2e2025:p070:c04",
+        "page": 70,
+        "taxonomy": "general",
+        "score": 0.029877,
+        "fusion": {
+          "dense_rank": 5,
+          "bm25_rank": 9
+        }
+      },
+      {
+        "rank": 7,
+        "id": "B:nist-ai-100-2e2025:p071:c03",
+        "page": 71,
+        "taxonomy": "general",
+        "score": 0.029387,
+        "fusion": {
+          "dense_rank": 14,
+          "bm25_rank": 3
+        }
+      },
+      {
+        "rank": 8,
+        "id": "B:nist-ai-100-2e2025:p073:c03",
+        "page": 73,
+        "taxonomy": "general",
+        "score": 0.029274,
+        "fusion": {
+          "dense_rank": 12,
+          "bm25_rank": 5
+        }
+      },
+      {
+        "rank": 9,
+        "id": "B:nist-ai-100-2e2025:p015:c00",
+        "page": 15,
+        "taxonomy": "general",
+        "score": 0.029236,
+        "fusion": {
+          "dense_rank": 11,
+          "bm25_rank": 6
+        }
+      },
+      {
+        "rank": 10,
+        "id": "B:nist-ai-100-2e2025:p054:c02",
+        "page": 54,
+        "taxonomy": "generative_ai",
+        "score": 0.02895,
+        "fusion": {
+          "dense_rank": 18,
+          "bm25_rank": 2
+        }
+      }
+    ],
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p062:c04"
+    ],
+    "context_chars": 468
+  },
+  {
+    "method": "bm25_rerank",
+    "query_id": "q16",
+    "split": "test",
+    "answerable": true,
+    "question": "Which jailbreak technique simply tells the model never to say no or decline?",
+    "filter": null,
+    "latency_ms": 3338.9,
+    "error": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "B:nist-ai-100-2e2025:p056:c03",
+        "page": 56,
+        "taxonomy": "generative_ai",
+        "score": -1.4162,
+        "rerank": {
+          "first_stage_rank": 13,
+          "first_stage_score": 3.771869
+        },
+        "hit": false
+      },
+      {
+        "rank": 2,
+        "id": "B:nist-ai-100-2e2025:p063:c01",
+        "page": 63,
+        "taxonomy": "generative_ai",
+        "score": -1.5394,
+        "rerank": {
+          "first_stage_rank": 9,
+          "first_stage_score": 4.049583
+        },
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "B:nist-ai-100-2e2025:p058:c02",
+        "page": 58,
+        "taxonomy": "generative_ai",
+        "score": -1.9192,
+        "rerank": {
+          "first_stage_rank": 5,
+          "first_stage_score": 4.488856
+        },
+        "hit": false
+      },
+      {
+        "rank": 4,
+        "id": "B:nist-ai-100-2e2025:p055:c02",
+        "page": 55,
+        "taxonomy": "generative_ai",
+        "score": -1.956,
+        "rerank": {
+          "first_stage_rank": 11,
+          "first_stage_score": 3.813778
+        },
+        "hit": false
+      },
+      {
+        "rank": 5,
+        "id": "B:nist-ai-100-2e2025:p058:c03",
+        "page": 58,
+        "taxonomy": "generative_ai",
+        "score": -2.1948,
+        "rerank": {
+          "first_stage_rank": 4,
+          "first_stage_score": 4.713789
+        },
+        "hit": false
+      },
+      {
+        "rank": 6,
+        "id": "B:nist-ai-100-2e2025:p065:c00",
+        "page": 65,
+        "taxonomy": "generative_ai",
+        "score": -3.4457,
+        "rerank": {
+          "first_stage_rank": 16,
+          "first_stage_score": 3.45769
+        },
+        "hit": false
+      },
+      {
+        "rank": 7,
+        "id": "B:nist-ai-100-2e2025:p051:c02",
+        "page": 51,
+        "taxonomy": "generative_ai",
+        "score": -4.5911,
+        "rerank": {
+          "first_stage_rank": 12,
+          "first_stage_score": 3.801698
+        },
+        "hit": false
+      },
+      {
+        "rank": 8,
+        "id": "B:nist-ai-100-2e2025:p061:c00",
+        "page": 61,
+        "taxonomy": "generative_ai",
+        "score": -4.8292,
+        "rerank": {
+          "first_stage_rank": 15,
+          "first_stage_score": 3.673012
+        },
+        "hit": false
+      },
+      {
+        "rank": 9,
+        "id": "B:nist-ai-100-2e2025:p047:c03",
+        "page": 47,
+        "taxonomy": "generative_ai",
+        "score": -5.686,
+        "rerank": {
+          "first_stage_rank": 1,
+          "first_stage_score": 7.504225
+        },
+        "hit": false
+      },
+      {
+        "rank": 10,
+        "id": "B:nist-ai-100-2e2025:p046:c03",
+        "page": 46,
+        "taxonomy": "predictive_ai",
+        "score": -8.2031,
+        "rerank": {
+          "first_stage_rank": 14,
+          "first_stage_score": 3.769862
+        },
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p063:c01"
+    ],
+    "context_chars": 488,
+    "hit1": false,
+    "hit3": false,
+    "hit10": false,
+    "rr10": 0.0,
+    "context_hit": false
+  },
+  {
+    "method": "bm25_rerank",
+    "query_id": "q17",
+    "split": "test",
+    "answerable": true,
+    "question": "What attacker capability enables indirect prompt injection attacks?",
+    "filter": null,
+    "latency_ms": 859.9,
+    "error": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "B:nist-ai-100-2e2025:p064:c02",
+        "page": 64,
+        "taxonomy": "generative_ai",
+        "score": 7.1816,
+        "rerank": {
+          "first_stage_rank": 13,
+          "first_stage_score": 8.843183
+        },
+        "hit": false
+      },
+      {
+        "rank": 2,
+        "id": "B:nist-ai-100-2e2025:p063:c04",
+        "page": 63,
+        "taxonomy": "generative_ai",
+        "score": 6.9967,
+        "rerank": {
+          "first_stage_rank": 2,
+          "first_stage_score": 12.868432
+        },
+        "hit": true
+      },
+      {
+        "rank": 3,
+        "id": "B:nist-ai-100-2e2025:p065:c00",
+        "page": 65,
+        "taxonomy": "generative_ai",
+        "score": 6.2529,
+        "rerank": {
+          "first_stage_rank": 3,
+          "first_stage_score": 12.365233
+        },
+        "hit": false
+      },
+      {
+        "rank": 4,
+        "id": "B:nist-ai-100-2e2025:p064:c04",
+        "page": 64,
+        "taxonomy": "generative_ai",
+        "score": 6.2247,
+        "rerank": {
+          "first_stage_rank": 16,
+          "first_stage_score": 8.371228
+        },
+        "hit": false
+      },
+      {
+        "rank": 5,
+        "id": "B:nist-ai-100-2e2025:p054:c00",
+        "page": 54,
+        "taxonomy": "generative_ai",
+        "score": 5.6654,
+        "rerank": {
+          "first_stage_rank": 1,
+          "first_stage_score": 14.851164
+        },
+        "hit": false
+      },
+      {
+        "rank": 6,
+        "id": "B:nist-ai-100-2e2025:p065:c03",
+        "page": 65,
+        "taxonomy": "generative_ai",
+        "score": 5.5659,
+        "rerank": {
+          "first_stage_rank": 5,
+          "first_stage_score": 10.852011
+        },
+        "hit": false
+      },
+      {
+        "rank": 7,
+        "id": "B:nist-ai-100-2e2025:p066:c02",
+        "page": 66,
+        "taxonomy": "generative_ai",
+        "score": 5.5567,
+        "rerank": {
+          "first_stage_rank": 10,
+          "first_stage_score": 8.934509
+        },
+        "hit": false
+      },
+      {
+        "rank": 8,
+        "id": "B:nist-ai-100-2e2025:p064:c03",
+        "page": 64,
+        "taxonomy": "generative_ai",
+        "score": 5.5306,
+        "rerank": {
+          "first_stage_rank": 15,
+          "first_stage_score": 8.664103
+        },
+        "hit": false
+      },
+      {
+        "rank": 9,
+        "id": "B:nist-ai-100-2e2025:p066:c00",
+        "page": 66,
+        "taxonomy": "generative_ai",
+        "score": 5.3259,
+        "rerank": {
+          "first_stage_rank": 8,
+          "first_stage_score": 10.48845
+        },
+        "hit": false
+      },
+      {
+        "rank": 10,
+        "id": "B:nist-ai-100-2e2025:p065:c02",
+        "page": 65,
+        "taxonomy": "generative_ai",
+        "score": 4.6135,
+        "rerank": {
+          "first_stage_rank": 11,
+          "first_stage_score": 8.882435
+        },
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p064:c02"
+    ],
+    "context_chars": 794,
+    "hit1": false,
+    "hit3": true,
+    "hit10": true,
+    "rr10": 0.5,
+    "context_hit": false
+  },
+  {
+    "method": "bm25_rerank",
+    "query_id": "q18",
+    "split": "test",
+    "answerable": true,
+    "question": "Does compressing a model to 8-bit or 4-bit weights make it safer against adversarial attacks?",
+    "filter": null,
+    "latency_ms": 1012.6,
+    "error": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "B:nist-ai-100-2e2025:p072:c02",
+        "page": 72,
+        "taxonomy": "general",
+        "score": -0.398,
+        "rerank": {
+          "first_stage_rank": 14,
+          "first_stage_score": 5.084409
+        },
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "B:nist-ai-100-2e2025:p072:c01",
+        "page": 72,
+        "taxonomy": "general",
+        "score": -1.4087,
+        "rerank": {
+          "first_stage_rank": 1,
+          "first_stage_score": 26.576168
+        },
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "B:nist-ai-100-2e2025:p030:c00",
+        "page": 30,
+        "taxonomy": "predictive_ai",
+        "score": -1.8731,
+        "rerank": {
+          "first_stage_rank": 15,
+          "first_stage_score": 5.012647
+        },
+        "hit": false
+      },
+      {
+        "rank": 4,
+        "id": "B:nist-ai-100-2e2025:p045:c00",
+        "page": 45,
+        "taxonomy": "predictive_ai",
+        "score": -2.3341,
+        "rerank": {
+          "first_stage_rank": 8,
+          "first_stage_score": 6.534691
+        },
+        "hit": false
+      },
+      {
+        "rank": 5,
+        "id": "B:nist-ai-100-2e2025:p071:c05",
+        "page": 71,
+        "taxonomy": "general",
+        "score": -2.5204,
+        "rerank": {
+          "first_stage_rank": 2,
+          "first_stage_score": 8.964195
+        },
+        "hit": false
+      },
+      {
+        "rank": 6,
+        "id": "B:nist-ai-100-2e2025:p025:c01",
+        "page": 25,
+        "taxonomy": "predictive_ai",
+        "score": -2.7656,
+        "rerank": {
+          "first_stage_rank": 20,
+          "first_stage_score": 4.765971
+        },
+        "hit": false
+      },
+      {
+        "rank": 7,
+        "id": "B:nist-ai-100-2e2025:p054:c01",
+        "page": 54,
+        "taxonomy": "generative_ai",
+        "score": -2.9612,
+        "rerank": {
+          "first_stage_rank": 4,
+          "first_stage_score": 7.281854
+        },
+        "hit": false
+      },
+      {
+        "rank": 8,
+        "id": "B:nist-ai-100-2e2025:p029:c00",
+        "page": 29,
+        "taxonomy": "predictive_ai",
+        "score": -3.5606,
+        "rerank": {
+          "first_stage_rank": 10,
+          "first_stage_score": 5.91177
+        },
+        "hit": false
+      },
+      {
+        "rank": 9,
+        "id": "B:nist-ai-100-2e2025:p061:c00",
+        "page": 61,
+        "taxonomy": "generative_ai",
+        "score": -4.6084,
+        "rerank": {
+          "first_stage_rank": 18,
+          "first_stage_score": 4.812188
+        },
+        "hit": false
+      },
+      {
+        "rank": 10,
+        "id": "B:nist-ai-100-2e2025:p015:c01",
+        "page": 15,
+        "taxonomy": "general",
+        "score": -4.6516,
+        "rerank": {
+          "first_stage_rank": 13,
+          "first_stage_score": 5.142277
+        },
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p072:c01"
+    ],
+    "context_chars": 775,
+    "hit1": true,
+    "hit3": true,
+    "hit10": true,
+    "rr10": 1.0,
+    "context_hit": false
+  },
+  {
+    "method": "bm25_rerank",
+    "query_id": "q19",
+    "split": "test",
+    "answerable": true,
+    "question": "In generative AI language models, at what rate can information like email addresses be revealed?",
+    "filter": {
+      "taxonomy": "generative_ai"
+    },
+    "latency_ms": 1182.9,
+    "error": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "B:nist-ai-100-2e2025:p059:c02",
+        "page": 59,
+        "taxonomy": "generative_ai",
+        "score": 5.6173,
+        "rerank": {
+          "first_stage_rank": 1,
+          "first_stage_score": 26.832519
+        },
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "B:nist-ai-100-2e2025:p047:c00",
+        "page": 47,
+        "taxonomy": "generative_ai",
+        "score": -2.6102,
+        "rerank": {
+          "first_stage_rank": 2,
+          "first_stage_score": 9.067491
+        },
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "B:nist-ai-100-2e2025:p059:c01",
+        "page": 59,
+        "taxonomy": "generative_ai",
+        "score": -4.7314,
+        "rerank": {
+          "first_stage_rank": 5,
+          "first_stage_score": 6.542755
+        },
+        "hit": false
+      },
+      {
+        "rank": 4,
+        "id": "B:nist-ai-100-2e2025:p057:c02",
+        "page": 57,
+        "taxonomy": "generative_ai",
+        "score": -6.9675,
+        "rerank": {
+          "first_stage_rank": 11,
+          "first_stage_score": 4.808142
+        },
+        "hit": false
+      },
+      {
+        "rank": 5,
+        "id": "B:nist-ai-100-2e2025:p051:c01",
+        "page": 51,
+        "taxonomy": "generative_ai",
+        "score": -7.7781,
+        "rerank": {
+          "first_stage_rank": 17,
+          "first_stage_score": 4.158785
+        },
+        "hit": false
+      },
+      {
+        "rank": 6,
+        "id": "B:nist-ai-100-2e2025:p058:c02",
+        "page": 58,
+        "taxonomy": "generative_ai",
+        "score": -7.7948,
+        "rerank": {
+          "first_stage_rank": 10,
+          "first_stage_score": 5.170929
+        },
+        "hit": false
+      },
+      {
+        "rank": 7,
+        "id": "B:nist-ai-100-2e2025:p066:c02",
+        "page": 66,
+        "taxonomy": "generative_ai",
+        "score": -7.9679,
+        "rerank": {
+          "first_stage_rank": 6,
+          "first_stage_score": 6.437952
+        },
+        "hit": false
+      },
+      {
+        "rank": 8,
+        "id": "B:nist-ai-100-2e2025:p066:c01",
+        "page": 66,
+        "taxonomy": "generative_ai",
+        "score": -8.9052,
+        "rerank": {
+          "first_stage_rank": 9,
+          "first_stage_score": 5.861885
+        },
+        "hit": false
+      },
+      {
+        "rank": 9,
+        "id": "B:nist-ai-100-2e2025:p059:c03",
+        "page": 59,
+        "taxonomy": "generative_ai",
+        "score": -9.2543,
+        "rerank": {
+          "first_stage_rank": 20,
+          "first_stage_score": 3.386721
+        },
+        "hit": false
+      },
+      {
+        "rank": 10,
+        "id": "B:nist-ai-100-2e2025:p050:c02",
+        "page": 50,
+        "taxonomy": "generative_ai",
+        "score": -9.3596,
+        "rerank": {
+          "first_stage_rank": 16,
+          "first_stage_score": 4.272864
+        },
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p047:c00"
+    ],
+    "context_chars": 675,
+    "hit1": true,
+    "hit3": true,
+    "hit10": true,
+    "rr10": 1.0,
+    "context_hit": false
+  },
+  {
+    "method": "bm25_rerank",
+    "query_id": "q20",
+    "split": "test",
+    "answerable": true,
+    "question": "For predictive AI models trained with federated learning, how can compromised clients poison the global model?",
+    "filter": {
+      "taxonomy": "predictive_ai"
+    },
+    "latency_ms": 967.3,
+    "error": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "B:nist-ai-100-2e2025:p039:c00",
+        "page": 39,
+        "taxonomy": "predictive_ai",
+        "score": 5.7806,
+        "rerank": {
+          "first_stage_rank": 1,
+          "first_stage_score": 32.075016
+        },
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "B:nist-ai-100-2e2025:p039:c01",
+        "page": 39,
+        "taxonomy": "predictive_ai",
+        "score": 4.1547,
+        "rerank": {
+          "first_stage_rank": 3,
+          "first_stage_score": 15.444022
+        },
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "B:nist-ai-100-2e2025:p033:c04",
+        "page": 33,
+        "taxonomy": "predictive_ai",
+        "score": 3.8064,
+        "rerank": {
+          "first_stage_rank": 5,
+          "first_stage_score": 10.638504
+        },
+        "hit": false
+      },
+      {
+        "rank": 4,
+        "id": "B:nist-ai-100-2e2025:p039:c03",
+        "page": 39,
+        "taxonomy": "predictive_ai",
+        "score": 1.5801,
+        "rerank": {
+          "first_stage_rank": 14,
+          "first_stage_score": 5.855087
+        },
+        "hit": false
+      },
+      {
+        "rank": 5,
+        "id": "B:nist-ai-100-2e2025:p018:c04",
+        "page": 18,
+        "taxonomy": "predictive_ai",
+        "score": 1.248,
+        "rerank": {
+          "first_stage_rank": 4,
+          "first_stage_score": 11.314371
+        },
+        "hit": false
+      },
+      {
+        "rank": 6,
+        "id": "B:nist-ai-100-2e2025:p021:c00",
+        "page": 21,
+        "taxonomy": "predictive_ai",
+        "score": 1.0551,
+        "rerank": {
+          "first_stage_rank": 7,
+          "first_stage_score": 6.819377
+        },
+        "hit": false
+      },
+      {
+        "rank": 7,
+        "id": "B:nist-ai-100-2e2025:p020:c00",
+        "page": 20,
+        "taxonomy": "predictive_ai",
+        "score": 0.9242,
+        "rerank": {
+          "first_stage_rank": 8,
+          "first_stage_score": 6.729667
+        },
+        "hit": false
+      },
+      {
+        "rank": 8,
+        "id": "B:nist-ai-100-2e2025:p018:c03",
+        "page": 18,
+        "taxonomy": "predictive_ai",
+        "score": 0.4196,
+        "rerank": {
+          "first_stage_rank": 6,
+          "first_stage_score": 8.679591
+        },
+        "hit": false
+      },
+      {
+        "rank": 9,
+        "id": "B:nist-ai-100-2e2025:p017:c00",
+        "page": 17,
+        "taxonomy": "predictive_ai",
+        "score": -0.0951,
+        "rerank": {
+          "first_stage_rank": 16,
+          "first_stage_score": 4.9396
+        },
+        "hit": false
+      },
+      {
+        "rank": 10,
+        "id": "B:nist-ai-100-2e2025:p019:c02",
+        "page": 19,
+        "taxonomy": "predictive_ai",
+        "score": -0.3904,
+        "rerank": {
+          "first_stage_rank": 15,
+          "first_stage_score": 5.228895
+        },
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p039:c00"
+    ],
+    "context_chars": 794,
+    "hit1": true,
+    "hit3": true,
+    "hit10": true,
+    "rr10": 1.0,
+    "context_hit": true
+  },
+  {
+    "method": "bm25_rerank",
+    "query_id": "u03",
+    "split": "test",
+    "answerable": false,
+    "question": "Which version of Meta's Llama model was jailbroken with the \"Do Anything Now\" (DAN) role-play prompt?",
+    "filter": null,
+    "latency_ms": 1219.5,
+    "error": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "B:nist-ai-100-2e2025:p058:c00",
+        "page": 58,
+        "taxonomy": "generative_ai",
+        "score": -1.8341,
+        "rerank": {
+          "first_stage_rank": 1,
+          "first_stage_score": 29.294852
+        }
+      },
+      {
+        "rank": 2,
+        "id": "B:nist-ai-100-2e2025:p056:c03",
+        "page": 56,
+        "taxonomy": "generative_ai",
+        "score": -3.5234,
+        "rerank": {
+          "first_stage_rank": 17,
+          "first_stage_score": 3.893323
+        }
+      },
+      {
+        "rank": 3,
+        "id": "B:nist-ai-100-2e2025:p065:c00",
+        "page": 65,
+        "taxonomy": "generative_ai",
+        "score": -3.8478,
+        "rerank": {
+          "first_stage_rank": 9,
+          "first_stage_score": 5.066677
+        }
+      },
+      {
+        "rank": 4,
+        "id": "B:nist-ai-100-2e2025:p051:c02",
+        "page": 51,
+        "taxonomy": "generative_ai",
+        "score": -4.3582,
+        "rerank": {
+          "first_stage_rank": 4,
+          "first_stage_score": 6.124412
+        }
+      },
+      {
+        "rank": 5,
+        "id": "B:nist-ai-100-2e2025:p051:c01",
+        "page": 51,
+        "taxonomy": "generative_ai",
+        "score": -7.2592,
+        "rerank": {
+          "first_stage_rank": 18,
+          "first_stage_score": 3.878184
+        }
+      },
+      {
+        "rank": 6,
+        "id": "B:nist-ai-100-2e2025:p064:c03",
+        "page": 64,
+        "taxonomy": "generative_ai",
+        "score": -7.7485,
+        "rerank": {
+          "first_stage_rank": 8,
+          "first_stage_score": 5.363432
+        }
+      },
+      {
+        "rank": 7,
+        "id": "B:nist-ai-100-2e2025:p062:c00",
+        "page": 62,
+        "taxonomy": "generative_ai",
+        "score": -8.5208,
+        "rerank": {
+          "first_stage_rank": 15,
+          "first_stage_score": 4.097069
+        }
+      },
+      {
+        "rank": 8,
+        "id": "B:nist-ai-100-2e2025:p054:c00",
+        "page": 54,
+        "taxonomy": "generative_ai",
+        "score": -8.7918,
+        "rerank": {
+          "first_stage_rank": 20,
+          "first_stage_score": 3.785708
+        }
+      },
+      {
+        "rank": 9,
+        "id": "B:nist-ai-100-2e2025:p052:c00",
+        "page": 52,
+        "taxonomy": "generative_ai",
+        "score": -9.2251,
+        "rerank": {
+          "first_stage_rank": 12,
+          "first_stage_score": 4.289884
+        }
+      },
+      {
+        "rank": 10,
+        "id": "B:nist-ai-100-2e2025:p056:c02",
+        "page": 56,
+        "taxonomy": "generative_ai",
+        "score": -9.4316,
+        "rerank": {
+          "first_stage_rank": 11,
+          "first_stage_score": 4.582128
+        }
+      }
+    ],
+    "context_ids": [],
+    "context_chars": 0
+  },
+  {
+    "method": "bm25_rerank",
+    "query_id": "u04",
+    "split": "test",
+    "answerable": false,
+    "question": "Which article of the EU AI Act requires providers of high-risk AI systems to protect against data poisoning?",
+    "filter": null,
+    "latency_ms": 961.3,
+    "error": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "B:nist-ai-100-2e2025:p071:c00",
+        "page": 71,
+        "taxonomy": "general",
+        "score": -1.57,
+        "rerank": {
+          "first_stage_rank": 19,
+          "first_stage_score": 8.330226
+        }
+      },
+      {
+        "rank": 2,
+        "id": "B:nist-ai-100-2e2025:p036:c05",
+        "page": 36,
+        "taxonomy": "predictive_ai",
+        "score": -3.3895,
+        "rerank": {
+          "first_stage_rank": 16,
+          "first_stage_score": 8.586113
+        }
+      },
+      {
+        "rank": 3,
+        "id": "B:nist-ai-100-2e2025:p054:c03",
+        "page": 54,
+        "taxonomy": "generative_ai",
+        "score": -3.5538,
+        "rerank": {
+          "first_stage_rank": 12,
+          "first_stage_score": 9.386125
+        }
+      },
+      {
+        "rank": 4,
+        "id": "B:nist-ai-100-2e2025:p014:c01",
+        "page": 14,
+        "taxonomy": "general",
+        "score": -4.5842,
+        "rerank": {
+          "first_stage_rank": 1,
+          "first_stage_score": 16.236588
+        }
+      },
+      {
+        "rank": 5,
+        "id": "B:nist-ai-100-2e2025:p070:c04",
+        "page": 70,
+        "taxonomy": "general",
+        "score": -4.6249,
+        "rerank": {
+          "first_stage_rank": 9,
+          "first_stage_score": 10.047975
+        }
+      },
+      {
+        "rank": 6,
+        "id": "B:nist-ai-100-2e2025:p054:c02",
+        "page": 54,
+        "taxonomy": "generative_ai",
+        "score": -4.6743,
+        "rerank": {
+          "first_stage_rank": 2,
+          "first_stage_score": 14.722583
+        }
+      },
+      {
+        "rank": 7,
+        "id": "B:nist-ai-100-2e2025:p072:c03",
+        "page": 72,
+        "taxonomy": "general",
+        "score": -5.1231,
+        "rerank": {
+          "first_stage_rank": 14,
+          "first_stage_score": 8.957503
+        }
+      },
+      {
+        "rank": 8,
+        "id": "B:nist-ai-100-2e2025:p017:c00",
+        "page": 17,
+        "taxonomy": "predictive_ai",
+        "score": -5.1297,
+        "rerank": {
+          "first_stage_rank": 20,
+          "first_stage_score": 8.16104
+        }
+      },
+      {
+        "rank": 9,
+        "id": "B:nist-ai-100-2e2025:p062:c04",
+        "page": 62,
+        "taxonomy": "generative_ai",
+        "score": -5.2757,
+        "rerank": {
+          "first_stage_rank": 4,
+          "first_stage_score": 12.222834
+        }
+      },
+      {
+        "rank": 10,
+        "id": "B:nist-ai-100-2e2025:p073:c04",
+        "page": 73,
+        "taxonomy": "general",
+        "score": -5.2812,
+        "rerank": {
+          "first_stage_rank": 13,
+          "first_stage_score": 9.059411
+        }
+      }
+    ],
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p071:c00"
+    ],
+    "context_chars": 717
+  }
+]

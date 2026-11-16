@@ -1,0 +1,171 @@
+{
+  "imported_at": "2026-11-16T06:47:31+00:00",
+  "day6_strategy": "B",
+  "inputs": {
+    "chunks": {
+      "file": "chunks_B.jsonl",
+      "sha256": "26d7264a84690986f9f5e694d9f6d6cff5a2dd9d48fbe579e41d21f7780ce067"
+    },
+    "questions": {
+      "file": "questions.jsonl",
+      "sha256": "3df590dda7c70cf2e9321bde438435c8c8c56e445ea6706375d6d629d613089c"
+    }
+  },
+  "chunks": 265,
+  "pages": 60,
+  "questions": {
+    "dev": 15,
+    "test": 5
+  },
+  "with_filter": [
+    "q13",
+    "q14",
+    "q15",
+    "q19",
+    "q20"
+  ],
+  "evidence_rewritten_to_verbatim": 19,
+  "per_question": [
+    {
+      "id": "q01",
+      "gold_chunks": [
+        "B:nist-ai-100-2e2025:p014:c01"
+      ],
+      "evidence_rewritten": true
+    },
+    {
+      "id": "q02",
+      "gold_chunks": [
+        "B:nist-ai-100-2e2025:p019:c01"
+      ],
+      "evidence_rewritten": true
+    },
+    {
+      "id": "q03",
+      "gold_chunks": [
+        "B:nist-ai-100-2e2025:p020:c00"
+      ],
+      "evidence_rewritten": true
+    },
+    {
+      "id": "q04",
+      "gold_chunks": [
+        "B:nist-ai-100-2e2025:p022:c01"
+      ],
+      "evidence_rewritten": true
+    },
+    {
+      "id": "q05",
+      "gold_chunks": [
+        "B:nist-ai-100-2e2025:p025:c04"
+      ],
+      "evidence_rewritten": true
+    },
+    {
+      "id": "q06",
+      "gold_chunks": [
+        "B:nist-ai-100-2e2025:p026:c02"
+      ],
+      "evidence_rewritten": true
+    },
+    {
+      "id": "q07",
+      "gold_chunks": [
+        "B:nist-ai-100-2e2025:p028:c01"
+      ],
+      "evidence_rewritten": true
+    },
+    {
+      "id": "q08",
+      "gold_chunks": [
+        "B:nist-ai-100-2e2025:p034:c00"
+      ],
+      "evidence_rewritten": true
+    },
+    {
+      "id": "q09",
+      "gold_chunks": [
+        "B:nist-ai-100-2e2025:p035:c04"
+      ],
+      "evidence_rewritten": true
+    },
+    {
+      "id": "q10",
+      "gold_chunks": [
+        "B:nist-ai-100-2e2025:p040:c02"
+      ],
+      "evidence_rewritten": true
+    },
+    {
+      "id": "q11",
+      "gold_chunks": [
+        "B:nist-ai-100-2e2025:p043:c00"
+      ],
+      "evidence_rewritten": true
+    },
+    {
+      "id": "q12",
+      "gold_chunks": [
+        "B:nist-ai-100-2e2025:p045:c03"
+      ],
+      "evidence_rewritten": true
+    },
+    {
+      "id": "q13",
+      "gold_chunks": [
+        "B:nist-ai-100-2e2025:p055:c00"
+      ],
+      "evidence_rewritten": true
+    },
+    {
+      "id": "q14",
+      "gold_chunks": [
+        "B:nist-ai-100-2e2025:p044:c03"
+      ],
+      "evidence_rewritten": true
+    },
+    {
+      "id": "q15",
+      "gold_chunks": [
+        "B:nist-ai-100-2e2025:p056:c00"
+      ],
+      "evidence_rewritten": true
+    },
+    {
+      "id": "q16",
+      "gold_chunks": [
+        "B:nist-ai-100-2e2025:p057:c04"
+      ],
+      "evidence_rewritten": true
+    },
+    {
+      "id": "q17",
+      "gold_chunks": [
+        "B:nist-ai-100-2e2025:p063:c04"
+      ],
+      "evidence_rewritten": true
+    },
+    {
+      "id": "q18",
+      "gold_chunks": [
+        "B:nist-ai-100-2e2025:p072:c02"
+      ],
+      "evidence_rewritten": true
+    },
+    {
+      "id": "q19",
+      "gold_chunks": [
+        "B:nist-ai-100-2e2025:p059:c02"
+      ],
+      "evidence_rewritten": false
+    },
+    {
+      "id": "q20",
+      "gold_chunks": [
+        "B:nist-ai-100-2e2025:p039:c00"
+      ],
+      "evidence_rewritten": true
+    }
+  ],
+  "note": "evidence = exact span of the gold chunk matching the Day 6 quote after NFC + whitespace collapse + lower-case (same rule as Day 6 evaluation)."
+}

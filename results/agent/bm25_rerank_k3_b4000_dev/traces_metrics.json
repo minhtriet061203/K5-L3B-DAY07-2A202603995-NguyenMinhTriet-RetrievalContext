@@ -1,0 +1,1151 @@
+[
+  {
+    "query_id": "q01",
+    "status": "answered",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "bm25_rerank",
+        "query": "adversarial machine learning study",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p014:c01",
+            "page": 14,
+            "score": 8.1579
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p022:c03",
+            "page": 22,
+            "score": 2.7288
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p073:c03",
+            "page": 73,
+            "score": 2.4351
+          }
+        ],
+        "shown": [
+          "B:nist-ai-100-2e2025:p014:c01",
+          "B:nist-ai-100-2e2025:p022:c03",
+          "B:nist-ai-100-2e2025:p073:c03"
+        ],
+        "duplicate": [],
+        "dropped_budget": [],
+        "ms": 14689.9
+      },
+      {
+        "event": "citations_appended",
+        "ids": [
+          "B:nist-ai-100-2e2025:p014:c01"
+        ]
+      },
+      {
+        "event": "answer",
+        "via": "tool"
+      }
+    ],
+    "citations": [
+      "B:nist-ai-100-2e2025:p014:c01"
+    ],
+    "searches": 1,
+    "config_name": "bm25_rerank_k3_b4000",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  {
+    "query_id": "q02",
+    "status": "answered",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "bm25_rerank",
+        "query": "three attacker objectives classify attacks predictive AI systems",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p017:c00",
+            "page": 17,
+            "score": 6.1022
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p016:c01",
+            "page": 16,
+            "score": 4.1144
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p019:c01",
+            "page": 19,
+            "score": 3.0471
+          }
+        ],
+        "shown": [
+          "B:nist-ai-100-2e2025:p017:c00",
+          "B:nist-ai-100-2e2025:p016:c01",
+          "B:nist-ai-100-2e2025:p019:c01"
+        ],
+        "duplicate": [],
+        "dropped_budget": [],
+        "ms": 984.0
+      },
+      {
+        "event": "answer",
+        "via": "tool"
+      }
+    ],
+    "citations": [
+      "B:nist-ai-100-2e2025:p017:c00",
+      "B:nist-ai-100-2e2025:p019:c01"
+    ],
+    "searches": 1,
+    "config_name": "bm25_rerank_k3_b4000",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  {
+    "query_id": "q03",
+    "status": "answered",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "bm25_rerank",
+        "query": "attack requires attacker to control training data and test data",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p020:c00",
+            "page": 20,
+            "score": 7.8584
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p021:c02",
+            "page": 21,
+            "score": 7.4254
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p021:c00",
+            "page": 21,
+            "score": 6.4815
+          }
+        ],
+        "shown": [
+          "B:nist-ai-100-2e2025:p020:c00",
+          "B:nist-ai-100-2e2025:p021:c02",
+          "B:nist-ai-100-2e2025:p021:c00"
+        ],
+        "duplicate": [],
+        "dropped_budget": [],
+        "ms": 1071.8
+      },
+      {
+        "event": "answer",
+        "via": "tool"
+      }
+    ],
+    "citations": [
+      "B:nist-ai-100-2e2025:p020:c00"
+    ],
+    "searches": 1,
+    "config_name": "bm25_rerank_k3_b4000",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  {
+    "query_id": "q04",
+    "status": "answered",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "bm25_rerank",
+        "query": "black-box attacks attacker knowledge",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p022:c01",
+            "page": 22,
+            "score": 8.0308
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p021:c02",
+            "page": 21,
+            "score": 7.1799
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p028:c00",
+            "page": 28,
+            "score": 6.9645
+          }
+        ],
+        "shown": [
+          "B:nist-ai-100-2e2025:p022:c01",
+          "B:nist-ai-100-2e2025:p021:c02",
+          "B:nist-ai-100-2e2025:p028:c00"
+        ],
+        "duplicate": [],
+        "dropped_budget": [],
+        "ms": 1052.4
+      },
+      {
+        "event": "citations_appended",
+        "ids": [
+          "B:nist-ai-100-2e2025:p022:c01",
+          "B:nist-ai-100-2e2025:p028:c00"
+        ]
+      },
+      {
+        "event": "answer",
+        "via": "tool"
+      }
+    ],
+    "citations": [
+      "B:nist-ai-100-2e2025:p022:c01",
+      "B:nist-ai-100-2e2025:p028:c00"
+    ],
+    "searches": 1,
+    "config_name": "bm25_rerank_k3_b4000",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  {
+    "query_id": "q05",
+    "status": "answered",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "bm25_rerank",
+        "query": "Fast Gradient Sign Method FGSM iterations gradient descent",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p025:c04",
+            "page": 25,
+            "score": 6.6399
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p026:c01",
+            "page": 26,
+            "score": -1.4668
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p028:c02",
+            "page": 28,
+            "score": -5.8931
+          }
+        ],
+        "shown": [
+          "B:nist-ai-100-2e2025:p025:c04",
+          "B:nist-ai-100-2e2025:p026:c01",
+          "B:nist-ai-100-2e2025:p028:c02"
+        ],
+        "duplicate": [],
+        "dropped_budget": [],
+        "ms": 952.5
+      },
+      {
+        "event": "citations_appended",
+        "ids": [
+          "B:nist-ai-100-2e2025:p025:c04"
+        ]
+      },
+      {
+        "event": "answer",
+        "via": "tool"
+      }
+    ],
+    "citations": [
+      "B:nist-ai-100-2e2025:p025:c04"
+    ],
+    "searches": 1,
+    "config_name": "bm25_rerank_k3_b4000",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  {
+    "query_id": "q06",
+    "status": "answered",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "bm25_rerank",
+        "query": "fool traffic sign recognition model physical world",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p026:c02",
+            "page": 26,
+            "score": -1.7851
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p029:c02",
+            "page": 29,
+            "score": -6.6684
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p023:c00",
+            "page": 23,
+            "score": -9.7687
+          }
+        ],
+        "shown": [
+          "B:nist-ai-100-2e2025:p026:c02",
+          "B:nist-ai-100-2e2025:p029:c02",
+          "B:nist-ai-100-2e2025:p023:c00"
+        ],
+        "duplicate": [],
+        "dropped_budget": [],
+        "ms": 1143.2
+      },
+      {
+        "event": "citations_appended",
+        "ids": [
+          "B:nist-ai-100-2e2025:p026:c02"
+        ]
+      },
+      {
+        "event": "answer",
+        "via": "tool"
+      }
+    ],
+    "citations": [
+      "B:nist-ai-100-2e2025:p026:c02"
+    ],
+    "searches": 1,
+    "config_name": "bm25_rerank_k3_b4000",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  {
+    "query_id": "q07",
+    "status": "answered",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "bm25_rerank",
+        "query": "score-based black-box evasion attacks method estimates model gradients without computing derivatives",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p028:c01",
+            "page": 28,
+            "score": 6.9067
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p028:c02",
+            "page": 28,
+            "score": 1.812
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p028:c00",
+            "page": 28,
+            "score": 1.5419
+          }
+        ],
+        "shown": [
+          "B:nist-ai-100-2e2025:p028:c01",
+          "B:nist-ai-100-2e2025:p028:c02",
+          "B:nist-ai-100-2e2025:p028:c00"
+        ],
+        "duplicate": [],
+        "dropped_budget": [],
+        "ms": 940.2
+      },
+      {
+        "event": "citations_appended",
+        "ids": [
+          "B:nist-ai-100-2e2025:p028:c01"
+        ]
+      },
+      {
+        "event": "answer",
+        "via": "tool"
+      }
+    ],
+    "citations": [
+      "B:nist-ai-100-2e2025:p028:c01"
+    ],
+    "searches": 1,
+    "config_name": "bm25_rerank_k3_b4000",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  {
+    "query_id": "q08",
+    "status": "answered",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "bm25_rerank",
+        "query": "RONI Region of Non-Interest method exclude sample from training",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p034:c00",
+            "page": 34,
+            "score": 6.2927
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p042:c01",
+            "page": 42,
+            "score": -6.8857
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p043:c00",
+            "page": 43,
+            "score": -7.2442
+          }
+        ],
+        "shown": [
+          "B:nist-ai-100-2e2025:p034:c00",
+          "B:nist-ai-100-2e2025:p042:c01",
+          "B:nist-ai-100-2e2025:p043:c00"
+        ],
+        "duplicate": [],
+        "dropped_budget": [],
+        "ms": 964.4
+      },
+      {
+        "event": "answer",
+        "via": "tool"
+      }
+    ],
+    "citations": [
+      "B:nist-ai-100-2e2025:p034:c00"
+    ],
+    "searches": 1,
+    "config_name": "bm25_rerank_k3_b4000",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  {
+    "query_id": "q09",
+    "status": "answered",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "bm25_rerank",
+        "query": "first backdoor poisoning attack proposed by",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p035:c04",
+            "page": 35,
+            "score": 8.0128
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p038:c02",
+            "page": 38,
+            "score": 4.0968
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p038:c03",
+            "page": 38,
+            "score": 2.8091
+          }
+        ],
+        "shown": [
+          "B:nist-ai-100-2e2025:p035:c04",
+          "B:nist-ai-100-2e2025:p038:c02",
+          "B:nist-ai-100-2e2025:p038:c03"
+        ],
+        "duplicate": [],
+        "dropped_budget": [],
+        "ms": 983.6
+      },
+      {
+        "event": "citations_appended",
+        "ids": [
+          "B:nist-ai-100-2e2025:p035:c04"
+        ]
+      },
+      {
+        "event": "answer",
+        "via": "tool"
+      }
+    ],
+    "citations": [
+      "B:nist-ai-100-2e2025:p035:c04"
+    ],
+    "searches": 1,
+    "config_name": "bm25_rerank_k3_b4000",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  {
+    "query_id": "q10",
+    "status": "answered",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "bm25_rerank",
+        "query": "Microsoft chatbot earliest documented case attack corrupted model training data",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p040:c01",
+            "page": 40,
+            "score": -0.2083
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p059:c01",
+            "page": 59,
+            "score": -0.396
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p020:c03",
+            "page": 20,
+            "score": -1.1187
+          }
+        ],
+        "shown": [
+          "B:nist-ai-100-2e2025:p040:c01",
+          "B:nist-ai-100-2e2025:p059:c01",
+          "B:nist-ai-100-2e2025:p020:c03"
+        ],
+        "duplicate": [],
+        "dropped_budget": [],
+        "ms": 954.0
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "bm25_rerank",
+        "query": "Microsoft chatbot poisoning attack",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p040:c02",
+            "page": 40,
+            "score": 7.272
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p040:c03",
+            "page": 40,
+            "score": 2.7833
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p055:c02",
+            "page": 55,
+            "score": -1.3859
+          }
+        ],
+        "shown": [
+          "B:nist-ai-100-2e2025:p040:c02",
+          "B:nist-ai-100-2e2025:p040:c03"
+        ],
+        "duplicate": [],
+        "dropped_budget": [
+          "B:nist-ai-100-2e2025:p055:c02"
+        ],
+        "ms": 945.9
+      },
+      {
+        "event": "citations_appended",
+        "ids": [
+          "B:nist-ai-100-2e2025:p040:c02",
+          "B:nist-ai-100-2e2025:p040:c03"
+        ]
+      },
+      {
+        "event": "answer",
+        "via": "tool"
+      }
+    ],
+    "citations": [
+      "B:nist-ai-100-2e2025:p040:c02",
+      "B:nist-ai-100-2e2025:p040:c03"
+    ],
+    "searches": 2,
+    "config_name": "bm25_rerank_k3_b4000",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  {
+    "query_id": "q11",
+    "status": "answered",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "bm25_rerank",
+        "query": "loss-based membership inference attack target sample training set",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p043:c00",
+            "page": 43,
+            "score": 8.1265
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p042:c03",
+            "page": 42,
+            "score": 3.9037
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p043:c02",
+            "page": 43,
+            "score": 3.888
+          }
+        ],
+        "shown": [
+          "B:nist-ai-100-2e2025:p043:c00",
+          "B:nist-ai-100-2e2025:p042:c03",
+          "B:nist-ai-100-2e2025:p043:c02"
+        ],
+        "duplicate": [],
+        "dropped_budget": [],
+        "ms": 972.8
+      },
+      {
+        "event": "citations_appended",
+        "ids": [
+          "B:nist-ai-100-2e2025:p043:c00"
+        ]
+      },
+      {
+        "event": "answer",
+        "via": "tool"
+      }
+    ],
+    "citations": [
+      "B:nist-ai-100-2e2025:p043:c00"
+    ],
+    "searches": 1,
+    "config_name": "bm25_rerank_k3_b4000",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  {
+    "query_id": "q12",
+    "status": "answered",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "bm25_rerank",
+        "query": "differential privacy model extraction attacks protection",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p045:c03",
+            "page": 45,
+            "score": 5.3819
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p041:c01",
+            "page": 41,
+            "score": 4.6011
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p020:c03",
+            "page": 20,
+            "score": 4.4355
+          }
+        ],
+        "shown": [
+          "B:nist-ai-100-2e2025:p045:c03",
+          "B:nist-ai-100-2e2025:p041:c01",
+          "B:nist-ai-100-2e2025:p020:c03"
+        ],
+        "duplicate": [],
+        "dropped_budget": [],
+        "ms": 1088.8
+      },
+      {
+        "event": "citations_appended",
+        "ids": [
+          "B:nist-ai-100-2e2025:p045:c03",
+          "B:nist-ai-100-2e2025:p041:c01"
+        ]
+      },
+      {
+        "event": "answer",
+        "via": "tool"
+      }
+    ],
+    "citations": [
+      "B:nist-ai-100-2e2025:p045:c03",
+      "B:nist-ai-100-2e2025:p041:c01"
+    ],
+    "searches": 1,
+    "config_name": "bm25_rerank_k3_b4000",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  {
+    "query_id": "q13",
+    "status": "answered",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "bm25_rerank",
+        "query": "poison training dataset generative AI systems URLs",
+        "filter": {
+          "taxonomy": "generative_ai"
+        },
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p055:c00",
+            "page": 55,
+            "score": 2.1159
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p050:c02",
+            "page": 50,
+            "score": 1.0172
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p047:c00",
+            "page": 47,
+            "score": 1.0122
+          }
+        ],
+        "shown": [
+          "B:nist-ai-100-2e2025:p055:c00",
+          "B:nist-ai-100-2e2025:p050:c02",
+          "B:nist-ai-100-2e2025:p047:c00"
+        ],
+        "duplicate": [],
+        "dropped_budget": [],
+        "ms": 862.0
+      },
+      {
+        "event": "citations_appended",
+        "ids": [
+          "B:nist-ai-100-2e2025:p055:c00"
+        ]
+      },
+      {
+        "event": "answer",
+        "via": "tool"
+      }
+    ],
+    "citations": [
+      "B:nist-ai-100-2e2025:p055:c00"
+    ],
+    "searches": 1,
+    "config_name": "bm25_rerank_k3_b4000",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  {
+    "query_id": "q14",
+    "status": "answered",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "bm25_rerank",
+        "query": "model extraction attack MLaaS predictive AI models",
+        "filter": {
+          "taxonomy": "predictive_ai"
+        },
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p044:c03",
+            "page": 44,
+            "score": 6.3647
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p017:c00",
+            "page": 17,
+            "score": 5.0808
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p041:c01",
+            "page": 41,
+            "score": 4.5867
+          }
+        ],
+        "shown": [
+          "B:nist-ai-100-2e2025:p044:c03",
+          "B:nist-ai-100-2e2025:p017:c00",
+          "B:nist-ai-100-2e2025:p041:c01"
+        ],
+        "duplicate": [],
+        "dropped_budget": [],
+        "ms": 925.0
+      },
+      {
+        "event": "answer",
+        "via": "tool"
+      }
+    ],
+    "citations": [
+      "B:nist-ai-100-2e2025:p044:c03"
+    ],
+    "searches": 1,
+    "config_name": "bm25_rerank_k3_b4000",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  {
+    "query_id": "q15",
+    "status": "answered",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "bm25_rerank",
+        "query": "integrity of training data for generative AI models",
+        "filter": {
+          "taxonomy": "generative_ai"
+        },
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p047:c00",
+            "page": 47,
+            "score": 4.6101
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p059:c01",
+            "page": 59,
+            "score": 3.2097
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p050:c02",
+            "page": 50,
+            "score": 2.535
+          }
+        ],
+        "shown": [
+          "B:nist-ai-100-2e2025:p047:c00",
+          "B:nist-ai-100-2e2025:p059:c01",
+          "B:nist-ai-100-2e2025:p050:c02"
+        ],
+        "duplicate": [],
+        "dropped_budget": [],
+        "ms": 1265.7
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "bm25_rerank",
+        "query": "check integrity downloaded training data for generative AI models",
+        "filter": {
+          "taxonomy": "generative_ai"
+        },
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p047:c00",
+            "page": 47,
+            "score": 2.4439
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p059:c01",
+            "page": 59,
+            "score": 2.2773
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p056:c00",
+            "page": 56,
+            "score": 1.276
+          }
+        ],
+        "shown": [
+          "B:nist-ai-100-2e2025:p056:c00"
+        ],
+        "duplicate": [
+          "B:nist-ai-100-2e2025:p047:c00",
+          "B:nist-ai-100-2e2025:p059:c01"
+        ],
+        "dropped_budget": [],
+        "ms": 1370.4
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "bm25_rerank",
+        "query": "mitigations integrity checking training data generative AI models",
+        "filter": {
+          "taxonomy": "generative_ai"
+        },
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p047:c00",
+            "page": 47,
+            "score": 2.4266
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p061:c00",
+            "page": 61,
+            "score": 1.4441
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p059:c01",
+            "page": 59,
+            "score": 1.0929
+          }
+        ],
+        "shown": [
+          "B:nist-ai-100-2e2025:p061:c00"
+        ],
+        "duplicate": [
+          "B:nist-ai-100-2e2025:p047:c00",
+          "B:nist-ai-100-2e2025:p059:c01"
+        ],
+        "dropped_budget": [],
+        "ms": 1074.1
+      },
+      {
+        "event": "citations_appended",
+        "ids": [
+          "B:nist-ai-100-2e2025:p056:c00"
+        ]
+      },
+      {
+        "event": "answer",
+        "via": "tool"
+      }
+    ],
+    "citations": [
+      "B:nist-ai-100-2e2025:p056:c00"
+    ],
+    "searches": 3,
+    "config_name": "bm25_rerank_k3_b4000",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  {
+    "query_id": "u01",
+    "status": "abstain",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "bm25_rerank",
+        "query": "learning rate number of training epochs adversarial training evasion attacks",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p024:c04",
+            "page": 24,
+            "score": 2.0555
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p029:c04",
+            "page": 29,
+            "score": 0.817
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p018:c03",
+            "page": 18,
+            "score": 0.7191
+          }
+        ],
+        "shown": [
+          "B:nist-ai-100-2e2025:p024:c04",
+          "B:nist-ai-100-2e2025:p029:c04",
+          "B:nist-ai-100-2e2025:p018:c03"
+        ],
+        "duplicate": [],
+        "dropped_budget": [],
+        "ms": 1037.2
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "bm25_rerank",
+        "query": "adversarial training parameters learning rate epochs evasion",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p021:c00",
+            "page": 21,
+            "score": 1.0859
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p024:c04",
+            "page": 24,
+            "score": 0.9792
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p018:c03",
+            "page": 18,
+            "score": 0.3397
+          }
+        ],
+        "shown": [
+          "B:nist-ai-100-2e2025:p021:c00"
+        ],
+        "duplicate": [
+          "B:nist-ai-100-2e2025:p024:c04",
+          "B:nist-ai-100-2e2025:p018:c03"
+        ],
+        "dropped_budget": [],
+        "ms": 1035.2
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "bm25_rerank",
+        "query": "adversarial training learning rate epochs guidelines",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p030:c03",
+            "page": 30,
+            "score": 1.2869
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p024:c04",
+            "page": 24,
+            "score": -1.932
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p014:c01",
+            "page": 14,
+            "score": -2.175
+          }
+        ],
+        "shown": [
+          "B:nist-ai-100-2e2025:p030:c03"
+        ],
+        "duplicate": [
+          "B:nist-ai-100-2e2025:p024:c04"
+        ],
+        "dropped_budget": [
+          "B:nist-ai-100-2e2025:p014:c01"
+        ],
+        "ms": 1240.7
+      },
+      {
+        "event": "abstain",
+        "reason": "The passages do not contain specific recommendations for learning rate or number of training epochs for adversarial training against evasion attacks."
+      }
+    ],
+    "citations": [],
+    "searches": 3,
+    "config_name": "bm25_rerank_k3_b4000",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  {
+    "query_id": "u02",
+    "status": "abstain",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "bm25_rerank",
+        "query": "Microsoft loss Tay.AI chatbot poisoning incident",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p040:c02",
+            "page": 40,
+            "score": 6.0168
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p040:c03",
+            "page": 40,
+            "score": 4.532
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p040:c01",
+            "page": 40,
+            "score": -2.5588
+          }
+        ],
+        "shown": [
+          "B:nist-ai-100-2e2025:p040:c02",
+          "B:nist-ai-100-2e2025:p040:c03",
+          "B:nist-ai-100-2e2025:p040:c01"
+        ],
+        "duplicate": [],
+        "dropped_budget": [],
+        "ms": 945.1
+      },
+      {
+        "event": "abstain",
+        "reason": "The passages do not contain information regarding the financial loss incurred by Microsoft due to the Tay.AI incident."
+      }
+    ],
+    "citations": [],
+    "searches": 1,
+    "config_name": "bm25_rerank_k3_b4000",
+    "model": "gpt-4o-mini-2024-07-18"
+  }
+]

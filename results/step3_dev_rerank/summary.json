@@ -1,0 +1,52 @@
+{
+  "run_at": "2026-11-16T08:50:51+00:00",
+  "split": "dev",
+  "filter_rule": "user-given question filter (Day 6 strategy C)",
+  "top_k_reported": 3,
+  "depth": 10,
+  "hybrid": {
+    "fusion": "RRF",
+    "k": 60,
+    "candidates_per_retriever": 20
+  },
+  "bm25": {
+    "k1": 1.5,
+    "b": 0.75,
+    "tokenizer": "NFC, de-hyphenate line breaks, lower, \\w+, stopwords"
+  },
+  "rerank": {
+    "method": "bm25_rerank",
+    "reranker": "cross-encoder/ms-marco-MiniLM-L-6-v2",
+    "candidates": 20
+  },
+  "summary": [
+    {
+      "method": "bm25",
+      "N_answerable": 15,
+      "hit1": "13/15",
+      "hit3": "15/15",
+      "hit10": "15/15",
+      "mrr10": 0.922,
+      "context_evidence": "5/15",
+      "budget_chars": 800,
+      "avg_context_chars": 598,
+      "median_latency_ms": 0.7,
+      "errors": 0,
+      "cost_usd": 0.0
+    },
+    {
+      "method": "bm25_rerank",
+      "N_answerable": 15,
+      "hit1": "13/15",
+      "hit3": "15/15",
+      "hit10": "15/15",
+      "mrr10": 0.922,
+      "context_evidence": "7/15",
+      "budget_chars": 800,
+      "avg_context_chars": 543,
+      "median_latency_ms": 1007.3,
+      "errors": 0,
+      "cost_usd": 0.0
+    }
+  ]
+}

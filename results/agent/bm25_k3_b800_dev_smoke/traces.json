@@ -1,0 +1,385 @@
+[
+  {
+    "query_id": "q01",
+    "split": "dev",
+    "question": "What does the field of adversarial machine learning (AML) study?",
+    "config": {
+      "method": "bm25",
+      "top_k": 3,
+      "budget": 800,
+      "max_searches": 3,
+      "filter_mode": "given"
+    },
+    "filter": null,
+    "status": "answered",
+    "answer": "The field of adversarial machine learning (AML) studies attacks against machine learning systems that exploit their statistical and data-based nature. It examines how these vulnerabilities can lead to significant failures, particularly as ML is applied in high-stakes contexts. [B:nist-ai-100-2e2025:p014:c01]",
+    "citations": [
+      "B:nist-ai-100-2e2025:p014:c01"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "bm25",
+        "query": "What does adversarial machine learning study?",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p014:c01",
+            "page": 14,
+            "score": 10.408135
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p018:c01",
+            "page": 18,
+            "score": 6.852688
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p022:c03",
+            "page": 22,
+            "score": 6.271781
+          }
+        ],
+        "shown": [
+          "B:nist-ai-100-2e2025:p014:c01"
+        ],
+        "duplicate": [],
+        "dropped_budget": [
+          "B:nist-ai-100-2e2025:p018:c01",
+          "B:nist-ai-100-2e2025:p022:c03"
+        ],
+        "ms": 0.8
+      },
+      {
+        "event": "citations_appended",
+        "ids": [
+          "B:nist-ai-100-2e2025:p014:c01"
+        ]
+      },
+      {
+        "event": "answer",
+        "via": "tool"
+      }
+    ],
+    "searches": 1,
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p014:c01"
+    ],
+    "context_chars": 799,
+    "context": "[B:nist-ai-100-2e2025:p014:c01] (page 14, 1. Introduction)\nThese operational attributes are\ncritical elements of trustworthy AI in the NIST AI Risk Management Framework [274] and\nthe NCSC Machine Learning Principles [266].\nThe field of ADVERSARIAL MACHINE LEARNING (AML) studies attacks against ML systems that\nexploit the statistical, data-based nature of ML systems. Despite the significant progress of\nAI and machine learning (ML) in different application domains, these technologies remain\nvulnerable to attacks that can cause spectacular failures. The chances of these kinds of\nfailure increase as ML systems are used in contexts where they may be subject to novel or\nadversarial interactions, and the consequences grow more dire as these systems are used\nin increasingly high-stakes domains.",
+    "usage": {
+      "prompt_tokens": 1000,
+      "completion_tokens": 98,
+      "llm_calls": 2
+    },
+    "latency_s": 3.5,
+    "config_name": "bm25_k3_b800",
+    "model": "gpt-4o-mini-2024-07-18",
+    "context_evidence": true
+  },
+  {
+    "query_id": "q12",
+    "split": "dev",
+    "question": "Does differential privacy protect against model extraction attacks? Why or why not?",
+    "config": {
+      "method": "bm25",
+      "top_k": 3,
+      "budget": 800,
+      "max_searches": 3,
+      "filter_mode": "given"
+    },
+    "filter": null,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "model_reason": "The passages do not provide information on whether differential privacy specifically protects against model extraction attacks.",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "bm25",
+        "query": "differential privacy model extraction attacks",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p046:c02",
+            "page": 46,
+            "score": 8.916708
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p045:c03",
+            "page": 45,
+            "score": 8.699644
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p035:c03",
+            "page": 35,
+            "score": 8.176586
+          }
+        ],
+        "shown": [
+          "B:nist-ai-100-2e2025:p046:c02"
+        ],
+        "duplicate": [],
+        "dropped_budget": [
+          "B:nist-ai-100-2e2025:p045:c03",
+          "B:nist-ai-100-2e2025:p035:c03"
+        ],
+        "ms": 0.7
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "bm25",
+        "query": "model extraction attacks defenses differential privacy",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p039:c03",
+            "page": 39,
+            "score": 9.16068
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p046:c02",
+            "page": 46,
+            "score": 8.916708
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p045:c03",
+            "page": 45,
+            "score": 8.699644
+          }
+        ],
+        "shown": [],
+        "duplicate": [
+          "B:nist-ai-100-2e2025:p046:c02"
+        ],
+        "dropped_budget": [
+          "B:nist-ai-100-2e2025:p039:c03",
+          "B:nist-ai-100-2e2025:p045:c03"
+        ],
+        "ms": 0.8
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "bm25",
+        "query": "differential privacy model extraction attacks effectiveness",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p046:c02",
+            "page": 46,
+            "score": 8.916708
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p045:c03",
+            "page": 45,
+            "score": 8.699644
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p035:c03",
+            "page": 35,
+            "score": 8.176586
+          }
+        ],
+        "shown": [],
+        "duplicate": [
+          "B:nist-ai-100-2e2025:p046:c02"
+        ],
+        "dropped_budget": [
+          "B:nist-ai-100-2e2025:p045:c03",
+          "B:nist-ai-100-2e2025:p035:c03"
+        ],
+        "ms": 0.8
+      },
+      {
+        "event": "abstain",
+        "reason": "The passages do not provide information on whether differential privacy specifically protects against model extraction attacks."
+      }
+    ],
+    "searches": 3,
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p046:c02"
+    ],
+    "context_chars": 369,
+    "context": "[B:nist-ai-100-2e2025:p046:c02] (page 46, 2.4.5. Mitigations)\nDifferential privacy provides a rigorous notion of privacy and protects against\nmembership inference and data reconstruction attacks. To achieve the best bal-\nance\nbetween privacy and utility, empirical privacy auditing is recommended to\ncomplement the theoretical analysis of private training algorithms.",
+    "usage": {
+      "prompt_tokens": 2118,
+      "completion_tokens": 88,
+      "llm_calls": 4
+    },
+    "latency_s": 4.84,
+    "config_name": "bm25_k3_b800",
+    "model": "gpt-4o-mini-2024-07-18",
+    "context_evidence": false
+  },
+  {
+    "query_id": "u01",
+    "split": "dev",
+    "question": "What learning rate and number of training epochs does the report recommend when using adversarial training against evasion attacks?",
+    "config": {
+      "method": "bm25",
+      "top_k": 3,
+      "budget": 800,
+      "max_searches": 3,
+      "filter_mode": "given"
+    },
+    "filter": null,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "model_reason": "The passages do not provide specific recommendations for the learning rate and number of training epochs for adversarial training against evasion attacks.",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "bm25",
+        "query": "learning rate number of training epochs adversarial training evasion attacks",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p055:c01",
+            "page": 55,
+            "score": 9.782681
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p021:c01",
+            "page": 21,
+            "score": 9.221747
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p029:c04",
+            "page": 29,
+            "score": 8.874692
+          }
+        ],
+        "shown": [
+          "B:nist-ai-100-2e2025:p055:c01"
+        ],
+        "duplicate": [],
+        "dropped_budget": [
+          "B:nist-ai-100-2e2025:p021:c01",
+          "B:nist-ai-100-2e2025:p029:c04"
+        ],
+        "ms": 1.0
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "bm25",
+        "query": "adversarial training parameters learning rate epochs evasion attacks",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p021:c00",
+            "page": 21,
+            "score": 10.351453
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p021:c01",
+            "page": 21,
+            "score": 8.080142
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p029:c04",
+            "page": 29,
+            "score": 7.972972
+          }
+        ],
+        "shown": [],
+        "duplicate": [],
+        "dropped_budget": [
+          "B:nist-ai-100-2e2025:p021:c00",
+          "B:nist-ai-100-2e2025:p021:c01",
+          "B:nist-ai-100-2e2025:p029:c04"
+        ],
+        "ms": 1.6
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "bm25",
+        "query": "training parameters adversarial training evasion",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p024:c04",
+            "page": 24,
+            "score": 8.386397
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p018:c03",
+            "page": 18,
+            "score": 8.180838
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p021:c00",
+            "page": 21,
+            "score": 7.863232
+          }
+        ],
+        "shown": [
+          "B:nist-ai-100-2e2025:p024:c04"
+        ],
+        "duplicate": [],
+        "dropped_budget": [
+          "B:nist-ai-100-2e2025:p018:c03",
+          "B:nist-ai-100-2e2025:p021:c00"
+        ],
+        "ms": 1.2
+      },
+      {
+        "event": "search_limit",
+        "query": "recommended parameters for adversarial training"
+      },
+      {
+        "event": "abstain",
+        "reason": "The passages do not provide specific recommendations for the learning rate and number of training epochs for adversarial training against evasion attacks."
+      }
+    ],
+    "searches": 3,
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p055:c01",
+      "B:nist-ai-100-2e2025:p024:c04"
+    ],
+    "context_chars": 712,
+    "context": "[B:nist-ai-100-2e2025:p055:c01] (page 55, 3.2.1. Data Poisoning Attacks)\nBeyond the vast quantities of pre-training data, data poisoning attacks may also affect\nother stages of the LLM training pipeline, including instruction tuning [389] and reinforce-\nment learning from human feedback [305], which may intentionally source data from a\nlarge number of human participants.\n\n[B:nist-ai-100-2e2025:p024:c04] (page 24, 2.2. Evasion Attacks and Mitigations)\nThe most promising directions for mitigating the critical threat of\nevasion attacks are adversarial training [144, 232] (iteratively generating and inserting ad-\nversarial examples with their correct labels at training time); certified techniques, such as",
+    "usage": {
+      "prompt_tokens": 2961,
+      "completion_tokens": 123,
+      "llm_calls": 5
+    },
+    "latency_s": 5.52,
+    "config_name": "bm25_k3_b800",
+    "model": "gpt-4o-mini-2024-07-18"
+  }
+]

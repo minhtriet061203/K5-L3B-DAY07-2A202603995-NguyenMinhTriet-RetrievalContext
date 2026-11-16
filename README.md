@@ -31,3 +31,70 @@ Index một tài liệu thực tế từ **100 trang** có bảng, ảnh và bi�
 ![Các bước thử nghiệm trên dev và đánh giá trên test](assets/experiment-loop.svg)
 
 Nộp code, cách chạy, cấu hình, benchmark, trace và [báo cáo](report/individual/MSSV_HoTen.md). Thời gian ở [checkpoints](CHECKPOINTS.md) là gợi ý, có thể điều chỉnh theo lớp và phạm vi thử nghiệm.
+
+---
+
+## Bài làm: 2A202603995 · Nguyễn Minh Triết
+
+Báo cáo: [report/individual/2A202603995_NguyenMinhTriet.md](report/individual/2A202603995_NguyenMinhTriet.md).
+Corpus NIST AI 100-2e2025 trang 14–73, 265 chunk (index B Day 6). Embedding `BAAI/bge-small-en-v1.5` (384 chiều),
+PostgreSQL + pgvector (Docker Day 6). Agent: `gpt-4o-mini-2024-07-18`. Retrieval: `dense`, `bm25`, `hybrid_rrf`,
+`bm25_rerank`. Cấu hình chọn trên dev: **`bm25_rerank_k3_b4000`** ([results/selected_config.json](results/selected_config.json)).
+
+### Cài đặt (Windows PowerShell, Python 3.11)
+
+```powershell
+python -m venv .venv
+.venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+Copy-Item .env.example .env   # rồi điền LLM_API_KEY; KHÔNG commit .env
+```
+
+`.env` gồm `DATABASE_URL` (pgvector Day 6), `EMBEDDING_MODEL`, `DAY6_STRATEGY=B`, `LLM_BASE_URL`, `LLM_API_KEY`,
+`LLM_MODEL`, `LLM_MIN_INTERVAL`, `LLM_PRICE_IN_PER_M`, `LLM_PRICE_OUT_PER_M` (giá dùng để tính chi phí).
+Lần đầu chạy, sentence-transformers tải `BAAI/bge-small-en-v1.5` và `cross-encoder/ms-marco-MiniLM-L-6-v2` từ Hugging Face.
+
+### Bật vector store Day 6
+
+```powershell
+cd <repo Day 6>\starter
+docker compose -p day6_student_starter up -d --wait
+cd <repo Day 7>
+```
+
+### Tái lập từng bước
+
+```powershell
+# 1. Import chunk/câu hỏi Day 6 (đã có sẵn trong data/day6/, chỉ cần khi tái tạo)
+python scripts/import_day6.py --day6 <repo Day 6>\starter
+# 2. Benchmark 24 câu -> data/benchmark.json, data/cases.json, data/benchmark_report.json
+python scripts/build_benchmark.py
+# 3. Kiểm tra vector store khớp corpus và tái lập Day 6 -> results/step1/
+python scripts/check_day6_store.py
+# 4. Retrieval (query gốc, top-3, filter của câu hỏi)
+python scripts/eval_retrieval.py --split dev                                       # dense, bm25, hybrid_rrf
+python scripts/eval_retrieval.py --split dev --methods bm25,bm25_rerank --tag rerank
+# 5. Agent trên dev (mỗi run 17 câu ~0.005-0.006 USD)
+foreach ($c in "dense_k3_b800","bm25_k3_b800","hybrid_k3_b800","dense_k3_b4000","bm25_k3_b4000","hybrid_k3_b4000","bm25_rerank_k3_b4000") {
+  python scripts/run_agent.py --config $c --split dev }
+# 6. Bảng so sánh và từng câu
+python scripts/compare_runs.py --split dev
+python scripts/per_question.py --split dev --configs dense_k3_b4000,bm25_k3_b4000,hybrid_k3_b4000 --out per_question_dev_b4000.md
+# 7. Test (chỉ chạy được khi đã có results/selected_config.json)
+python scripts/run_agent.py --config dense_k3_b800 --split test
+python scripts/run_agent.py --config bm25_rerank_k3_b4000 --split test
+python scripts/eval_retrieval.py --split test --methods dense,bm25,hybrid_rrf,bm25_rerank
+python scripts/compare_runs.py --split test
+python scripts/per_question.py --split test --configs dense_k3_b800,bm25_rerank_k3_b4000
+# 8. Tổng hợp nhãn chấm tay (reviews.json) bằng script starter
+python starter/agent_metrics.py --cases data/cases.json --traces results/agent/bm25_rerank_k3_b4000_test/traces_metrics.json `
+  --reviews results/agent/bm25_rerank_k3_b4000_test/reviews.json --split test `
+  --output results/agent/bm25_rerank_k3_b4000_test/agent_metrics_summary.json
+# Unit test (không cần DB/API)
+python -m unittest discover -s tests
+```
+
+Chạy lại agent cho kết quả có thể khác (LLM không tất định); `run_agent.py` ghi đè thư mục cùng tên, nên đổi tên thư mục
+cũ (vd. hậu tố `_v1`) trước khi chạy lại. Kết quả chính: [results/compare_dev.md](results/compare_dev.md),
+[results/compare_test.md](results/compare_test.md), [results/analysis_6a.md](results/analysis_6a.md),
+[results/analysis_6b.md](results/analysis_6b.md), [results/selection_criteria.md](results/selection_criteria.md).

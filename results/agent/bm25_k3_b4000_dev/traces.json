@@ -1,0 +1,1476 @@
+[
+  {
+    "query_id": "q01",
+    "split": "dev",
+    "question": "What does the field of adversarial machine learning (AML) study?",
+    "config": {
+      "method": "bm25",
+      "top_k": 3,
+      "budget": 4000,
+      "max_searches": 3,
+      "filter_mode": "given"
+    },
+    "filter": null,
+    "status": "answered",
+    "answer": "The field of adversarial machine learning (AML) studies attacks against machine learning systems that exploit their statistical and data-based nature. It focuses on understanding vulnerabilities that may lead to significant failures, especially in high-stakes domains where machine learning technologies are applied. [B:nist-ai-100-2e2025:p014:c01]",
+    "citations": [
+      "B:nist-ai-100-2e2025:p014:c01"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "bm25",
+        "query": "adversarial machine learning study",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p014:c01",
+            "page": 14,
+            "score": 10.408135
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p018:c01",
+            "page": 18,
+            "score": 6.852688
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p022:c03",
+            "page": 22,
+            "score": 6.271781
+          }
+        ],
+        "shown": [
+          "B:nist-ai-100-2e2025:p014:c01",
+          "B:nist-ai-100-2e2025:p018:c01",
+          "B:nist-ai-100-2e2025:p022:c03"
+        ],
+        "duplicate": [],
+        "dropped_budget": [],
+        "ms": 1.0
+      },
+      {
+        "event": "citations_appended",
+        "ids": [
+          "B:nist-ai-100-2e2025:p014:c01"
+        ]
+      },
+      {
+        "event": "answer",
+        "via": "tool"
+      }
+    ],
+    "searches": 1,
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p014:c01",
+      "B:nist-ai-100-2e2025:p018:c01",
+      "B:nist-ai-100-2e2025:p022:c03"
+    ],
+    "context_chars": 2413,
+    "context": "[B:nist-ai-100-2e2025:p014:c01] (page 14, 1. Introduction)\nThese operational attributes are\ncritical elements of trustworthy AI in the NIST AI Risk Management Framework [274] and\nthe NCSC Machine Learning Principles [266].\nThe field of ADVERSARIAL MACHINE LEARNING (AML) studies attacks against ML systems that\nexploit the statistical, data-based nature of ML systems. Despite the significant progress of\nAI and machine learning (ML) in different application domains, these technologies remain\nvulnerable to attacks that can cause spectacular failures. The chances of these kinds of\nfailure increase as ML systems are used in contexts where they may be subject to novel or\nadversarial interactions, and the consequences grow more dire as these systems are used\nin increasingly high-stakes domains.\n\n[B:nist-ai-100-2e2025:p018:c01] (page 18, 2.1.1. Stages of Learning)\n2.1.1. Stages of Learning\nPredictiv\ne machine learning involves a TRAINING STAGE in which a model is learned and\na DEPLOYMENT STAGE in which the model is deployed on new, unlabeled data samples to\ngenerate predictions. In the case of SUPERVISED LEARNING, labeled training data is given as\ninput to a training algorithm in the training stage, and the ML model is optimized to mini-\nmize a specific loss function. Validation and testing of the ML model is usually performed\nbefore the model is deployed in the real world. Common supervised learning techniques\ninclude CLASSIFICATION in which the predicted labels or classes are discrete and REGRESSION\nin which the predicted labels or response variables are continuous.\n\n[B:nist-ai-100-2e2025:p022:c03] (page 22, 2.1.5. Data Mo dality)\n2.1.5. Data Mo dality\nUntil r\necently, most attacks and defenses in adversarial machine learning have operated\nunder a single modality, but a new trend in the field is to use multimodal data. The tax-\nonomy of attacks defined in Fig. 1 is independent of the modality of the data in specific\napplications.\nThe most common data modalities in the AML literature include:\n• Image: Adversarial examples of image data [144, 362] have the advantage of a con-\ntinuous domain, and gradient-based methods can be applied directly for optimiza-\ntion. Backdoor poisoning attacks were first invented for images [148], and many\nprivacy attacks are run on image datasets (e.g., [342]). The image modality includes\nother types of imaging (e.g., LIDAR, SAR, IR, hyperspectral).",
+    "usage": {
+      "prompt_tokens": 1383,
+      "completion_tokens": 99,
+      "llm_calls": 2
+    },
+    "latency_s": 3.16,
+    "config_name": "bm25_k3_b4000",
+    "model": "gpt-4o-mini-2024-07-18",
+    "context_evidence": true
+  },
+  {
+    "query_id": "q02",
+    "split": "dev",
+    "question": "What are the three attacker objectives used to classify attacks on predictive AI systems?",
+    "config": {
+      "method": "bm25",
+      "top_k": 3,
+      "budget": 4000,
+      "max_searches": 3,
+      "filter_mode": "given"
+    },
+    "filter": null,
+    "status": "answered",
+    "answer": "The three attacker objectives used to classify attacks on predictive AI systems are availability breakdown, integrity violation, and privacy compromise [B:nist-ai-100-2e2025:p017:c00].",
+    "citations": [
+      "B:nist-ai-100-2e2025:p017:c00"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "bm25",
+        "query": "attacker objectives classify attacks predictive AI systems",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p017:c00",
+            "page": 17,
+            "score": 11.757506
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p014:c00",
+            "page": 14,
+            "score": 10.312544
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p016:c01",
+            "page": 16,
+            "score": 9.150855
+          }
+        ],
+        "shown": [
+          "B:nist-ai-100-2e2025:p017:c00",
+          "B:nist-ai-100-2e2025:p014:c00",
+          "B:nist-ai-100-2e2025:p016:c01"
+        ],
+        "duplicate": [],
+        "dropped_budget": [],
+        "ms": 1.0
+      },
+      {
+        "event": "answer",
+        "via": "tool"
+      }
+    ],
+    "searches": 1,
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p017:c00",
+      "B:nist-ai-100-2e2025:p014:c00",
+      "B:nist-ai-100-2e2025:p016:c01"
+    ],
+    "context_chars": 2926,
+    "context": "[B:nist-ai-100-2e2025:p017:c00] (page 17, 2.1. Attack Classification)\n2. Predictive AI Taxonomy\n2.1. Attack Classification\nFigure 1 introduces a taxonomy of attacks in AML on PredAI systems, based on attacker\ngoals and objectives, capabilities, and knowledge.\nFigure 1. Taxonomy of attacks on PredAI systems\nQuery Access\nPrivacy\nQuery Access\nModel\nData\nModel Extraction\nReconstruction;\nMembership Inference;\nProperty Inference\nModel Control\nQuery Access\nTraining Data\nControl\nAvailabilityEnergy Latency\nModel Poisoning\nClean-Label\nPoisoning\nData\nPoisoning\nLabel Limit\nLabel\nLimit\nTraining\nData Control\nSource Code\nControl\nIntegrity\nModel PoisoningClean-LabelBackdoor\nTargeted\nPoisoning\nBackdoor\nPoisoning\nBlack-Box\nEvasion\nModel\nControl\nTest Data\nControl\nQuery\nAccess\nClean-Label\nPoisoning\nEvasion\nBackdoor\nPoisoning\nThe attacker’s objectives are shown as disjointed circles with the attacker’s goal at the\ncenter of each circle: availability breakdown, integrity violation, and privacy compromise.\nThe capabilities that an adversary must leverage to achieve their objectives are shown in\nthe outer layer of the objective circles.\n\n[B:nist-ai-100-2e2025:p014:c00] (page 14, 1. Introduction)\n1. Introduction\nArtificial intelligence (AI) systems have been on a global expansion trajectory for several\nyears [267]. These systems are being developed by and widely deployed into the economies\nof numerous countries, with increasing opportunities for people to use AI systems in many\nspheres of their lives [92]. This report distinguishes between two broad classes of AI sys-\ntems: predictive AI (PredAI) and generative AI (GenAI). Although the majority of industrial\napplications of AI systems are still dominated by PredAI systems, there has been a recent\nincrease in the adoption of GenAI systems in business and consumer contexts. As these\nsystems permeate the digital economy and become essential parts of daily life, the need\nfor their secure, robust, and resilient operation grows.\n\n[B:nist-ai-100-2e2025:p016:c01] (page 16, 1. Introduction)\n•\nSection 2 considers PredAI systems. Section 2.1 introduces the taxonomy of attacks\nfor PredAI systems, which defines the broad categories of attacker objectives and\ngoals, and identifies the capabilities that an adversary must leverage to achieve the\ncorresponding objectives. Specific attack classes are also introduced for each type\nof capability. Sections 2.2, 2.3, and 2.4 discuss the major classes of attacks: evasion,\npoisoning, and privacy, respectively. A corresponding set of mitigations for each\nclass of attacks is provided in the attack class sections.\n• Section 3 considers GenAI systems. Section 3.1 introduces the taxonomy of attacks\nfor GenAI systems and defines the broad categories of attacker objectives and ad-\nversary capabilities relevant to these systems. Specific attack classes are introduced\nfor each type of capability, along with relevant mitigations.",
+    "usage": {
+      "prompt_tokens": 1496,
+      "completion_tokens": 91,
+      "llm_calls": 2
+    },
+    "latency_s": 2.64,
+    "config_name": "bm25_k3_b4000",
+    "model": "gpt-4o-mini-2024-07-18",
+    "context_evidence": false
+  },
+  {
+    "query_id": "q03",
+    "split": "dev",
+    "question": "Which kind of attack is the only one that needs the attacker to control both the data used for training and the data seen at test time?",
+    "config": {
+      "method": "bm25",
+      "top_k": 3,
+      "budget": 4000,
+      "max_searches": 3,
+      "filter_mode": "given"
+    },
+    "filter": null,
+    "status": "answered",
+    "answer": "The only type of attack that requires the attacker to control both the training data and the testing data is known as backdoor attacks. These attacks are designed to cause misclassification by manipulating both sets of data. [B:nist-ai-100-2e2025:p020:c00]",
+    "citations": [
+      "B:nist-ai-100-2e2025:p020:c00"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "bm25",
+        "query": "attack needs attacker control both data training test time",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p015:c01",
+            "page": 15,
+            "score": 12.766208
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p017:c00",
+            "page": 17,
+            "score": 11.17952
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p020:c00",
+            "page": 20,
+            "score": 10.636524
+          }
+        ],
+        "shown": [
+          "B:nist-ai-100-2e2025:p015:c01",
+          "B:nist-ai-100-2e2025:p017:c00",
+          "B:nist-ai-100-2e2025:p020:c00"
+        ],
+        "duplicate": [],
+        "dropped_budget": [],
+        "ms": 1.4
+      },
+      {
+        "event": "citations_appended",
+        "ids": [
+          "B:nist-ai-100-2e2025:p020:c00"
+        ]
+      },
+      {
+        "event": "answer",
+        "via": "tool"
+      }
+    ],
+    "searches": 1,
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p015:c01",
+      "B:nist-ai-100-2e2025:p017:c00",
+      "B:nist-ai-100-2e2025:p020:c00"
+    ],
+    "context_chars": 2649,
+    "context": "[B:nist-ai-100-2e2025:p015:c01] (page 15, 1. Introduction)\nBoth PredAI and GenAI systems are vulnerable to attacks enabled by a range of attacker\ncapabilities throughout the development and deployment life cycle. Attackers can manipu-\nlate training data [327], including the Internet data used in large-scale model training [57],\nor can modify test-time inference data and resources by adding adversarial perturbations\nor suffixes. Attackers can also attack the components used to make AI systems by inserting\nTROJAN functionality. As organizations increasingly rely on pre-trained models that could\nbe used directly or fine-tuned with new datasets to enable different tasks, their vulnera-\nbility to these attacks increases.\n\n[B:nist-ai-100-2e2025:p017:c00] (page 17, 2.1. Attack Classification)\n2. Predictive AI Taxonomy\n2.1. Attack Classification\nFigure 1 introduces a taxonomy of attacks in AML on PredAI systems, based on attacker\ngoals and objectives, capabilities, and knowledge.\nFigure 1. Taxonomy of attacks on PredAI systems\nQuery Access\nPrivacy\nQuery Access\nModel\nData\nModel Extraction\nReconstruction;\nMembership Inference;\nProperty Inference\nModel Control\nQuery Access\nTraining Data\nControl\nAvailabilityEnergy Latency\nModel Poisoning\nClean-Label\nPoisoning\nData\nPoisoning\nLabel Limit\nLabel\nLimit\nTraining\nData Control\nSource Code\nControl\nIntegrity\nModel PoisoningClean-LabelBackdoor\nTargeted\nPoisoning\nBackdoor\nPoisoning\nBlack-Box\nEvasion\nModel\nControl\nTest Data\nControl\nQuery\nAccess\nClean-Label\nPoisoning\nEvasion\nBackdoor\nPoisoning\nThe attacker’s objectives are shown as disjointed circles with the attacker’s goal at the\ncenter of each circle: availability breakdown, integrity violation, and privacy compromise.\nThe capabilities that an adversary must leverage to achieve their objectives are shown in\nthe outer layer of the objective circles.\n\n[B:nist-ai-100-2e2025:p020:c00] (page 20, 2.1.2. A ttacker Goals and Objectives)\nwhich is added to both the poisoned samples and the testing samples to cause misclassi-\nfication. Backdoor attacks are the only attacks in the literature that require both training\nand testing data control. Model poisoning attacks could result in either targeted or back-\ndoor attacks, and the attacker modifies model parameters to cause an integrity violation.\nThey have been designed for centralized learning [222] and federated learning [22, 36].\nPrivacy compromise [NISTAML.03] [Back to Index]. A PRIVACY COMPROMISE attack causes\nthe unintended leakage of restricted or proprietary information from a PredAI system, in-\ncluding details about a model’s training data, weights, or architecture [100, 309].",
+    "usage": {
+      "prompt_tokens": 1464,
+      "completion_tokens": 93,
+      "llm_calls": 2
+    },
+    "latency_s": 3.04,
+    "config_name": "bm25_k3_b4000",
+    "model": "gpt-4o-mini-2024-07-18",
+    "context_evidence": true
+  },
+  {
+    "query_id": "q04",
+    "split": "dev",
+    "question": "What do black-box attacks assume about the attacker's knowledge of the ML system?",
+    "config": {
+      "method": "bm25",
+      "top_k": 3,
+      "budget": 4000,
+      "max_searches": 3,
+      "filter_mode": "given"
+    },
+    "filter": null,
+    "status": "answered",
+    "answer": "Black-box attacks assume that the attacker has minimal, and sometimes no knowledge about the machine learning system. Specifically, the attacker may only have query access to the model without insight into its training data or architecture, making these attacks practical and reliant on system interfaces available for normal use [B:nist-ai-100-2e2025:p022:c01].",
+    "citations": [
+      "B:nist-ai-100-2e2025:p022:c01"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "bm25",
+        "query": "black-box attacks attacker knowledge",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p022:c01",
+            "page": 22,
+            "score": 15.330705
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p054:c01",
+            "page": 54,
+            "score": 12.857872
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p028:c00",
+            "page": 28,
+            "score": 12.703743
+          }
+        ],
+        "shown": [
+          "B:nist-ai-100-2e2025:p022:c01",
+          "B:nist-ai-100-2e2025:p054:c01",
+          "B:nist-ai-100-2e2025:p028:c00"
+        ],
+        "duplicate": [],
+        "dropped_budget": [],
+        "ms": 0.8
+      },
+      {
+        "event": "answer",
+        "via": "tool"
+      }
+    ],
+    "searches": 1,
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p022:c01",
+      "B:nist-ai-100-2e2025:p054:c01",
+      "B:nist-ai-100-2e2025:p028:c00"
+    ],
+    "context_chars": 2399,
+    "context": "[B:nist-ai-100-2e2025:p022:c01] (page 22, 2.1.4. A ttacker Knowledge)\nBlack-box attacks. These attacks assume that the attacker operates with minimal, and\nsometimes no knowledge at all about the ML system. An adversary might have query\naccess to the model, but they have no other information about how the model is trained.\nThese attacks are the most practical since they assume that the attacker has no knowledge\nof the AI system and utilizes system interfaces readily available for normal use.\nGray-box attacks. There are a range of gray-box attacks that capture adversarial knowl-\nedge between black-box and white-box attacks. Suciu et al. [358] introduced a framework\nto classify gray-box attacks. An attacker might know the model architecture but not its pa-\nrameters, or the attacker might know the model and its parameters but not the training\ndata.\n\n[B:nist-ai-100-2e2025:p054:c01] (page 54, 3.1.3. A ttacker Capabilities)\n• MODEL CONTROL: The attacker might have the ability to modify model parameters,\nsuch as through public fine-tuning APIs or openly accessible model weights. This\ncapability is used in MODEL POISONING attacks, as well FINE-TUNING CIRCUMVENTION\nattacks which remove refusal behavior or other model-level safety interventions\n[132, 153, 300].\nAs in PredAI, attackers can also vary in their knowledge of the underlying ML model, from\nfull knowledge of the ML system including model weights (white-box attacks), to minimal\nknowledge and systems with deliberately obscured or misleading information (black-box\nattacks), to somewhere in between (gray-box attacks). See Sec. 2.1.4, which discusses\nattacker knowledge in greater detail and applies to GenAI attacks.\n\n[B:nist-ai-100-2e2025:p028:c00] (page 28, 2.2.2. Black-Box Evasion Attacks)\n2.2.2. Black-Box Evasion Attacks\n[NISTAML.025] [Back to Index]\nBlack-box evasion attacks are designed under a realistic adversarial model in which the\nattacker has no prior knowledge of the model architecture or training data. Instead, the\nadversary can interact with a trained ML model by querying it on various data samples and\nobtaining the model’s predictions. Similar APIs are provided by MLaaS offered by public\ncloud providers, in which users can obtain the model’s predictions on selected queries\nwithout information about how the model was trained. There are two main classes of\nblack-box evasion attacks in the literature:",
+    "usage": {
+      "prompt_tokens": 1384,
+      "completion_tokens": 120,
+      "llm_calls": 2
+    },
+    "latency_s": 2.73,
+    "config_name": "bm25_k3_b4000",
+    "model": "gpt-4o-mini-2024-07-18",
+    "context_evidence": true
+  },
+  {
+    "query_id": "q05",
+    "split": "dev",
+    "question": "How many iterations of gradient descent does the Fast Gradient Sign Method (FGSM) perform?",
+    "config": {
+      "method": "bm25",
+      "top_k": 3,
+      "budget": 4000,
+      "max_searches": 3,
+      "filter_mode": "given"
+    },
+    "filter": null,
+    "status": "answered",
+    "answer": "The Fast Gradient Sign Method (FGSM) performs a single iteration of gradient descent for solving the optimization problem to generate adversarial examples. It can be further extended to an iterative FGSM attack, which would involve multiple iterations. [B:nist-ai-100-2e2025:p025:c04]",
+    "citations": [
+      "B:nist-ai-100-2e2025:p025:c04"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "bm25",
+        "query": "Fast Gradient Sign Method iterations gradient descent",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p025:c04",
+            "page": 25,
+            "score": 24.684354
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p026:c01",
+            "page": 26,
+            "score": 14.153483
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p028:c02",
+            "page": 28,
+            "score": 14.064194
+          }
+        ],
+        "shown": [
+          "B:nist-ai-100-2e2025:p025:c04",
+          "B:nist-ai-100-2e2025:p026:c01",
+          "B:nist-ai-100-2e2025:p028:c02"
+        ],
+        "duplicate": [],
+        "dropped_budget": [],
+        "ms": 0.9
+      },
+      {
+        "event": "citations_appended",
+        "ids": [
+          "B:nist-ai-100-2e2025:p025:c04"
+        ]
+      },
+      {
+        "event": "answer",
+        "via": "tool"
+      }
+    ],
+    "searches": 1,
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p025:c04",
+      "B:nist-ai-100-2e2025:p026:c01",
+      "B:nist-ai-100-2e2025:p028:c02"
+    ],
+    "context_chars": 2487,
+    "context": "[B:nist-ai-100-2e2025:p025:c04] (page 25, 2.2.1. White-Box Evasion Attacks)\nWhile Biggio et al. [38] applied their method to linear classifiers, kernel SVM, and multi-\nlayer perceptrons, Szedegy et al. [362] showed the existence of adversarial examples on\ndeep learning models used for image classification. Goodfellow et al. [144] introduced an\nefficient method for generating adversarial examples for deep learning: the Fast Gradient\nSign Method (FGSM), which performs a single iteration of gradient descent for solving the\noptimization. This method has been extended to an iterative FGSM attack by Kurakin et\nal. [200].\nSubsequent works have proposed new objectives and methods for optimizing the genera-\ntion of adversarial examples with the goals of minimizing the perturbations and supporting\n\n[B:nist-ai-100-2e2025:p026:c01] (page 26, 2.2.1. White-Box Evasion Attacks)\n• The Projected Gradient Descent (PGD) attack [232] minimizes the loss function and\nprojects the adversarial examples to the space of allowed perturbations at each it-\neration of gradient descent. PGD can be applied to the ` 2 and `∞ distance metrics\nfor measuring the perturbation of adversarial examples.\nUniversal evasion attacks. Moosavi-Dezfooli et al. [256] showed how to construct small\nuniversal perturbations (with respect to some norm) that can be added to most images and\ninduce a misclassification. Their technique relies on successive optimization of the univer-\nsal perturbation using a set of points sampled from the data distribution. This is a form of\nFUNCTIONAL ATTACK. An interesting observation is that the universal perturbations gener-\nalize across deep network architectures, suggesting similarity in the decision boundaries\ntrained by different models for the same task.\n\n[B:nist-ai-100-2e2025:p028:c02] (page 28, 2.2.2. Black-Box Evasion Attacks)\n• Decision-based attacks: In this more restrictive setting, attackers only obtain the fi-\nnal predicted labels of the model. The first method for generating evasion attacks\nwas the Boundary Attack based on random walks along the decision boundary and\nrejection sampling [47], which was extended with an improved gradient estimation\nto reduce the number of queries in the HopSkipJumpAttack [79]. More recently, sev-\neral optimization methods search for the direction of the nearest decision boundary\n(e.g., the OPT attack [86]), use sign SGD instead of binary searches (e.g., the Sign-OPT\nattack [87]), or use Bayesian optimization [344].",
+    "usage": {
+      "prompt_tokens": 1401,
+      "completion_tokens": 95,
+      "llm_calls": 2
+    },
+    "latency_s": 2.65,
+    "config_name": "bm25_k3_b4000",
+    "model": "gpt-4o-mini-2024-07-18",
+    "context_evidence": true
+  },
+  {
+    "query_id": "q06",
+    "split": "dev",
+    "question": "How did researchers fool a traffic sign recognition model in the physical world?",
+    "config": {
+      "method": "bm25",
+      "top_k": 3,
+      "budget": 4000,
+      "max_searches": 3,
+      "filter_mode": "given"
+    },
+    "filter": null,
+    "status": "answered",
+    "answer": "Researchers conducted a physical-world attack on a traffic sign recognition model by applying black and white stickers to road signs, effectively creating adversarial examples that caused the model to misclassify them. This approach allowed the attack to evade detection by the model in various environmental conditions, demonstrating the feasibility of physical attacks against machine learning systems. [B:nist-ai-100-2e2025:p026:c02]",
+    "citations": [
+      "B:nist-ai-100-2e2025:p026:c02"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "bm25",
+        "query": "traffic sign recognition model physical world attack",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p026:c02",
+            "page": 26,
+            "score": 20.503623
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p029:c01",
+            "page": 29,
+            "score": 10.364955
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p036:c01",
+            "page": 36,
+            "score": 9.123993
+          }
+        ],
+        "shown": [
+          "B:nist-ai-100-2e2025:p026:c02",
+          "B:nist-ai-100-2e2025:p029:c01",
+          "B:nist-ai-100-2e2025:p036:c01"
+        ],
+        "duplicate": [],
+        "dropped_budget": [],
+        "ms": 0.9
+      },
+      {
+        "event": "citations_appended",
+        "ids": [
+          "B:nist-ai-100-2e2025:p026:c02"
+        ]
+      },
+      {
+        "event": "answer",
+        "via": "tool"
+      }
+    ],
+    "searches": 1,
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p026:c02",
+      "B:nist-ai-100-2e2025:p029:c01",
+      "B:nist-ai-100-2e2025:p036:c01"
+    ],
+    "context_chars": 2206,
+    "context": "[B:nist-ai-100-2e2025:p026:c02] (page 26, 2.2.1. White-Box Evasion Attacks)\nPhysically realizable attacks. These are attacks against ML systems that can be imple-\nmented feasibly in the physical world [21, 200, 227]. One of the first instances was the at-\ntack on facial recognition systems by Sharif et al. [332]. The attack can be realized by print-\ning a pair of eyeglass frames, which misleads facial recognition systems to either evade\ndetection or impersonate another individual. Eykholt et al. [122] proposed an attack to\ngenerate robust perturbations under different conditions, resulting in adversarial exam-\nples that can evade vision classifiers in various physical environments. The attack is applied\nto evade a road sign detection classifier by physically applying black and white stickers to\nthe road signs.\n\n[B:nist-ai-100-2e2025:p029:c01] (page 29, 2.2.4. Evasion attacks in the real world)\n2.2.4. Evasion attacks in the real world\nWhile\nmany of the attacks discussed in this section were demonstrated only in research\nsettings, several evasion attacks have been demonstrated in the real world, and we dis-\ncuss prominent instances in face recognition systems, phishing webpage detection, and\nmalware classification.\n\n[B:nist-ai-100-2e2025:p036:c01] (page 36, 2.3.3. Backdo or Poisoning)\nIn the last few years, backdoor attacks have become more sophisticated and stealthy, mak-\ning them harder to detect and mitigate. Latent backdoor attacks were designed to survive\neven upon model fine-tuning of the last few layers using clean data [420]. Backdoor Gener-\nating Network (BaN) [322] is a dynamic backdoor attack in which the location of the trigger\nchanges in the poisoned samples so that the model learns the trigger in a location-invariant\nmanner . Functional triggers (i.e., FUNCTIONAL ATTACK) are embedded throughout the im-\nage or change according to the input. Li et al. used steganography algorithms to hide\nthe trigger in the training data [214] and introduced a clean-label attack that uses natu-\nral reflection on images as a backdoor trigger [223]. Wenger et al. [404] poisoned facial\nrecognition systems by using physical objects as triggers, such as sunglasses and earrings.",
+    "usage": {
+      "prompt_tokens": 1339,
+      "completion_tokens": 114,
+      "llm_calls": 2
+    },
+    "latency_s": 2.99,
+    "config_name": "bm25_k3_b4000",
+    "model": "gpt-4o-mini-2024-07-18",
+    "context_evidence": true
+  },
+  {
+    "query_id": "q07",
+    "split": "dev",
+    "question": "In score-based black-box evasion attacks, which popular method estimates the model's gradients without computing derivatives?",
+    "config": {
+      "method": "bm25",
+      "top_k": 3,
+      "budget": 4000,
+      "max_searches": 3,
+      "filter_mode": "given"
+    },
+    "filter": null,
+    "status": "answered",
+    "answer": "In score-based black-box evasion attacks, the Boundary Attack method estimates the model's gradients without computing derivatives by employing random walks along the decision boundary and rejection sampling, which has been improved in the HopSkipJumpAttack. [B:nist-ai-100-2e2025:p028:c02]",
+    "citations": [
+      "B:nist-ai-100-2e2025:p028:c02"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "bm25",
+        "query": "score-based black-box evasion attacks gradient estimation method",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p028:c02",
+            "page": 28,
+            "score": 14.022041
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p028:c00",
+            "page": 28,
+            "score": 12.219712
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p033:c01",
+            "page": 33,
+            "score": 10.683609
+          }
+        ],
+        "shown": [
+          "B:nist-ai-100-2e2025:p028:c02",
+          "B:nist-ai-100-2e2025:p028:c00",
+          "B:nist-ai-100-2e2025:p033:c01"
+        ],
+        "duplicate": [],
+        "dropped_budget": [],
+        "ms": 1.3
+      },
+      {
+        "event": "citations_appended",
+        "ids": [
+          "B:nist-ai-100-2e2025:p028:c02"
+        ]
+      },
+      {
+        "event": "answer",
+        "via": "tool"
+      }
+    ],
+    "searches": 1,
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p028:c02",
+      "B:nist-ai-100-2e2025:p028:c00",
+      "B:nist-ai-100-2e2025:p033:c01"
+    ],
+    "context_chars": 2312,
+    "context": "[B:nist-ai-100-2e2025:p028:c02] (page 28, 2.2.2. Black-Box Evasion Attacks)\n• Decision-based attacks: In this more restrictive setting, attackers only obtain the fi-\nnal predicted labels of the model. The first method for generating evasion attacks\nwas the Boundary Attack based on random walks along the decision boundary and\nrejection sampling [47], which was extended with an improved gradient estimation\nto reduce the number of queries in the HopSkipJumpAttack [79]. More recently, sev-\neral optimization methods search for the direction of the nearest decision boundary\n(e.g., the OPT attack [86]), use sign SGD instead of binary searches (e.g., the Sign-OPT\nattack [87]), or use Bayesian optimization [344].\n\n[B:nist-ai-100-2e2025:p028:c00] (page 28, 2.2.2. Black-Box Evasion Attacks)\n2.2.2. Black-Box Evasion Attacks\n[NISTAML.025] [Back to Index]\nBlack-box evasion attacks are designed under a realistic adversarial model in which the\nattacker has no prior knowledge of the model architecture or training data. Instead, the\nadversary can interact with a trained ML model by querying it on various data samples and\nobtaining the model’s predictions. Similar APIs are provided by MLaaS offered by public\ncloud providers, in which users can obtain the model’s predictions on selected queries\nwithout information about how the model was trained. There are two main classes of\nblack-box evasion attacks in the literature:\n\n[B:nist-ai-100-2e2025:p033:c01] (page 33, 2.3.1. A vailability Poisoning)\nA simple black-box poisoning attack strategy is LABEL FLIPPING, in which an adversary gen-\nerates training examples with incorrect or altered labels [39]. This method may require\na large percentage of poisoning samples to mount an availability attack. These attacks\ncan also be formulated through optimization-based methods, such as by solving a bilevel\noptimization problem to determine the optimal poisoning samples that will achieve the\nadversarial objective (i.e., maximize the hinge loss for a SVM [40] or maximize the mean\nsquare error [MSE] for regression [179]). Similar optimization-based availability poisoning\nattacks have been designed against linear regression [179] and neural networks [260], al-\nthough these optimization-based attacks may require white-box access to the model and\ntraining data.",
+    "usage": {
+      "prompt_tokens": 1366,
+      "completion_tokens": 97,
+      "llm_calls": 2
+    },
+    "latency_s": 2.42,
+    "config_name": "bm25_k3_b4000",
+    "model": "gpt-4o-mini-2024-07-18",
+    "context_evidence": false
+  },
+  {
+    "query_id": "q08",
+    "split": "dev",
+    "question": "Under what condition does the RONI (Region of Non-Interest) method exclude a sample from training?",
+    "config": {
+      "method": "bm25",
+      "top_k": 3,
+      "budget": 4000,
+      "max_searches": 3,
+      "filter_mode": "given"
+    },
+    "filter": null,
+    "status": "answered",
+    "answer": "The RONI (Region of Non-Interest) method excludes a sample from training if the accuracy of the model decreases when the sample is added. [B:nist-ai-100-2e2025:p034:c00]",
+    "citations": [
+      "B:nist-ai-100-2e2025:p034:c00"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "bm25",
+        "query": "RONI Region of Non-Interest exclude sample from training",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p034:c00",
+            "page": 34,
+            "score": 20.406993
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p044:c01",
+            "page": 44,
+            "score": 7.076861
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p043:c00",
+            "page": 43,
+            "score": 5.718748
+          }
+        ],
+        "shown": [
+          "B:nist-ai-100-2e2025:p034:c00",
+          "B:nist-ai-100-2e2025:p044:c01",
+          "B:nist-ai-100-2e2025:p043:c00"
+        ],
+        "duplicate": [],
+        "dropped_budget": [],
+        "ms": 0.7
+      },
+      {
+        "event": "citations_appended",
+        "ids": [
+          "B:nist-ai-100-2e2025:p034:c00"
+        ]
+      },
+      {
+        "event": "answer",
+        "via": "tool"
+      }
+    ],
+    "searches": 1,
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p034:c00",
+      "B:nist-ai-100-2e2025:p044:c01",
+      "B:nist-ai-100-2e2025:p043:c00"
+    ],
+    "context_chars": 2236,
+    "context": "[B:nist-ai-100-2e2025:p034:c00] (page 34, 2.3.1. A vailability Poisoning)\nadversaries. As such, data sanitization techniques are designed to clean the training\nset and remove the poisoned samples before the ML training is performed. Cretu et\nal. [96] proposed the first sanitization procedure for unlabeled datasets that relies\non majority voting of multiple models trained on subsets of the training set. They\napply the method to anomaly detection on network packets. Nelson et al. [269] in-\ntroduced the Region of Non-Interest (RONI) method, which examines each sample\nand excludes it from training if the accuracy of the model decreases when the sam-\nple is added. Subsequently proposed sanitization methods improved upon these\nearly approaches by reducing their computational complexity and considering other\napplications. Paudice et al. [289] introduced a method for label cleaning that was\nspecifically designed for label-flipping attacks. Steinhardt et al.\n\n[B:nist-ai-100-2e2025:p044:c01] (page 44, 2.4.3. Prop erty Inference)\n[74] showed that poisoning the property of\ninterest can help design a more effective distinguishing test for property inference. More-\nover, Chaudhauri et al. [74] designed an efficient property size estimation attack that re-\ncovers the exact fraction of the population of interest.\n\n[B:nist-ai-100-2e2025:p043:c00] (page 43, 2.4.2. Memb ership Inference)\nThe attacker’s success in membership inference has been formally defined using a cryp-\ntographically inspired privacy game in which the attacker interacts with a challenger and\nneeds to determine whether a target sample was used in training the queried ML model [183,\n321, 422]. In terms of techniques for mounting membership inference attacks, the loss-\nbased attack by Yeom et al. [422] is one of the most efficient and widely used method.\nUsing the knowledge that the ML model minimizes the loss on training samples, the attack\ndetermines that a target sample is part of training if its loss is lower than a fixed threshold\n(selected as the average loss of training examples). Sablayrolles et al. [317] refined the\nloss-based attack by scaling the loss using a per-example threshold. Another popular tech-\nnique introduced by Shokri et al.",
+    "usage": {
+      "prompt_tokens": 1350,
+      "completion_tokens": 84,
+      "llm_calls": 2
+    },
+    "latency_s": 2.19,
+    "config_name": "bm25_k3_b4000",
+    "model": "gpt-4o-mini-2024-07-18",
+    "context_evidence": true
+  },
+  {
+    "query_id": "q09",
+    "split": "dev",
+    "question": "What was the first backdoor poisoning attack, and who proposed it?",
+    "config": {
+      "method": "bm25",
+      "top_k": 3,
+      "budget": 4000,
+      "max_searches": 3,
+      "filter_mode": "given"
+    },
+    "filter": null,
+    "status": "answered",
+    "answer": "The first backdoor poisoning attack was proposed by Gu et al. in 2017 under the name BadNets. This attack involved adding a small patch trigger to a subset of training images and changing their labels to a target class, causing the model to misclassify samples containing that trigger. [B:nist-ai-100-2e2025:p035:c04]",
+    "citations": [
+      "B:nist-ai-100-2e2025:p035:c04"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "bm25",
+        "query": "first backdoor poisoning attack, who proposed it",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p035:c04",
+            "page": 35,
+            "score": 11.431466
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p048:c00",
+            "page": 48,
+            "score": 8.50399
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p038:c03",
+            "page": 38,
+            "score": 8.378972
+          }
+        ],
+        "shown": [
+          "B:nist-ai-100-2e2025:p035:c04",
+          "B:nist-ai-100-2e2025:p048:c00",
+          "B:nist-ai-100-2e2025:p038:c03"
+        ],
+        "duplicate": [],
+        "dropped_budget": [],
+        "ms": 1.0
+      },
+      {
+        "event": "citations_appended",
+        "ids": [
+          "B:nist-ai-100-2e2025:p035:c04"
+        ]
+      },
+      {
+        "event": "answer",
+        "via": "tool"
+      }
+    ],
+    "searches": 1,
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p035:c04",
+      "B:nist-ai-100-2e2025:p048:c00",
+      "B:nist-ai-100-2e2025:p038:c03"
+    ],
+    "context_chars": 2583,
+    "context": "[B:nist-ai-100-2e2025:p035:c04] (page 35, 2.3.3. Backdo or Poisoning)\nSee Section 4.1.1 for further discussion on the trade-offs between the attributes of\nTrustworthy AI systems.\n2.3.3. Backdo or Poisoning\n[NIS\nTAML.021, NISTAML.023] [Back to Index]\nBackdoor poisoning attacks are poisoning attacks that cause the targeted model to misclas-\nsify samples containing a particular BACKDOOR PATTERN or trigger . In 2017, Gu et al. [148]\nproposed BadNets, the first backdoor poisoning attack. They observed that image clas-\nsifiers can be poisoned by adding a small patch trigger in a subset of images at training\ntime and changing their label to a target class. The classifier learns to associate the trigger\n\n[B:nist-ai-100-2e2025:p048:c00] (page 48, 3.1. Attack Classification)\nFigure 2. Taxonomy of attacks on GenAI systems\nResource Control\nQuery Access\nTraining Data\nControl\nModel Control\nIntegrity\nResource Control\nQuery Access\nTraining DataControl\nAvailability\nIndirect\nPrompt Injection\nDirect\nPrompting Attack\nIncreased\nComputation\nData\nPoisoning\nModel Control\nQuery Access\nPrivacy\nQuery\nAccessResource\nControl\nModel\nData\nDirect\nPrompting Attack\nIndirect\nPrompt Injection\nData\nPoisoning\nTargeted\nPoisoning\nBackdoor\nPoisoning\nModel\nPoisoning\nData\nPoisoning\nLeaking Data from\nUser Interaction\nIndirect Prompt\nInjection\nDirect\nPrompting\nAttack\nPrompt Extraction\nDirect\nPrompting\nAttack\nTraining Data\nExtraction\nModel\nPoisoning\nTargeted\nPoisoning\nBackdoor\nPoisoning\nBackdoor\nPoisoning\nBackdoor\nPoisoning\nDirect\nPrompting Attack\nResource Control\nQuery Access\nTraining Data\nControl\nModel Control\nMisuse\nFine-tuning\nCircumvention\nData\nPoisoning\nBackdoor\nPoisoning\nIndirect\nPrompt Injection\n\n\n[B:nist-ai-100-2e2025:p038:c03] (page 38, 2.3.3. Backdo or Poisoning)\n[193] provided a different perspective on backdoor mitigation by showing that backdoors\nare indistinguishable from naturally occurring features in the data if no additional assump-\ntions are made about the attack. However, assuming that the backdoor creates the strongest\nfeature in the data, the paper proposed an optimization technique to identify and remove\nthe training samples that correspond to the backdoor .\nPoison forensics [331] is a technique for root cause analysis that identifies malicious train-\ning samples and complements existing mitigations that are not always resilient in the face\nof evolving attacks. Poison forensics adds another layer of defense in an ML system: once\na poisoning attack is detected at deployment time, poison forensics can trace back to the\nsource of the attack in the training set.",
+    "usage": {
+      "prompt_tokens": 1471,
+      "completion_tokens": 111,
+      "llm_calls": 2
+    },
+    "latency_s": 2.63,
+    "config_name": "bm25_k3_b4000",
+    "model": "gpt-4o-mini-2024-07-18",
+    "context_evidence": true
+  },
+  {
+    "query_id": "q10",
+    "split": "dev",
+    "question": "Which Microsoft chatbot is the earliest documented case of an attack that corrupted a model through its training data in the real world?",
+    "config": {
+      "method": "bm25",
+      "top_k": 3,
+      "budget": 4000,
+      "max_searches": 3,
+      "filter_mode": "given"
+    },
+    "filter": null,
+    "status": "answered",
+    "answer": "The earliest documented case of an attack that corrupted a model through its training data in the real world is the Tay.AI chatbot, released by Microsoft on Twitter in 2016. Within less than 24 hours of its online interaction with users, the chatbot was poisoned and subsequently taken down. [B:nist-ai-100-2e2025:p040:c02]",
+    "citations": [
+      "B:nist-ai-100-2e2025:p040:c02"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "bm25",
+        "query": "Microsoft chatbot earliest documented case attack corrupted model training data",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p040:c02",
+            "page": 40,
+            "score": 11.805342
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p033:c00",
+            "page": 33,
+            "score": 9.059543
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p040:c01",
+            "page": 40,
+            "score": 7.521753
+          }
+        ],
+        "shown": [
+          "B:nist-ai-100-2e2025:p040:c02",
+          "B:nist-ai-100-2e2025:p033:c00",
+          "B:nist-ai-100-2e2025:p040:c01"
+        ],
+        "duplicate": [],
+        "dropped_budget": [],
+        "ms": 0.9
+      },
+      {
+        "event": "citations_appended",
+        "ids": [
+          "B:nist-ai-100-2e2025:p040:c02"
+        ]
+      },
+      {
+        "event": "answer",
+        "via": "tool"
+      }
+    ],
+    "searches": 1,
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p040:c02",
+      "B:nist-ai-100-2e2025:p033:c00",
+      "B:nist-ai-100-2e2025:p040:c01"
+    ],
+    "context_chars": 1700,
+    "context": "[B:nist-ai-100-2e2025:p040:c02] (page 40, 2.3.5. Poisoning Attacks in the Real World)\nThe first example of a real-world poisoning attack is the Tay.AI chatbot, a chatbot released\nby Microsoft on Twitter in 2016 [272]. After online interaction with users for less than 24\nhours, the chatbot was poisoned and immediately taken down. At about the same time,\nthere were several large-scale efforts to compromise Google’s Gmail spam filter, in which\nattackers sent millions of emails to attempt to poison the Gmail spam classifier algorithm,\nenabling them to send other malicious emails without being detected [272]. MITRE ATLAS\nreported a poisoning incident on the VirusTotal threat intelligence service, in which similar,\nbut not identical samples of a ransomware family were submitted through a popular virus\nsharing platform to cause the mis-classification of that particular ransomware family [248].\n\n[B:nist-ai-100-2e2025:p033:c00] (page 33, 2.3.1. A vailability Poisoning)\nusing data collected during system operation to account for plant operational drift of the\nmonitored signals, creating opportunities for an attacker to mimic the signals of corrupted\nsensors at training time to poison the detector such that real attacks remain undetected\nat deployment time [198].\n\n[B:nist-ai-100-2e2025:p040:c01] (page 40, 2.3.5. Poisoning Attacks in the Real World)\n2.3.5. Poisoning Attacks in the Real World\nAs poisoning attacks require adversarial control over the ML training process, they are dif-\nficult to mount in the real world. Still, there are several examples of documented cases of\nreal poisoning attacks targeting early AI chatbots, email spam filters, and malware classifi-\ncation services.",
+    "usage": {
+      "prompt_tokens": 1230,
+      "completion_tokens": 111,
+      "llm_calls": 2
+    },
+    "latency_s": 2.51,
+    "config_name": "bm25_k3_b4000",
+    "model": "gpt-4o-mini-2024-07-18",
+    "context_evidence": true
+  },
+  {
+    "query_id": "q11",
+    "split": "dev",
+    "question": "In the loss-based membership inference attack, when is a target sample judged to be part of the training set?",
+    "config": {
+      "method": "bm25",
+      "top_k": 3,
+      "budget": 4000,
+      "max_searches": 3,
+      "filter_mode": "given"
+    },
+    "filter": null,
+    "status": "answered",
+    "answer": "In a loss-based membership inference attack, a target sample is judged to be part of the training set if its loss is lower than a fixed threshold, which is typically selected as the average loss of the training examples. This method utilizes the knowledge that the machine learning model minimizes the loss on training samples. [B:nist-ai-100-2e2025:p043:c00]",
+    "citations": [
+      "B:nist-ai-100-2e2025:p043:c00"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "bm25",
+        "query": "loss-based membership inference attack target sample training set",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p043:c00",
+            "page": 43,
+            "score": 23.946303
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p044:c02",
+            "page": 44,
+            "score": 13.278055
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p043:c02",
+            "page": 43,
+            "score": 13.035869
+          }
+        ],
+        "shown": [
+          "B:nist-ai-100-2e2025:p043:c00",
+          "B:nist-ai-100-2e2025:p044:c02",
+          "B:nist-ai-100-2e2025:p043:c02"
+        ],
+        "duplicate": [],
+        "dropped_budget": [],
+        "ms": 1.3
+      },
+      {
+        "event": "citations_appended",
+        "ids": [
+          "B:nist-ai-100-2e2025:p043:c00"
+        ]
+      },
+      {
+        "event": "answer",
+        "via": "tool"
+      }
+    ],
+    "searches": 1,
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p043:c00",
+      "B:nist-ai-100-2e2025:p044:c02",
+      "B:nist-ai-100-2e2025:p043:c02"
+    ],
+    "context_chars": 2082,
+    "context": "[B:nist-ai-100-2e2025:p043:c00] (page 43, 2.4.2. Memb ership Inference)\nThe attacker’s success in membership inference has been formally defined using a cryp-\ntographically inspired privacy game in which the attacker interacts with a challenger and\nneeds to determine whether a target sample was used in training the queried ML model [183,\n321, 422]. In terms of techniques for mounting membership inference attacks, the loss-\nbased attack by Yeom et al. [422] is one of the most efficient and widely used method.\nUsing the knowledge that the ML model minimizes the loss on training samples, the attack\ndetermines that a target sample is part of training if its loss is lower than a fixed threshold\n(selected as the average loss of training examples). Sablayrolles et al. [317] refined the\nloss-based attack by scaling the loss using a per-example threshold. Another popular tech-\nnique introduced by Shokri et al.\n\n[B:nist-ai-100-2e2025:p044:c02] (page 44, 2.4.3. Prop erty Inference)\nThe relationship between different training set inference attacks, such as membership\ninference, attribute inference, and property inference, has been explored by Salem et\nal.[321] under a unified definitional framework.\n\n[B:nist-ai-100-2e2025:p043:c02] (page 43, 2.4.2. Memb ership Inference)\nUsing the assumption that the model logit distributions are Gaussian,\nLiRA performs a hypothesis test for membership inference by estimating the mean and\nstandard deviation of the Gaussian distributions. Ye et al. [421] designed a similar at-\ntack that performs a one-sided hypothesis test, which does not make any assumptions\non the loss distribution but achieves slightly lower performance than LiRA. Recently, Lopez\net al. [225] proposed a more efficient membership inference attack that requires training\na single model to predict the quantiles of the confidence score distribution of the model\nunder attack. Membership inference attacks have also been designed under the stricter\nlabel-only threat model in which the adversary only has access to the predicted labels of\nthe queried samples [89].",
+    "usage": {
+      "prompt_tokens": 1302,
+      "completion_tokens": 112,
+      "llm_calls": 2
+    },
+    "latency_s": 3.23,
+    "config_name": "bm25_k3_b4000",
+    "model": "gpt-4o-mini-2024-07-18",
+    "context_evidence": true
+  },
+  {
+    "query_id": "q12",
+    "split": "dev",
+    "question": "Does differential privacy protect against model extraction attacks? Why or why not?",
+    "config": {
+      "method": "bm25",
+      "top_k": 3,
+      "budget": 4000,
+      "max_searches": 3,
+      "filter_mode": "given"
+    },
+    "filter": null,
+    "status": "answered",
+    "answer": "Differential privacy does not provide guarantees against model extraction attacks because its primary focus is on protecting the training data, rather than the model itself. While it mitigates membership inference and data reconstruction attacks, several studies have indicated that it is not effective in preventing property inference attacks, which are directly related to model extraction. [B:nist-ai-100-2e2025:p045:c03] [B:nist-ai-100-2e2025:p046:c02]",
+    "citations": [
+      "B:nist-ai-100-2e2025:p045:c03",
+      "B:nist-ai-100-2e2025:p046:c02"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "bm25",
+        "query": "differential privacy model extraction attacks",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p046:c02",
+            "page": 46,
+            "score": 8.916708
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p045:c03",
+            "page": 45,
+            "score": 8.699644
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p035:c03",
+            "page": 35,
+            "score": 8.176586
+          }
+        ],
+        "shown": [
+          "B:nist-ai-100-2e2025:p046:c02",
+          "B:nist-ai-100-2e2025:p045:c03",
+          "B:nist-ai-100-2e2025:p035:c03"
+        ],
+        "duplicate": [],
+        "dropped_budget": [],
+        "ms": 0.8
+      },
+      {
+        "event": "citations_appended",
+        "ids": [
+          "B:nist-ai-100-2e2025:p045:c03",
+          "B:nist-ai-100-2e2025:p046:c02"
+        ]
+      },
+      {
+        "event": "answer",
+        "via": "tool"
+      }
+    ],
+    "searches": 1,
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p046:c02",
+      "B:nist-ai-100-2e2025:p045:c03",
+      "B:nist-ai-100-2e2025:p035:c03"
+    ],
+    "context_chars": 1997,
+    "context": "[B:nist-ai-100-2e2025:p046:c02] (page 46, 2.4.5. Mitigations)\nDifferential privacy provides a rigorous notion of privacy and protects against\nmembership inference and data reconstruction attacks. To achieve the best bal-\nance\nbetween privacy and utility, empirical privacy auditing is recommended to\ncomplement the theoretical analysis of private training algorithms.\n\n[B:nist-ai-100-2e2025:p045:c03] (page 45, 2.4.5. Mitigations)\nBy definition, DP provides mitigation against data reconstruction and membership infer-\nence attacks. In fact, the definition of DP immediately implies an upper bound on the\nsuccess of an adversary in mounting a membership inference attack. Tight bounds on the\nsuccess of membership inference have been derived by Thudi et al. [369]. However, DP\ndoes not provide guarantees against model extraction attacks, as this method is designed\nto protect the training data, not the model. Several papers have reported negative results\nafter using differential privacy to protect against property inference attacks that aim to\nextract the properties of subpopulations in the training set [74, 233].\n\n[B:nist-ai-100-2e2025:p035:c03] (page 35, 2.3.2. T argeted Poisoning)\nMitigations. Targeted poisoning attacks are notoriously challenging to defend against.\nJagielski et al. [180] showed an impossibility result for subpopulation poisoning attacks.\nTo mitigate some of the risks associated with such attacks, model developers may pro-\ntect training data through traditional cybersecurity measures such as access controls, use\nmethods for data sanitization and validation, and use mechanisms for dataset provenance\nand integrity attestation [267]. Ma et al. [230] proposed the use of differential privacy\n(DP) as a defense (which follows directly from the definition of differential privacy), but\ndifferentially private ML models may also have lower accuracy than standard models, and\nthe trade-off between robustness and accuracy needs to be considered in each applica-\ntion.",
+    "usage": {
+      "prompt_tokens": 1250,
+      "completion_tokens": 128,
+      "llm_calls": 2
+    },
+    "latency_s": 2.94,
+    "config_name": "bm25_k3_b4000",
+    "model": "gpt-4o-mini-2024-07-18",
+    "context_evidence": true
+  },
+  {
+    "query_id": "q13",
+    "split": "dev",
+    "question": "In generative AI systems, how can an attacker poison a training dataset that is published as a list of URLs?",
+    "config": {
+      "method": "bm25",
+      "top_k": 3,
+      "budget": 4000,
+      "max_searches": 3,
+      "filter_mode": "given"
+    },
+    "filter": {
+      "taxonomy": "generative_ai"
+    },
+    "status": "answered",
+    "answer": "In generative AI systems, an attacker can poison a training dataset published as a list of URLs by purchasing domains that correspond to those URLs and replacing the site content with malicious content. This method exploits the common practice of data scraping from diverse sources, which creates significant vulnerabilities for such systems, allowing adversarially constructed data points to be inserted into the training datasets. [B:nist-ai-100-2e2025:p055:c00]",
+    "citations": [
+      "B:nist-ai-100-2e2025:p055:c00"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "bm25",
+        "query": "training dataset poisoning generative AI systems",
+        "filter": {
+          "taxonomy": "generative_ai"
+        },
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p047:c00",
+            "page": 47,
+            "score": 10.170622
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p055:c00",
+            "page": 55,
+            "score": 7.050712
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p050:c02",
+            "page": 50,
+            "score": 7.014163
+          }
+        ],
+        "shown": [
+          "B:nist-ai-100-2e2025:p047:c00",
+          "B:nist-ai-100-2e2025:p055:c00",
+          "B:nist-ai-100-2e2025:p050:c02"
+        ],
+        "duplicate": [],
+        "dropped_budget": [],
+        "ms": 0.7
+      },
+      {
+        "event": "citations_appended",
+        "ids": [
+          "B:nist-ai-100-2e2025:p055:c00"
+        ]
+      },
+      {
+        "event": "answer",
+        "via": "tool"
+      }
+    ],
+    "searches": 1,
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p047:c00",
+      "B:nist-ai-100-2e2025:p055:c00",
+      "B:nist-ai-100-2e2025:p050:c02"
+    ],
+    "context_chars": 2520,
+    "context": "[B:nist-ai-100-2e2025:p047:c00] (page 47, 3. Generative AI Taxonomy)\n3. Generative AI Taxonomy\nGenAI\nis a branch of AI that develops models that can generate content (e.g., images,\ntext, and other media) with similar properties to their training data. GenAI includes sev-\neral different types of AI technologies with distinct origins, modeling approaches, and re-\nlated properties, including: GENERATIVE ADVERSARIAL NETWORKS, GENERATIVE PRE-TRAINED\nTRANSFORMER (GPT), and DIFFUSION MODELS, among others. Recently, GenAI systems have\nemerged with multi-modal content generation or comprehension capabilities [119], some-\ntimes through combining two or more model types.\n\n[B:nist-ai-100-2e2025:p055:c00] (page 55, 3.2.1. Data Poisoning Attacks)\n3.2.1. Data Poisoning Attacks\nThe\nperformance of GenAI text-to-image and text-to-text models has been found to scale\nwith dataset size (among other properties like model size and data quality); for example,\nHoffmann et al. [161] suggest compute-optimally training a 520 billion parameter model\nmay require 11 trillion tokens of training data. Thus, it has become common for GenAI\nfoundation model developers to scrape data from a wide range of sources. In turn, the\nscale of this data and the diversity of its sources provides a large potential attack surface\ninto which attackers may seek to insert adversarially constructed data points. For example,\ndataset publishers may provide a list of URLs to constitute a training dataset, and attackers\nmay be able to purchase some of the domains that serve those URLs and replace the site\ncontent with their own malicious content [57].\n\n[B:nist-ai-100-2e2025:p050:c02] (page 50, 3.1.1. GenAI Stages of Learning)\nOne major division is between attacks that target the training stage and those that target\nmodel inference during the deployment stage.\nTraining-time attacks. [NISTAML.037] [Back to Index] The TRAINING STAGE for GenAI of-\nten consists of foundation model PRE-TRAINING and model FINE-TUNING. This pattern exists\nfor generative image models, text models, audio models, and multimodal models, among\nothers. Since foundation models are most effective when trained on large datasets, it has\nbecome common to scrape data from a wide range of public sources, increasing the vul-\nnerability of these models to DATA POISONING attacks. Additionally, GenAI systems trained\nor fine-tuned by third parties are often used in downstream applications, leading to the\nrisk of MODEL POISONING attacks from maliciously constructed models.",
+    "usage": {
+      "prompt_tokens": 1425,
+      "completion_tokens": 122,
+      "llm_calls": 2
+    },
+    "latency_s": 2.89,
+    "config_name": "bm25_k3_b4000",
+    "model": "gpt-4o-mini-2024-07-18",
+    "context_evidence": true
+  },
+  {
+    "query_id": "q14",
+    "split": "dev",
+    "question": "For predictive AI models offered through MLaaS, what is the goal of a model extraction attack?",
+    "config": {
+      "method": "bm25",
+      "top_k": 3,
+      "budget": 4000,
+      "max_searches": 3,
+      "filter_mode": "given"
+    },
+    "filter": {
+      "taxonomy": "predictive_ai"
+    },
+    "status": "answered",
+    "answer": "The goal of a model extraction attack in MLaaS is to extract information about the model's architecture and parameters by submitting queries to the trained ML model. While exact extraction is typically impossible, attackers can reconstruct a functionally equivalent model that differs from the original but performs similarly on prediction tasks. [B:nist-ai-100-2e2025:p044:c03] [B:nist-ai-100-2e2025:p041:c01]",
+    "citations": [
+      "B:nist-ai-100-2e2025:p044:c03",
+      "B:nist-ai-100-2e2025:p041:c01"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "bm25",
+        "query": "model extraction attack MLaaS",
+        "filter": {
+          "taxonomy": "predictive_ai"
+        },
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p044:c03",
+            "page": 44,
+            "score": 10.45799
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p041:c01",
+            "page": 41,
+            "score": 7.715188
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p044:c04",
+            "page": 44,
+            "score": 6.188737
+          }
+        ],
+        "shown": [
+          "B:nist-ai-100-2e2025:p044:c03",
+          "B:nist-ai-100-2e2025:p041:c01",
+          "B:nist-ai-100-2e2025:p044:c04"
+        ],
+        "duplicate": [],
+        "dropped_budget": [],
+        "ms": 0.4
+      },
+      {
+        "event": "citations_appended",
+        "ids": [
+          "B:nist-ai-100-2e2025:p044:c03",
+          "B:nist-ai-100-2e2025:p041:c01"
+        ]
+      },
+      {
+        "event": "answer",
+        "via": "tool"
+      }
+    ],
+    "searches": 1,
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p044:c03",
+      "B:nist-ai-100-2e2025:p041:c01",
+      "B:nist-ai-100-2e2025:p044:c04"
+    ],
+    "context_chars": 2928,
+    "context": "[B:nist-ai-100-2e2025:p044:c03] (page 44, 2.4.4. Mo del Extraction)\n2.4.4. Mo del Extraction\n[NIS\nTAML.031] [Back to Index]\nIn MLaaS scenarios, cloud providers typically train large ML models using proprietary data\nand would like to keep the model architecture and parameters confidential. The goal of an\nattacker performing a MODEL EXTRACTION attack is to extract information about the model\narchitecture and parameters by submitting queries to the ML model trained by an MLaaS\nprovider . The first model stealing attacks were shown by Tramer at al. [376] on several\nonline ML services for different ML models, including logistic regression, decision trees,\nand neural networks. However, Jagielski et al. [177] have shown the exact extraction of ML\nmodels to be impossible. Instead, a functionally equivalent model can be reconstructed\nthat is different than the original model but achieves similar performance at the prediction\ntask. Jagielski et al.\n\n[B:nist-ai-100-2e2025:p041:c01] (page 41, 2.4. Privacy Attacks and Mitigations)\nProp-\nerty inference attacks [19, 74, 134, 233, 361, 437] aim to extract global information about\na training dataset, such as the fraction of training examples with a certain sensitive at-\ntribute. A different privacy violation for MLaaS is MODEL EXTRACTION attacks, which are\ndesigned to extract information about an ML model, such as its architecture or model pa-\nrameters3\n3A privacy violation in this context describes a loss of confidential information about an ML model. If ML\nmodel leakage leads to further privacy violations for individuals (e.g., identity theft, sensitive data extrac-\ntion), it may also be viewed as a cybersecurity-related privacy event. For further discussion on the relation-\nship between privacy and cybersecurity risks, see NIST Privacy Framework, Version 1.0.\n[58, 70, 177, 376].\n\n[B:nist-ai-100-2e2025:p044:c04] (page 44, 2.4.4. Mo del Extraction)\n[177] have shown that even the weaker task of extracting functionally\nequivalent models is computationally prohibitive (NP-hard).\nSeveral techniques for mounting model extraction attacks have been introduced in the\nliterature. The first method is that of direct extraction based on the mathematical formu-\nlation of the operations performed in deep neural networks, which allows the adversary to\ncompute model weights algebraically [58, 177, 376]. A second technique is to use learning\nmethods for extraction. For example, active learning [70] can guide the queries to the ML\nmodel for more efficient extraction of model weights, and reinforcement learning can train\nan adaptive strategy that reduces the number of queries [280]. A third technique uses\nSIDE CHANNEL information for model extraction. Batina et al. [29] used electromagnetic\nside channels to recover simple neural network models, while Rakin et al. [303] showed\nhow ROWHAMMER ATTACK can be used for model extraction of more complex convolutional",
+    "usage": {
+      "prompt_tokens": 1496,
+      "completion_tokens": 123,
+      "llm_calls": 2
+    },
+    "latency_s": 2.79,
+    "config_name": "bm25_k3_b4000",
+    "model": "gpt-4o-mini-2024-07-18",
+    "context_evidence": true
+  },
+  {
+    "query_id": "q15",
+    "split": "dev",
+    "question": "For generative AI models trained on web-scale data, how can downloaded training data be checked for integrity?",
+    "config": {
+      "method": "bm25",
+      "top_k": 3,
+      "budget": 4000,
+      "max_searches": 3,
+      "filter_mode": "given"
+    },
+    "filter": {
+      "taxonomy": "generative_ai"
+    },
+    "status": "answered",
+    "answer": "Downloaded training data for generative AI models can be checked for integrity by verifying cryptographic hashes provided by the data source. This helps ensure that domain hijacking has not altered the training dataset by injecting malicious data sources into it. Data filtering can also be employed, although detecting poisoned samples in a large corpus may prove challenging. [B:nist-ai-100-2e2025:p056:c00]",
+    "citations": [
+      "B:nist-ai-100-2e2025:p056:c00"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "bm25",
+        "query": "generative AI models training data integrity check",
+        "filter": {
+          "taxonomy": "generative_ai"
+        },
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p056:c00",
+            "page": 56,
+            "score": 12.221486
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p047:c00",
+            "page": 47,
+            "score": 10.753865
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p050:c02",
+            "page": 50,
+            "score": 6.82695
+          }
+        ],
+        "shown": [
+          "B:nist-ai-100-2e2025:p056:c00",
+          "B:nist-ai-100-2e2025:p047:c00",
+          "B:nist-ai-100-2e2025:p050:c02"
+        ],
+        "duplicate": [],
+        "dropped_budget": [],
+        "ms": 0.4
+      },
+      {
+        "event": "citations_appended",
+        "ids": [
+          "B:nist-ai-100-2e2025:p056:c00"
+        ]
+      },
+      {
+        "event": "answer",
+        "via": "tool"
+      }
+    ],
+    "searches": 1,
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p056:c00",
+      "B:nist-ai-100-2e2025:p047:c00",
+      "B:nist-ai-100-2e2025:p050:c02"
+    ],
+    "context_chars": 2024,
+    "context": "[B:nist-ai-100-2e2025:p056:c00] (page 56, 3.2.3. Mitigations)\nifying web downloads as a basic integrity check to ensure that domain hijacking has not\ninjected new sources of data into the training dataset [57]. That is, the provider publishes\ncryptographic hashes, and the downloader verifies the training data. Data filtering can\nalso attempt to remove poisoned samples, though detecting poisoned data within a large\ntraining corpus may be very difficult.\n\n[B:nist-ai-100-2e2025:p047:c00] (page 47, 3. Generative AI Taxonomy)\n3. Generative AI Taxonomy\nGenAI\nis a branch of AI that develops models that can generate content (e.g., images,\ntext, and other media) with similar properties to their training data. GenAI includes sev-\neral different types of AI technologies with distinct origins, modeling approaches, and re-\nlated properties, including: GENERATIVE ADVERSARIAL NETWORKS, GENERATIVE PRE-TRAINED\nTRANSFORMER (GPT), and DIFFUSION MODELS, among others. Recently, GenAI systems have\nemerged with multi-modal content generation or comprehension capabilities [119], some-\ntimes through combining two or more model types.\n\n[B:nist-ai-100-2e2025:p050:c02] (page 50, 3.1.1. GenAI Stages of Learning)\nOne major division is between attacks that target the training stage and those that target\nmodel inference during the deployment stage.\nTraining-time attacks. [NISTAML.037] [Back to Index] The TRAINING STAGE for GenAI of-\nten consists of foundation model PRE-TRAINING and model FINE-TUNING. This pattern exists\nfor generative image models, text models, audio models, and multimodal models, among\nothers. Since foundation models are most effective when trained on large datasets, it has\nbecome common to scrape data from a wide range of public sources, increasing the vul-\nnerability of these models to DATA POISONING attacks. Additionally, GenAI systems trained\nor fine-tuned by third parties are often used in downstream applications, leading to the\nrisk of MODEL POISONING attacks from maliciously constructed models.",
+    "usage": {
+      "prompt_tokens": 1308,
+      "completion_tokens": 115,
+      "llm_calls": 2
+    },
+    "latency_s": 3.03,
+    "config_name": "bm25_k3_b4000",
+    "model": "gpt-4o-mini-2024-07-18",
+    "context_evidence": true
+  },
+  {
+    "query_id": "u01",
+    "split": "dev",
+    "question": "What learning rate and number of training epochs does the report recommend when using adversarial training against evasion attacks?",
+    "config": {
+      "method": "bm25",
+      "top_k": 3,
+      "budget": 4000,
+      "max_searches": 3,
+      "filter_mode": "given"
+    },
+    "filter": null,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "model_reason": "The report does not specify the learning rate or number of training epochs for adversarial training against evasion attacks.",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "bm25",
+        "query": "adversarial training learning rate number of training epochs evasion attacks",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p055:c01",
+            "page": 55,
+            "score": 9.782681
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p021:c01",
+            "page": 21,
+            "score": 9.221747
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p029:c04",
+            "page": 29,
+            "score": 8.874692
+          }
+        ],
+        "shown": [
+          "B:nist-ai-100-2e2025:p055:c01",
+          "B:nist-ai-100-2e2025:p021:c01",
+          "B:nist-ai-100-2e2025:p029:c04"
+        ],
+        "duplicate": [],
+        "dropped_budget": [],
+        "ms": 1.3
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "bm25",
+        "query": "adversarial training learning rate epochs recommendations evasion",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p029:c04",
+            "page": 29,
+            "score": 7.549042
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p021:c00",
+            "page": 21,
+            "score": 7.372687
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p024:c04",
+            "page": 24,
+            "score": 6.755295
+          }
+        ],
+        "shown": [
+          "B:nist-ai-100-2e2025:p021:c00",
+          "B:nist-ai-100-2e2025:p024:c04"
+        ],
+        "duplicate": [
+          "B:nist-ai-100-2e2025:p029:c04"
+        ],
+        "dropped_budget": [],
+        "ms": 1.2
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "bm25",
+        "query": "adversarial training parameters learning rate epochs evasion attacks",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p021:c00",
+            "page": 21,
+            "score": 10.351453
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p021:c01",
+            "page": 21,
+            "score": 8.080142
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p029:c04",
+            "page": 29,
+            "score": 7.972972
+          }
+        ],
+        "shown": [],
+        "duplicate": [
+          "B:nist-ai-100-2e2025:p021:c00",
+          "B:nist-ai-100-2e2025:p021:c01",
+          "B:nist-ai-100-2e2025:p029:c04"
+        ],
+        "dropped_budget": [],
+        "ms": 0.8
+      },
+      {
+        "event": "abstain",
+        "reason": "The report does not specify the learning rate or number of training epochs for adversarial training against evasion attacks."
+      }
+    ],
+    "searches": 3,
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p055:c01",
+      "B:nist-ai-100-2e2025:p021:c01",
+      "B:nist-ai-100-2e2025:p029:c04",
+      "B:nist-ai-100-2e2025:p021:c00",
+      "B:nist-ai-100-2e2025:p024:c04"
+    ],
+    "context_chars": 2926,
+    "context": "[B:nist-ai-100-2e2025:p055:c01] (page 55, 3.2.1. Data Poisoning Attacks)\nBeyond the vast quantities of pre-training data, data poisoning attacks may also affect\nother stages of the LLM training pipeline, including instruction tuning [389] and reinforce-\nment learning from human feedback [305], which may intentionally source data from a\nlarge number of human participants.\n\n[B:nist-ai-100-2e2025:p021:c01] (page 21, 2.1.3. A ttacker Capabilities)\n• SOURCE CODE CONTROL: The attacker might modify the source code of the ML algo-\nrithm, such as the random number generator or any third-party libraries, which are\noften open source.\n• QUERY ACCESS: The attacker might submit queries to the model and receive predic-\ntions (i.e., labels or model confidences), such as when interacting with an AI system\nhosted by a cloud provider as a machine learning as a service (MLaaS) offering. This\ncapability is used by black-box evasion attacks, ENERGY-LATENCY ATTACK, and all pri-\nvacy attacks that do not require knowledge of the model’s training data, architecture,\nor parameters.\n\n[B:nist-ai-100-2e2025:p029:c04] (page 29, 2.2.4. Evasion attacks in the real world)\nOther examples of evasion attacks demonstrated by researchers in malware classification\nare cataloged in the MITRE Adversarial Threat Landscape for Artificial-Intelligence Systems\n(ATLAS) knowledge base [248]. Palo Alto Networks reported evasion attacks against a deep\nlearning detector for malware command-and-control traffic, and a botnet Domain Gener-\nation Algorithm (DGA) detector . An instance of a universal evasion attack was discovered\nagainst Cylance’s AI malware detection model. Researchers also evaded ProofPoint’s email\nprotection system by training a shadow ML model and using the insights from that to at-\n\n[B:nist-ai-100-2e2025:p021:c00] (page 21, 2.1.3. A ttacker Capabilities)\n• MODEL CONTROL: The attacker might take control of the model parameters by either\ngenerating a Trojan trigger and inserting it in the model or by sending malicious local\nmodel updates in federated learning.\n• TESTING DATA CONTROL: The attacker might add perturbations to testing samples at\nmodel deployment time, as performed in evasion attacks to generate adversarial\nexamples or in backdoor poisoning attacks.\n• LABEL LIMIT: This capability is relevant to restrict adversarial control over the labels\nof training samples in supervised learning. Clean-label poisoning attacks assume\nthat the attacker does not control the label of the poisoned samples, while regular\npoisoning attacks assume label control over the poisoned samples.\n\n[B:nist-ai-100-2e2025:p024:c04] (page 24, 2.2. Evasion Attacks and Mitigations)\nThe most promising directions for mitigating the critical threat of\nevasion attacks are adversarial training [144, 232] (iteratively generating and inserting ad-\nversarial examples with their correct labels at training time); certified techniques, such as",
+    "usage": {
+      "prompt_tokens": 3674,
+      "completion_tokens": 106,
+      "llm_calls": 4
+    },
+    "latency_s": 4.12,
+    "config_name": "bm25_k3_b4000",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  {
+    "query_id": "u02",
+    "split": "dev",
+    "question": "How much money did Microsoft lose because of the Tay.AI chatbot poisoning incident?",
+    "config": {
+      "method": "bm25",
+      "top_k": 3,
+      "budget": 4000,
+      "max_searches": 3,
+      "filter_mode": "given"
+    },
+    "filter": null,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "model_reason": "The passages do not provide specific information about the monetary loss incurred by Microsoft due to the Tay.AI incident.",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "bm25",
+        "query": "Microsoft loss Tay.AI chatbot poisoning incident",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p040:c02",
+            "page": 40,
+            "score": 22.878871
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p040:c03",
+            "page": 40,
+            "score": 12.435553
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p043:c00",
+            "page": 43,
+            "score": 5.636061
+          }
+        ],
+        "shown": [
+          "B:nist-ai-100-2e2025:p040:c02",
+          "B:nist-ai-100-2e2025:p040:c03",
+          "B:nist-ai-100-2e2025:p043:c00"
+        ],
+        "duplicate": [],
+        "dropped_budget": [],
+        "ms": 1.0
+      },
+      {
+        "event": "abstain",
+        "reason": "The passages do not provide specific information about the monetary loss incurred by Microsoft due to the Tay.AI incident."
+      }
+    ],
+    "searches": 1,
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p040:c02",
+      "B:nist-ai-100-2e2025:p040:c03",
+      "B:nist-ai-100-2e2025:p043:c00"
+    ],
+    "context_chars": 2334,
+    "context": "[B:nist-ai-100-2e2025:p040:c02] (page 40, 2.3.5. Poisoning Attacks in the Real World)\nThe first example of a real-world poisoning attack is the Tay.AI chatbot, a chatbot released\nby Microsoft on Twitter in 2016 [272]. After online interaction with users for less than 24\nhours, the chatbot was poisoned and immediately taken down. At about the same time,\nthere were several large-scale efforts to compromise Google’s Gmail spam filter, in which\nattackers sent millions of emails to attempt to poison the Gmail spam classifier algorithm,\nenabling them to send other malicious emails without being detected [272]. MITRE ATLAS\nreported a poisoning incident on the VirusTotal threat intelligence service, in which similar,\nbut not identical samples of a ransomware family were submitted through a popular virus\nsharing platform to cause the mis-classification of that particular ransomware family [248].\n\n[B:nist-ai-100-2e2025:p040:c03] (page 40, 2.3.5. Poisoning Attacks in the Real World)\nThese incidents highlight the risks associated with online learning, as the Tay.AI chatbot\nwas updated in real-time based on user interactions, and the Gmail spam filter and the\nVirusTotal malware classification system were continuously updated based on newly re-\nceived samples. In all these incidents, attackers crafted poisoned samples after an initial\nmodel release, counting on the fact that models are continuously updated.\n\n[B:nist-ai-100-2e2025:p043:c00] (page 43, 2.4.2. Memb ership Inference)\nThe attacker’s success in membership inference has been formally defined using a cryp-\ntographically inspired privacy game in which the attacker interacts with a challenger and\nneeds to determine whether a target sample was used in training the queried ML model [183,\n321, 422]. In terms of techniques for mounting membership inference attacks, the loss-\nbased attack by Yeom et al. [422] is one of the most efficient and widely used method.\nUsing the knowledge that the ML model minimizes the loss on training samples, the attack\ndetermines that a target sample is part of training if its loss is lower than a fixed threshold\n(selected as the average loss of training examples). Sablayrolles et al. [317] refined the\nloss-based attack by scaling the loss using a per-example threshold. Another popular tech-\nnique introduced by Shokri et al.",
+    "usage": {
+      "prompt_tokens": 1336,
+      "completion_tokens": 56,
+      "llm_calls": 2
+    },
+    "latency_s": 2.02,
+    "config_name": "bm25_k3_b4000",
+    "model": "gpt-4o-mini-2024-07-18"
+  }
+]

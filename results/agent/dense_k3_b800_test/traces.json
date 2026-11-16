@@ -1,0 +1,944 @@
+[
+  {
+    "query_id": "q16",
+    "split": "test",
+    "question": "Which jailbreak technique simply tells the model never to say no or decline?",
+    "config": {
+      "method": "dense",
+      "top_k": 3,
+      "budget": 800,
+      "max_searches": 3,
+      "filter_mode": "given"
+    },
+    "filter": null,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "model_reason": "The passages do not provide information about a jailbreak technique that directly tells the model to never say no or decline.",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "dense",
+        "query": "jailbreak technique never say no decline",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p056:c03",
+            "page": 56,
+            "score": 0.716852
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p063:c01",
+            "page": 63,
+            "score": 0.633533
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p057:c04",
+            "page": 57,
+            "score": 0.623818
+          }
+        ],
+        "shown": [
+          "B:nist-ai-100-2e2025:p063:c01"
+        ],
+        "duplicate": [],
+        "dropped_budget": [
+          "B:nist-ai-100-2e2025:p056:c03",
+          "B:nist-ai-100-2e2025:p057:c04"
+        ],
+        "ms": 113.4
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "dense",
+        "query": "jailbreak technique refusal decline",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p056:c03",
+            "page": 56,
+            "score": 0.711171
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p057:c04",
+            "page": 57,
+            "score": 0.630234
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p063:c01",
+            "page": 63,
+            "score": 0.624304
+          }
+        ],
+        "shown": [],
+        "duplicate": [
+          "B:nist-ai-100-2e2025:p063:c01"
+        ],
+        "dropped_budget": [
+          "B:nist-ai-100-2e2025:p056:c03",
+          "B:nist-ai-100-2e2025:p057:c04"
+        ],
+        "ms": 85.8
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "dense",
+        "query": "jailbreak model compliance refusal",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p056:c03",
+            "page": 56,
+            "score": 0.746625
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p062:c03",
+            "page": 62,
+            "score": 0.652853
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p057:c03",
+            "page": 57,
+            "score": 0.643516
+          }
+        ],
+        "shown": [],
+        "duplicate": [],
+        "dropped_budget": [
+          "B:nist-ai-100-2e2025:p056:c03",
+          "B:nist-ai-100-2e2025:p062:c03",
+          "B:nist-ai-100-2e2025:p057:c03"
+        ],
+        "ms": 65.1
+      },
+      {
+        "event": "abstain",
+        "reason": "The passages do not provide information about a jailbreak technique that directly tells the model to never say no or decline."
+      }
+    ],
+    "searches": 3,
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p063:c01"
+    ],
+    "context_chars": 476,
+    "context": "[B:nist-ai-100-2e2025:p063:c01] (page 63, 3.3.3. Mitigations)\n• Unlearning. There have also been attempts to “unlearn” harmful knowledge or ca-\npabilities post-training [212], with the goal of reducing harms from maliciously di-\nrected models [158]. However, these methods remain vulnerable to adversarial at-\ntacks, including attacks on jailbreak-specific training approaches [367] and inversion\nattacks on unlearning methods [328], which extract supposedly unlearned data.",
+    "usage": {
+      "prompt_tokens": 2209,
+      "completion_tokens": 92,
+      "llm_calls": 4
+    },
+    "latency_s": 5.13,
+    "config_name": "dense_k3_b800",
+    "model": "gpt-4o-mini-2024-07-18",
+    "context_evidence": false
+  },
+  {
+    "query_id": "q17",
+    "split": "test",
+    "question": "What attacker capability enables indirect prompt injection attacks?",
+    "config": {
+      "method": "dense",
+      "top_k": 3,
+      "budget": 800,
+      "max_searches": 3,
+      "filter_mode": "given"
+    },
+    "filter": null,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "model_reason": "The passages do not provide specific information about the attacker capability that enables indirect prompt injection attacks.",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "dense",
+        "query": "indirect prompt injection attacks attacker capability",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p065:c00",
+            "page": 65,
+            "score": 0.843947
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p066:c04",
+            "page": 66,
+            "score": 0.84297
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p064:c02",
+            "page": 64,
+            "score": 0.831366
+          }
+        ],
+        "shown": [
+          "B:nist-ai-100-2e2025:p066:c04"
+        ],
+        "duplicate": [],
+        "dropped_budget": [
+          "B:nist-ai-100-2e2025:p065:c00",
+          "B:nist-ai-100-2e2025:p064:c02"
+        ],
+        "ms": 76.0
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "dense",
+        "query": "attacker capability indirect prompt injection",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p066:c04",
+            "page": 66,
+            "score": 0.840962
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p065:c00",
+            "page": 65,
+            "score": 0.839165
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p064:c02",
+            "page": 64,
+            "score": 0.831616
+          }
+        ],
+        "shown": [],
+        "duplicate": [
+          "B:nist-ai-100-2e2025:p066:c04"
+        ],
+        "dropped_budget": [
+          "B:nist-ai-100-2e2025:p065:c00",
+          "B:nist-ai-100-2e2025:p064:c02"
+        ],
+        "ms": 70.5
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "dense",
+        "query": "indirect prompt injection",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p066:c04",
+            "page": 66,
+            "score": 0.804631
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p064:c02",
+            "page": 64,
+            "score": 0.785059
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p065:c00",
+            "page": 65,
+            "score": 0.769712
+          }
+        ],
+        "shown": [],
+        "duplicate": [
+          "B:nist-ai-100-2e2025:p066:c04"
+        ],
+        "dropped_budget": [
+          "B:nist-ai-100-2e2025:p064:c02",
+          "B:nist-ai-100-2e2025:p065:c00"
+        ],
+        "ms": 77.9
+      },
+      {
+        "event": "abstain",
+        "reason": "The passages do not provide specific information about the attacker capability that enables indirect prompt injection attacks."
+      }
+    ],
+    "searches": 3,
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p066:c04"
+    ],
+    "context_chars": 680,
+    "context": "[B:nist-ai-100-2e2025:p066:c04] (page 66, 3.4.4. Mitigations)\n• A range of input processing methods have been proposed to combat indirect prompt\ninjection, including filtering out instructions from third-party data sources [146], de-\nsigning prompts to help aid LLMs in separating trusted and untrusted data (i.e., spot-\nlighting [160, 206]), or instructing models to disregard instructions in untrusted data\n[206].\nMany of the defenses described in the context of direct prompt injection can also be\nadapted to mitigate indirect prompt injection. Because current mitigations do not offer\nfull protection against all attacker techniques, application designers may design systems",
+    "usage": {
+      "prompt_tokens": 2307,
+      "completion_tokens": 85,
+      "llm_calls": 4
+    },
+    "latency_s": 3.83,
+    "config_name": "dense_k3_b800",
+    "model": "gpt-4o-mini-2024-07-18",
+    "context_evidence": false
+  },
+  {
+    "query_id": "q18",
+    "split": "test",
+    "question": "Does compressing a model to 8-bit or 4-bit weights make it safer against adversarial attacks?",
+    "config": {
+      "method": "dense",
+      "top_k": 3,
+      "budget": 800,
+      "max_searches": 3,
+      "filter_mode": "given"
+    },
+    "filter": null,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "model_reason": "The report does not provide information on whether compressing model weights to 8-bit or 4-bit affects safety against adversarial attacks.",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "dense",
+        "query": "8-bit 4-bit compression adversarial attacks safety",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p030:c01",
+            "page": 30,
+            "score": 0.772994
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p028:c03",
+            "page": 28,
+            "score": 0.770756
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p072:c02",
+            "page": 72,
+            "score": 0.765043
+          }
+        ],
+        "shown": [
+          "B:nist-ai-100-2e2025:p028:c03"
+        ],
+        "duplicate": [],
+        "dropped_budget": [
+          "B:nist-ai-100-2e2025:p030:c01",
+          "B:nist-ai-100-2e2025:p072:c02"
+        ],
+        "ms": 84.3
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "dense",
+        "query": "model compression impact on adversarial attacks",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p028:c03",
+            "page": 28,
+            "score": 0.796044
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p072:c02",
+            "page": 72,
+            "score": 0.794959
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p024:c03",
+            "page": 24,
+            "score": 0.794736
+          }
+        ],
+        "shown": [],
+        "duplicate": [
+          "B:nist-ai-100-2e2025:p028:c03"
+        ],
+        "dropped_budget": [
+          "B:nist-ai-100-2e2025:p072:c02",
+          "B:nist-ai-100-2e2025:p024:c03"
+        ],
+        "ms": 63.5
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "dense",
+        "query": "compressing model weights 8-bit 4-bit adversarial robustness",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p028:c03",
+            "page": 28,
+            "score": 0.778601
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p072:c02",
+            "page": 72,
+            "score": 0.763267
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p025:c03",
+            "page": 25,
+            "score": 0.760013
+          }
+        ],
+        "shown": [],
+        "duplicate": [
+          "B:nist-ai-100-2e2025:p028:c03"
+        ],
+        "dropped_budget": [
+          "B:nist-ai-100-2e2025:p072:c02",
+          "B:nist-ai-100-2e2025:p025:c03"
+        ],
+        "ms": 85.4
+      },
+      {
+        "event": "abstain",
+        "reason": "The report does not provide information on whether compressing model weights to 8-bit or 4-bit affects safety against adversarial attacks."
+      }
+    ],
+    "searches": 3,
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p028:c03"
+    ],
+    "context_chars": 345,
+    "context": "[B:nist-ai-100-2e2025:p028:c03] (page 28, 2.2.2. Black-Box Evasion Attacks)\nThe primary challenge in creating adversarial examples in black-box settings is re-\nducing the number of queries to the ML models. Recent techniques can success-\nfully evade the ML classifiers with a relatively small number of queries, typically\nless than 1000 [344].",
+    "usage": {
+      "prompt_tokens": 2190,
+      "completion_tokens": 107,
+      "llm_calls": 4
+    },
+    "latency_s": 5.28,
+    "config_name": "dense_k3_b800",
+    "model": "gpt-4o-mini-2024-07-18",
+    "context_evidence": false
+  },
+  {
+    "query_id": "q19",
+    "split": "test",
+    "question": "In generative AI language models, at what rate can information like email addresses be revealed?",
+    "config": {
+      "method": "dense",
+      "top_k": 3,
+      "budget": 800,
+      "max_searches": 3,
+      "filter_mode": "given"
+    },
+    "filter": {
+      "taxonomy": "generative_ai"
+    },
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "model_reason": "The passages do not specify a rate at which information like email addresses can be revealed in generative AI language models.",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "dense",
+        "query": "generative AI language models email addresses information reveal rate",
+        "filter": {
+          "taxonomy": "generative_ai"
+        },
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p059:c02",
+            "page": 59,
+            "score": 0.814969
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p059:c01",
+            "page": 59,
+            "score": 0.715712
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p047:c00",
+            "page": 47,
+            "score": 0.712353
+          }
+        ],
+        "shown": [
+          "B:nist-ai-100-2e2025:p059:c01"
+        ],
+        "duplicate": [],
+        "dropped_budget": [
+          "B:nist-ai-100-2e2025:p059:c02",
+          "B:nist-ai-100-2e2025:p047:c00"
+        ],
+        "ms": 81.3
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "dense",
+        "query": "training data extraction attacks generative language models email addresses",
+        "filter": {
+          "taxonomy": "generative_ai"
+        },
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p059:c01",
+            "page": 59,
+            "score": 0.837297
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p059:c00",
+            "page": 59,
+            "score": 0.813353
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p059:c02",
+            "page": 59,
+            "score": 0.803359
+          }
+        ],
+        "shown": [],
+        "duplicate": [
+          "B:nist-ai-100-2e2025:p059:c01"
+        ],
+        "dropped_budget": [
+          "B:nist-ai-100-2e2025:p059:c00",
+          "B:nist-ai-100-2e2025:p059:c02"
+        ],
+        "ms": 85.6
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "dense",
+        "query": "extraction rate sensitive training data generative language models",
+        "filter": {
+          "taxonomy": "generative_ai"
+        },
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p059:c01",
+            "page": 59,
+            "score": 0.785559
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p059:c02",
+            "page": 59,
+            "score": 0.772933
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p059:c00",
+            "page": 59,
+            "score": 0.712907
+          }
+        ],
+        "shown": [],
+        "duplicate": [
+          "B:nist-ai-100-2e2025:p059:c01"
+        ],
+        "dropped_budget": [
+          "B:nist-ai-100-2e2025:p059:c02",
+          "B:nist-ai-100-2e2025:p059:c00"
+        ],
+        "ms": 59.2
+      },
+      {
+        "event": "abstain",
+        "reason": "The passages do not specify a rate at which information like email addresses can be revealed in generative AI language models."
+      }
+    ],
+    "searches": 3,
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p059:c01"
+    ],
+    "context_chars": 725,
+    "context": "[B:nist-ai-100-2e2025:p059:c01] (page 59, 3.3.2. Information Extraction)\nLeaking sensitive training data. Carlini et al. [59] were the first to practically demonstrate\nTRAINING DATA EXTRACTION attacks in generative language models. By inserting canaries–\nsynthetic, easy-to-recognize out-of-distribution examples–in the training data, they devel-\noped a methodology for extracting the canaries and introduced a metric called exposure\nto measure memorization. Subsequent work demonstrated the risk of data extraction in\nLLMs based on transformers (e.g., GPT-2 [63]) by prompting the model with different pre-\nfixes and mounting a membership inference attack to determine which generated content\nwas part of the training set.",
+    "usage": {
+      "prompt_tokens": 2408,
+      "completion_tokens": 103,
+      "llm_calls": 4
+    },
+    "latency_s": 4.66,
+    "config_name": "dense_k3_b800",
+    "model": "gpt-4o-mini-2024-07-18",
+    "context_evidence": false
+  },
+  {
+    "query_id": "q20",
+    "split": "test",
+    "question": "For predictive AI models trained with federated learning, how can compromised clients poison the global model?",
+    "config": {
+      "method": "dense",
+      "top_k": 3,
+      "budget": 800,
+      "max_searches": 3,
+      "filter_mode": "given"
+    },
+    "filter": {
+      "taxonomy": "predictive_ai"
+    },
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "model_reason": "The passages do not provide specific details on how compromised clients poison the global model in federated learning.",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "dense",
+        "query": "federated learning compromised clients poison global model",
+        "filter": {
+          "taxonomy": "predictive_ai"
+        },
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p039:c03",
+            "page": 39,
+            "score": 0.823435
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p033:c04",
+            "page": 33,
+            "score": 0.812291
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p039:c00",
+            "page": 39,
+            "score": 0.800411
+          }
+        ],
+        "shown": [
+          "B:nist-ai-100-2e2025:p039:c03"
+        ],
+        "duplicate": [],
+        "dropped_budget": [
+          "B:nist-ai-100-2e2025:p033:c04",
+          "B:nist-ai-100-2e2025:p039:c00"
+        ],
+        "ms": 72.8
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "dense",
+        "query": "model poisoning attacks federated learning",
+        "filter": {
+          "taxonomy": "predictive_ai"
+        },
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p033:c04",
+            "page": 33,
+            "score": 0.898137
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p039:c03",
+            "page": 39,
+            "score": 0.876034
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p039:c00",
+            "page": 39,
+            "score": 0.868329
+          }
+        ],
+        "shown": [],
+        "duplicate": [
+          "B:nist-ai-100-2e2025:p039:c03"
+        ],
+        "dropped_budget": [
+          "B:nist-ai-100-2e2025:p033:c04",
+          "B:nist-ai-100-2e2025:p039:c00"
+        ],
+        "ms": 79.5
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "dense",
+        "query": "adversarial attacks federated learning model poisoning",
+        "filter": {
+          "taxonomy": "predictive_ai"
+        },
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p033:c04",
+            "page": 33,
+            "score": 0.866281
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p039:c03",
+            "page": 39,
+            "score": 0.859242
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p039:c00",
+            "page": 39,
+            "score": 0.844536
+          }
+        ],
+        "shown": [],
+        "duplicate": [
+          "B:nist-ai-100-2e2025:p039:c03"
+        ],
+        "dropped_budget": [
+          "B:nist-ai-100-2e2025:p033:c04",
+          "B:nist-ai-100-2e2025:p039:c00"
+        ],
+        "ms": 84.5
+      },
+      {
+        "event": "abstain",
+        "reason": "The passages do not provide specific details on how compromised clients poison the global model in federated learning."
+      }
+    ],
+    "searches": 3,
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p039:c03"
+    ],
+    "context_chars": 722,
+    "context": "[B:nist-ai-100-2e2025:p039:c03] (page 39, 2.3.4. Model Poisoning)\nMitigations. A variety of Byzantine-resilient aggregation rules have been designed and\nevaluated to defend federated learning from model poisoning attacks. Most of them at-\ntempt to identify and exclude the malicious updates when performing the aggregation\nat the server [8, 43, 51, 149, 242–244, 359, 423]. However, motivated adversaries can\nbypass these defenses by adding constraints to the attack generation optimization prob-\nlem [23, 123, 335]. Gradient clipping and differential privacy have the potential to mitigate\nmodel poisoning attacks to some extent [23, 271, 360], but they usually decrease accuracy\nand do not provide complete mitigation.",
+    "usage": {
+      "prompt_tokens": 2427,
+      "completion_tokens": 94,
+      "llm_calls": 4
+    },
+    "latency_s": 4.37,
+    "config_name": "dense_k3_b800",
+    "model": "gpt-4o-mini-2024-07-18",
+    "context_evidence": false
+  },
+  {
+    "query_id": "u03",
+    "split": "test",
+    "question": "Which version of Meta's Llama model was jailbroken with the \"Do Anything Now\" (DAN) role-play prompt?",
+    "config": {
+      "method": "dense",
+      "top_k": 3,
+      "budget": 800,
+      "max_searches": 3,
+      "filter_mode": "given"
+    },
+    "filter": null,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "model_reason": "The requested information regarding which version of Meta's Llama model was jailbroken with the 'Do Anything Now' (DAN) role-play prompt is not present in the NIST report.",
+    "events": [
+      {
+        "event": "abstain",
+        "reason": "The requested information regarding which version of Meta's Llama model was jailbroken with the 'Do Anything Now' (DAN) role-play prompt is not present in the NIST report."
+      }
+    ],
+    "searches": 0,
+    "context_ids": [],
+    "context_chars": 0,
+    "context": "",
+    "usage": {
+      "prompt_tokens": 406,
+      "completion_tokens": 52,
+      "llm_calls": 1
+    },
+    "latency_s": 1.54,
+    "config_name": "dense_k3_b800",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  {
+    "query_id": "u04",
+    "split": "test",
+    "question": "Which article of the EU AI Act requires providers of high-risk AI systems to protect against data poisoning?",
+    "config": {
+      "method": "dense",
+      "top_k": 3,
+      "budget": 800,
+      "max_searches": 3,
+      "filter_mode": "given"
+    },
+    "filter": null,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "model_reason": "The report does not contain information about specific articles of the EU AI Act.",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "dense",
+        "query": "EU AI Act data poisoning high-risk AI systems",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p039:c00",
+            "page": 39,
+            "score": 0.763554
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p040:c03",
+            "page": 40,
+            "score": 0.751075
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p055:c02",
+            "page": 55,
+            "score": 0.74969
+          }
+        ],
+        "shown": [
+          "B:nist-ai-100-2e2025:p039:c00"
+        ],
+        "duplicate": [],
+        "dropped_budget": [
+          "B:nist-ai-100-2e2025:p040:c03",
+          "B:nist-ai-100-2e2025:p055:c02"
+        ],
+        "ms": 68.0
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "dense",
+        "query": "EU AI Act high-risk AI systems providers data poisoning",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p039:c00",
+            "page": 39,
+            "score": 0.740864
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p055:c02",
+            "page": 55,
+            "score": 0.728897
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p032:c01",
+            "page": 32,
+            "score": 0.726395
+          }
+        ],
+        "shown": [],
+        "duplicate": [
+          "B:nist-ai-100-2e2025:p039:c00"
+        ],
+        "dropped_budget": [
+          "B:nist-ai-100-2e2025:p055:c02",
+          "B:nist-ai-100-2e2025:p032:c01"
+        ],
+        "ms": 63.5
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "dense",
+        "query": "EU AI Act",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B:nist-ai-100-2e2025:p073:c04",
+            "page": 73,
+            "score": 0.616188
+          },
+          {
+            "rank": 2,
+            "id": "B:nist-ai-100-2e2025:p073:c03",
+            "page": 73,
+            "score": 0.611953
+          },
+          {
+            "rank": 3,
+            "id": "B:nist-ai-100-2e2025:p061:c03",
+            "page": 61,
+            "score": 0.608915
+          }
+        ],
+        "shown": [],
+        "duplicate": [],
+        "dropped_budget": [
+          "B:nist-ai-100-2e2025:p073:c04",
+          "B:nist-ai-100-2e2025:p073:c03",
+          "B:nist-ai-100-2e2025:p061:c03"
+        ],
+        "ms": 73.8
+      },
+      {
+        "event": "abstain",
+        "reason": "The report does not contain information about specific articles of the EU AI Act."
+      }
+    ],
+    "searches": 3,
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p039:c00"
+    ],
+    "context_chars": 786,
+    "context": "[B:nist-ai-100-2e2025:p039:c00] (page 39, 2.3.4. Model Poisoning)\n2.3.4. Model Poisoning\n[NISTAML.011, NISTAML.026] [Back to Index]\nModel poisoning attacks attempt to directly modify the trained ML model to inject mali-\ncious functionality into it. In centralized learning, TrojNN [222] reverse engineers the trig-\nger from a trained neural network and then retrains the model by embedding the trigger in\nexternal data to poison it. Most model poisoning attacks have been designed in the feder-\nated learning setting in which clients send local model updates to a server that aggregates\nthem into a global model. Compromised clients can send malicious updates to poison the\nglobal model. Model poisoning attacks can cause both availability and integrity violation\nin federated models:",
+    "usage": {
+      "prompt_tokens": 2433,
+      "completion_tokens": 87,
+      "llm_calls": 4
+    },
+    "latency_s": 4.1,
+    "config_name": "dense_k3_b800",
+    "model": "gpt-4o-mini-2024-07-18"
+  }
+]

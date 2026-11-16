@@ -1,0 +1,5746 @@
+[
+  {
+    "method": "dense",
+    "query_id": "q01",
+    "split": "dev",
+    "answerable": true,
+    "question": "What does the field of adversarial machine learning (AML) study?",
+    "filter": null,
+    "latency_ms": 293.4,
+    "error": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "B:nist-ai-100-2e2025:p073:c03",
+        "page": 73,
+        "taxonomy": "general",
+        "score": 0.809431,
+        "hit": false
+      },
+      {
+        "rank": 2,
+        "id": "B:nist-ai-100-2e2025:p072:c03",
+        "page": 72,
+        "taxonomy": "general",
+        "score": 0.802328,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "B:nist-ai-100-2e2025:p014:c01",
+        "page": 14,
+        "taxonomy": "general",
+        "score": 0.798803,
+        "hit": true
+      },
+      {
+        "rank": 4,
+        "id": "B:nist-ai-100-2e2025:p069:c02",
+        "page": 69,
+        "taxonomy": "general",
+        "score": 0.795352,
+        "hit": false
+      },
+      {
+        "rank": 5,
+        "id": "B:nist-ai-100-2e2025:p016:c00",
+        "page": 16,
+        "taxonomy": "general",
+        "score": 0.789841,
+        "hit": false
+      },
+      {
+        "rank": 6,
+        "id": "B:nist-ai-100-2e2025:p018:c03",
+        "page": 18,
+        "taxonomy": "predictive_ai",
+        "score": 0.777772,
+        "hit": false
+      },
+      {
+        "rank": 7,
+        "id": "B:nist-ai-100-2e2025:p024:c00",
+        "page": 24,
+        "taxonomy": "predictive_ai",
+        "score": 0.7656,
+        "hit": false
+      },
+      {
+        "rank": 8,
+        "id": "B:nist-ai-100-2e2025:p054:c03",
+        "page": 54,
+        "taxonomy": "generative_ai",
+        "score": 0.765415,
+        "hit": false
+      },
+      {
+        "rank": 9,
+        "id": "B:nist-ai-100-2e2025:p073:c01",
+        "page": 73,
+        "taxonomy": "general",
+        "score": 0.764163,
+        "hit": false
+      },
+      {
+        "rank": 10,
+        "id": "B:nist-ai-100-2e2025:p015:c03",
+        "page": 15,
+        "taxonomy": "general",
+        "score": 0.758011,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p072:c03"
+    ],
+    "context_chars": 560,
+    "hit1": false,
+    "hit3": true,
+    "hit10": true,
+    "rr10": 0.3333333333333333,
+    "context_hit": false
+  },
+  {
+    "method": "dense",
+    "query_id": "q02",
+    "split": "dev",
+    "answerable": true,
+    "question": "What are the three attacker objectives used to classify attacks on predictive AI systems?",
+    "filter": null,
+    "latency_ms": 190.1,
+    "error": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "B:nist-ai-100-2e2025:p017:c00",
+        "page": 17,
+        "taxonomy": "predictive_ai",
+        "score": 0.793512,
+        "hit": false
+      },
+      {
+        "rank": 2,
+        "id": "B:nist-ai-100-2e2025:p016:c01",
+        "page": 16,
+        "taxonomy": "general",
+        "score": 0.772398,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "B:nist-ai-100-2e2025:p018:c00",
+        "page": 18,
+        "taxonomy": "predictive_ai",
+        "score": 0.769345,
+        "hit": false
+      },
+      {
+        "rank": 4,
+        "id": "B:nist-ai-100-2e2025:p021:c03",
+        "page": 21,
+        "taxonomy": "predictive_ai",
+        "score": 0.76049,
+        "hit": false
+      },
+      {
+        "rank": 5,
+        "id": "B:nist-ai-100-2e2025:p015:c01",
+        "page": 15,
+        "taxonomy": "general",
+        "score": 0.754306,
+        "hit": false
+      },
+      {
+        "rank": 6,
+        "id": "B:nist-ai-100-2e2025:p057:c01",
+        "page": 57,
+        "taxonomy": "generative_ai",
+        "score": 0.751674,
+        "hit": false
+      },
+      {
+        "rank": 7,
+        "id": "B:nist-ai-100-2e2025:p018:c03",
+        "page": 18,
+        "taxonomy": "predictive_ai",
+        "score": 0.747787,
+        "hit": false
+      },
+      {
+        "rank": 8,
+        "id": "B:nist-ai-100-2e2025:p057:c03",
+        "page": 57,
+        "taxonomy": "generative_ai",
+        "score": 0.74703,
+        "hit": false
+      },
+      {
+        "rank": 9,
+        "id": "B:nist-ai-100-2e2025:p017:c01",
+        "page": 17,
+        "taxonomy": "predictive_ai",
+        "score": 0.741533,
+        "hit": false
+      },
+      {
+        "rank": 10,
+        "id": "B:nist-ai-100-2e2025:p014:c01",
+        "page": 14,
+        "taxonomy": "general",
+        "score": 0.740894,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p018:c00"
+    ],
+    "context_chars": 366,
+    "hit1": false,
+    "hit3": false,
+    "hit10": false,
+    "rr10": 0.0,
+    "context_hit": false
+  },
+  {
+    "method": "dense",
+    "query_id": "q03",
+    "split": "dev",
+    "answerable": true,
+    "question": "Which kind of attack is the only one that needs the attacker to control both the data used for training and the data seen at test time?",
+    "filter": null,
+    "latency_ms": 142.5,
+    "error": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "B:nist-ai-100-2e2025:p021:c02",
+        "page": 21,
+        "taxonomy": "predictive_ai",
+        "score": 0.747827,
+        "hit": false
+      },
+      {
+        "rank": 2,
+        "id": "B:nist-ai-100-2e2025:p020:c04",
+        "page": 20,
+        "taxonomy": "predictive_ai",
+        "score": 0.72459,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "B:nist-ai-100-2e2025:p015:c01",
+        "page": 15,
+        "taxonomy": "general",
+        "score": 0.724449,
+        "hit": false
+      },
+      {
+        "rank": 4,
+        "id": "B:nist-ai-100-2e2025:p020:c00",
+        "page": 20,
+        "taxonomy": "predictive_ai",
+        "score": 0.724434,
+        "hit": true
+      },
+      {
+        "rank": 5,
+        "id": "B:nist-ai-100-2e2025:p050:c02",
+        "page": 50,
+        "taxonomy": "generative_ai",
+        "score": 0.721209,
+        "hit": false
+      },
+      {
+        "rank": 6,
+        "id": "B:nist-ai-100-2e2025:p021:c00",
+        "page": 21,
+        "taxonomy": "predictive_ai",
+        "score": 0.718963,
+        "hit": false
+      },
+      {
+        "rank": 7,
+        "id": "B:nist-ai-100-2e2025:p053:c04",
+        "page": 53,
+        "taxonomy": "generative_ai",
+        "score": 0.712643,
+        "hit": false
+      },
+      {
+        "rank": 8,
+        "id": "B:nist-ai-100-2e2025:p032:c04",
+        "page": 32,
+        "taxonomy": "predictive_ai",
+        "score": 0.70785,
+        "hit": false
+      },
+      {
+        "rank": 9,
+        "id": "B:nist-ai-100-2e2025:p021:c03",
+        "page": 21,
+        "taxonomy": "predictive_ai",
+        "score": 0.706892,
+        "hit": false
+      },
+      {
+        "rank": 10,
+        "id": "B:nist-ai-100-2e2025:p018:c03",
+        "page": 18,
+        "taxonomy": "predictive_ai",
+        "score": 0.701057,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p020:c04"
+    ],
+    "context_chars": 613,
+    "hit1": false,
+    "hit3": false,
+    "hit10": true,
+    "rr10": 0.25,
+    "context_hit": false
+  },
+  {
+    "method": "dense",
+    "query_id": "q04",
+    "split": "dev",
+    "answerable": true,
+    "question": "What do black-box attacks assume about the attacker's knowledge of the ML system?",
+    "filter": null,
+    "latency_ms": 212.1,
+    "error": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "B:nist-ai-100-2e2025:p022:c01",
+        "page": 22,
+        "taxonomy": "predictive_ai",
+        "score": 0.839602,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "B:nist-ai-100-2e2025:p028:c00",
+        "page": 28,
+        "taxonomy": "predictive_ai",
+        "score": 0.824969,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "B:nist-ai-100-2e2025:p021:c03",
+        "page": 21,
+        "taxonomy": "predictive_ai",
+        "score": 0.809028,
+        "hit": false
+      },
+      {
+        "rank": 4,
+        "id": "B:nist-ai-100-2e2025:p032:c04",
+        "page": 32,
+        "taxonomy": "predictive_ai",
+        "score": 0.788719,
+        "hit": false
+      },
+      {
+        "rank": 5,
+        "id": "B:nist-ai-100-2e2025:p021:c02",
+        "page": 21,
+        "taxonomy": "predictive_ai",
+        "score": 0.787619,
+        "hit": false
+      },
+      {
+        "rank": 6,
+        "id": "B:nist-ai-100-2e2025:p022:c02",
+        "page": 22,
+        "taxonomy": "predictive_ai",
+        "score": 0.78422,
+        "hit": false
+      },
+      {
+        "rank": 7,
+        "id": "B:nist-ai-100-2e2025:p042:c04",
+        "page": 42,
+        "taxonomy": "predictive_ai",
+        "score": 0.779672,
+        "hit": false
+      },
+      {
+        "rank": 8,
+        "id": "B:nist-ai-100-2e2025:p054:c03",
+        "page": 54,
+        "taxonomy": "generative_ai",
+        "score": 0.777057,
+        "hit": false
+      },
+      {
+        "rank": 9,
+        "id": "B:nist-ai-100-2e2025:p054:c01",
+        "page": 54,
+        "taxonomy": "generative_ai",
+        "score": 0.776259,
+        "hit": false
+      },
+      {
+        "rank": 10,
+        "id": "B:nist-ai-100-2e2025:p042:c03",
+        "page": 42,
+        "taxonomy": "predictive_ai",
+        "score": 0.774914,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p028:c00"
+    ],
+    "context_chars": 708,
+    "hit1": true,
+    "hit3": true,
+    "hit10": true,
+    "rr10": 1.0,
+    "context_hit": false
+  },
+  {
+    "method": "dense",
+    "query_id": "q05",
+    "split": "dev",
+    "answerable": true,
+    "question": "How many iterations of gradient descent does the Fast Gradient Sign Method (FGSM) perform?",
+    "filter": null,
+    "latency_ms": 120.0,
+    "error": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "B:nist-ai-100-2e2025:p025:c04",
+        "page": 25,
+        "taxonomy": "predictive_ai",
+        "score": 0.81234,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "B:nist-ai-100-2e2025:p062:c01",
+        "page": 62,
+        "taxonomy": "generative_ai",
+        "score": 0.666229,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "B:nist-ai-100-2e2025:p026:c01",
+        "page": 26,
+        "taxonomy": "predictive_ai",
+        "score": 0.649208,
+        "hit": false
+      },
+      {
+        "rank": 4,
+        "id": "B:nist-ai-100-2e2025:p028:c02",
+        "page": 28,
+        "taxonomy": "predictive_ai",
+        "score": 0.641106,
+        "hit": false
+      },
+      {
+        "rank": 5,
+        "id": "B:nist-ai-100-2e2025:p024:c01",
+        "page": 24,
+        "taxonomy": "predictive_ai",
+        "score": 0.637315,
+        "hit": false
+      },
+      {
+        "rank": 6,
+        "id": "B:nist-ai-100-2e2025:p025:c03",
+        "page": 25,
+        "taxonomy": "predictive_ai",
+        "score": 0.636465,
+        "hit": false
+      },
+      {
+        "rank": 7,
+        "id": "B:nist-ai-100-2e2025:p028:c01",
+        "page": 28,
+        "taxonomy": "predictive_ai",
+        "score": 0.633584,
+        "hit": false
+      },
+      {
+        "rank": 8,
+        "id": "B:nist-ai-100-2e2025:p057:c01",
+        "page": 57,
+        "taxonomy": "generative_ai",
+        "score": 0.628348,
+        "hit": false
+      },
+      {
+        "rank": 9,
+        "id": "B:nist-ai-100-2e2025:p025:c02",
+        "page": 25,
+        "taxonomy": "predictive_ai",
+        "score": 0.617972,
+        "hit": false
+      },
+      {
+        "rank": 10,
+        "id": "B:nist-ai-100-2e2025:p069:c03",
+        "page": 69,
+        "taxonomy": "general",
+        "score": 0.6164,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p025:c04"
+    ],
+    "context_chars": 798,
+    "hit1": true,
+    "hit3": true,
+    "hit10": true,
+    "rr10": 1.0,
+    "context_hit": true
+  },
+  {
+    "method": "dense",
+    "query_id": "q06",
+    "split": "dev",
+    "answerable": true,
+    "question": "How did researchers fool a traffic sign recognition model in the physical world?",
+    "filter": null,
+    "latency_ms": 142.2,
+    "error": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "B:nist-ai-100-2e2025:p026:c02",
+        "page": 26,
+        "taxonomy": "predictive_ai",
+        "score": 0.728708,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "B:nist-ai-100-2e2025:p014:c02",
+        "page": 14,
+        "taxonomy": "general",
+        "score": 0.688061,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "B:nist-ai-100-2e2025:p044:c00",
+        "page": 44,
+        "taxonomy": "predictive_ai",
+        "score": 0.646148,
+        "hit": false
+      },
+      {
+        "rank": 4,
+        "id": "B:nist-ai-100-2e2025:p059:c01",
+        "page": 59,
+        "taxonomy": "generative_ai",
+        "score": 0.645217,
+        "hit": false
+      },
+      {
+        "rank": 5,
+        "id": "B:nist-ai-100-2e2025:p029:c03",
+        "page": 29,
+        "taxonomy": "predictive_ai",
+        "score": 0.642608,
+        "hit": false
+      },
+      {
+        "rank": 6,
+        "id": "B:nist-ai-100-2e2025:p025:c04",
+        "page": 25,
+        "taxonomy": "predictive_ai",
+        "score": 0.64171,
+        "hit": false
+      },
+      {
+        "rank": 7,
+        "id": "B:nist-ai-100-2e2025:p029:c02",
+        "page": 29,
+        "taxonomy": "predictive_ai",
+        "score": 0.64093,
+        "hit": false
+      },
+      {
+        "rank": 8,
+        "id": "B:nist-ai-100-2e2025:p041:c01",
+        "page": 41,
+        "taxonomy": "predictive_ai",
+        "score": 0.639356,
+        "hit": false
+      },
+      {
+        "rank": 9,
+        "id": "B:nist-ai-100-2e2025:p026:c03",
+        "page": 26,
+        "taxonomy": "predictive_ai",
+        "score": 0.636319,
+        "hit": false
+      },
+      {
+        "rank": 10,
+        "id": "B:nist-ai-100-2e2025:p073:c01",
+        "page": 73,
+        "taxonomy": "general",
+        "score": 0.636198,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p014:c02"
+    ],
+    "context_chars": 740,
+    "hit1": true,
+    "hit3": true,
+    "hit10": true,
+    "rr10": 1.0,
+    "context_hit": false
+  },
+  {
+    "method": "dense",
+    "query_id": "q07",
+    "split": "dev",
+    "answerable": true,
+    "question": "In score-based black-box evasion attacks, which popular method estimates the model's gradients without computing derivatives?",
+    "filter": null,
+    "latency_ms": 122.9,
+    "error": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "B:nist-ai-100-2e2025:p028:c01",
+        "page": 28,
+        "taxonomy": "predictive_ai",
+        "score": 0.824387,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "B:nist-ai-100-2e2025:p028:c00",
+        "page": 28,
+        "taxonomy": "predictive_ai",
+        "score": 0.78406,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "B:nist-ai-100-2e2025:p024:c01",
+        "page": 24,
+        "taxonomy": "predictive_ai",
+        "score": 0.754822,
+        "hit": false
+      },
+      {
+        "rank": 4,
+        "id": "B:nist-ai-100-2e2025:p044:c04",
+        "page": 44,
+        "taxonomy": "predictive_ai",
+        "score": 0.745096,
+        "hit": false
+      },
+      {
+        "rank": 5,
+        "id": "B:nist-ai-100-2e2025:p025:c02",
+        "page": 25,
+        "taxonomy": "predictive_ai",
+        "score": 0.745031,
+        "hit": false
+      },
+      {
+        "rank": 6,
+        "id": "B:nist-ai-100-2e2025:p030:c01",
+        "page": 30,
+        "taxonomy": "predictive_ai",
+        "score": 0.743637,
+        "hit": false
+      },
+      {
+        "rank": 7,
+        "id": "B:nist-ai-100-2e2025:p026:c01",
+        "page": 26,
+        "taxonomy": "predictive_ai",
+        "score": 0.742336,
+        "hit": false
+      },
+      {
+        "rank": 8,
+        "id": "B:nist-ai-100-2e2025:p043:c01",
+        "page": 43,
+        "taxonomy": "predictive_ai",
+        "score": 0.741711,
+        "hit": false
+      },
+      {
+        "rank": 9,
+        "id": "B:nist-ai-100-2e2025:p060:c03",
+        "page": 60,
+        "taxonomy": "generative_ai",
+        "score": 0.74149,
+        "hit": false
+      },
+      {
+        "rank": 10,
+        "id": "B:nist-ai-100-2e2025:p022:c01",
+        "page": 22,
+        "taxonomy": "predictive_ai",
+        "score": 0.73515,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p028:c01"
+    ],
+    "context_chars": 518,
+    "hit1": true,
+    "hit3": true,
+    "hit10": true,
+    "rr10": 1.0,
+    "context_hit": true
+  },
+  {
+    "method": "dense",
+    "query_id": "q08",
+    "split": "dev",
+    "answerable": true,
+    "question": "Under what condition does the RONI (Region of Non-Interest) method exclude a sample from training?",
+    "filter": null,
+    "latency_ms": 98.5,
+    "error": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "B:nist-ai-100-2e2025:p034:c00",
+        "page": 34,
+        "taxonomy": "predictive_ai",
+        "score": 0.698958,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "B:nist-ai-100-2e2025:p037:c01",
+        "page": 37,
+        "taxonomy": "predictive_ai",
+        "score": 0.63445,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "B:nist-ai-100-2e2025:p059:c00",
+        "page": 59,
+        "taxonomy": "generative_ai",
+        "score": 0.622003,
+        "hit": false
+      },
+      {
+        "rank": 4,
+        "id": "B:nist-ai-100-2e2025:p020:c00",
+        "page": 20,
+        "taxonomy": "predictive_ai",
+        "score": 0.620638,
+        "hit": false
+      },
+      {
+        "rank": 5,
+        "id": "B:nist-ai-100-2e2025:p050:c02",
+        "page": 50,
+        "taxonomy": "generative_ai",
+        "score": 0.619688,
+        "hit": false
+      },
+      {
+        "rank": 6,
+        "id": "B:nist-ai-100-2e2025:p063:c01",
+        "page": 63,
+        "taxonomy": "generative_ai",
+        "score": 0.617709,
+        "hit": false
+      },
+      {
+        "rank": 7,
+        "id": "B:nist-ai-100-2e2025:p059:c01",
+        "page": 59,
+        "taxonomy": "generative_ai",
+        "score": 0.617191,
+        "hit": false
+      },
+      {
+        "rank": 8,
+        "id": "B:nist-ai-100-2e2025:p053:c01",
+        "page": 53,
+        "taxonomy": "generative_ai",
+        "score": 0.613581,
+        "hit": false
+      },
+      {
+        "rank": 9,
+        "id": "B:nist-ai-100-2e2025:p034:c02",
+        "page": 34,
+        "taxonomy": "predictive_ai",
+        "score": 0.611925,
+        "hit": false
+      },
+      {
+        "rank": 10,
+        "id": "B:nist-ai-100-2e2025:p070:c03",
+        "page": 70,
+        "taxonomy": "general",
+        "score": 0.61133,
+        "hit": false
+      }
+    ],
+    "context_ids": [],
+    "context_chars": 0,
+    "hit1": true,
+    "hit3": true,
+    "hit10": true,
+    "rr10": 1.0,
+    "context_hit": false
+  },
+  {
+    "method": "dense",
+    "query_id": "q09",
+    "split": "dev",
+    "answerable": true,
+    "question": "What was the first backdoor poisoning attack, and who proposed it?",
+    "filter": null,
+    "latency_ms": 90.9,
+    "error": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "B:nist-ai-100-2e2025:p035:c04",
+        "page": 35,
+        "taxonomy": "predictive_ai",
+        "score": 0.727651,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "B:nist-ai-100-2e2025:p038:c03",
+        "page": 38,
+        "taxonomy": "predictive_ai",
+        "score": 0.708919,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "B:nist-ai-100-2e2025:p040:c02",
+        "page": 40,
+        "taxonomy": "predictive_ai",
+        "score": 0.684347,
+        "hit": false
+      },
+      {
+        "rank": 4,
+        "id": "B:nist-ai-100-2e2025:p019:c05",
+        "page": 19,
+        "taxonomy": "predictive_ai",
+        "score": 0.674293,
+        "hit": false
+      },
+      {
+        "rank": 5,
+        "id": "B:nist-ai-100-2e2025:p036:c01",
+        "page": 36,
+        "taxonomy": "predictive_ai",
+        "score": 0.669231,
+        "hit": false
+      },
+      {
+        "rank": 6,
+        "id": "B:nist-ai-100-2e2025:p032:c00",
+        "page": 32,
+        "taxonomy": "predictive_ai",
+        "score": 0.668771,
+        "hit": false
+      },
+      {
+        "rank": 7,
+        "id": "B:nist-ai-100-2e2025:p037:c00",
+        "page": 37,
+        "taxonomy": "predictive_ai",
+        "score": 0.658668,
+        "hit": false
+      },
+      {
+        "rank": 8,
+        "id": "B:nist-ai-100-2e2025:p055:c02",
+        "page": 55,
+        "taxonomy": "generative_ai",
+        "score": 0.652376,
+        "hit": false
+      },
+      {
+        "rank": 9,
+        "id": "B:nist-ai-100-2e2025:p032:c03",
+        "page": 32,
+        "taxonomy": "predictive_ai",
+        "score": 0.650678,
+        "hit": false
+      },
+      {
+        "rank": 10,
+        "id": "B:nist-ai-100-2e2025:p037:c02",
+        "page": 37,
+        "taxonomy": "predictive_ai",
+        "score": 0.648068,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p035:c04"
+    ],
+    "context_chars": 710,
+    "hit1": true,
+    "hit3": true,
+    "hit10": true,
+    "rr10": 1.0,
+    "context_hit": true
+  },
+  {
+    "method": "dense",
+    "query_id": "q10",
+    "split": "dev",
+    "answerable": true,
+    "question": "Which Microsoft chatbot is the earliest documented case of an attack that corrupted a model through its training data in the real world?",
+    "filter": null,
+    "latency_ms": 100.2,
+    "error": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "B:nist-ai-100-2e2025:p040:c02",
+        "page": 40,
+        "taxonomy": "predictive_ai",
+        "score": 0.760779,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "B:nist-ai-100-2e2025:p040:c03",
+        "page": 40,
+        "taxonomy": "predictive_ai",
+        "score": 0.715965,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "B:nist-ai-100-2e2025:p018:c03",
+        "page": 18,
+        "taxonomy": "predictive_ai",
+        "score": 0.688581,
+        "hit": false
+      },
+      {
+        "rank": 4,
+        "id": "B:nist-ai-100-2e2025:p040:c01",
+        "page": 40,
+        "taxonomy": "predictive_ai",
+        "score": 0.68798,
+        "hit": false
+      },
+      {
+        "rank": 5,
+        "id": "B:nist-ai-100-2e2025:p032:c03",
+        "page": 32,
+        "taxonomy": "predictive_ai",
+        "score": 0.683669,
+        "hit": false
+      },
+      {
+        "rank": 6,
+        "id": "B:nist-ai-100-2e2025:p027:c01",
+        "page": 27,
+        "taxonomy": "predictive_ai",
+        "score": 0.67747,
+        "hit": false
+      },
+      {
+        "rank": 7,
+        "id": "B:nist-ai-100-2e2025:p029:c03",
+        "page": 29,
+        "taxonomy": "predictive_ai",
+        "score": 0.676101,
+        "hit": false
+      },
+      {
+        "rank": 8,
+        "id": "B:nist-ai-100-2e2025:p059:c01",
+        "page": 59,
+        "taxonomy": "generative_ai",
+        "score": 0.673994,
+        "hit": false
+      },
+      {
+        "rank": 9,
+        "id": "B:nist-ai-100-2e2025:p032:c04",
+        "page": 32,
+        "taxonomy": "predictive_ai",
+        "score": 0.671638,
+        "hit": false
+      },
+      {
+        "rank": 10,
+        "id": "B:nist-ai-100-2e2025:p020:c03",
+        "page": 20,
+        "taxonomy": "predictive_ai",
+        "score": 0.671396,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p040:c03"
+    ],
+    "context_chars": 505,
+    "hit1": true,
+    "hit3": true,
+    "hit10": true,
+    "rr10": 1.0,
+    "context_hit": false
+  },
+  {
+    "method": "dense",
+    "query_id": "q11",
+    "split": "dev",
+    "answerable": true,
+    "question": "In the loss-based membership inference attack, when is a target sample judged to be part of the training set?",
+    "filter": null,
+    "latency_ms": 85.3,
+    "error": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "B:nist-ai-100-2e2025:p043:c00",
+        "page": 43,
+        "taxonomy": "predictive_ai",
+        "score": 0.849566,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "B:nist-ai-100-2e2025:p042:c03",
+        "page": 42,
+        "taxonomy": "predictive_ai",
+        "score": 0.796851,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "B:nist-ai-100-2e2025:p043:c02",
+        "page": 43,
+        "taxonomy": "predictive_ai",
+        "score": 0.789428,
+        "hit": false
+      },
+      {
+        "rank": 4,
+        "id": "B:nist-ai-100-2e2025:p042:c02",
+        "page": 42,
+        "taxonomy": "predictive_ai",
+        "score": 0.772174,
+        "hit": false
+      },
+      {
+        "rank": 5,
+        "id": "B:nist-ai-100-2e2025:p043:c03",
+        "page": 43,
+        "taxonomy": "predictive_ai",
+        "score": 0.754036,
+        "hit": false
+      },
+      {
+        "rank": 6,
+        "id": "B:nist-ai-100-2e2025:p044:c02",
+        "page": 44,
+        "taxonomy": "predictive_ai",
+        "score": 0.750668,
+        "hit": false
+      },
+      {
+        "rank": 7,
+        "id": "B:nist-ai-100-2e2025:p045:c03",
+        "page": 45,
+        "taxonomy": "predictive_ai",
+        "score": 0.749753,
+        "hit": false
+      },
+      {
+        "rank": 8,
+        "id": "B:nist-ai-100-2e2025:p042:c04",
+        "page": 42,
+        "taxonomy": "predictive_ai",
+        "score": 0.742294,
+        "hit": false
+      },
+      {
+        "rank": 9,
+        "id": "B:nist-ai-100-2e2025:p041:c00",
+        "page": 41,
+        "taxonomy": "predictive_ai",
+        "score": 0.737554,
+        "hit": false
+      },
+      {
+        "rank": 10,
+        "id": "B:nist-ai-100-2e2025:p042:c01",
+        "page": 42,
+        "taxonomy": "predictive_ai",
+        "score": 0.733935,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p042:c03"
+    ],
+    "context_chars": 778,
+    "hit1": true,
+    "hit3": true,
+    "hit10": true,
+    "rr10": 1.0,
+    "context_hit": false
+  },
+  {
+    "method": "dense",
+    "query_id": "q12",
+    "split": "dev",
+    "answerable": true,
+    "question": "Does differential privacy protect against model extraction attacks? Why or why not?",
+    "filter": null,
+    "latency_ms": 87.8,
+    "error": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "B:nist-ai-100-2e2025:p020:c03",
+        "page": 20,
+        "taxonomy": "predictive_ai",
+        "score": 0.829921,
+        "hit": false
+      },
+      {
+        "rank": 2,
+        "id": "B:nist-ai-100-2e2025:p041:c01",
+        "page": 41,
+        "taxonomy": "predictive_ai",
+        "score": 0.823305,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "B:nist-ai-100-2e2025:p035:c03",
+        "page": 35,
+        "taxonomy": "predictive_ai",
+        "score": 0.812456,
+        "hit": false
+      },
+      {
+        "rank": 4,
+        "id": "B:nist-ai-100-2e2025:p046:c02",
+        "page": 46,
+        "taxonomy": "predictive_ai",
+        "score": 0.811894,
+        "hit": false
+      },
+      {
+        "rank": 5,
+        "id": "B:nist-ai-100-2e2025:p020:c02",
+        "page": 20,
+        "taxonomy": "predictive_ai",
+        "score": 0.809222,
+        "hit": false
+      },
+      {
+        "rank": 6,
+        "id": "B:nist-ai-100-2e2025:p046:c03",
+        "page": 46,
+        "taxonomy": "predictive_ai",
+        "score": 0.793053,
+        "hit": false
+      },
+      {
+        "rank": 7,
+        "id": "B:nist-ai-100-2e2025:p044:c03",
+        "page": 44,
+        "taxonomy": "predictive_ai",
+        "score": 0.789839,
+        "hit": false
+      },
+      {
+        "rank": 8,
+        "id": "B:nist-ai-100-2e2025:p045:c03",
+        "page": 45,
+        "taxonomy": "predictive_ai",
+        "score": 0.779351,
+        "hit": true
+      },
+      {
+        "rank": 9,
+        "id": "B:nist-ai-100-2e2025:p020:c01",
+        "page": 20,
+        "taxonomy": "predictive_ai",
+        "score": 0.769451,
+        "hit": false
+      },
+      {
+        "rank": 10,
+        "id": "B:nist-ai-100-2e2025:p053:c01",
+        "page": 53,
+        "taxonomy": "generative_ai",
+        "score": 0.768921,
+        "hit": false
+      }
+    ],
+    "context_ids": [],
+    "context_chars": 0,
+    "hit1": false,
+    "hit3": false,
+    "hit10": true,
+    "rr10": 0.125,
+    "context_hit": false
+  },
+  {
+    "method": "dense",
+    "query_id": "q13",
+    "split": "dev",
+    "answerable": true,
+    "question": "In generative AI systems, how can an attacker poison a training dataset that is published as a list of URLs?",
+    "filter": {
+      "taxonomy": "generative_ai"
+    },
+    "latency_ms": 108.4,
+    "error": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "B:nist-ai-100-2e2025:p055:c00",
+        "page": 55,
+        "taxonomy": "generative_ai",
+        "score": 0.809516,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "B:nist-ai-100-2e2025:p055:c03",
+        "page": 55,
+        "taxonomy": "generative_ai",
+        "score": 0.763788,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "B:nist-ai-100-2e2025:p059:c01",
+        "page": 59,
+        "taxonomy": "generative_ai",
+        "score": 0.763121,
+        "hit": false
+      },
+      {
+        "rank": 4,
+        "id": "B:nist-ai-100-2e2025:p059:c00",
+        "page": 59,
+        "taxonomy": "generative_ai",
+        "score": 0.762517,
+        "hit": false
+      },
+      {
+        "rank": 5,
+        "id": "B:nist-ai-100-2e2025:p064:c03",
+        "page": 64,
+        "taxonomy": "generative_ai",
+        "score": 0.761263,
+        "hit": false
+      },
+      {
+        "rank": 6,
+        "id": "B:nist-ai-100-2e2025:p064:c04",
+        "page": 64,
+        "taxonomy": "generative_ai",
+        "score": 0.760445,
+        "hit": false
+      },
+      {
+        "rank": 7,
+        "id": "B:nist-ai-100-2e2025:p050:c02",
+        "page": 50,
+        "taxonomy": "generative_ai",
+        "score": 0.757536,
+        "hit": false
+      },
+      {
+        "rank": 8,
+        "id": "B:nist-ai-100-2e2025:p055:c02",
+        "page": 55,
+        "taxonomy": "generative_ai",
+        "score": 0.755303,
+        "hit": false
+      },
+      {
+        "rank": 9,
+        "id": "B:nist-ai-100-2e2025:p051:c01",
+        "page": 51,
+        "taxonomy": "generative_ai",
+        "score": 0.75527,
+        "hit": false
+      },
+      {
+        "rank": 10,
+        "id": "B:nist-ai-100-2e2025:p066:c02",
+        "page": 66,
+        "taxonomy": "generative_ai",
+        "score": 0.753325,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p059:c01"
+    ],
+    "context_chars": 726,
+    "hit1": true,
+    "hit3": true,
+    "hit10": true,
+    "rr10": 1.0,
+    "context_hit": false
+  },
+  {
+    "method": "dense",
+    "query_id": "q14",
+    "split": "dev",
+    "answerable": true,
+    "question": "For predictive AI models offered through MLaaS, what is the goal of a model extraction attack?",
+    "filter": {
+      "taxonomy": "predictive_ai"
+    },
+    "latency_ms": 93.1,
+    "error": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "B:nist-ai-100-2e2025:p044:c03",
+        "page": 44,
+        "taxonomy": "predictive_ai",
+        "score": 0.846051,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "B:nist-ai-100-2e2025:p041:c01",
+        "page": 41,
+        "taxonomy": "predictive_ai",
+        "score": 0.801488,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "B:nist-ai-100-2e2025:p020:c03",
+        "page": 20,
+        "taxonomy": "predictive_ai",
+        "score": 0.771705,
+        "hit": false
+      },
+      {
+        "rank": 4,
+        "id": "B:nist-ai-100-2e2025:p045:c00",
+        "page": 45,
+        "taxonomy": "predictive_ai",
+        "score": 0.77036,
+        "hit": false
+      },
+      {
+        "rank": 5,
+        "id": "B:nist-ai-100-2e2025:p028:c00",
+        "page": 28,
+        "taxonomy": "predictive_ai",
+        "score": 0.746757,
+        "hit": false
+      },
+      {
+        "rank": 6,
+        "id": "B:nist-ai-100-2e2025:p044:c04",
+        "page": 44,
+        "taxonomy": "predictive_ai",
+        "score": 0.737801,
+        "hit": false
+      },
+      {
+        "rank": 7,
+        "id": "B:nist-ai-100-2e2025:p018:c03",
+        "page": 18,
+        "taxonomy": "predictive_ai",
+        "score": 0.733602,
+        "hit": false
+      },
+      {
+        "rank": 8,
+        "id": "B:nist-ai-100-2e2025:p027:c00",
+        "page": 27,
+        "taxonomy": "predictive_ai",
+        "score": 0.716106,
+        "hit": false
+      },
+      {
+        "rank": 9,
+        "id": "B:nist-ai-100-2e2025:p042:c03",
+        "page": 42,
+        "taxonomy": "predictive_ai",
+        "score": 0.712404,
+        "hit": false
+      },
+      {
+        "rank": 10,
+        "id": "B:nist-ai-100-2e2025:p036:c02",
+        "page": 36,
+        "taxonomy": "predictive_ai",
+        "score": 0.708708,
+        "hit": false
+      }
+    ],
+    "context_ids": [],
+    "context_chars": 0,
+    "hit1": true,
+    "hit3": true,
+    "hit10": true,
+    "rr10": 1.0,
+    "context_hit": false
+  },
+  {
+    "method": "dense",
+    "query_id": "q15",
+    "split": "dev",
+    "answerable": true,
+    "question": "For generative AI models trained on web-scale data, how can downloaded training data be checked for integrity?",
+    "filter": {
+      "taxonomy": "generative_ai"
+    },
+    "latency_ms": 88.4,
+    "error": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "B:nist-ai-100-2e2025:p056:c00",
+        "page": 56,
+        "taxonomy": "generative_ai",
+        "score": 0.750163,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "B:nist-ai-100-2e2025:p055:c00",
+        "page": 55,
+        "taxonomy": "generative_ai",
+        "score": 0.744447,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "B:nist-ai-100-2e2025:p050:c02",
+        "page": 50,
+        "taxonomy": "generative_ai",
+        "score": 0.73643,
+        "hit": false
+      },
+      {
+        "rank": 4,
+        "id": "B:nist-ai-100-2e2025:p049:c02",
+        "page": 49,
+        "taxonomy": "generative_ai",
+        "score": 0.726564,
+        "hit": false
+      },
+      {
+        "rank": 5,
+        "id": "B:nist-ai-100-2e2025:p059:c01",
+        "page": 59,
+        "taxonomy": "generative_ai",
+        "score": 0.724848,
+        "hit": false
+      },
+      {
+        "rank": 6,
+        "id": "B:nist-ai-100-2e2025:p063:c02",
+        "page": 63,
+        "taxonomy": "generative_ai",
+        "score": 0.718772,
+        "hit": false
+      },
+      {
+        "rank": 7,
+        "id": "B:nist-ai-100-2e2025:p059:c00",
+        "page": 59,
+        "taxonomy": "generative_ai",
+        "score": 0.716469,
+        "hit": false
+      },
+      {
+        "rank": 8,
+        "id": "B:nist-ai-100-2e2025:p051:c01",
+        "page": 51,
+        "taxonomy": "generative_ai",
+        "score": 0.713804,
+        "hit": false
+      },
+      {
+        "rank": 9,
+        "id": "B:nist-ai-100-2e2025:p059:c03",
+        "page": 59,
+        "taxonomy": "generative_ai",
+        "score": 0.711154,
+        "hit": false
+      },
+      {
+        "rank": 10,
+        "id": "B:nist-ai-100-2e2025:p049:c00",
+        "page": 49,
+        "taxonomy": "generative_ai",
+        "score": 0.708458,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p056:c00"
+    ],
+    "context_chars": 470,
+    "hit1": true,
+    "hit3": true,
+    "hit10": true,
+    "rr10": 1.0,
+    "context_hit": true
+  },
+  {
+    "method": "dense",
+    "query_id": "u01",
+    "split": "dev",
+    "answerable": false,
+    "question": "What learning rate and number of training epochs does the report recommend when using adversarial training against evasion attacks?",
+    "filter": null,
+    "latency_ms": 86.1,
+    "error": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "B:nist-ai-100-2e2025:p030:c03",
+        "page": 30,
+        "taxonomy": "predictive_ai",
+        "score": 0.793347
+      },
+      {
+        "rank": 2,
+        "id": "B:nist-ai-100-2e2025:p024:c04",
+        "page": 24,
+        "taxonomy": "predictive_ai",
+        "score": 0.751979
+      },
+      {
+        "rank": 3,
+        "id": "B:nist-ai-100-2e2025:p024:c01",
+        "page": 24,
+        "taxonomy": "predictive_ai",
+        "score": 0.739874
+      },
+      {
+        "rank": 4,
+        "id": "B:nist-ai-100-2e2025:p016:c00",
+        "page": 16,
+        "taxonomy": "general",
+        "score": 0.736787
+      },
+      {
+        "rank": 5,
+        "id": "B:nist-ai-100-2e2025:p018:c00",
+        "page": 18,
+        "taxonomy": "predictive_ai",
+        "score": 0.736049
+      },
+      {
+        "rank": 6,
+        "id": "B:nist-ai-100-2e2025:p050:c02",
+        "page": 50,
+        "taxonomy": "generative_ai",
+        "score": 0.734864
+      },
+      {
+        "rank": 7,
+        "id": "B:nist-ai-100-2e2025:p018:c03",
+        "page": 18,
+        "taxonomy": "predictive_ai",
+        "score": 0.733772
+      },
+      {
+        "rank": 8,
+        "id": "B:nist-ai-100-2e2025:p028:c03",
+        "page": 28,
+        "taxonomy": "predictive_ai",
+        "score": 0.71894
+      },
+      {
+        "rank": 9,
+        "id": "B:nist-ai-100-2e2025:p055:c00",
+        "page": 55,
+        "taxonomy": "generative_ai",
+        "score": 0.716409
+      },
+      {
+        "rank": 10,
+        "id": "B:nist-ai-100-2e2025:p070:c03",
+        "page": 70,
+        "taxonomy": "general",
+        "score": 0.713632
+      }
+    ],
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p024:c04"
+    ],
+    "context_chars": 331
+  },
+  {
+    "method": "dense",
+    "query_id": "u02",
+    "split": "dev",
+    "answerable": false,
+    "question": "How much money did Microsoft lose because of the Tay.AI chatbot poisoning incident?",
+    "filter": null,
+    "latency_ms": 95.4,
+    "error": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "B:nist-ai-100-2e2025:p040:c02",
+        "page": 40,
+        "taxonomy": "predictive_ai",
+        "score": 0.735721
+      },
+      {
+        "rank": 2,
+        "id": "B:nist-ai-100-2e2025:p040:c03",
+        "page": 40,
+        "taxonomy": "predictive_ai",
+        "score": 0.728758
+      },
+      {
+        "rank": 3,
+        "id": "B:nist-ai-100-2e2025:p040:c01",
+        "page": 40,
+        "taxonomy": "predictive_ai",
+        "score": 0.608352
+      },
+      {
+        "rank": 4,
+        "id": "B:nist-ai-100-2e2025:p032:c01",
+        "page": 32,
+        "taxonomy": "predictive_ai",
+        "score": 0.60761
+      },
+      {
+        "rank": 5,
+        "id": "B:nist-ai-100-2e2025:p055:c02",
+        "page": 55,
+        "taxonomy": "generative_ai",
+        "score": 0.604323
+      },
+      {
+        "rank": 6,
+        "id": "B:nist-ai-100-2e2025:p035:c04",
+        "page": 35,
+        "taxonomy": "predictive_ai",
+        "score": 0.59594
+      },
+      {
+        "rank": 7,
+        "id": "B:nist-ai-100-2e2025:p071:c03",
+        "page": 71,
+        "taxonomy": "general",
+        "score": 0.594644
+      },
+      {
+        "rank": 8,
+        "id": "B:nist-ai-100-2e2025:p070:c04",
+        "page": 70,
+        "taxonomy": "general",
+        "score": 0.593757
+      },
+      {
+        "rank": 9,
+        "id": "B:nist-ai-100-2e2025:p027:c01",
+        "page": 27,
+        "taxonomy": "predictive_ai",
+        "score": 0.592075
+      },
+      {
+        "rank": 10,
+        "id": "B:nist-ai-100-2e2025:p039:c02",
+        "page": 39,
+        "taxonomy": "predictive_ai",
+        "score": 0.591838
+      }
+    ],
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p040:c03"
+    ],
+    "context_chars": 505
+  },
+  {
+    "method": "bm25",
+    "query_id": "q01",
+    "split": "dev",
+    "answerable": true,
+    "question": "What does the field of adversarial machine learning (AML) study?",
+    "filter": null,
+    "latency_ms": 2.0,
+    "error": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "B:nist-ai-100-2e2025:p014:c01",
+        "page": 14,
+        "taxonomy": "general",
+        "score": 15.475197,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "B:nist-ai-100-2e2025:p073:c03",
+        "page": 73,
+        "taxonomy": "general",
+        "score": 13.67203,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "B:nist-ai-100-2e2025:p022:c03",
+        "page": 22,
+        "taxonomy": "predictive_ai",
+        "score": 10.910504,
+        "hit": false
+      },
+      {
+        "rank": 4,
+        "id": "B:nist-ai-100-2e2025:p016:c02",
+        "page": 16,
+        "taxonomy": "general",
+        "score": 8.554285,
+        "hit": false
+      },
+      {
+        "rank": 5,
+        "id": "B:nist-ai-100-2e2025:p069:c01",
+        "page": 69,
+        "taxonomy": "general",
+        "score": 7.006282,
+        "hit": false
+      },
+      {
+        "rank": 6,
+        "id": "B:nist-ai-100-2e2025:p018:c01",
+        "page": 18,
+        "taxonomy": "predictive_ai",
+        "score": 6.852688,
+        "hit": false
+      },
+      {
+        "rank": 7,
+        "id": "B:nist-ai-100-2e2025:p029:c03",
+        "page": 29,
+        "taxonomy": "predictive_ai",
+        "score": 5.790319,
+        "hit": false
+      },
+      {
+        "rank": 8,
+        "id": "B:nist-ai-100-2e2025:p067:c03",
+        "page": 67,
+        "taxonomy": "generative_ai",
+        "score": 5.706958,
+        "hit": false
+      },
+      {
+        "rank": 9,
+        "id": "B:nist-ai-100-2e2025:p021:c01",
+        "page": 21,
+        "taxonomy": "predictive_ai",
+        "score": 5.463448,
+        "hit": false
+      },
+      {
+        "rank": 10,
+        "id": "B:nist-ai-100-2e2025:p020:c01",
+        "page": 20,
+        "taxonomy": "predictive_ai",
+        "score": 5.03386,
+        "hit": false
+      }
+    ],
+    "context_ids": [],
+    "context_chars": 0,
+    "hit1": true,
+    "hit3": true,
+    "hit10": true,
+    "rr10": 1.0,
+    "context_hit": false
+  },
+  {
+    "method": "bm25",
+    "query_id": "q02",
+    "split": "dev",
+    "answerable": true,
+    "question": "What are the three attacker objectives used to classify attacks on predictive AI systems?",
+    "filter": null,
+    "latency_ms": 2.1,
+    "error": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "B:nist-ai-100-2e2025:p019:c01",
+        "page": 19,
+        "taxonomy": "predictive_ai",
+        "score": 12.480813,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "B:nist-ai-100-2e2025:p017:c00",
+        "page": 17,
+        "taxonomy": "predictive_ai",
+        "score": 11.757506,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "B:nist-ai-100-2e2025:p014:c00",
+        "page": 14,
+        "taxonomy": "general",
+        "score": 10.312544,
+        "hit": false
+      },
+      {
+        "rank": 4,
+        "id": "B:nist-ai-100-2e2025:p016:c01",
+        "page": 16,
+        "taxonomy": "general",
+        "score": 9.150855,
+        "hit": false
+      },
+      {
+        "rank": 5,
+        "id": "B:nist-ai-100-2e2025:p061:c03",
+        "page": 61,
+        "taxonomy": "generative_ai",
+        "score": 9.118171,
+        "hit": false
+      },
+      {
+        "rank": 6,
+        "id": "B:nist-ai-100-2e2025:p018:c03",
+        "page": 18,
+        "taxonomy": "predictive_ai",
+        "score": 9.007112,
+        "hit": false
+      },
+      {
+        "rank": 7,
+        "id": "B:nist-ai-100-2e2025:p020:c04",
+        "page": 20,
+        "taxonomy": "predictive_ai",
+        "score": 8.626305,
+        "hit": false
+      },
+      {
+        "rank": 8,
+        "id": "B:nist-ai-100-2e2025:p022:c01",
+        "page": 22,
+        "taxonomy": "predictive_ai",
+        "score": 8.625573,
+        "hit": false
+      },
+      {
+        "rank": 9,
+        "id": "B:nist-ai-100-2e2025:p015:c01",
+        "page": 15,
+        "taxonomy": "general",
+        "score": 8.123038,
+        "hit": false
+      },
+      {
+        "rank": 10,
+        "id": "B:nist-ai-100-2e2025:p014:c01",
+        "page": 14,
+        "taxonomy": "general",
+        "score": 8.110878,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p019:c01"
+    ],
+    "context_chars": 511,
+    "hit1": true,
+    "hit3": true,
+    "hit10": true,
+    "rr10": 1.0,
+    "context_hit": true
+  },
+  {
+    "method": "bm25",
+    "query_id": "q03",
+    "split": "dev",
+    "answerable": true,
+    "question": "Which kind of attack is the only one that needs the attacker to control both the data used for training and the data seen at test time?",
+    "filter": null,
+    "latency_ms": 1.8,
+    "error": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "B:nist-ai-100-2e2025:p015:c01",
+        "page": 15,
+        "taxonomy": "general",
+        "score": 16.501707,
+        "hit": false
+      },
+      {
+        "rank": 2,
+        "id": "B:nist-ai-100-2e2025:p020:c00",
+        "page": 20,
+        "taxonomy": "predictive_ai",
+        "score": 14.546259,
+        "hit": true
+      },
+      {
+        "rank": 3,
+        "id": "B:nist-ai-100-2e2025:p043:c02",
+        "page": 43,
+        "taxonomy": "predictive_ai",
+        "score": 13.273099,
+        "hit": false
+      },
+      {
+        "rank": 4,
+        "id": "B:nist-ai-100-2e2025:p043:c00",
+        "page": 43,
+        "taxonomy": "predictive_ai",
+        "score": 12.946337,
+        "hit": false
+      },
+      {
+        "rank": 5,
+        "id": "B:nist-ai-100-2e2025:p017:c00",
+        "page": 17,
+        "taxonomy": "predictive_ai",
+        "score": 12.514694,
+        "hit": false
+      },
+      {
+        "rank": 6,
+        "id": "B:nist-ai-100-2e2025:p018:c03",
+        "page": 18,
+        "taxonomy": "predictive_ai",
+        "score": 12.131691,
+        "hit": false
+      },
+      {
+        "rank": 7,
+        "id": "B:nist-ai-100-2e2025:p047:c03",
+        "page": 47,
+        "taxonomy": "generative_ai",
+        "score": 12.004142,
+        "hit": false
+      },
+      {
+        "rank": 8,
+        "id": "B:nist-ai-100-2e2025:p053:c04",
+        "page": 53,
+        "taxonomy": "generative_ai",
+        "score": 11.525651,
+        "hit": false
+      },
+      {
+        "rank": 9,
+        "id": "B:nist-ai-100-2e2025:p020:c04",
+        "page": 20,
+        "taxonomy": "predictive_ai",
+        "score": 11.406966,
+        "hit": false
+      },
+      {
+        "rank": 10,
+        "id": "B:nist-ai-100-2e2025:p021:c00",
+        "page": 21,
+        "taxonomy": "predictive_ai",
+        "score": 11.029026,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p015:c01"
+    ],
+    "context_chars": 742,
+    "hit1": false,
+    "hit3": true,
+    "hit10": true,
+    "rr10": 0.5,
+    "context_hit": false
+  },
+  {
+    "method": "bm25",
+    "query_id": "q04",
+    "split": "dev",
+    "answerable": true,
+    "question": "What do black-box attacks assume about the attacker's knowledge of the ML system?",
+    "filter": null,
+    "latency_ms": 1.0,
+    "error": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "B:nist-ai-100-2e2025:p022:c01",
+        "page": 22,
+        "taxonomy": "predictive_ai",
+        "score": 24.558257,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "B:nist-ai-100-2e2025:p021:c03",
+        "page": 21,
+        "taxonomy": "predictive_ai",
+        "score": 18.78413,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "B:nist-ai-100-2e2025:p028:c00",
+        "page": 28,
+        "taxonomy": "predictive_ai",
+        "score": 16.29031,
+        "hit": false
+      },
+      {
+        "rank": 4,
+        "id": "B:nist-ai-100-2e2025:p054:c01",
+        "page": 54,
+        "taxonomy": "generative_ai",
+        "score": 15.938198,
+        "hit": false
+      },
+      {
+        "rank": 5,
+        "id": "B:nist-ai-100-2e2025:p021:c01",
+        "page": 21,
+        "taxonomy": "predictive_ai",
+        "score": 14.784215,
+        "hit": false
+      },
+      {
+        "rank": 6,
+        "id": "B:nist-ai-100-2e2025:p042:c04",
+        "page": 42,
+        "taxonomy": "predictive_ai",
+        "score": 14.500739,
+        "hit": false
+      },
+      {
+        "rank": 7,
+        "id": "B:nist-ai-100-2e2025:p021:c02",
+        "page": 21,
+        "taxonomy": "predictive_ai",
+        "score": 13.240827,
+        "hit": false
+      },
+      {
+        "rank": 8,
+        "id": "B:nist-ai-100-2e2025:p024:c02",
+        "page": 24,
+        "taxonomy": "predictive_ai",
+        "score": 10.297402,
+        "hit": false
+      },
+      {
+        "rank": 9,
+        "id": "B:nist-ai-100-2e2025:p025:c01",
+        "page": 25,
+        "taxonomy": "predictive_ai",
+        "score": 9.729929,
+        "hit": false
+      },
+      {
+        "rank": 10,
+        "id": "B:nist-ai-100-2e2025:p017:c00",
+        "page": 17,
+        "taxonomy": "predictive_ai",
+        "score": 9.5221,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p021:c03"
+    ],
+    "context_chars": 592,
+    "hit1": true,
+    "hit3": true,
+    "hit10": true,
+    "rr10": 1.0,
+    "context_hit": false
+  },
+  {
+    "method": "bm25",
+    "query_id": "q05",
+    "split": "dev",
+    "answerable": true,
+    "question": "How many iterations of gradient descent does the Fast Gradient Sign Method (FGSM) perform?",
+    "filter": null,
+    "latency_ms": 1.0,
+    "error": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "B:nist-ai-100-2e2025:p025:c04",
+        "page": 25,
+        "taxonomy": "predictive_ai",
+        "score": 31.673617,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "B:nist-ai-100-2e2025:p026:c01",
+        "page": 26,
+        "taxonomy": "predictive_ai",
+        "score": 14.153483,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "B:nist-ai-100-2e2025:p028:c02",
+        "page": 28,
+        "taxonomy": "predictive_ai",
+        "score": 14.064194,
+        "hit": false
+      },
+      {
+        "rank": 4,
+        "id": "B:nist-ai-100-2e2025:p030:c01",
+        "page": 30,
+        "taxonomy": "predictive_ai",
+        "score": 8.373307,
+        "hit": false
+      },
+      {
+        "rank": 5,
+        "id": "B:nist-ai-100-2e2025:p057:c01",
+        "page": 57,
+        "taxonomy": "generative_ai",
+        "score": 7.88251,
+        "hit": false
+      },
+      {
+        "rank": 6,
+        "id": "B:nist-ai-100-2e2025:p036:c05",
+        "page": 36,
+        "taxonomy": "predictive_ai",
+        "score": 7.560695,
+        "hit": false
+      },
+      {
+        "rank": 7,
+        "id": "B:nist-ai-100-2e2025:p022:c03",
+        "page": 22,
+        "taxonomy": "predictive_ai",
+        "score": 7.147262,
+        "hit": false
+      },
+      {
+        "rank": 8,
+        "id": "B:nist-ai-100-2e2025:p027:c02",
+        "page": 27,
+        "taxonomy": "predictive_ai",
+        "score": 6.978708,
+        "hit": false
+      },
+      {
+        "rank": 9,
+        "id": "B:nist-ai-100-2e2025:p024:c01",
+        "page": 24,
+        "taxonomy": "predictive_ai",
+        "score": 6.937805,
+        "hit": false
+      },
+      {
+        "rank": 10,
+        "id": "B:nist-ai-100-2e2025:p031:c02",
+        "page": 31,
+        "taxonomy": "predictive_ai",
+        "score": 6.919322,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p025:c04"
+    ],
+    "context_chars": 798,
+    "hit1": true,
+    "hit3": true,
+    "hit10": true,
+    "rr10": 1.0,
+    "context_hit": true
+  },
+  {
+    "method": "bm25",
+    "query_id": "q06",
+    "split": "dev",
+    "answerable": true,
+    "question": "How did researchers fool a traffic sign recognition model in the physical world?",
+    "filter": null,
+    "latency_ms": 1.3,
+    "error": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "B:nist-ai-100-2e2025:p026:c02",
+        "page": 26,
+        "taxonomy": "predictive_ai",
+        "score": 18.627067,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "B:nist-ai-100-2e2025:p029:c01",
+        "page": 29,
+        "taxonomy": "predictive_ai",
+        "score": 10.364955,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "B:nist-ai-100-2e2025:p029:c02",
+        "page": 29,
+        "taxonomy": "predictive_ai",
+        "score": 9.736583,
+        "hit": false
+      },
+      {
+        "rank": 4,
+        "id": "B:nist-ai-100-2e2025:p029:c04",
+        "page": 29,
+        "taxonomy": "predictive_ai",
+        "score": 8.952666,
+        "hit": false
+      },
+      {
+        "rank": 5,
+        "id": "B:nist-ai-100-2e2025:p036:c01",
+        "page": 36,
+        "taxonomy": "predictive_ai",
+        "score": 7.545848,
+        "hit": false
+      },
+      {
+        "rank": 6,
+        "id": "B:nist-ai-100-2e2025:p028:c02",
+        "page": 28,
+        "taxonomy": "predictive_ai",
+        "score": 6.510751,
+        "hit": false
+      },
+      {
+        "rank": 7,
+        "id": "B:nist-ai-100-2e2025:p027:c02",
+        "page": 27,
+        "taxonomy": "predictive_ai",
+        "score": 5.458955,
+        "hit": false
+      },
+      {
+        "rank": 8,
+        "id": "B:nist-ai-100-2e2025:p040:c01",
+        "page": 40,
+        "taxonomy": "predictive_ai",
+        "score": 5.347392,
+        "hit": false
+      },
+      {
+        "rank": 9,
+        "id": "B:nist-ai-100-2e2025:p023:c00",
+        "page": 23,
+        "taxonomy": "predictive_ai",
+        "score": 4.25105,
+        "hit": false
+      },
+      {
+        "rank": 10,
+        "id": "B:nist-ai-100-2e2025:p018:c01",
+        "page": 18,
+        "taxonomy": "predictive_ai",
+        "score": 4.018899,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p029:c01"
+    ],
+    "context_chars": 401,
+    "hit1": true,
+    "hit3": true,
+    "hit10": true,
+    "rr10": 1.0,
+    "context_hit": false
+  },
+  {
+    "method": "bm25",
+    "query_id": "q07",
+    "split": "dev",
+    "answerable": true,
+    "question": "In score-based black-box evasion attacks, which popular method estimates the model's gradients without computing derivatives?",
+    "filter": null,
+    "latency_ms": 1.4,
+    "error": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "B:nist-ai-100-2e2025:p028:c01",
+        "page": 28,
+        "taxonomy": "predictive_ai",
+        "score": 42.319678,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "B:nist-ai-100-2e2025:p028:c00",
+        "page": 28,
+        "taxonomy": "predictive_ai",
+        "score": 18.437518,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "B:nist-ai-100-2e2025:p028:c04",
+        "page": 28,
+        "taxonomy": "predictive_ai",
+        "score": 13.761067,
+        "hit": false
+      },
+      {
+        "rank": 4,
+        "id": "B:nist-ai-100-2e2025:p033:c02",
+        "page": 33,
+        "taxonomy": "predictive_ai",
+        "score": 13.211785,
+        "hit": false
+      },
+      {
+        "rank": 5,
+        "id": "B:nist-ai-100-2e2025:p024:c02",
+        "page": 24,
+        "taxonomy": "predictive_ai",
+        "score": 11.153021,
+        "hit": false
+      },
+      {
+        "rank": 6,
+        "id": "B:nist-ai-100-2e2025:p033:c01",
+        "page": 33,
+        "taxonomy": "predictive_ai",
+        "score": 11.113975,
+        "hit": false
+      },
+      {
+        "rank": 7,
+        "id": "B:nist-ai-100-2e2025:p042:c04",
+        "page": 42,
+        "taxonomy": "predictive_ai",
+        "score": 10.606082,
+        "hit": false
+      },
+      {
+        "rank": 8,
+        "id": "B:nist-ai-100-2e2025:p025:c02",
+        "page": 25,
+        "taxonomy": "predictive_ai",
+        "score": 10.241746,
+        "hit": false
+      },
+      {
+        "rank": 9,
+        "id": "B:nist-ai-100-2e2025:p021:c01",
+        "page": 21,
+        "taxonomy": "predictive_ai",
+        "score": 10.204643,
+        "hit": false
+      },
+      {
+        "rank": 10,
+        "id": "B:nist-ai-100-2e2025:p017:c00",
+        "page": 17,
+        "taxonomy": "predictive_ai",
+        "score": 10.197796,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p028:c01"
+    ],
+    "context_chars": 518,
+    "hit1": true,
+    "hit3": true,
+    "hit10": true,
+    "rr10": 1.0,
+    "context_hit": true
+  },
+  {
+    "method": "bm25",
+    "query_id": "q08",
+    "split": "dev",
+    "answerable": true,
+    "question": "Under what condition does the RONI (Region of Non-Interest) method exclude a sample from training?",
+    "filter": null,
+    "latency_ms": 0.8,
+    "error": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "B:nist-ai-100-2e2025:p034:c00",
+        "page": 34,
+        "taxonomy": "predictive_ai",
+        "score": 23.689031,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "B:nist-ai-100-2e2025:p043:c00",
+        "page": 43,
+        "taxonomy": "predictive_ai",
+        "score": 7.543855,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "B:nist-ai-100-2e2025:p044:c01",
+        "page": 44,
+        "taxonomy": "predictive_ai",
+        "score": 7.076861,
+        "hit": false
+      },
+      {
+        "rank": 4,
+        "id": "B:nist-ai-100-2e2025:p026:c00",
+        "page": 26,
+        "taxonomy": "predictive_ai",
+        "score": 5.588715,
+        "hit": false
+      },
+      {
+        "rank": 5,
+        "id": "B:nist-ai-100-2e2025:p039:c03",
+        "page": 39,
+        "taxonomy": "predictive_ai",
+        "score": 5.082757,
+        "hit": false
+      },
+      {
+        "rank": 6,
+        "id": "B:nist-ai-100-2e2025:p068:c02",
+        "page": 68,
+        "taxonomy": "general",
+        "score": 5.048462,
+        "hit": false
+      },
+      {
+        "rank": 7,
+        "id": "B:nist-ai-100-2e2025:p042:c00",
+        "page": 42,
+        "taxonomy": "predictive_ai",
+        "score": 4.844006,
+        "hit": false
+      },
+      {
+        "rank": 8,
+        "id": "B:nist-ai-100-2e2025:p059:c00",
+        "page": 59,
+        "taxonomy": "generative_ai",
+        "score": 4.819614,
+        "hit": false
+      },
+      {
+        "rank": 9,
+        "id": "B:nist-ai-100-2e2025:p040:c00",
+        "page": 40,
+        "taxonomy": "predictive_ai",
+        "score": 4.50182,
+        "hit": false
+      },
+      {
+        "rank": 10,
+        "id": "B:nist-ai-100-2e2025:p025:c01",
+        "page": 25,
+        "taxonomy": "predictive_ai",
+        "score": 4.497782,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p044:c01"
+    ],
+    "context_chars": 359,
+    "hit1": true,
+    "hit3": true,
+    "hit10": true,
+    "rr10": 1.0,
+    "context_hit": false
+  },
+  {
+    "method": "bm25",
+    "query_id": "q09",
+    "split": "dev",
+    "answerable": true,
+    "question": "What was the first backdoor poisoning attack, and who proposed it?",
+    "filter": null,
+    "latency_ms": 1.3,
+    "error": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "B:nist-ai-100-2e2025:p035:c04",
+        "page": 35,
+        "taxonomy": "predictive_ai",
+        "score": 11.431466,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "B:nist-ai-100-2e2025:p048:c00",
+        "page": 48,
+        "taxonomy": "generative_ai",
+        "score": 8.50399,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "B:nist-ai-100-2e2025:p038:c03",
+        "page": 38,
+        "taxonomy": "predictive_ai",
+        "score": 8.378972,
+        "hit": false
+      },
+      {
+        "rank": 4,
+        "id": "B:nist-ai-100-2e2025:p038:c02",
+        "page": 38,
+        "taxonomy": "predictive_ai",
+        "score": 7.235238,
+        "hit": false
+      },
+      {
+        "rank": 5,
+        "id": "B:nist-ai-100-2e2025:p037:c00",
+        "page": 37,
+        "taxonomy": "predictive_ai",
+        "score": 6.779116,
+        "hit": false
+      },
+      {
+        "rank": 6,
+        "id": "B:nist-ai-100-2e2025:p055:c02",
+        "page": 55,
+        "taxonomy": "generative_ai",
+        "score": 6.669957,
+        "hit": false
+      },
+      {
+        "rank": 7,
+        "id": "B:nist-ai-100-2e2025:p019:c04",
+        "page": 19,
+        "taxonomy": "predictive_ai",
+        "score": 6.557018,
+        "hit": false
+      },
+      {
+        "rank": 8,
+        "id": "B:nist-ai-100-2e2025:p036:c00",
+        "page": 36,
+        "taxonomy": "predictive_ai",
+        "score": 6.47506,
+        "hit": false
+      },
+      {
+        "rank": 9,
+        "id": "B:nist-ai-100-2e2025:p022:c04",
+        "page": 22,
+        "taxonomy": "predictive_ai",
+        "score": 6.406694,
+        "hit": false
+      },
+      {
+        "rank": 10,
+        "id": "B:nist-ai-100-2e2025:p019:c05",
+        "page": 19,
+        "taxonomy": "predictive_ai",
+        "score": 6.397235,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p035:c04"
+    ],
+    "context_chars": 710,
+    "hit1": true,
+    "hit3": true,
+    "hit10": true,
+    "rr10": 1.0,
+    "context_hit": true
+  },
+  {
+    "method": "bm25",
+    "query_id": "q10",
+    "split": "dev",
+    "answerable": true,
+    "question": "Which Microsoft chatbot is the earliest documented case of an attack that corrupted a model through its training data in the real world?",
+    "filter": null,
+    "latency_ms": 3.5,
+    "error": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "B:nist-ai-100-2e2025:p040:c02",
+        "page": 40,
+        "taxonomy": "predictive_ai",
+        "score": 19.237714,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "B:nist-ai-100-2e2025:p040:c01",
+        "page": 40,
+        "taxonomy": "predictive_ai",
+        "score": 18.570889,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "B:nist-ai-100-2e2025:p033:c00",
+        "page": 33,
+        "taxonomy": "predictive_ai",
+        "score": 13.083528,
+        "hit": false
+      },
+      {
+        "rank": 4,
+        "id": "B:nist-ai-100-2e2025:p018:c01",
+        "page": 18,
+        "taxonomy": "predictive_ai",
+        "score": 12.710553,
+        "hit": false
+      },
+      {
+        "rank": 5,
+        "id": "B:nist-ai-100-2e2025:p029:c01",
+        "page": 29,
+        "taxonomy": "predictive_ai",
+        "score": 10.590194,
+        "hit": false
+      },
+      {
+        "rank": 6,
+        "id": "B:nist-ai-100-2e2025:p029:c03",
+        "page": 29,
+        "taxonomy": "predictive_ai",
+        "score": 10.282474,
+        "hit": false
+      },
+      {
+        "rank": 7,
+        "id": "B:nist-ai-100-2e2025:p054:c03",
+        "page": 54,
+        "taxonomy": "generative_ai",
+        "score": 9.583334,
+        "hit": false
+      },
+      {
+        "rank": 8,
+        "id": "B:nist-ai-100-2e2025:p040:c03",
+        "page": 40,
+        "taxonomy": "predictive_ai",
+        "score": 8.953279,
+        "hit": false
+      },
+      {
+        "rank": 9,
+        "id": "B:nist-ai-100-2e2025:p014:c03",
+        "page": 14,
+        "taxonomy": "general",
+        "score": 8.746484,
+        "hit": false
+      },
+      {
+        "rank": 10,
+        "id": "B:nist-ai-100-2e2025:p029:c00",
+        "page": 29,
+        "taxonomy": "predictive_ai",
+        "score": 8.251045,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p040:c01",
+      "B:nist-ai-100-2e2025:p033:c00"
+    ],
+    "context_chars": 789,
+    "hit1": true,
+    "hit3": true,
+    "hit10": true,
+    "rr10": 1.0,
+    "context_hit": false
+  },
+  {
+    "method": "bm25",
+    "query_id": "q11",
+    "split": "dev",
+    "answerable": true,
+    "question": "In the loss-based membership inference attack, when is a target sample judged to be part of the training set?",
+    "filter": null,
+    "latency_ms": 1.2,
+    "error": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "B:nist-ai-100-2e2025:p043:c00",
+        "page": 43,
+        "taxonomy": "predictive_ai",
+        "score": 26.289141,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "B:nist-ai-100-2e2025:p059:c01",
+        "page": 59,
+        "taxonomy": "generative_ai",
+        "score": 14.389519,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "B:nist-ai-100-2e2025:p042:c03",
+        "page": 42,
+        "taxonomy": "predictive_ai",
+        "score": 13.388443,
+        "hit": false
+      },
+      {
+        "rank": 4,
+        "id": "B:nist-ai-100-2e2025:p044:c02",
+        "page": 44,
+        "taxonomy": "predictive_ai",
+        "score": 13.278055,
+        "hit": false
+      },
+      {
+        "rank": 5,
+        "id": "B:nist-ai-100-2e2025:p042:c02",
+        "page": 42,
+        "taxonomy": "predictive_ai",
+        "score": 13.161557,
+        "hit": false
+      },
+      {
+        "rank": 6,
+        "id": "B:nist-ai-100-2e2025:p043:c02",
+        "page": 43,
+        "taxonomy": "predictive_ai",
+        "score": 13.035869,
+        "hit": false
+      },
+      {
+        "rank": 7,
+        "id": "B:nist-ai-100-2e2025:p045:c03",
+        "page": 45,
+        "taxonomy": "predictive_ai",
+        "score": 12.922537,
+        "hit": false
+      },
+      {
+        "rank": 8,
+        "id": "B:nist-ai-100-2e2025:p043:c03",
+        "page": 43,
+        "taxonomy": "predictive_ai",
+        "score": 11.543456,
+        "hit": false
+      },
+      {
+        "rank": 9,
+        "id": "B:nist-ai-100-2e2025:p046:c00",
+        "page": 46,
+        "taxonomy": "predictive_ai",
+        "score": 11.471537,
+        "hit": false
+      },
+      {
+        "rank": 10,
+        "id": "B:nist-ai-100-2e2025:p026:c00",
+        "page": 26,
+        "taxonomy": "predictive_ai",
+        "score": 11.191114,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p059:c01"
+    ],
+    "context_chars": 726,
+    "hit1": true,
+    "hit3": true,
+    "hit10": true,
+    "rr10": 1.0,
+    "context_hit": false
+  },
+  {
+    "method": "bm25",
+    "query_id": "q12",
+    "split": "dev",
+    "answerable": true,
+    "question": "Does differential privacy protect against model extraction attacks? Why or why not?",
+    "filter": null,
+    "latency_ms": 1.0,
+    "error": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "B:nist-ai-100-2e2025:p045:c03",
+        "page": 45,
+        "taxonomy": "predictive_ai",
+        "score": 16.467373,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "B:nist-ai-100-2e2025:p035:c03",
+        "page": 35,
+        "taxonomy": "predictive_ai",
+        "score": 13.06806,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "B:nist-ai-100-2e2025:p046:c02",
+        "page": 46,
+        "taxonomy": "predictive_ai",
+        "score": 10.90205,
+        "hit": false
+      },
+      {
+        "rank": 4,
+        "id": "B:nist-ai-100-2e2025:p045:c01",
+        "page": 45,
+        "taxonomy": "predictive_ai",
+        "score": 8.012486,
+        "hit": false
+      },
+      {
+        "rank": 5,
+        "id": "B:nist-ai-100-2e2025:p041:c01",
+        "page": 41,
+        "taxonomy": "predictive_ai",
+        "score": 7.798024,
+        "hit": false
+      },
+      {
+        "rank": 6,
+        "id": "B:nist-ai-100-2e2025:p020:c03",
+        "page": 20,
+        "taxonomy": "predictive_ai",
+        "score": 7.772748,
+        "hit": false
+      },
+      {
+        "rank": 7,
+        "id": "B:nist-ai-100-2e2025:p046:c03",
+        "page": 46,
+        "taxonomy": "predictive_ai",
+        "score": 6.950201,
+        "hit": false
+      },
+      {
+        "rank": 8,
+        "id": "B:nist-ai-100-2e2025:p041:c02",
+        "page": 41,
+        "taxonomy": "predictive_ai",
+        "score": 6.91132,
+        "hit": false
+      },
+      {
+        "rank": 9,
+        "id": "B:nist-ai-100-2e2025:p039:c03",
+        "page": 39,
+        "taxonomy": "predictive_ai",
+        "score": 6.431697,
+        "hit": false
+      },
+      {
+        "rank": 10,
+        "id": "B:nist-ai-100-2e2025:p041:c03",
+        "page": 41,
+        "taxonomy": "predictive_ai",
+        "score": 5.994182,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p045:c03"
+    ],
+    "context_chars": 764,
+    "hit1": true,
+    "hit3": true,
+    "hit10": true,
+    "rr10": 1.0,
+    "context_hit": true
+  },
+  {
+    "method": "bm25",
+    "query_id": "q13",
+    "split": "dev",
+    "answerable": true,
+    "question": "In generative AI systems, how can an attacker poison a training dataset that is published as a list of URLs?",
+    "filter": {
+      "taxonomy": "generative_ai"
+    },
+    "latency_ms": 0.5,
+    "error": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "B:nist-ai-100-2e2025:p055:c00",
+        "page": 55,
+        "taxonomy": "generative_ai",
+        "score": 15.800933,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "B:nist-ai-100-2e2025:p047:c00",
+        "page": 47,
+        "taxonomy": "generative_ai",
+        "score": 10.170622,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "B:nist-ai-100-2e2025:p065:c02",
+        "page": 65,
+        "taxonomy": "generative_ai",
+        "score": 6.335591,
+        "hit": false
+      },
+      {
+        "rank": 4,
+        "id": "B:nist-ai-100-2e2025:p058:c02",
+        "page": 58,
+        "taxonomy": "generative_ai",
+        "score": 6.152242,
+        "hit": false
+      },
+      {
+        "rank": 5,
+        "id": "B:nist-ai-100-2e2025:p062:c04",
+        "page": 62,
+        "taxonomy": "generative_ai",
+        "score": 5.982971,
+        "hit": false
+      },
+      {
+        "rank": 6,
+        "id": "B:nist-ai-100-2e2025:p056:c00",
+        "page": 56,
+        "taxonomy": "generative_ai",
+        "score": 5.414091,
+        "hit": false
+      },
+      {
+        "rank": 7,
+        "id": "B:nist-ai-100-2e2025:p048:c01",
+        "page": 48,
+        "taxonomy": "generative_ai",
+        "score": 5.374783,
+        "hit": false
+      },
+      {
+        "rank": 8,
+        "id": "B:nist-ai-100-2e2025:p050:c02",
+        "page": 50,
+        "taxonomy": "generative_ai",
+        "score": 5.299658,
+        "hit": false
+      },
+      {
+        "rank": 9,
+        "id": "B:nist-ai-100-2e2025:p054:c02",
+        "page": 54,
+        "taxonomy": "generative_ai",
+        "score": 4.885066,
+        "hit": false
+      },
+      {
+        "rank": 10,
+        "id": "B:nist-ai-100-2e2025:p057:c02",
+        "page": 57,
+        "taxonomy": "generative_ai",
+        "score": 4.880936,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p047:c00"
+    ],
+    "context_chars": 675,
+    "hit1": true,
+    "hit3": true,
+    "hit10": true,
+    "rr10": 1.0,
+    "context_hit": false
+  },
+  {
+    "method": "bm25",
+    "query_id": "q14",
+    "split": "dev",
+    "answerable": true,
+    "question": "For predictive AI models offered through MLaaS, what is the goal of a model extraction attack?",
+    "filter": {
+      "taxonomy": "predictive_ai"
+    },
+    "latency_ms": 0.6,
+    "error": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "B:nist-ai-100-2e2025:p044:c03",
+        "page": 44,
+        "taxonomy": "predictive_ai",
+        "score": 14.328436,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "B:nist-ai-100-2e2025:p017:c00",
+        "page": 17,
+        "taxonomy": "predictive_ai",
+        "score": 9.661922,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "B:nist-ai-100-2e2025:p028:c00",
+        "page": 28,
+        "taxonomy": "predictive_ai",
+        "score": 9.480125,
+        "hit": false
+      },
+      {
+        "rank": 4,
+        "id": "B:nist-ai-100-2e2025:p045:c00",
+        "page": 45,
+        "taxonomy": "predictive_ai",
+        "score": 8.535732,
+        "hit": false
+      },
+      {
+        "rank": 5,
+        "id": "B:nist-ai-100-2e2025:p021:c01",
+        "page": 21,
+        "taxonomy": "predictive_ai",
+        "score": 7.904046,
+        "hit": false
+      },
+      {
+        "rank": 6,
+        "id": "B:nist-ai-100-2e2025:p041:c01",
+        "page": 41,
+        "taxonomy": "predictive_ai",
+        "score": 7.715188,
+        "hit": false
+      },
+      {
+        "rank": 7,
+        "id": "B:nist-ai-100-2e2025:p044:c04",
+        "page": 44,
+        "taxonomy": "predictive_ai",
+        "score": 7.288836,
+        "hit": false
+      },
+      {
+        "rank": 8,
+        "id": "B:nist-ai-100-2e2025:p018:c03",
+        "page": 18,
+        "taxonomy": "predictive_ai",
+        "score": 6.797329,
+        "hit": false
+      },
+      {
+        "rank": 9,
+        "id": "B:nist-ai-100-2e2025:p020:c03",
+        "page": 20,
+        "taxonomy": "predictive_ai",
+        "score": 6.327942,
+        "hit": false
+      },
+      {
+        "rank": 10,
+        "id": "B:nist-ai-100-2e2025:p018:c02",
+        "page": 18,
+        "taxonomy": "predictive_ai",
+        "score": 5.98776,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p028:c00"
+    ],
+    "context_chars": 708,
+    "hit1": true,
+    "hit3": true,
+    "hit10": true,
+    "rr10": 1.0,
+    "context_hit": false
+  },
+  {
+    "method": "bm25",
+    "query_id": "q15",
+    "split": "dev",
+    "answerable": true,
+    "question": "For generative AI models trained on web-scale data, how can downloaded training data be checked for integrity?",
+    "filter": {
+      "taxonomy": "generative_ai"
+    },
+    "latency_ms": 0.5,
+    "error": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "B:nist-ai-100-2e2025:p047:c00",
+        "page": 47,
+        "taxonomy": "generative_ai",
+        "score": 13.752409,
+        "hit": false
+      },
+      {
+        "rank": 2,
+        "id": "B:nist-ai-100-2e2025:p055:c03",
+        "page": 55,
+        "taxonomy": "generative_ai",
+        "score": 12.25692,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "B:nist-ai-100-2e2025:p056:c00",
+        "page": 56,
+        "taxonomy": "generative_ai",
+        "score": 11.869673,
+        "hit": true
+      },
+      {
+        "rank": 4,
+        "id": "B:nist-ai-100-2e2025:p049:c02",
+        "page": 49,
+        "taxonomy": "generative_ai",
+        "score": 10.764953,
+        "hit": false
+      },
+      {
+        "rank": 5,
+        "id": "B:nist-ai-100-2e2025:p050:c02",
+        "page": 50,
+        "taxonomy": "generative_ai",
+        "score": 10.70233,
+        "hit": false
+      },
+      {
+        "rank": 6,
+        "id": "B:nist-ai-100-2e2025:p055:c00",
+        "page": 55,
+        "taxonomy": "generative_ai",
+        "score": 8.616474,
+        "hit": false
+      },
+      {
+        "rank": 7,
+        "id": "B:nist-ai-100-2e2025:p060:c00",
+        "page": 60,
+        "taxonomy": "generative_ai",
+        "score": 8.506551,
+        "hit": false
+      },
+      {
+        "rank": 8,
+        "id": "B:nist-ai-100-2e2025:p059:c01",
+        "page": 59,
+        "taxonomy": "generative_ai",
+        "score": 8.26593,
+        "hit": false
+      },
+      {
+        "rank": 9,
+        "id": "B:nist-ai-100-2e2025:p052:c01",
+        "page": 52,
+        "taxonomy": "generative_ai",
+        "score": 7.505564,
+        "hit": false
+      },
+      {
+        "rank": 10,
+        "id": "B:nist-ai-100-2e2025:p051:c00",
+        "page": 51,
+        "taxonomy": "generative_ai",
+        "score": 6.802278,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p047:c00"
+    ],
+    "context_chars": 675,
+    "hit1": false,
+    "hit3": true,
+    "hit10": true,
+    "rr10": 0.3333333333333333,
+    "context_hit": false
+  },
+  {
+    "method": "bm25",
+    "query_id": "u01",
+    "split": "dev",
+    "answerable": false,
+    "question": "What learning rate and number of training epochs does the report recommend when using adversarial training against evasion attacks?",
+    "filter": null,
+    "latency_ms": 1.2,
+    "error": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "B:nist-ai-100-2e2025:p029:c04",
+        "page": 29,
+        "taxonomy": "predictive_ai",
+        "score": 12.932929
+      },
+      {
+        "rank": 2,
+        "id": "B:nist-ai-100-2e2025:p020:c02",
+        "page": 20,
+        "taxonomy": "predictive_ai",
+        "score": 10.580942
+      },
+      {
+        "rank": 3,
+        "id": "B:nist-ai-100-2e2025:p030:c00",
+        "page": 30,
+        "taxonomy": "predictive_ai",
+        "score": 9.93805
+      },
+      {
+        "rank": 4,
+        "id": "B:nist-ai-100-2e2025:p055:c01",
+        "page": 55,
+        "taxonomy": "generative_ai",
+        "score": 9.782681
+      },
+      {
+        "rank": 5,
+        "id": "B:nist-ai-100-2e2025:p021:c01",
+        "page": 21,
+        "taxonomy": "predictive_ai",
+        "score": 9.221747
+      },
+      {
+        "rank": 6,
+        "id": "B:nist-ai-100-2e2025:p016:c00",
+        "page": 16,
+        "taxonomy": "general",
+        "score": 8.855549
+      },
+      {
+        "rank": 7,
+        "id": "B:nist-ai-100-2e2025:p024:c04",
+        "page": 24,
+        "taxonomy": "predictive_ai",
+        "score": 8.805236
+      },
+      {
+        "rank": 8,
+        "id": "B:nist-ai-100-2e2025:p021:c00",
+        "page": 21,
+        "taxonomy": "predictive_ai",
+        "score": 8.768364
+      },
+      {
+        "rank": 9,
+        "id": "B:nist-ai-100-2e2025:p032:c03",
+        "page": 32,
+        "taxonomy": "predictive_ai",
+        "score": 8.579702
+      },
+      {
+        "rank": 10,
+        "id": "B:nist-ai-100-2e2025:p033:c03",
+        "page": 33,
+        "taxonomy": "predictive_ai",
+        "score": 8.491039
+      }
+    ],
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p029:c04"
+    ],
+    "context_chars": 697
+  },
+  {
+    "method": "bm25",
+    "query_id": "u02",
+    "split": "dev",
+    "answerable": false,
+    "question": "How much money did Microsoft lose because of the Tay.AI chatbot poisoning incident?",
+    "filter": null,
+    "latency_ms": 0.8,
+    "error": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "B:nist-ai-100-2e2025:p040:c02",
+        "page": 40,
+        "taxonomy": "predictive_ai",
+        "score": 22.878871
+      },
+      {
+        "rank": 2,
+        "id": "B:nist-ai-100-2e2025:p040:c03",
+        "page": 40,
+        "taxonomy": "predictive_ai",
+        "score": 12.435553
+      },
+      {
+        "rank": 3,
+        "id": "B:nist-ai-100-2e2025:p071:c00",
+        "page": 71,
+        "taxonomy": "general",
+        "score": 7.950891
+      },
+      {
+        "rank": 4,
+        "id": "B:nist-ai-100-2e2025:p071:c02",
+        "page": 71,
+        "taxonomy": "general",
+        "score": 7.14072
+      },
+      {
+        "rank": 5,
+        "id": "B:nist-ai-100-2e2025:p015:c02",
+        "page": 15,
+        "taxonomy": "general",
+        "score": 6.316274
+      },
+      {
+        "rank": 6,
+        "id": "B:nist-ai-100-2e2025:p027:c01",
+        "page": 27,
+        "taxonomy": "predictive_ai",
+        "score": 5.258094
+      },
+      {
+        "rank": 7,
+        "id": "B:nist-ai-100-2e2025:p067:c02",
+        "page": 67,
+        "taxonomy": "generative_ai",
+        "score": 4.933326
+      },
+      {
+        "rank": 8,
+        "id": "B:nist-ai-100-2e2025:p040:c01",
+        "page": 40,
+        "taxonomy": "predictive_ai",
+        "score": 4.770093
+      },
+      {
+        "rank": 9,
+        "id": "B:nist-ai-100-2e2025:p036:c05",
+        "page": 36,
+        "taxonomy": "predictive_ai",
+        "score": 4.487938
+      },
+      {
+        "rank": 10,
+        "id": "B:nist-ai-100-2e2025:p021:c03",
+        "page": 21,
+        "taxonomy": "predictive_ai",
+        "score": 4.464228
+      }
+    ],
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p040:c03"
+    ],
+    "context_chars": 505
+  },
+  {
+    "method": "hybrid_rrf",
+    "query_id": "q01",
+    "split": "dev",
+    "answerable": true,
+    "question": "What does the field of adversarial machine learning (AML) study?",
+    "filter": null,
+    "latency_ms": 81.9,
+    "error": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "B:nist-ai-100-2e2025:p073:c03",
+        "page": 73,
+        "taxonomy": "general",
+        "score": 0.032522,
+        "fusion": {
+          "dense_rank": 1,
+          "bm25_rank": 2
+        },
+        "hit": false
+      },
+      {
+        "rank": 2,
+        "id": "B:nist-ai-100-2e2025:p014:c01",
+        "page": 14,
+        "taxonomy": "general",
+        "score": 0.032266,
+        "fusion": {
+          "dense_rank": 3,
+          "bm25_rank": 1
+        },
+        "hit": true
+      },
+      {
+        "rank": 3,
+        "id": "B:nist-ai-100-2e2025:p022:c03",
+        "page": 22,
+        "taxonomy": "predictive_ai",
+        "score": 0.029958,
+        "fusion": {
+          "dense_rank": 11,
+          "bm25_rank": 3
+        },
+        "hit": false
+      },
+      {
+        "rank": 4,
+        "id": "B:nist-ai-100-2e2025:p072:c03",
+        "page": 72,
+        "taxonomy": "general",
+        "score": 0.029287,
+        "fusion": {
+          "dense_rank": 2,
+          "bm25_rank": 16
+        },
+        "hit": false
+      },
+      {
+        "rank": 5,
+        "id": "B:nist-ai-100-2e2025:p069:c01",
+        "page": 69,
+        "taxonomy": "general",
+        "score": 0.028543,
+        "fusion": {
+          "dense_rank": 16,
+          "bm25_rank": 5
+        },
+        "hit": false
+      },
+      {
+        "rank": 6,
+        "id": "B:nist-ai-100-2e2025:p069:c02",
+        "page": 69,
+        "taxonomy": "general",
+        "score": 0.028283,
+        "fusion": {
+          "dense_rank": 4,
+          "bm25_rank": 19
+        },
+        "hit": false
+      },
+      {
+        "rank": 7,
+        "id": "B:nist-ai-100-2e2025:p020:c01",
+        "page": 20,
+        "taxonomy": "predictive_ai",
+        "score": 0.027799,
+        "fusion": {
+          "dense_rank": 14,
+          "bm25_rank": 10
+        },
+        "hit": false
+      },
+      {
+        "rank": 8,
+        "id": "B:nist-ai-100-2e2025:p067:c03",
+        "page": 67,
+        "taxonomy": "generative_ai",
+        "score": 0.027693,
+        "fusion": {
+          "dense_rank": 17,
+          "bm25_rank": 8
+        },
+        "hit": false
+      },
+      {
+        "rank": 9,
+        "id": "B:nist-ai-100-2e2025:p073:c01",
+        "page": 73,
+        "taxonomy": "general",
+        "score": 0.026993,
+        "fusion": {
+          "dense_rank": 9,
+          "bm25_rank": 20
+        },
+        "hit": false
+      },
+      {
+        "rank": 10,
+        "id": "B:nist-ai-100-2e2025:p016:c02",
+        "page": 16,
+        "taxonomy": "general",
+        "score": 0.015625,
+        "fusion": {
+          "dense_rank": null,
+          "bm25_rank": 4
+        },
+        "hit": false
+      }
+    ],
+    "context_ids": [],
+    "context_chars": 0,
+    "hit1": false,
+    "hit3": true,
+    "hit10": true,
+    "rr10": 0.5,
+    "context_hit": false
+  },
+  {
+    "method": "hybrid_rrf",
+    "query_id": "q02",
+    "split": "dev",
+    "answerable": true,
+    "question": "What are the three attacker objectives used to classify attacks on predictive AI systems?",
+    "filter": null,
+    "latency_ms": 86.2,
+    "error": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "B:nist-ai-100-2e2025:p017:c00",
+        "page": 17,
+        "taxonomy": "predictive_ai",
+        "score": 0.032522,
+        "fusion": {
+          "dense_rank": 1,
+          "bm25_rank": 2
+        },
+        "hit": false
+      },
+      {
+        "rank": 2,
+        "id": "B:nist-ai-100-2e2025:p016:c01",
+        "page": 16,
+        "taxonomy": "general",
+        "score": 0.031754,
+        "fusion": {
+          "dense_rank": 2,
+          "bm25_rank": 4
+        },
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "B:nist-ai-100-2e2025:p018:c03",
+        "page": 18,
+        "taxonomy": "predictive_ai",
+        "score": 0.030077,
+        "fusion": {
+          "dense_rank": 7,
+          "bm25_rank": 6
+        },
+        "hit": false
+      },
+      {
+        "rank": 4,
+        "id": "B:nist-ai-100-2e2025:p015:c01",
+        "page": 15,
+        "taxonomy": "general",
+        "score": 0.029877,
+        "fusion": {
+          "dense_rank": 5,
+          "bm25_rank": 9
+        },
+        "hit": false
+      },
+      {
+        "rank": 5,
+        "id": "B:nist-ai-100-2e2025:p019:c01",
+        "page": 19,
+        "taxonomy": "predictive_ai",
+        "score": 0.029551,
+        "fusion": {
+          "dense_rank": 16,
+          "bm25_rank": 1
+        },
+        "hit": true
+      },
+      {
+        "rank": 6,
+        "id": "B:nist-ai-100-2e2025:p014:c01",
+        "page": 14,
+        "taxonomy": "general",
+        "score": 0.028571,
+        "fusion": {
+          "dense_rank": 10,
+          "bm25_rank": 10
+        },
+        "hit": false
+      },
+      {
+        "rank": 7,
+        "id": "B:nist-ai-100-2e2025:p021:c03",
+        "page": 21,
+        "taxonomy": "predictive_ai",
+        "score": 0.028446,
+        "fusion": {
+          "dense_rank": 4,
+          "bm25_rank": 18
+        },
+        "hit": false
+      },
+      {
+        "rank": 8,
+        "id": "B:nist-ai-100-2e2025:p022:c01",
+        "page": 22,
+        "taxonomy": "predictive_ai",
+        "score": 0.028405,
+        "fusion": {
+          "dense_rank": 13,
+          "bm25_rank": 8
+        },
+        "hit": false
+      },
+      {
+        "rank": 9,
+        "id": "B:nist-ai-100-2e2025:p014:c00",
+        "page": 14,
+        "taxonomy": "general",
+        "score": 0.015873,
+        "fusion": {
+          "dense_rank": null,
+          "bm25_rank": 3
+        },
+        "hit": false
+      },
+      {
+        "rank": 10,
+        "id": "B:nist-ai-100-2e2025:p018:c00",
+        "page": 18,
+        "taxonomy": "predictive_ai",
+        "score": 0.015873,
+        "fusion": {
+          "dense_rank": 3,
+          "bm25_rank": null
+        },
+        "hit": false
+      }
+    ],
+    "context_ids": [],
+    "context_chars": 0,
+    "hit1": false,
+    "hit3": false,
+    "hit10": true,
+    "rr10": 0.2,
+    "context_hit": false
+  },
+  {
+    "method": "hybrid_rrf",
+    "query_id": "q03",
+    "split": "dev",
+    "answerable": true,
+    "question": "Which kind of attack is the only one that needs the attacker to control both the data used for training and the data seen at test time?",
+    "filter": null,
+    "latency_ms": 94.3,
+    "error": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "B:nist-ai-100-2e2025:p015:c01",
+        "page": 15,
+        "taxonomy": "general",
+        "score": 0.032266,
+        "fusion": {
+          "dense_rank": 3,
+          "bm25_rank": 1
+        },
+        "hit": false
+      },
+      {
+        "rank": 2,
+        "id": "B:nist-ai-100-2e2025:p020:c00",
+        "page": 20,
+        "taxonomy": "predictive_ai",
+        "score": 0.031754,
+        "fusion": {
+          "dense_rank": 4,
+          "bm25_rank": 2
+        },
+        "hit": true
+      },
+      {
+        "rank": 3,
+        "id": "B:nist-ai-100-2e2025:p020:c04",
+        "page": 20,
+        "taxonomy": "predictive_ai",
+        "score": 0.030622,
+        "fusion": {
+          "dense_rank": 2,
+          "bm25_rank": 9
+        },
+        "hit": false
+      },
+      {
+        "rank": 4,
+        "id": "B:nist-ai-100-2e2025:p021:c02",
+        "page": 21,
+        "taxonomy": "predictive_ai",
+        "score": 0.030282,
+        "fusion": {
+          "dense_rank": 1,
+          "bm25_rank": 12
+        },
+        "hit": false
+      },
+      {
+        "rank": 5,
+        "id": "B:nist-ai-100-2e2025:p053:c04",
+        "page": 53,
+        "taxonomy": "generative_ai",
+        "score": 0.029631,
+        "fusion": {
+          "dense_rank": 7,
+          "bm25_rank": 8
+        },
+        "hit": false
+      },
+      {
+        "rank": 6,
+        "id": "B:nist-ai-100-2e2025:p018:c03",
+        "page": 18,
+        "taxonomy": "predictive_ai",
+        "score": 0.029437,
+        "fusion": {
+          "dense_rank": 10,
+          "bm25_rank": 6
+        },
+        "hit": false
+      },
+      {
+        "rank": 7,
+        "id": "B:nist-ai-100-2e2025:p021:c00",
+        "page": 21,
+        "taxonomy": "predictive_ai",
+        "score": 0.029437,
+        "fusion": {
+          "dense_rank": 6,
+          "bm25_rank": 10
+        },
+        "hit": false
+      },
+      {
+        "rank": 8,
+        "id": "B:nist-ai-100-2e2025:p047:c03",
+        "page": 47,
+        "taxonomy": "generative_ai",
+        "score": 0.02901,
+        "fusion": {
+          "dense_rank": 11,
+          "bm25_rank": 7
+        },
+        "hit": false
+      },
+      {
+        "rank": 9,
+        "id": "B:nist-ai-100-2e2025:p050:c02",
+        "page": 50,
+        "taxonomy": "generative_ai",
+        "score": 0.028543,
+        "fusion": {
+          "dense_rank": 5,
+          "bm25_rank": 16
+        },
+        "hit": false
+      },
+      {
+        "rank": 10,
+        "id": "B:nist-ai-100-2e2025:p021:c03",
+        "page": 21,
+        "taxonomy": "predictive_ai",
+        "score": 0.028006,
+        "fusion": {
+          "dense_rank": 9,
+          "bm25_rank": 14
+        },
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p015:c01"
+    ],
+    "context_chars": 742,
+    "hit1": false,
+    "hit3": true,
+    "hit10": true,
+    "rr10": 0.5,
+    "context_hit": false
+  },
+  {
+    "method": "hybrid_rrf",
+    "query_id": "q04",
+    "split": "dev",
+    "answerable": true,
+    "question": "What do black-box attacks assume about the attacker's knowledge of the ML system?",
+    "filter": null,
+    "latency_ms": 92.3,
+    "error": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "B:nist-ai-100-2e2025:p022:c01",
+        "page": 22,
+        "taxonomy": "predictive_ai",
+        "score": 0.032787,
+        "fusion": {
+          "dense_rank": 1,
+          "bm25_rank": 1
+        },
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "B:nist-ai-100-2e2025:p021:c03",
+        "page": 21,
+        "taxonomy": "predictive_ai",
+        "score": 0.032002,
+        "fusion": {
+          "dense_rank": 3,
+          "bm25_rank": 2
+        },
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "B:nist-ai-100-2e2025:p028:c00",
+        "page": 28,
+        "taxonomy": "predictive_ai",
+        "score": 0.032002,
+        "fusion": {
+          "dense_rank": 2,
+          "bm25_rank": 3
+        },
+        "hit": false
+      },
+      {
+        "rank": 4,
+        "id": "B:nist-ai-100-2e2025:p021:c02",
+        "page": 21,
+        "taxonomy": "predictive_ai",
+        "score": 0.03031,
+        "fusion": {
+          "dense_rank": 5,
+          "bm25_rank": 7
+        },
+        "hit": false
+      },
+      {
+        "rank": 5,
+        "id": "B:nist-ai-100-2e2025:p054:c01",
+        "page": 54,
+        "taxonomy": "generative_ai",
+        "score": 0.030118,
+        "fusion": {
+          "dense_rank": 9,
+          "bm25_rank": 4
+        },
+        "hit": false
+      },
+      {
+        "rank": 6,
+        "id": "B:nist-ai-100-2e2025:p042:c04",
+        "page": 42,
+        "taxonomy": "predictive_ai",
+        "score": 0.030077,
+        "fusion": {
+          "dense_rank": 7,
+          "bm25_rank": 6
+        },
+        "hit": false
+      },
+      {
+        "rank": 7,
+        "id": "B:nist-ai-100-2e2025:p021:c01",
+        "page": 21,
+        "taxonomy": "predictive_ai",
+        "score": 0.029469,
+        "fusion": {
+          "dense_rank": 11,
+          "bm25_rank": 5
+        },
+        "hit": false
+      },
+      {
+        "rank": 8,
+        "id": "B:nist-ai-100-2e2025:p044:c00",
+        "page": 44,
+        "taxonomy": "predictive_ai",
+        "score": 0.026857,
+        "fusion": {
+          "dense_rank": 16,
+          "bm25_rank": 13
+        },
+        "hit": false
+      },
+      {
+        "rank": 9,
+        "id": "B:nist-ai-100-2e2025:p018:c00",
+        "page": 18,
+        "taxonomy": "predictive_ai",
+        "score": 0.02632,
+        "fusion": {
+          "dense_rank": 15,
+          "bm25_rank": 17
+        },
+        "hit": false
+      },
+      {
+        "rank": 10,
+        "id": "B:nist-ai-100-2e2025:p032:c04",
+        "page": 32,
+        "taxonomy": "predictive_ai",
+        "score": 0.015625,
+        "fusion": {
+          "dense_rank": 4,
+          "bm25_rank": null
+        },
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p021:c03"
+    ],
+    "context_chars": 592,
+    "hit1": true,
+    "hit3": true,
+    "hit10": true,
+    "rr10": 1.0,
+    "context_hit": false
+  },
+  {
+    "method": "hybrid_rrf",
+    "query_id": "q05",
+    "split": "dev",
+    "answerable": true,
+    "question": "How many iterations of gradient descent does the Fast Gradient Sign Method (FGSM) perform?",
+    "filter": null,
+    "latency_ms": 111.3,
+    "error": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "B:nist-ai-100-2e2025:p025:c04",
+        "page": 25,
+        "taxonomy": "predictive_ai",
+        "score": 0.032787,
+        "fusion": {
+          "dense_rank": 1,
+          "bm25_rank": 1
+        },
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "B:nist-ai-100-2e2025:p026:c01",
+        "page": 26,
+        "taxonomy": "predictive_ai",
+        "score": 0.032002,
+        "fusion": {
+          "dense_rank": 3,
+          "bm25_rank": 2
+        },
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "B:nist-ai-100-2e2025:p028:c02",
+        "page": 28,
+        "taxonomy": "predictive_ai",
+        "score": 0.031498,
+        "fusion": {
+          "dense_rank": 4,
+          "bm25_rank": 3
+        },
+        "hit": false
+      },
+      {
+        "rank": 4,
+        "id": "B:nist-ai-100-2e2025:p057:c01",
+        "page": 57,
+        "taxonomy": "generative_ai",
+        "score": 0.03009,
+        "fusion": {
+          "dense_rank": 8,
+          "bm25_rank": 5
+        },
+        "hit": false
+      },
+      {
+        "rank": 5,
+        "id": "B:nist-ai-100-2e2025:p024:c01",
+        "page": 24,
+        "taxonomy": "predictive_ai",
+        "score": 0.029877,
+        "fusion": {
+          "dense_rank": 5,
+          "bm25_rank": 9
+        },
+        "hit": false
+      },
+      {
+        "rank": 6,
+        "id": "B:nist-ai-100-2e2025:p030:c01",
+        "page": 30,
+        "taxonomy": "predictive_ai",
+        "score": 0.029139,
+        "fusion": {
+          "dense_rank": 14,
+          "bm25_rank": 4
+        },
+        "hit": false
+      },
+      {
+        "rank": 7,
+        "id": "B:nist-ai-100-2e2025:p031:c02",
+        "page": 31,
+        "taxonomy": "predictive_ai",
+        "score": 0.027984,
+        "fusion": {
+          "dense_rank": 13,
+          "bm25_rank": 10
+        },
+        "hit": false
+      },
+      {
+        "rank": 8,
+        "id": "B:nist-ai-100-2e2025:p043:c01",
+        "page": 43,
+        "taxonomy": "predictive_ai",
+        "score": 0.027418,
+        "fusion": {
+          "dense_rank": 15,
+          "bm25_rank": 11
+        },
+        "hit": false
+      },
+      {
+        "rank": 9,
+        "id": "B:nist-ai-100-2e2025:p062:c01",
+        "page": 62,
+        "taxonomy": "generative_ai",
+        "score": 0.016129,
+        "fusion": {
+          "dense_rank": 2,
+          "bm25_rank": null
+        },
+        "hit": false
+      },
+      {
+        "rank": 10,
+        "id": "B:nist-ai-100-2e2025:p025:c03",
+        "page": 25,
+        "taxonomy": "predictive_ai",
+        "score": 0.015152,
+        "fusion": {
+          "dense_rank": 6,
+          "bm25_rank": null
+        },
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p025:c04"
+    ],
+    "context_chars": 798,
+    "hit1": true,
+    "hit3": true,
+    "hit10": true,
+    "rr10": 1.0,
+    "context_hit": true
+  },
+  {
+    "method": "hybrid_rrf",
+    "query_id": "q06",
+    "split": "dev",
+    "answerable": true,
+    "question": "How did researchers fool a traffic sign recognition model in the physical world?",
+    "filter": null,
+    "latency_ms": 94.5,
+    "error": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "B:nist-ai-100-2e2025:p026:c02",
+        "page": 26,
+        "taxonomy": "predictive_ai",
+        "score": 0.032787,
+        "fusion": {
+          "dense_rank": 1,
+          "bm25_rank": 1
+        },
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "B:nist-ai-100-2e2025:p029:c02",
+        "page": 29,
+        "taxonomy": "predictive_ai",
+        "score": 0.030798,
+        "fusion": {
+          "dense_rank": 7,
+          "bm25_rank": 3
+        },
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "B:nist-ai-100-2e2025:p025:c04",
+        "page": 25,
+        "taxonomy": "predictive_ai",
+        "score": 0.029236,
+        "fusion": {
+          "dense_rank": 6,
+          "bm25_rank": 11
+        },
+        "hit": false
+      },
+      {
+        "rank": 4,
+        "id": "B:nist-ai-100-2e2025:p029:c03",
+        "page": 29,
+        "taxonomy": "predictive_ai",
+        "score": 0.028205,
+        "fusion": {
+          "dense_rank": 5,
+          "bm25_rank": 18
+        },
+        "hit": false
+      },
+      {
+        "rank": 5,
+        "id": "B:nist-ai-100-2e2025:p014:c02",
+        "page": 14,
+        "taxonomy": "general",
+        "score": 0.016129,
+        "fusion": {
+          "dense_rank": 2,
+          "bm25_rank": null
+        },
+        "hit": false
+      },
+      {
+        "rank": 6,
+        "id": "B:nist-ai-100-2e2025:p029:c01",
+        "page": 29,
+        "taxonomy": "predictive_ai",
+        "score": 0.016129,
+        "fusion": {
+          "dense_rank": null,
+          "bm25_rank": 2
+        },
+        "hit": false
+      },
+      {
+        "rank": 7,
+        "id": "B:nist-ai-100-2e2025:p044:c00",
+        "page": 44,
+        "taxonomy": "predictive_ai",
+        "score": 0.015873,
+        "fusion": {
+          "dense_rank": 3,
+          "bm25_rank": null
+        },
+        "hit": false
+      },
+      {
+        "rank": 8,
+        "id": "B:nist-ai-100-2e2025:p029:c04",
+        "page": 29,
+        "taxonomy": "predictive_ai",
+        "score": 0.015625,
+        "fusion": {
+          "dense_rank": null,
+          "bm25_rank": 4
+        },
+        "hit": false
+      },
+      {
+        "rank": 9,
+        "id": "B:nist-ai-100-2e2025:p059:c01",
+        "page": 59,
+        "taxonomy": "generative_ai",
+        "score": 0.015625,
+        "fusion": {
+          "dense_rank": 4,
+          "bm25_rank": null
+        },
+        "hit": false
+      },
+      {
+        "rank": 10,
+        "id": "B:nist-ai-100-2e2025:p036:c01",
+        "page": 36,
+        "taxonomy": "predictive_ai",
+        "score": 0.015385,
+        "fusion": {
+          "dense_rank": null,
+          "bm25_rank": 5
+        },
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p025:c04"
+    ],
+    "context_chars": 798,
+    "hit1": true,
+    "hit3": true,
+    "hit10": true,
+    "rr10": 1.0,
+    "context_hit": false
+  },
+  {
+    "method": "hybrid_rrf",
+    "query_id": "q07",
+    "split": "dev",
+    "answerable": true,
+    "question": "In score-based black-box evasion attacks, which popular method estimates the model's gradients without computing derivatives?",
+    "filter": null,
+    "latency_ms": 88.6,
+    "error": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "B:nist-ai-100-2e2025:p028:c01",
+        "page": 28,
+        "taxonomy": "predictive_ai",
+        "score": 0.032787,
+        "fusion": {
+          "dense_rank": 1,
+          "bm25_rank": 1
+        },
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "B:nist-ai-100-2e2025:p028:c00",
+        "page": 28,
+        "taxonomy": "predictive_ai",
+        "score": 0.032258,
+        "fusion": {
+          "dense_rank": 2,
+          "bm25_rank": 2
+        },
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "B:nist-ai-100-2e2025:p025:c02",
+        "page": 25,
+        "taxonomy": "predictive_ai",
+        "score": 0.03009,
+        "fusion": {
+          "dense_rank": 5,
+          "bm25_rank": 8
+        },
+        "hit": false
+      },
+      {
+        "rank": 4,
+        "id": "B:nist-ai-100-2e2025:p030:c01",
+        "page": 30,
+        "taxonomy": "predictive_ai",
+        "score": 0.02885,
+        "fusion": {
+          "dense_rank": 6,
+          "bm25_rank": 13
+        },
+        "hit": false
+      },
+      {
+        "rank": 5,
+        "id": "B:nist-ai-100-2e2025:p022:c01",
+        "page": 22,
+        "taxonomy": "predictive_ai",
+        "score": 0.02837,
+        "fusion": {
+          "dense_rank": 10,
+          "bm25_rank": 11
+        },
+        "hit": false
+      },
+      {
+        "rank": 6,
+        "id": "B:nist-ai-100-2e2025:p033:c01",
+        "page": 33,
+        "taxonomy": "predictive_ai",
+        "score": 0.028139,
+        "fusion": {
+          "dense_rank": 17,
+          "bm25_rank": 6
+        },
+        "hit": false
+      },
+      {
+        "rank": 7,
+        "id": "B:nist-ai-100-2e2025:p043:c00",
+        "page": 43,
+        "taxonomy": "predictive_ai",
+        "score": 0.026547,
+        "fusion": {
+          "dense_rank": 19,
+          "bm25_rank": 12
+        },
+        "hit": false
+      },
+      {
+        "rank": 8,
+        "id": "B:nist-ai-100-2e2025:p028:c02",
+        "page": 28,
+        "taxonomy": "predictive_ai",
+        "score": 0.026389,
+        "fusion": {
+          "dense_rank": 12,
+          "bm25_rank": 20
+        },
+        "hit": false
+      },
+      {
+        "rank": 9,
+        "id": "B:nist-ai-100-2e2025:p054:c01",
+        "page": 54,
+        "taxonomy": "generative_ai",
+        "score": 0.025658,
+        "fusion": {
+          "dense_rank": 20,
+          "bm25_rank": 16
+        },
+        "hit": false
+      },
+      {
+        "rank": 10,
+        "id": "B:nist-ai-100-2e2025:p024:c01",
+        "page": 24,
+        "taxonomy": "predictive_ai",
+        "score": 0.015873,
+        "fusion": {
+          "dense_rank": 3,
+          "bm25_rank": null
+        },
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p028:c01"
+    ],
+    "context_chars": 518,
+    "hit1": true,
+    "hit3": true,
+    "hit10": true,
+    "rr10": 1.0,
+    "context_hit": true
+  },
+  {
+    "method": "hybrid_rrf",
+    "query_id": "q08",
+    "split": "dev",
+    "answerable": true,
+    "question": "Under what condition does the RONI (Region of Non-Interest) method exclude a sample from training?",
+    "filter": null,
+    "latency_ms": 93.5,
+    "error": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "B:nist-ai-100-2e2025:p034:c00",
+        "page": 34,
+        "taxonomy": "predictive_ai",
+        "score": 0.032787,
+        "fusion": {
+          "dense_rank": 1,
+          "bm25_rank": 1
+        },
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "B:nist-ai-100-2e2025:p059:c00",
+        "page": 59,
+        "taxonomy": "generative_ai",
+        "score": 0.030579,
+        "fusion": {
+          "dense_rank": 3,
+          "bm25_rank": 8
+        },
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "B:nist-ai-100-2e2025:p043:c00",
+        "page": 43,
+        "taxonomy": "predictive_ai",
+        "score": 0.030018,
+        "fusion": {
+          "dense_rank": 12,
+          "bm25_rank": 2
+        },
+        "hit": false
+      },
+      {
+        "rank": 4,
+        "id": "B:nist-ai-100-2e2025:p030:c03",
+        "page": 30,
+        "taxonomy": "predictive_ai",
+        "score": 0.026857,
+        "fusion": {
+          "dense_rank": 13,
+          "bm25_rank": 16
+        },
+        "hit": false
+      },
+      {
+        "rank": 5,
+        "id": "B:nist-ai-100-2e2025:p037:c01",
+        "page": 37,
+        "taxonomy": "predictive_ai",
+        "score": 0.016129,
+        "fusion": {
+          "dense_rank": 2,
+          "bm25_rank": null
+        },
+        "hit": false
+      },
+      {
+        "rank": 6,
+        "id": "B:nist-ai-100-2e2025:p044:c01",
+        "page": 44,
+        "taxonomy": "predictive_ai",
+        "score": 0.015873,
+        "fusion": {
+          "dense_rank": null,
+          "bm25_rank": 3
+        },
+        "hit": false
+      },
+      {
+        "rank": 7,
+        "id": "B:nist-ai-100-2e2025:p020:c00",
+        "page": 20,
+        "taxonomy": "predictive_ai",
+        "score": 0.015625,
+        "fusion": {
+          "dense_rank": 4,
+          "bm25_rank": null
+        },
+        "hit": false
+      },
+      {
+        "rank": 8,
+        "id": "B:nist-ai-100-2e2025:p026:c00",
+        "page": 26,
+        "taxonomy": "predictive_ai",
+        "score": 0.015625,
+        "fusion": {
+          "dense_rank": null,
+          "bm25_rank": 4
+        },
+        "hit": false
+      },
+      {
+        "rank": 9,
+        "id": "B:nist-ai-100-2e2025:p039:c03",
+        "page": 39,
+        "taxonomy": "predictive_ai",
+        "score": 0.015385,
+        "fusion": {
+          "dense_rank": null,
+          "bm25_rank": 5
+        },
+        "hit": false
+      },
+      {
+        "rank": 10,
+        "id": "B:nist-ai-100-2e2025:p050:c02",
+        "page": 50,
+        "taxonomy": "generative_ai",
+        "score": 0.015385,
+        "fusion": {
+          "dense_rank": 5,
+          "bm25_rank": null
+        },
+        "hit": false
+      }
+    ],
+    "context_ids": [],
+    "context_chars": 0,
+    "hit1": true,
+    "hit3": true,
+    "hit10": true,
+    "rr10": 1.0,
+    "context_hit": false
+  },
+  {
+    "method": "hybrid_rrf",
+    "query_id": "q09",
+    "split": "dev",
+    "answerable": true,
+    "question": "What was the first backdoor poisoning attack, and who proposed it?",
+    "filter": null,
+    "latency_ms": 90.5,
+    "error": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "B:nist-ai-100-2e2025:p035:c04",
+        "page": 35,
+        "taxonomy": "predictive_ai",
+        "score": 0.032787,
+        "fusion": {
+          "dense_rank": 1,
+          "bm25_rank": 1
+        },
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "B:nist-ai-100-2e2025:p038:c03",
+        "page": 38,
+        "taxonomy": "predictive_ai",
+        "score": 0.032002,
+        "fusion": {
+          "dense_rank": 2,
+          "bm25_rank": 3
+        },
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "B:nist-ai-100-2e2025:p037:c00",
+        "page": 37,
+        "taxonomy": "predictive_ai",
+        "score": 0.03031,
+        "fusion": {
+          "dense_rank": 7,
+          "bm25_rank": 5
+        },
+        "hit": false
+      },
+      {
+        "rank": 4,
+        "id": "B:nist-ai-100-2e2025:p019:c05",
+        "page": 19,
+        "taxonomy": "predictive_ai",
+        "score": 0.029911,
+        "fusion": {
+          "dense_rank": 4,
+          "bm25_rank": 10
+        },
+        "hit": false
+      },
+      {
+        "rank": 5,
+        "id": "B:nist-ai-100-2e2025:p055:c02",
+        "page": 55,
+        "taxonomy": "generative_ai",
+        "score": 0.029857,
+        "fusion": {
+          "dense_rank": 8,
+          "bm25_rank": 6
+        },
+        "hit": false
+      },
+      {
+        "rank": 6,
+        "id": "B:nist-ai-100-2e2025:p036:c01",
+        "page": 36,
+        "taxonomy": "predictive_ai",
+        "score": 0.027885,
+        "fusion": {
+          "dense_rank": 5,
+          "bm25_rank": 20
+        },
+        "hit": false
+      },
+      {
+        "rank": 7,
+        "id": "B:nist-ai-100-2e2025:p037:c02",
+        "page": 37,
+        "taxonomy": "predictive_ai",
+        "score": 0.027273,
+        "fusion": {
+          "dense_rank": 10,
+          "bm25_rank": 17
+        },
+        "hit": false
+      },
+      {
+        "rank": 8,
+        "id": "B:nist-ai-100-2e2025:p039:c01",
+        "page": 39,
+        "taxonomy": "predictive_ai",
+        "score": 0.027212,
+        "fusion": {
+          "dense_rank": 13,
+          "bm25_rank": 14
+        },
+        "hit": false
+      },
+      {
+        "rank": 9,
+        "id": "B:nist-ai-100-2e2025:p055:c03",
+        "page": 55,
+        "taxonomy": "generative_ai",
+        "score": 0.027212,
+        "fusion": {
+          "dense_rank": 14,
+          "bm25_rank": 13
+        },
+        "hit": false
+      },
+      {
+        "rank": 10,
+        "id": "B:nist-ai-100-2e2025:p037:c01",
+        "page": 37,
+        "taxonomy": "predictive_ai",
+        "score": 0.026547,
+        "fusion": {
+          "dense_rank": 19,
+          "bm25_rank": 12
+        },
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p035:c04"
+    ],
+    "context_chars": 710,
+    "hit1": true,
+    "hit3": true,
+    "hit10": true,
+    "rr10": 1.0,
+    "context_hit": true
+  },
+  {
+    "method": "hybrid_rrf",
+    "query_id": "q10",
+    "split": "dev",
+    "answerable": true,
+    "question": "Which Microsoft chatbot is the earliest documented case of an attack that corrupted a model through its training data in the real world?",
+    "filter": null,
+    "latency_ms": 96.0,
+    "error": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "B:nist-ai-100-2e2025:p040:c02",
+        "page": 40,
+        "taxonomy": "predictive_ai",
+        "score": 0.032787,
+        "fusion": {
+          "dense_rank": 1,
+          "bm25_rank": 1
+        },
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "B:nist-ai-100-2e2025:p040:c01",
+        "page": 40,
+        "taxonomy": "predictive_ai",
+        "score": 0.031754,
+        "fusion": {
+          "dense_rank": 4,
+          "bm25_rank": 2
+        },
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "B:nist-ai-100-2e2025:p040:c03",
+        "page": 40,
+        "taxonomy": "predictive_ai",
+        "score": 0.030835,
+        "fusion": {
+          "dense_rank": 2,
+          "bm25_rank": 8
+        },
+        "hit": false
+      },
+      {
+        "rank": 4,
+        "id": "B:nist-ai-100-2e2025:p029:c03",
+        "page": 29,
+        "taxonomy": "predictive_ai",
+        "score": 0.030077,
+        "fusion": {
+          "dense_rank": 7,
+          "bm25_rank": 6
+        },
+        "hit": false
+      },
+      {
+        "rank": 5,
+        "id": "B:nist-ai-100-2e2025:p027:c01",
+        "page": 27,
+        "taxonomy": "predictive_ai",
+        "score": 0.028665,
+        "fusion": {
+          "dense_rank": 6,
+          "bm25_rank": 14
+        },
+        "hit": false
+      },
+      {
+        "rank": 6,
+        "id": "B:nist-ai-100-2e2025:p020:c03",
+        "page": 20,
+        "taxonomy": "predictive_ai",
+        "score": 0.027106,
+        "fusion": {
+          "dense_rank": 10,
+          "bm25_rank": 18
+        },
+        "hit": false
+      },
+      {
+        "rank": 7,
+        "id": "B:nist-ai-100-2e2025:p018:c03",
+        "page": 18,
+        "taxonomy": "predictive_ai",
+        "score": 0.015873,
+        "fusion": {
+          "dense_rank": 3,
+          "bm25_rank": null
+        },
+        "hit": false
+      },
+      {
+        "rank": 8,
+        "id": "B:nist-ai-100-2e2025:p033:c00",
+        "page": 33,
+        "taxonomy": "predictive_ai",
+        "score": 0.015873,
+        "fusion": {
+          "dense_rank": null,
+          "bm25_rank": 3
+        },
+        "hit": false
+      },
+      {
+        "rank": 9,
+        "id": "B:nist-ai-100-2e2025:p018:c01",
+        "page": 18,
+        "taxonomy": "predictive_ai",
+        "score": 0.015625,
+        "fusion": {
+          "dense_rank": null,
+          "bm25_rank": 4
+        },
+        "hit": false
+      },
+      {
+        "rank": 10,
+        "id": "B:nist-ai-100-2e2025:p029:c01",
+        "page": 29,
+        "taxonomy": "predictive_ai",
+        "score": 0.015385,
+        "fusion": {
+          "dense_rank": null,
+          "bm25_rank": 5
+        },
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p040:c01"
+    ],
+    "context_chars": 414,
+    "hit1": true,
+    "hit3": true,
+    "hit10": true,
+    "rr10": 1.0,
+    "context_hit": false
+  },
+  {
+    "method": "hybrid_rrf",
+    "query_id": "q11",
+    "split": "dev",
+    "answerable": true,
+    "question": "In the loss-based membership inference attack, when is a target sample judged to be part of the training set?",
+    "filter": null,
+    "latency_ms": 101.4,
+    "error": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "B:nist-ai-100-2e2025:p043:c00",
+        "page": 43,
+        "taxonomy": "predictive_ai",
+        "score": 0.032787,
+        "fusion": {
+          "dense_rank": 1,
+          "bm25_rank": 1
+        },
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "B:nist-ai-100-2e2025:p042:c03",
+        "page": 42,
+        "taxonomy": "predictive_ai",
+        "score": 0.032002,
+        "fusion": {
+          "dense_rank": 2,
+          "bm25_rank": 3
+        },
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "B:nist-ai-100-2e2025:p043:c02",
+        "page": 43,
+        "taxonomy": "predictive_ai",
+        "score": 0.031025,
+        "fusion": {
+          "dense_rank": 3,
+          "bm25_rank": 6
+        },
+        "hit": false
+      },
+      {
+        "rank": 4,
+        "id": "B:nist-ai-100-2e2025:p042:c02",
+        "page": 42,
+        "taxonomy": "predictive_ai",
+        "score": 0.03101,
+        "fusion": {
+          "dense_rank": 4,
+          "bm25_rank": 5
+        },
+        "hit": false
+      },
+      {
+        "rank": 5,
+        "id": "B:nist-ai-100-2e2025:p044:c02",
+        "page": 44,
+        "taxonomy": "predictive_ai",
+        "score": 0.030777,
+        "fusion": {
+          "dense_rank": 6,
+          "bm25_rank": 4
+        },
+        "hit": false
+      },
+      {
+        "rank": 6,
+        "id": "B:nist-ai-100-2e2025:p043:c03",
+        "page": 43,
+        "taxonomy": "predictive_ai",
+        "score": 0.03009,
+        "fusion": {
+          "dense_rank": 5,
+          "bm25_rank": 8
+        },
+        "hit": false
+      },
+      {
+        "rank": 7,
+        "id": "B:nist-ai-100-2e2025:p045:c03",
+        "page": 45,
+        "taxonomy": "predictive_ai",
+        "score": 0.029851,
+        "fusion": {
+          "dense_rank": 7,
+          "bm25_rank": 7
+        },
+        "hit": false
+      },
+      {
+        "rank": 8,
+        "id": "B:nist-ai-100-2e2025:p059:c01",
+        "page": 59,
+        "taxonomy": "generative_ai",
+        "score": 0.029287,
+        "fusion": {
+          "dense_rank": 16,
+          "bm25_rank": 2
+        },
+        "hit": false
+      },
+      {
+        "rank": 9,
+        "id": "B:nist-ai-100-2e2025:p020:c03",
+        "page": 20,
+        "taxonomy": "predictive_ai",
+        "score": 0.028169,
+        "fusion": {
+          "dense_rank": 11,
+          "bm25_rank": 11
+        },
+        "hit": false
+      },
+      {
+        "rank": 10,
+        "id": "B:nist-ai-100-2e2025:p041:c00",
+        "page": 41,
+        "taxonomy": "predictive_ai",
+        "score": 0.02748,
+        "fusion": {
+          "dense_rank": 9,
+          "bm25_rank": 17
+        },
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p042:c03"
+    ],
+    "context_chars": 778,
+    "hit1": true,
+    "hit3": true,
+    "hit10": true,
+    "rr10": 1.0,
+    "context_hit": false
+  },
+  {
+    "method": "hybrid_rrf",
+    "query_id": "q12",
+    "split": "dev",
+    "answerable": true,
+    "question": "Does differential privacy protect against model extraction attacks? Why or why not?",
+    "filter": null,
+    "latency_ms": 95.2,
+    "error": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "B:nist-ai-100-2e2025:p035:c03",
+        "page": 35,
+        "taxonomy": "predictive_ai",
+        "score": 0.032002,
+        "fusion": {
+          "dense_rank": 3,
+          "bm25_rank": 2
+        },
+        "hit": false
+      },
+      {
+        "rank": 2,
+        "id": "B:nist-ai-100-2e2025:p020:c03",
+        "page": 20,
+        "taxonomy": "predictive_ai",
+        "score": 0.031545,
+        "fusion": {
+          "dense_rank": 1,
+          "bm25_rank": 6
+        },
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "B:nist-ai-100-2e2025:p041:c01",
+        "page": 41,
+        "taxonomy": "predictive_ai",
+        "score": 0.031514,
+        "fusion": {
+          "dense_rank": 2,
+          "bm25_rank": 5
+        },
+        "hit": false
+      },
+      {
+        "rank": 4,
+        "id": "B:nist-ai-100-2e2025:p046:c02",
+        "page": 46,
+        "taxonomy": "predictive_ai",
+        "score": 0.031498,
+        "fusion": {
+          "dense_rank": 4,
+          "bm25_rank": 3
+        },
+        "hit": false
+      },
+      {
+        "rank": 5,
+        "id": "B:nist-ai-100-2e2025:p045:c03",
+        "page": 45,
+        "taxonomy": "predictive_ai",
+        "score": 0.031099,
+        "fusion": {
+          "dense_rank": 8,
+          "bm25_rank": 1
+        },
+        "hit": true
+      },
+      {
+        "rank": 6,
+        "id": "B:nist-ai-100-2e2025:p046:c03",
+        "page": 46,
+        "taxonomy": "predictive_ai",
+        "score": 0.030077,
+        "fusion": {
+          "dense_rank": 6,
+          "bm25_rank": 7
+        },
+        "hit": false
+      },
+      {
+        "rank": 7,
+        "id": "B:nist-ai-100-2e2025:p045:c01",
+        "page": 45,
+        "taxonomy": "predictive_ai",
+        "score": 0.028958,
+        "fusion": {
+          "dense_rank": 15,
+          "bm25_rank": 4
+        },
+        "hit": false
+      },
+      {
+        "rank": 8,
+        "id": "B:nist-ai-100-2e2025:p041:c02",
+        "page": 41,
+        "taxonomy": "predictive_ai",
+        "score": 0.028595,
+        "fusion": {
+          "dense_rank": 12,
+          "bm25_rank": 8
+        },
+        "hit": false
+      },
+      {
+        "rank": 9,
+        "id": "B:nist-ai-100-2e2025:p045:c00",
+        "page": 45,
+        "taxonomy": "predictive_ai",
+        "score": 0.027783,
+        "fusion": {
+          "dense_rank": 11,
+          "bm25_rank": 13
+        },
+        "hit": false
+      },
+      {
+        "rank": 10,
+        "id": "B:nist-ai-100-2e2025:p053:c01",
+        "page": 53,
+        "taxonomy": "generative_ai",
+        "score": 0.027444,
+        "fusion": {
+          "dense_rank": 10,
+          "bm25_rank": 16
+        },
+        "hit": false
+      }
+    ],
+    "context_ids": [],
+    "context_chars": 0,
+    "hit1": false,
+    "hit3": false,
+    "hit10": true,
+    "rr10": 0.2,
+    "context_hit": false
+  },
+  {
+    "method": "hybrid_rrf",
+    "query_id": "q13",
+    "split": "dev",
+    "answerable": true,
+    "question": "In generative AI systems, how can an attacker poison a training dataset that is published as a list of URLs?",
+    "filter": {
+      "taxonomy": "generative_ai"
+    },
+    "latency_ms": 99.3,
+    "error": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "B:nist-ai-100-2e2025:p055:c00",
+        "page": 55,
+        "taxonomy": "generative_ai",
+        "score": 0.032787,
+        "fusion": {
+          "dense_rank": 1,
+          "bm25_rank": 1
+        },
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "B:nist-ai-100-2e2025:p050:c02",
+        "page": 50,
+        "taxonomy": "generative_ai",
+        "score": 0.029631,
+        "fusion": {
+          "dense_rank": 7,
+          "bm25_rank": 8
+        },
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "B:nist-ai-100-2e2025:p059:c01",
+        "page": 59,
+        "taxonomy": "generative_ai",
+        "score": 0.029572,
+        "fusion": {
+          "dense_rank": 3,
+          "bm25_rank": 13
+        },
+        "hit": false
+      },
+      {
+        "rank": 4,
+        "id": "B:nist-ai-100-2e2025:p058:c02",
+        "page": 58,
+        "taxonomy": "generative_ai",
+        "score": 0.028958,
+        "fusion": {
+          "dense_rank": 15,
+          "bm25_rank": 4
+        },
+        "hit": false
+      },
+      {
+        "rank": 5,
+        "id": "B:nist-ai-100-2e2025:p065:c02",
+        "page": 65,
+        "taxonomy": "generative_ai",
+        "score": 0.02886,
+        "fusion": {
+          "dense_rank": 17,
+          "bm25_rank": 3
+        },
+        "hit": false
+      },
+      {
+        "rank": 6,
+        "id": "B:nist-ai-100-2e2025:p048:c01",
+        "page": 48,
+        "taxonomy": "generative_ai",
+        "score": 0.027425,
+        "fusion": {
+          "dense_rank": 20,
+          "bm25_rank": 7
+        },
+        "hit": false
+      },
+      {
+        "rank": 7,
+        "id": "B:nist-ai-100-2e2025:p051:c01",
+        "page": 51,
+        "taxonomy": "generative_ai",
+        "score": 0.027151,
+        "fusion": {
+          "dense_rank": 9,
+          "bm25_rank": 19
+        },
+        "hit": false
+      },
+      {
+        "rank": 8,
+        "id": "B:nist-ai-100-2e2025:p057:c02",
+        "page": 57,
+        "taxonomy": "generative_ai",
+        "score": 0.027106,
+        "fusion": {
+          "dense_rank": 18,
+          "bm25_rank": 10
+        },
+        "hit": false
+      },
+      {
+        "rank": 9,
+        "id": "B:nist-ai-100-2e2025:p047:c00",
+        "page": 47,
+        "taxonomy": "generative_ai",
+        "score": 0.016129,
+        "fusion": {
+          "dense_rank": null,
+          "bm25_rank": 2
+        },
+        "hit": false
+      },
+      {
+        "rank": 10,
+        "id": "B:nist-ai-100-2e2025:p055:c03",
+        "page": 55,
+        "taxonomy": "generative_ai",
+        "score": 0.016129,
+        "fusion": {
+          "dense_rank": 2,
+          "bm25_rank": null
+        },
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p059:c01"
+    ],
+    "context_chars": 726,
+    "hit1": true,
+    "hit3": true,
+    "hit10": true,
+    "rr10": 1.0,
+    "context_hit": false
+  },
+  {
+    "method": "hybrid_rrf",
+    "query_id": "q14",
+    "split": "dev",
+    "answerable": true,
+    "question": "For predictive AI models offered through MLaaS, what is the goal of a model extraction attack?",
+    "filter": {
+      "taxonomy": "predictive_ai"
+    },
+    "latency_ms": 82.8,
+    "error": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "B:nist-ai-100-2e2025:p044:c03",
+        "page": 44,
+        "taxonomy": "predictive_ai",
+        "score": 0.032787,
+        "fusion": {
+          "dense_rank": 1,
+          "bm25_rank": 1
+        },
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "B:nist-ai-100-2e2025:p041:c01",
+        "page": 41,
+        "taxonomy": "predictive_ai",
+        "score": 0.031281,
+        "fusion": {
+          "dense_rank": 2,
+          "bm25_rank": 6
+        },
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "B:nist-ai-100-2e2025:p028:c00",
+        "page": 28,
+        "taxonomy": "predictive_ai",
+        "score": 0.031258,
+        "fusion": {
+          "dense_rank": 5,
+          "bm25_rank": 3
+        },
+        "hit": false
+      },
+      {
+        "rank": 4,
+        "id": "B:nist-ai-100-2e2025:p045:c00",
+        "page": 45,
+        "taxonomy": "predictive_ai",
+        "score": 0.03125,
+        "fusion": {
+          "dense_rank": 4,
+          "bm25_rank": 4
+        },
+        "hit": false
+      },
+      {
+        "rank": 5,
+        "id": "B:nist-ai-100-2e2025:p020:c03",
+        "page": 20,
+        "taxonomy": "predictive_ai",
+        "score": 0.030366,
+        "fusion": {
+          "dense_rank": 3,
+          "bm25_rank": 9
+        },
+        "hit": false
+      },
+      {
+        "rank": 6,
+        "id": "B:nist-ai-100-2e2025:p044:c04",
+        "page": 44,
+        "taxonomy": "predictive_ai",
+        "score": 0.030077,
+        "fusion": {
+          "dense_rank": 6,
+          "bm25_rank": 7
+        },
+        "hit": false
+      },
+      {
+        "rank": 7,
+        "id": "B:nist-ai-100-2e2025:p017:c00",
+        "page": 17,
+        "taxonomy": "predictive_ai",
+        "score": 0.029643,
+        "fusion": {
+          "dense_rank": 14,
+          "bm25_rank": 2
+        },
+        "hit": false
+      },
+      {
+        "rank": 8,
+        "id": "B:nist-ai-100-2e2025:p018:c03",
+        "page": 18,
+        "taxonomy": "predictive_ai",
+        "score": 0.029631,
+        "fusion": {
+          "dense_rank": 7,
+          "bm25_rank": 8
+        },
+        "hit": false
+      },
+      {
+        "rank": 9,
+        "id": "B:nist-ai-100-2e2025:p021:c01",
+        "page": 21,
+        "taxonomy": "predictive_ai",
+        "score": 0.029083,
+        "fusion": {
+          "dense_rank": 13,
+          "bm25_rank": 5
+        },
+        "hit": false
+      },
+      {
+        "rank": 10,
+        "id": "B:nist-ai-100-2e2025:p027:c00",
+        "page": 27,
+        "taxonomy": "predictive_ai",
+        "score": 0.028595,
+        "fusion": {
+          "dense_rank": 8,
+          "bm25_rank": 12
+        },
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p028:c00"
+    ],
+    "context_chars": 708,
+    "hit1": true,
+    "hit3": true,
+    "hit10": true,
+    "rr10": 1.0,
+    "context_hit": false
+  },
+  {
+    "method": "hybrid_rrf",
+    "query_id": "q15",
+    "split": "dev",
+    "answerable": true,
+    "question": "For generative AI models trained on web-scale data, how can downloaded training data be checked for integrity?",
+    "filter": {
+      "taxonomy": "generative_ai"
+    },
+    "latency_ms": 98.7,
+    "error": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "B:nist-ai-100-2e2025:p056:c00",
+        "page": 56,
+        "taxonomy": "generative_ai",
+        "score": 0.032266,
+        "fusion": {
+          "dense_rank": 1,
+          "bm25_rank": 3
+        },
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "B:nist-ai-100-2e2025:p055:c00",
+        "page": 55,
+        "taxonomy": "generative_ai",
+        "score": 0.031281,
+        "fusion": {
+          "dense_rank": 2,
+          "bm25_rank": 6
+        },
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "B:nist-ai-100-2e2025:p050:c02",
+        "page": 50,
+        "taxonomy": "generative_ai",
+        "score": 0.031258,
+        "fusion": {
+          "dense_rank": 3,
+          "bm25_rank": 5
+        },
+        "hit": false
+      },
+      {
+        "rank": 4,
+        "id": "B:nist-ai-100-2e2025:p049:c02",
+        "page": 49,
+        "taxonomy": "generative_ai",
+        "score": 0.03125,
+        "fusion": {
+          "dense_rank": 4,
+          "bm25_rank": 4
+        },
+        "hit": false
+      },
+      {
+        "rank": 5,
+        "id": "B:nist-ai-100-2e2025:p059:c01",
+        "page": 59,
+        "taxonomy": "generative_ai",
+        "score": 0.03009,
+        "fusion": {
+          "dense_rank": 5,
+          "bm25_rank": 8
+        },
+        "hit": false
+      },
+      {
+        "rank": 6,
+        "id": "B:nist-ai-100-2e2025:p047:c00",
+        "page": 47,
+        "taxonomy": "generative_ai",
+        "score": 0.029907,
+        "fusion": {
+          "dense_rank": 14,
+          "bm25_rank": 1
+        },
+        "hit": false
+      },
+      {
+        "rank": 7,
+        "id": "B:nist-ai-100-2e2025:p055:c03",
+        "page": 55,
+        "taxonomy": "generative_ai",
+        "score": 0.029116,
+        "fusion": {
+          "dense_rank": 17,
+          "bm25_rank": 2
+        },
+        "hit": false
+      },
+      {
+        "rank": 8,
+        "id": "B:nist-ai-100-2e2025:p060:c00",
+        "page": 60,
+        "taxonomy": "generative_ai",
+        "score": 0.028624,
+        "fusion": {
+          "dense_rank": 13,
+          "bm25_rank": 7
+        },
+        "hit": false
+      },
+      {
+        "rank": 9,
+        "id": "B:nist-ai-100-2e2025:p051:c01",
+        "page": 51,
+        "taxonomy": "generative_ai",
+        "score": 0.028219,
+        "fusion": {
+          "dense_rank": 8,
+          "bm25_rank": 14
+        },
+        "hit": false
+      },
+      {
+        "rank": 10,
+        "id": "B:nist-ai-100-2e2025:p058:c02",
+        "page": 58,
+        "taxonomy": "generative_ai",
+        "score": 0.026547,
+        "fusion": {
+          "dense_rank": 12,
+          "bm25_rank": 19
+        },
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p056:c00"
+    ],
+    "context_chars": 470,
+    "hit1": true,
+    "hit3": true,
+    "hit10": true,
+    "rr10": 1.0,
+    "context_hit": true
+  },
+  {
+    "method": "hybrid_rrf",
+    "query_id": "u01",
+    "split": "dev",
+    "answerable": false,
+    "question": "What learning rate and number of training epochs does the report recommend when using adversarial training against evasion attacks?",
+    "filter": null,
+    "latency_ms": 91.3,
+    "error": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "B:nist-ai-100-2e2025:p024:c04",
+        "page": 24,
+        "taxonomy": "predictive_ai",
+        "score": 0.031054,
+        "fusion": {
+          "dense_rank": 2,
+          "bm25_rank": 7
+        }
+      },
+      {
+        "rank": 2,
+        "id": "B:nist-ai-100-2e2025:p016:c00",
+        "page": 16,
+        "taxonomy": "general",
+        "score": 0.030777,
+        "fusion": {
+          "dense_rank": 4,
+          "bm25_rank": 6
+        }
+      },
+      {
+        "rank": 3,
+        "id": "B:nist-ai-100-2e2025:p030:c03",
+        "page": 30,
+        "taxonomy": "predictive_ai",
+        "score": 0.030092,
+        "fusion": {
+          "dense_rank": 1,
+          "bm25_rank": 13
+        }
+      },
+      {
+        "rank": 4,
+        "id": "B:nist-ai-100-2e2025:p029:c04",
+        "page": 29,
+        "taxonomy": "predictive_ai",
+        "score": 0.02938,
+        "fusion": {
+          "dense_rank": 17,
+          "bm25_rank": 1
+        }
+      },
+      {
+        "rank": 5,
+        "id": "B:nist-ai-100-2e2025:p018:c03",
+        "page": 18,
+        "taxonomy": "predictive_ai",
+        "score": 0.028083,
+        "fusion": {
+          "dense_rank": 7,
+          "bm25_rank": 16
+        }
+      },
+      {
+        "rank": 6,
+        "id": "B:nist-ai-100-2e2025:p027:c00",
+        "page": 27,
+        "taxonomy": "predictive_ai",
+        "score": 0.027402,
+        "fusion": {
+          "dense_rank": 14,
+          "bm25_rank": 12
+        }
+      },
+      {
+        "rank": 7,
+        "id": "B:nist-ai-100-2e2025:p020:c02",
+        "page": 20,
+        "taxonomy": "predictive_ai",
+        "score": 0.016129,
+        "fusion": {
+          "dense_rank": null,
+          "bm25_rank": 2
+        }
+      },
+      {
+        "rank": 8,
+        "id": "B:nist-ai-100-2e2025:p024:c01",
+        "page": 24,
+        "taxonomy": "predictive_ai",
+        "score": 0.015873,
+        "fusion": {
+          "dense_rank": 3,
+          "bm25_rank": null
+        }
+      },
+      {
+        "rank": 9,
+        "id": "B:nist-ai-100-2e2025:p030:c00",
+        "page": 30,
+        "taxonomy": "predictive_ai",
+        "score": 0.015873,
+        "fusion": {
+          "dense_rank": null,
+          "bm25_rank": 3
+        }
+      },
+      {
+        "rank": 10,
+        "id": "B:nist-ai-100-2e2025:p055:c01",
+        "page": 55,
+        "taxonomy": "generative_ai",
+        "score": 0.015625,
+        "fusion": {
+          "dense_rank": null,
+          "bm25_rank": 4
+        }
+      }
+    ],
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p024:c04"
+    ],
+    "context_chars": 331
+  },
+  {
+    "method": "hybrid_rrf",
+    "query_id": "u02",
+    "split": "dev",
+    "answerable": false,
+    "question": "How much money did Microsoft lose because of the Tay.AI chatbot poisoning incident?",
+    "filter": null,
+    "latency_ms": 112.3,
+    "error": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "B:nist-ai-100-2e2025:p040:c02",
+        "page": 40,
+        "taxonomy": "predictive_ai",
+        "score": 0.032787,
+        "fusion": {
+          "dense_rank": 1,
+          "bm25_rank": 1
+        }
+      },
+      {
+        "rank": 2,
+        "id": "B:nist-ai-100-2e2025:p040:c03",
+        "page": 40,
+        "taxonomy": "predictive_ai",
+        "score": 0.032258,
+        "fusion": {
+          "dense_rank": 2,
+          "bm25_rank": 2
+        }
+      },
+      {
+        "rank": 3,
+        "id": "B:nist-ai-100-2e2025:p040:c01",
+        "page": 40,
+        "taxonomy": "predictive_ai",
+        "score": 0.030579,
+        "fusion": {
+          "dense_rank": 3,
+          "bm25_rank": 8
+        }
+      },
+      {
+        "rank": 4,
+        "id": "B:nist-ai-100-2e2025:p027:c01",
+        "page": 27,
+        "taxonomy": "predictive_ai",
+        "score": 0.029644,
+        "fusion": {
+          "dense_rank": 9,
+          "bm25_rank": 6
+        }
+      },
+      {
+        "rank": 5,
+        "id": "B:nist-ai-100-2e2025:p035:c04",
+        "page": 35,
+        "taxonomy": "predictive_ai",
+        "score": 0.02904,
+        "fusion": {
+          "dense_rank": 6,
+          "bm25_rank": 12
+        }
+      },
+      {
+        "rank": 6,
+        "id": "B:nist-ai-100-2e2025:p036:c05",
+        "page": 36,
+        "taxonomy": "predictive_ai",
+        "score": 0.028191,
+        "fusion": {
+          "dense_rank": 13,
+          "bm25_rank": 9
+        }
+      },
+      {
+        "rank": 7,
+        "id": "B:nist-ai-100-2e2025:p071:c00",
+        "page": 71,
+        "taxonomy": "general",
+        "score": 0.015873,
+        "fusion": {
+          "dense_rank": null,
+          "bm25_rank": 3
+        }
+      },
+      {
+        "rank": 8,
+        "id": "B:nist-ai-100-2e2025:p032:c01",
+        "page": 32,
+        "taxonomy": "predictive_ai",
+        "score": 0.015625,
+        "fusion": {
+          "dense_rank": 4,
+          "bm25_rank": null
+        }
+      },
+      {
+        "rank": 9,
+        "id": "B:nist-ai-100-2e2025:p071:c02",
+        "page": 71,
+        "taxonomy": "general",
+        "score": 0.015625,
+        "fusion": {
+          "dense_rank": null,
+          "bm25_rank": 4
+        }
+      },
+      {
+        "rank": 10,
+        "id": "B:nist-ai-100-2e2025:p015:c02",
+        "page": 15,
+        "taxonomy": "general",
+        "score": 0.015385,
+        "fusion": {
+          "dense_rank": null,
+          "bm25_rank": 5
+        }
+      }
+    ],
+    "context_ids": [
+      "B:nist-ai-100-2e2025:p040:c03"
+    ],
+    "context_chars": 505
+  }
+]

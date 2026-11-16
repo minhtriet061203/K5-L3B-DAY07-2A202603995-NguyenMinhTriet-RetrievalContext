@@ -1,0 +1,95 @@
+{
+  "total": 24,
+  "counts": {
+    "dev": {
+      "answerable": 15,
+      "unanswerable": 2
+    },
+    "test": {
+      "answerable": 5,
+      "unanswerable": 2
+    }
+  },
+  "types": {
+    "dev:direct": 6,
+    "dev:paraphrase": 3,
+    "dev:condition": 3,
+    "dev:filter": 3,
+    "test:paraphrase": 2,
+    "test:direct": 1,
+    "test:filter": 2,
+    "dev:unanswerable": 2,
+    "test:unanswerable": 2
+  },
+  "with_filter": [
+    "q13",
+    "q14",
+    "q15",
+    "q19",
+    "q20"
+  ],
+  "dev_gold_pages": [
+    14,
+    19,
+    20,
+    22,
+    25,
+    26,
+    28,
+    34,
+    35,
+    40,
+    43,
+    44,
+    45,
+    55,
+    56
+  ],
+  "test_gold_pages": [
+    39,
+    57,
+    59,
+    63,
+    72
+  ],
+  "dev_test_shared_gold_pages": [],
+  "absence_checks": [
+    {
+      "id": "u01",
+      "terms_absent": [
+        "learning rate",
+        "epoch",
+        "batch size"
+      ],
+      "chunks_scanned": 265
+    },
+    {
+      "id": "u02",
+      "terms_absent": [
+        "Tay.AI cost",
+        "Microsoft lost",
+        "million dollars"
+      ],
+      "chunks_scanned": 265
+    },
+    {
+      "id": "u03",
+      "terms_absent": [
+        "Llama",
+        "LLaMA"
+      ],
+      "chunks_scanned": 265
+    },
+    {
+      "id": "u04",
+      "terms_absent": [
+        "EU AI Act",
+        "AI Act",
+        "European",
+        "Article"
+      ],
+      "chunks_scanned": 265
+    }
+  ],
+  "absence_scope": "full-text scan of all indexed chunks (pages 14-73); references/glossary (pages 74-127) are not indexed and not part of the corpus."
+}
